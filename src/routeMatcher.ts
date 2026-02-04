@@ -226,6 +226,26 @@ export const getSnappedPath = (startIdx: number, endIdx: number, lineId: string)
 };
 
 
+// Calculate accumulated distance in meters along the path between two indices
+export const getRouteDistance = (startIdx: number, endIdx: number, lineId: string): number => {
+    const points = rawRouteCache[lineId];
+    if (!points || startIdx < 0 || endIdx < 0 || startIdx >= points.length || endIdx >= points.length) return -1;
+    if (startIdx > endIdx) return -1; // Only look forward
+
+    let totalDist = 0;
+    for (let i = startIdx; i < endIdx; i++) {
+        const p1 = points[i];
+        const p2 = points[i + 1];
+        if (p1 && p2) {
+            // Re-use simple Haversine or similar
+            // Optimization: Inline simple math or use helper depending on perf
+            // Using helper for now.
+            totalDist += getDistanceMeters([p1[0], p1[1]], [p2[0], p2[1]]);
+        }
+    }
+    return totalDist;
+};
+
 // Main Matcher (Legacy, used for detecting line ID if unknown)
 export const matchBusToRoute = (lat: number, lng: number): string | null => {
     const busPoint = turf.point([lng, lat]);

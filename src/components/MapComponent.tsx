@@ -6,6 +6,8 @@ import 'leaflet/dist/leaflet.css';
 import omnivore from 'leaflet-omnivore';
 import { LINE_KML_MAPPING, LINE_NAMES, MAP_CENTER, ZOOM_LEVEL } from '../constants';
 import SlidingMarker from './SlidingMarker';
+import { getProjectedPosition, getSnappedPath } from '../routeMatcher';
+import { BusStop } from '../stopsManager';
 
 // Fix Leaflet Default Icon
 import icon from 'leaflet/dist/images/marker-icon.png';
@@ -35,6 +37,10 @@ interface MapComponentProps {
     userLocation: [number, number] | null;
     focusedBusId: string | null;
     onRecenter?: () => void;
+    lineStops?: BusStop[];
+    closestStop?: BusStop | null;
+    flyToLocation?: [number, number] | null;
+    onStopClick?: (stop: BusStop) => void;
 }
 
 const KmlLayer = ({ selectedLine, userLocation }: { selectedLine: string | null, userLocation: [number, number] | null }) => {
@@ -98,6 +104,60 @@ const KmlLayer = ({ selectedLine, userLocation }: { selectedLine: string | null,
     return null;
 };
 
+const StopsLayer = ({ stops, closestStop, onStopClick }: { stops: BusStop[], closestStop?: BusStop | null, onStopClick?: (stop: BusStop) => void }) => {
+    if (!stops || stops.length === 0) return null;
+
+    return (
+        <>
+            {stops.map(stop => {
+                const isClosest = closestStop && closestStop.id === stop.id;
+
+                return (
+                    <Marker
+                        key={stop.id}
+                        position={[stop.latitude, stop.longitude]}
+                        eventHandlers={{
+                            click: () => {
+                                if (onStopClick) onStopClick(stop);
+                            }
+                        }}
+                        icon={L.divIcon({
+                            className: 'bus-stop-icon',
+                            html: `<div style="
+                                background: ${isClosest ? '#10b981' : 'white'}; 
+                                border: 2px solid ${isClosest ? '#047857' : '#666'}; 
+                                width: ${isClosest ? '16px' : '10px'}; 
+                                height: ${isClosest ? '16px' : '10px'}; 
+                                border-radius: 50%; 
+                                box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+                                cursor: pointer;
+                            "></div>`,
+                            iconSize: [20, 20],
+                            iconAnchor: [10, 10]
+                        })}
+                    >
+                        <Popup>
+                            <strong>🚏 {stop.name}</strong>
+                            {isClosest && <div style={{ color: '#10b981', fontWeight: 'bold' }}>Ponto mais próximo</div>}
+                        </Popup>
+                    </Marker>
+                );
+            })}
+        </>
+    );
+};
+
+// Handle External Fly Requests (e.g. clicking on a stop in the UI)
+const FlyToHandler = ({ location }: { location?: [number, number] | null }) => {
+    const map = useMap();
+    useEffect(() => {
+        if (location) {
+            map.setView(location, 18, { animate: true });
+        }
+    }, [location, map]);
+    return null;
+}
+
 // Detects user interaction to break "Following" mode
 const InteractionHandler = ({ onInteraction }: { onInteraction: () => void }) => {
     useMapEvents({
@@ -117,20 +177,24 @@ const InitialFocusHandler = ({ focusedBusId, buses, isFollowing }: { focusedBusI
     useEffect(() => {
         if (focusedBusId && isFollowing) {
             // If we just enabled following or changed bus, SNAP to it.
-            // But we don't want to run this on every bus position update if the bus is sliding, 
-            // because `buses` prop updates frequently. 
-            // So we check if focusedId CHANGED or if we just entered following mode.
-            // Actually, simply checking if `focusedBusId` is distinct is good, but `buses` changes content.
-
-            // To avoid stutter, we can rely on the SlidingMarker callback for continuous updates.
-            // This hook ensures an initial PAN to the target area if we are far away.
             const bus = buses.find(b => b.VehicleDescription === focusedBusId);
             if (bus) {
-                // Only snap if significant distance? Leaflet handles setView smoothly.
-                // But we want to avoid fighting the SlidingMarker callback.
-                // Let's only snap if we just switched to this bus.
+                // If focusedId CHANGED, we snap.
                 if (focusedBusId !== prevFocusedIdRef.current) {
-                    map.setView([bus.Latitude, bus.Longitude], 17, { animate: true });
+
+                    // FIXED: Apply projection to the focus target too, so we jump to where the icon IS (snapped) not where the GPS says (raw)
+                    let targetLat = bus.Latitude;
+                    let targetLng = bus.Longitude;
+
+                    try {
+                        const snap = getProjectedPosition(bus.Latitude, bus.Longitude, bus.LineNumber);
+                        if (snap) {
+                            targetLat = snap.point[0];
+                            targetLng = snap.point[1];
+                        }
+                    } catch (e) { }
+
+                    map.setView([targetLat, targetLng], 17, { animate: true });
                     prevFocusedIdRef.current = focusedBusId;
                 }
             }
@@ -244,7 +308,6 @@ const RecenterButton = ({
     );
 };
 
-import { getProjectedPosition, getSnappedPath } from '../routeMatcher';
 
 const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses: Bus[], focusedBusId: string | null, isFollowing: boolean }) => {
     const map = useMap();
@@ -289,8 +352,6 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
                     }
                 } else {
                     // Reset index if we lost the route (e.g. off-road or GPS jump)
-                    // Optional: keep it if just a temporary glitch? 
-                    // Let's reset to allow finding closest point globally again.
                     delete lastIndicesRef.current[bus.VehicleDescription];
                 }
                 // ---------------------
@@ -326,7 +387,7 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
     );
 };
 
-const MapComponent: React.FC<MapComponentProps> = ({ buses, selectedLine, userLocation, focusedBusId, onRecenter }) => {
+const MapComponent: React.FC<MapComponentProps> = ({ buses, selectedLine, userLocation, focusedBusId, onRecenter, lineStops, closestStop, flyToLocation, onStopClick }) => {
     const [isFollowing, setIsFollowing] = useState(false);
 
     // Reset Following state to true whenever a new bus is focused
@@ -365,8 +426,12 @@ const MapComponent: React.FC<MapComponentProps> = ({ buses, selectedLine, userLo
                 <ZoomControl position="bottomleft" />
 
                 <InteractionHandler onInteraction={() => setIsFollowing(false)} />
+                <FlyToHandler location={flyToLocation} />
 
                 <KmlLayer selectedLine={selectedLine} userLocation={userLocation} />
+
+                {/* Render Stops Layer */}
+                {lineStops && <StopsLayer stops={lineStops} closestStop={closestStop} onStopClick={onStopClick} />}
 
                 <InitialBoundsHandler buses={visibleBuses} userLocation={userLocation} selectedLine={selectedLine} />
                 <InitialFocusHandler focusedBusId={focusedBusId} buses={visibleBuses} isFollowing={isFollowing} />

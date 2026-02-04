@@ -11,7 +11,7 @@
     - Horário de funcionamento
     - Site
     - Redes sociais
-    - Olhar no mapa
+    - Olhar diretamente no mapa
 
 ### Tarifa Zero
 

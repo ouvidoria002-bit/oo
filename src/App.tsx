@@ -8,6 +8,7 @@ import TutorialOverlay, { type TutorialStep } from './components/TutorialOverlay
 import './index.css';
 import './App.css';
 import logo from "../public/dc-logo.png"
+import logo2 from "../public/dc-logo-cortada.png"
 
 interface Bus {
   VehicleDescription: string;
@@ -19,6 +20,8 @@ interface Bus {
 }
 
 import { loadAllRoutes } from './routeMatcher';
+import { fetchStopsForLine, getClosestStop, type BusStop } from './stopsManager';
+import { calculateETA } from './etaManager';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -30,6 +33,12 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isTutorialActive, setIsTutorialActive] = useState(false);
   const [tutorialStep, setTutorialStep] = useState(0);
+
+  // Stops Logic
+  const [lineStops, setLineStops] = useState<BusStop[]>([]);
+  const [closestStop, setClosestStop] = useState<BusStop | null>(null);
+  const [flyToLocation, setFlyToLocation] = useState<[number, number] | null>(null);
+  const [eta, setEta] = useState<string | null>(null);
 
   // Tutorial Steps Definition
   const TUTORIAL_STEPS: TutorialStep[] = [
@@ -77,13 +86,24 @@ function App() {
   const handleSelectLine = (line: string | null) => {
     setSelectedLine(line);
     setFocusedBusId(null);
+    setLineStops([]);
+    setClosestStop(null);
+    setFlyToLocation(null);
+    setEta(null);
   };
 
   const handleFocusBus = (busId: string | null) => {
     setFocusedBusId(busId);
+    if (busId) setFlyToLocation(null);
+
     if (isTutorialActive && tutorialStep === 1 && busId) {
       setTimeout(() => handleNextStep(), 500);
     }
+  };
+
+  const handleStopClick = (stop: BusStop) => {
+    setFlyToLocation([stop.latitude, stop.longitude]);
+    setFocusedBusId(null);
   };
 
   const handleSearchFocus = () => {
@@ -91,6 +111,38 @@ function App() {
       handleNextStep();
     }
   }
+
+  // Fetch Stops when Line changes
+  useEffect(() => {
+    const loadStops = async () => {
+      if (selectedLine) {
+        try {
+          const stops = await fetchStopsForLine(selectedLine);
+          setLineStops(stops || []);
+          console.log(`Loaded ${stops?.length} stops for line ${selectedLine}`);
+        } catch (e) { console.error(e); }
+      }
+    };
+    loadStops();
+  }, [selectedLine]);
+
+  // Calculate Closest Stop AND ETA
+  useEffect(() => {
+    if (userLocation && lineStops.length > 0) {
+      const closest = getClosestStop(userLocation[0], userLocation[1], lineStops);
+      setClosestStop(closest);
+    }
+  }, [userLocation, lineStops]);
+
+  // Separate effect fo ETA to run when buses update too
+  useEffect(() => {
+    if (closestStop && selectedLine && buses.length > 0) {
+      const time = calculateETA(closestStop, selectedLine, buses);
+      setEta(time);
+    } else {
+      setEta(null);
+    }
+  }, [closestStop, buses, selectedLine]);
 
   const fetchPositions = async () => {
     try {
@@ -133,7 +185,7 @@ function App() {
       // Load Routes for Client-side Animation Snapping
       loadAllRoutes();
 
-      // Minimum splash duration 
+      // Minimum splash duration
       const minTimePromise = new Promise(resolve => setTimeout(resolve, 2000));
 
       const success = await fetchPositions();
@@ -170,7 +222,6 @@ function App() {
 
       {!loading && (
         <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', width: '100vw', overflow: 'hidden' }}>
-          {/* Fixed Header */}
           <header style={{
             height: '60px',
             backgroundColor: '#003366', // Prefeitura Blue (approx)
@@ -186,16 +237,22 @@ function App() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
               {/* Logo Placeholder - You can replace specific image later */}
               <div style={{
-                width: '36px',
-                height: '36px',
-                background: 'blue',
-                borderRadius: '50%', // Circle for logo 
+                width: '40px',
+                height: '40px',
+                borderRadius: '50%',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                boxShadow: '0 2px 5px rgba(0,0,0,0.3)',
+                background: 'transparent'
               }}>
-                <img src={logo} alt="Logo da Prefeitura de Duque de Caxias" className='logoHeader' />
+                {/* Scaling image to 120% to cut off any white borders from source file */}
+                <img
+                  src={logo2}
+                  alt="Logo da Prefeitura de Duque de Caxias"
+                  style={{ width: '120%', height: '120%', objectFit: 'cover' }}
+                />
               </div>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <span style={{ fontWeight: 700, fontSize: '16px', lineHeight: '1.2' }}>Tarifa Zero</span>
@@ -235,12 +292,50 @@ function App() {
               selectedLine={selectedLine}
               userLocation={userLocation}
               focusedBusId={focusedBusId}
+              lineStops={lineStops}
+              closestStop={closestStop}
+              flyToLocation={flyToLocation}
+              onStopClick={handleStopClick}
               onRecenter={() => {
                 if (isTutorialActive && tutorialStep === 3) {
                   setIsTutorialActive(false); // End Tutorial
                 }
               }}
             />
+
+            {/* Closest Stop Info Overlay - Clickable */}
+            {closestStop && userLocation && selectedLine && (
+              <div
+                onClick={() => handleStopClick(closestStop)}
+                style={{
+                  position: 'absolute',
+                  bottom: '120px',
+                  left: '50%',
+                  transform: 'translateX(-50%)',
+                  background: 'white',
+                  padding: '8px 16px',
+                  borderRadius: '20px',
+                  boxShadow: '0 4px 10px rgba(0,0,0,0.2)',
+                  zIndex: 1000,
+                  cursor: 'pointer',
+                  fontSize: '12px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  transition: 'transform 0.1s',
+                  whiteSpace: 'nowrap'
+                }}
+                onMouseDown={(e) => e.currentTarget.style.transform = 'translateX(-50%) scale(0.95)'}
+                onMouseUp={(e) => e.currentTarget.style.transform = 'translateX(-50%) scale(1)'}
+              >
+                <span>
+                  🚏 Ponto mais próximo: <b>{closestStop.name}</b>
+                  {eta && <span style={{ marginLeft: '8px', color: '#10b981', fontWeight: 'bold' }}>⏱ {eta}</span>}
+                  <small style={{ color: '#3b82f6', marginLeft: '5px' }}>(Ver)</small>
+                </span>
+              </div>
+            )}
+
           </main>
 
           <MenuDrawer
