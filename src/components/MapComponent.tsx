@@ -34,6 +34,7 @@ interface MapComponentProps {
     selectedLine: string | null;
     userLocation: [number, number] | null;
     focusedBusId: string | null;
+    onRecenter?: () => void;
 }
 
 const KmlLayer = ({ selectedLine, userLocation }: { selectedLine: string | null, userLocation: [number, number] | null }) => {
@@ -216,6 +217,7 @@ const RecenterButton = ({
 
     return (
         <button
+            id="recenter-btn"
             onClick={handleRecenter}
             title="Recentralizar"
             style={{
@@ -324,7 +326,7 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
     );
 };
 
-const MapComponent: React.FC<MapComponentProps> = ({ buses, selectedLine, userLocation, focusedBusId }) => {
+const MapComponent: React.FC<MapComponentProps> = ({ buses, selectedLine, userLocation, focusedBusId, onRecenter }) => {
     const [isFollowing, setIsFollowing] = useState(false);
 
     // Reset Following state to true whenever a new bus is focused
@@ -353,38 +355,43 @@ const MapComponent: React.FC<MapComponentProps> = ({ buses, selectedLine, userLo
     });
 
     return (
-        <MapContainer center={MAP_CENTER} zoom={ZOOM_LEVEL} scrollWheelZoom={true} zoomControl={false} style={{ height: "100%", width: "100%" }}>
-            <TileLayer
-                attribution='&copy; <a href="https://www.carto.com/">CARTO</a>'
-                url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
-            />
+        <div id="map-container" style={{ height: "100%", width: "100%" }}>
+            <MapContainer center={MAP_CENTER} zoom={ZOOM_LEVEL} scrollWheelZoom={true} zoomControl={false} style={{ height: "100%", width: "100%" }}>
+                <TileLayer
+                    attribution='&copy; <a href="https://www.carto.com/">CARTO</a>'
+                    url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+                />
 
-            <ZoomControl position="bottomleft" />
+                <ZoomControl position="bottomleft" />
 
-            <InteractionHandler onInteraction={() => setIsFollowing(false)} />
+                <InteractionHandler onInteraction={() => setIsFollowing(false)} />
 
-            <KmlLayer selectedLine={selectedLine} userLocation={userLocation} />
+                <KmlLayer selectedLine={selectedLine} userLocation={userLocation} />
 
-            <InitialBoundsHandler buses={visibleBuses} userLocation={userLocation} selectedLine={selectedLine} />
-            <InitialFocusHandler focusedBusId={focusedBusId} buses={visibleBuses} isFollowing={isFollowing} />
+                <InitialBoundsHandler buses={visibleBuses} userLocation={userLocation} selectedLine={selectedLine} />
+                <InitialFocusHandler focusedBusId={focusedBusId} buses={visibleBuses} isFollowing={isFollowing} />
 
-            <RecenterButton
-                buses={visibleBuses}
-                userLocation={userLocation}
-                selectedLine={selectedLine}
-                focusedBusId={focusedBusId}
-                onRecenter={() => setIsFollowing(true)}
-            />
+                <RecenterButton
+                    buses={visibleBuses}
+                    userLocation={userLocation}
+                    selectedLine={selectedLine}
+                    focusedBusId={focusedBusId}
+                    onRecenter={() => {
+                        setIsFollowing(true);
+                        if (onRecenter) onRecenter();
+                    }}
+                />
 
-            {/* ... Markers ... */}
-            {userLocation && (
-                <Marker position={userLocation} icon={userIcon}>
-                    <Popup>Você está aqui</Popup>
-                </Marker>
-            )}
+                {/* ... Markers ... */}
+                {userLocation && (
+                    <Marker position={userLocation} icon={userIcon}>
+                        <Popup>Você está aqui</Popup>
+                    </Marker>
+                )}
 
-            <BusMarkers visibleBuses={visibleBuses} focusedBusId={focusedBusId} isFollowing={isFollowing} />
-        </MapContainer>
+                <BusMarkers visibleBuses={visibleBuses} focusedBusId={focusedBusId} isFollowing={isFollowing} />
+            </MapContainer>
+        </div>
     );
 };
 

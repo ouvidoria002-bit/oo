@@ -17,6 +17,7 @@ interface SearchPanelProps {
     userLocation: [number, number] | null;
     onFocusBus: (busId: string | null) => void;
     focusedBusId: string | null;
+    onSearchFocus?: () => void;
 }
 
 // Define explicit Union Type to avoid inference errors
@@ -24,7 +25,7 @@ type SearchResult =
     | { id: string; name: string; type: 'line'; distance: number; busId?: undefined }
     | { id: string; name: string; type: 'bus'; distance: number; busId: string };
 
-const SearchPanel: React.FC<SearchPanelProps> = ({ buses, onSelectLine, selectedLine, userLocation, onFocusBus, focusedBusId }) => {
+const SearchPanel: React.FC<SearchPanelProps> = ({ buses, onSelectLine, selectedLine, userLocation, onFocusBus, focusedBusId, onSearchFocus }) => {
     const [query, setQuery] = useState('');
     const [isFocused, setIsFocused] = useState(false);
 
@@ -124,7 +125,7 @@ const SearchPanel: React.FC<SearchPanelProps> = ({ buses, onSelectLine, selected
         }
 
         return (
-            <div className="search-panel-container selected-mode" style={{ flexDirection: 'column', height: 'auto', maxHeight: '50vh', overflow: 'hidden' }}>
+            <div id="search-panel-container" className="search-panel-container selected-mode" style={{ flexDirection: 'column', height: 'auto', maxHeight: '50vh', overflow: 'hidden' }}>
                 <div style={{ display: 'flex', alignItems: 'center', width: '100%', padding: '12px', borderBottom: '1px solid #eee' }}>
                     <button className="back-button" onClick={handleClear} style={{ marginRight: '10px' }}>
                         <ChevronLeft size={20} />
@@ -181,15 +182,18 @@ const SearchPanel: React.FC<SearchPanelProps> = ({ buses, onSelectLine, selected
     }
 
     return (
-        <div className="search-panel-container">
-            <div className="search-input-wrapper">
+        <div id="search-panel-container" className="search-panel-container">
+            <div id="search-input-wrapper" className="search-input-wrapper">
                 <Search className="search-icon" size={20} />
                 <input
                     type="text"
                     placeholder="Buscar linha ou ônibus..."
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    onFocus={() => setIsFocused(true)}
+                    onFocus={() => {
+                        setIsFocused(true);
+                        if (onSearchFocus) onSearchFocus();
+                    }}
                     // Delay blur to allow click
                     onBlur={() => setTimeout(() => setIsFocused(false), 200)}
                 />

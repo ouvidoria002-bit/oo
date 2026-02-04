@@ -1,14 +1,34 @@
 import React, { useState } from 'react';
-import { X, Clock, ExternalLink, Instagram, ChevronRight, ChevronDown, MapPin } from 'lucide-react';
+import { X, Clock, ExternalLink, ChevronRight, ChevronDown, MapPin, HelpCircle } from 'lucide-react';
 import { LINE_NAMES } from '../constants';
 import { BUS_SCHEDULES } from '../schedules';
 
 interface MenuDrawerProps {
     isOpen: boolean;
     onClose: () => void;
+    onOpenTutorial: () => void;
 }
 
-const MenuDrawer: React.FC<MenuDrawerProps> = ({ isOpen, onClose }) => {
+// Custom Instagram Icon to replace deprecated Lucide version
+const InstagramIcon = ({ size = 24, color = 'currentColor' }: { size?: number, color?: string }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke={color}
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+    >
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+    </svg>
+);
+
+const MenuDrawer: React.FC<MenuDrawerProps> = ({ isOpen, onClose, onOpenTutorial }) => {
     const [view, setView] = useState<'main' | 'schedules'>('main');
     const [expandedLine, setExpandedLine] = useState<string | null>(null);
 
@@ -26,9 +46,21 @@ const MenuDrawer: React.FC<MenuDrawerProps> = ({ isOpen, onClose }) => {
         }
     };
 
+    const handleTutorialClick = () => {
+        onClose(); // Close menu first
+        onOpenTutorial();
+    };
+
     const renderMainContent = () => (
         <div className="menu-list">
             <h2 style={{ padding: '0 16px', margin: '20px 0 10px', fontSize: '14px', color: '#888', textTransform: 'uppercase' }}>Serviços</h2>
+
+            <button className="menu-item" onClick={handleTutorialClick}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <HelpCircle size={20} color="#003366" />
+                    <span>Como usar o app</span>
+                </div>
+            </button>
 
             <button className="menu-item" onClick={() => setView('schedules')}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
@@ -56,14 +88,14 @@ const MenuDrawer: React.FC<MenuDrawerProps> = ({ isOpen, onClose }) => {
 
             <a href="https://www.instagram.com/ouvidoria.caxias?igsh=MWtjd2VrcjZjMTg5OA==" target='_blank' rel="noreferrer" className="menu-item">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <Instagram size={20} color="#E1306C" />
+                    <InstagramIcon size={20} color="#E1306C" />
                     <span>Ouvidoria</span>
                 </div>
             </a>
 
             <a href="https://www.instagram.com/duquedecaxiasoficial?igsh=bjdmdmt5M2R3a3Nx" target='_blank' rel="noreferrer" className="menu-item">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                    <Instagram size={20} color="#E1306C" />
+                    <InstagramIcon size={20} color="#E1306C" />
                     <span>Prefeitura</span>
                 </div>
             </a>

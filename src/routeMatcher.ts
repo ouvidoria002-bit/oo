@@ -193,12 +193,16 @@ export const getSnappedPath = (startIdx: number, endIdx: number, lineId: string)
     const points = rawRouteCache[lineId];
     if (!points || startIdx < 0 || endIdx < 0) return null;
 
+    // Safety check for bounds
+    if (startIdx >= points.length || endIdx >= points.length) return null;
+
+    const pStart = points[startIdx];
+    const pEnd = points[endIdx];
+
     // Check for "Teleport" (Large gap)
     if (Math.abs(endIdx - startIdx) > 50) {
         // Just return start/end points for linear move
-        const pStart = points[startIdx];
-        const pEnd = points[endIdx];
-        if (pStart.length >= 2 && pEnd.length >= 2) {
+        if (pStart && pEnd && pStart.length >= 2 && pEnd.length >= 2) {
             return [[pStart[0], pStart[1]], [pEnd[0], pEnd[1]]];
         }
         return null;
@@ -209,13 +213,11 @@ export const getSnappedPath = (startIdx: number, endIdx: number, lineId: string)
     if (startIdx <= endIdx) {
         for (let i = startIdx; i <= endIdx; i++) {
             const p = points[i];
-            if (p.length >= 2) path.push([p[0], p[1]]);
+            if (p && p.length >= 2) path.push([p[0], p[1]]);
         }
     } else {
         // Backward? Just linear fallback
-        const pStart = points[startIdx];
-        const pEnd = points[endIdx];
-        if (pStart.length >= 2 && pEnd.length >= 2) {
+        if (pStart && pEnd && pStart.length >= 2 && pEnd.length >= 2) {
             return [[pStart[0], pStart[1]], [pEnd[0], pEnd[1]]];
         }
     }

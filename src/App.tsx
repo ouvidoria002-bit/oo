@@ -4,6 +4,7 @@ import MapComponent from './components/MapComponent';
 import SearchPanel from './components/SearchPanel';
 import SplashScreen from './components/SplashScreen';
 import MenuDrawer from './components/MenuDrawer';
+import TutorialOverlay, { type TutorialStep } from './components/TutorialOverlay';
 import './index.css';
 import './App.css';
 import logo from "../public/dc-logo.png"
@@ -27,11 +28,69 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isTutorialActive, setIsTutorialActive] = useState(false);
+  const [tutorialStep, setTutorialStep] = useState(0);
+
+  // Tutorial Steps Definition
+  const TUTORIAL_STEPS: TutorialStep[] = [
+    {
+      targetId: 'search-input-wrapper',
+      title: 'Buscar Linha',
+      description: 'Toque aqui para digitar o nome ou número do ônibus que deseja acompanhar.',
+      position: 'bottom',
+      disableNext: true // Force user interaction
+    },
+    {
+      targetId: 'search-panel-container',
+      title: 'Selecionar Ônibus',
+      description: 'Digite o nome da linha e selecione o ônibus desejado na lista.',
+      position: 'bottom',
+      disableNext: true // Force user selection
+    },
+    {
+      targetId: 'map-container',
+      title: 'Explorar o Mapa',
+      description: 'Você pode arrastar o mapa para os lados e usar pinça para dar zoom.',
+      position: 'top-left'
+    },
+    {
+      targetId: 'recenter-btn',
+      title: 'Centralizar',
+      description: 'Se você perdeu o ônibus de vista, clique aqui para voltar a focar nele automaticamente.',
+      position: 'top',
+      disableNext: true
+    }
+  ];
+
+  const handleNextStep = () => {
+    if (tutorialStep < TUTORIAL_STEPS.length - 1) {
+      setTutorialStep(prev => prev + 1);
+    } else {
+      setIsTutorialActive(false); // Finish
+    }
+  };
+
+  const handlePrevStep = () => {
+    if (tutorialStep > 0) setTutorialStep(prev => prev - 1);
+  };
 
   const handleSelectLine = (line: string | null) => {
     setSelectedLine(line);
     setFocusedBusId(null);
   };
+
+  const handleFocusBus = (busId: string | null) => {
+    setFocusedBusId(busId);
+    if (isTutorialActive && tutorialStep === 1 && busId) {
+      setTimeout(() => handleNextStep(), 500);
+    }
+  };
+
+  const handleSearchFocus = () => {
+    if (isTutorialActive && tutorialStep === 0) {
+      handleNextStep();
+    }
+  }
 
   const fetchPositions = async () => {
     try {
@@ -167,18 +226,40 @@ function App() {
               onSelectLine={handleSelectLine}
               selectedLine={selectedLine}
               userLocation={userLocation}
-              onFocusBus={setFocusedBusId}
+              onFocusBus={handleFocusBus}
               focusedBusId={focusedBusId}
+              onSearchFocus={handleSearchFocus}
             />
             <MapComponent
               buses={buses}
               selectedLine={selectedLine}
               userLocation={userLocation}
               focusedBusId={focusedBusId}
+              onRecenter={() => {
+                if (isTutorialActive && tutorialStep === 3) {
+                  setIsTutorialActive(false); // End Tutorial
+                }
+              }}
             />
           </main>
 
-          <MenuDrawer isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
+          <MenuDrawer
+            isOpen={isMenuOpen}
+            onClose={() => setIsMenuOpen(false)}
+            onOpenTutorial={() => {
+              setTutorialStep(0);
+              setIsTutorialActive(true);
+            }}
+          />
+
+          <TutorialOverlay
+            isActive={isTutorialActive}
+            steps={TUTORIAL_STEPS}
+            currentStepIndex={tutorialStep}
+            onNext={handleNextStep}
+            onPrev={handlePrevStep}
+            onClose={() => setIsTutorialActive(false)}
+          />
         </div>
       )}
     </>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './SplashScreen.css';
+import logo from '../../public/dc-logo.png';
 
 interface SplashScreenProps {
     isLoading: boolean;
@@ -12,10 +13,19 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ isLoading, error }) => {
     return (
         <div className={`splash-screen ${!isLoading ? 'fade-out' : ''}`}>
             <div className="splash-content">
-                {/* Placeholder for Logo */}
-                <div className="logo-placeholder">
-                    <h1 style={{ color: '#0056b3', fontSize: '2rem' }}>Tarifa Zero</h1>
-                    <p style={{ color: '#666' }}>Prefeitura de Duque de Caxias</p>
+                {/* Logo Container with Shine Effect */}
+                <div className="splash-logo-container">
+                    {/* The Base Visible Logo */}
+                    <img src={logo} alt="Tarifa Zero - Duque de Caxias" className="splash-logo" />
+
+                    {/* The Shine Overlay (Masked to the logo shape) */}
+                    <div
+                        className="splash-logo-shine"
+                        style={{
+                            WebkitMaskImage: `url(${logo})`,
+                            maskImage: `url(${logo})`
+                        }}
+                    ></div>
                 </div>
 
                 {error ? (
@@ -24,7 +34,10 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ isLoading, error }) => {
                         <button onClick={() => window.location.reload()}>Tentar Novamente</button>
                     </div>
                 ) : (
-                    <div className="spinner"></div>
+                    <>
+                        <div className="spinner"></div>
+                        <p className="loading-text">Carregando mapa e rotas...</p>
+                    </>
                 )}
             </div>
         </div>
