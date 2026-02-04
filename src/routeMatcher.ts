@@ -124,68 +124,90 @@ export const getProjectedPosition = (lat: number, lng: number, lineId: string, l
     if (!points || points.length < 2) return null;
 
     const latlng: [number, number] = [lat, lng];
-    const WINDOW_SIZE = 150;
-    const SEARCH_BACK = 20;
+    const WINDOW_SIZE = 300; // Increased from 150
+    const SEARCH_BACK = 30;  // Increased from 20
     const SNAP_DIST = 100; // meters
 
-    const searchIndices: { start: number, end: number }[] = [];
+    // 1. Determine Search Mode (Local Window vs Global)
+    let useGlobalSearch = lastIndex < 0;
 
-    if (lastIndex < 0) {
-        searchIndices.push({ start: 0, end: points.length - 1 });
-    } else {
-        const start = Math.max(0, lastIndex - SEARCH_BACK);
-        const end = Math.min(points.length - 1, lastIndex + WINDOW_SIZE);
-        searchIndices.push({ start, end });
+    // Helper to perform search on index ranges
+    const searchRanges = (ranges: { start: number, end: number }[]) => {
+        let bestLocal: SnapResult | null = null;
+        for (const range of ranges) {
+            for (let i = range.start; i < range.end; i++) {
+                const p1 = points[i];
+                const p2 = points[i + 1];
+                if (!p1 || !p2 || p1.length < 2 || p2.length < 2) continue;
 
-        // Loop handling
-        if (lastIndex > points.length - WINDOW_SIZE) {
-            searchIndices.push({ start: 0, end: WINDOW_SIZE });
-        }
-    }
+                const safeP1: [number, number] = [p1[0], p1[1]];
+                const safeP2: [number, number] = [p2[0], p2[1]];
 
-    let best: SnapResult | null = null;
+                const info = getClosestPointOnSegment(latlng, safeP1, safeP2);
+                const dist = getDistanceMeters(latlng, info.point);
 
-    for (const range of searchIndices) {
-        for (let i = range.start; i < range.end; i++) {
-            // Safe cast assuming cache is correct
-            const p1 = points[i];
-            const p2 = points[i + 1];
-            if (!p1 || !p2 || p1.length < 2 || p2.length < 2) continue;
-
-            const safeP1: [number, number] = [p1[0], p1[1]];
-            const safeP2: [number, number] = [p2[0], p2[1]];
-
-            const info = getClosestPointOnSegment(latlng, safeP1, safeP2);
-            const dist = getDistanceMeters(latlng, info.point);
-
-            if (dist < SNAP_DIST) {
-                let isBetter = false;
-                if (!best) {
-                    isBetter = true;
-                } else {
-                    const distDiff = dist - best.distance;
-                    if (distDiff < -5) {
+                if (dist < SNAP_DIST) {
+                    let isBetter = false;
+                    if (!bestLocal) {
                         isBetter = true;
-                    } else if (Math.abs(distDiff) < 5) {
-                        // Tie-break with Sequence
-                        if (lastIndex >= 0) {
-                            const currentGap = Math.abs(i - lastIndex);
-                            const bestGap = Math.abs(best.index - lastIndex);
-                            if (currentGap < bestGap) isBetter = true;
-                        } else {
-                            if (dist < best.distance) isBetter = true;
+                    } else {
+                        const distDiff = dist - bestLocal.distance;
+                        if (distDiff < -5) { // Significantly closer
+                            isBetter = true;
+                        } else if (Math.abs(distDiff) < 5) {
+                            // Tie-break: prefer points closer to lastIndex (if tracking) or just linear
+                            if (lastIndex >= 0) {
+                                // Prefer forward progress close to lastIndex?
+                                // Actually, simpler tie-break: smaller distance wins.
+                                // If equal, sequence order?
+                                if (dist < bestLocal.distance) isBetter = true;
+                            } else {
+                                if (dist < bestLocal.distance) isBetter = true;
+                            }
                         }
                     }
-                }
 
-                if (isBetter) {
-                    best = { point: info.point, index: i, distance: dist };
+                    if (isBetter) {
+                        bestLocal = { point: info.point, index: i, distance: dist };
+                    }
                 }
             }
         }
+        return bestLocal;
+    };
+
+    // 2. Execute Search
+    let result: SnapResult | null = null;
+
+    if (!useGlobalSearch) {
+        // Prepare Local Window
+        const indices: { start: number, end: number }[] = [];
+        const start = Math.max(0, lastIndex - SEARCH_BACK);
+        const end = Math.min(points.length - 1, lastIndex + WINDOW_SIZE);
+        indices.push({ start, end });
+
+        // Loop handling
+        if (lastIndex > points.length - WINDOW_SIZE) {
+            indices.push({ start: 0, end: WINDOW_SIZE });
+        }
+
+        result = searchRanges(indices);
+
+        // Fallback Logic:
+        // If we found NOTHING in window, OR if the best match is "mediocre" (> 40m away),
+        // we suspect we might have lost track or the bus jumped. Try Global.
+        if (!result || result.distance > 40) {
+            useGlobalSearch = true;
+        }
     }
 
-    return best;
+    if (useGlobalSearch) {
+        // Search EVERY segment
+        // Optimization: We could check bbox but simple loop is fast enough for <5k points usually
+        result = searchRanges([{ start: 0, end: points.length - 1 }]);
+    }
+
+    return result;
 };
 
 // Returns the path segment from Start to End for smooth animation
@@ -244,6 +266,13 @@ export const getRouteDistance = (startIdx: number, endIdx: number, lineId: strin
         }
     }
     return totalDist;
+};
+
+// Helper to get the last index of a route (for loop calculations)
+export const getLastIndex = (lineId: string): number => {
+    const points = rawRouteCache[lineId];
+    if (!points) return -1;
+    return points.length - 1;
 };
 
 // Main Matcher (Legacy, used for detecting line ID if unknown)

@@ -28,6 +28,17 @@ const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon,
             return;
         }
 
+        // Teleport Check: If distance is too large (> ~500m), skip animation to prevent "ghosting"
+        const distSq = (currentPos[0] - position[0]) ** 2 + (currentPos[1] - position[1]) ** 2;
+        if (distSq > 0.000025) { // Approx 0.005 degrees squared
+            setCurrentPos(position);
+            startPosRef.current = position;
+            endPosRef.current = position;
+            pathRef.current = null;
+            if (onPositionChange) onPositionChange(position);
+            return;
+        }
+
         // Setup animation
         startPosRef.current = currentPos; // Start from where we are
         endPosRef.current = position;
@@ -35,9 +46,6 @@ const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon,
 
         // If path provided, cache it for this transition
         if (path && path.length > 0) {
-            // Ensure the path starts roughly where we are? 
-            // The path provided by routeMatcher usually is Start -> ... -> End.
-            // So we just follow it.
             pathRef.current = path;
         } else {
             pathRef.current = null;
@@ -61,6 +69,7 @@ const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon,
             setCurrentPos(newPos);
 
             if (onPositionChange) {
+                // Limit updates to avoid flooding Leaflet? No, it's fine.
                 onPositionChange(newPos);
             }
 
@@ -73,7 +82,7 @@ const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon,
         frameRef.current = requestAnimationFrame(animate);
 
         return () => cancelAnimationFrame(frameRef.current);
-    }, [position, duration, path, onPositionChange]);
+    }, [position, duration, path /* Removed onPositionChange from deps to avoid re-trigger */]);
     // Note: dependency on 'path' is important if the path changes with the position update
 
     return (

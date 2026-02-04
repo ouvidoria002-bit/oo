@@ -346,7 +346,9 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
                     // Calculate path from previous to current
                     if (prevIndex >= 0) {
                         const calculatedPath = getSnappedPath(prevIndex, snap.index, bus.LineNumber);
-                        if (calculatedPath) {
+                        // Only use path if it's reasonable (e.g. < 50 points ~ 1-2km)
+                        // If it's huge, it's likely a jump/teleport, so just let SlidingMarker handle it (linear or teleport)
+                        if (calculatedPath && calculatedPath.length < 50) {
                             path = calculatedPath;
                         }
                     }

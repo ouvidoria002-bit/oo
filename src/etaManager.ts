@@ -1,5 +1,5 @@
-import { BusStop } from './stopsManager';
-import { getProjectedPosition, getRouteDistance } from './routeMatcher';
+import type { BusStop } from './stopsManager';
+import { getProjectedPosition, getRouteDistance, getLastIndex } from './routeMatcher';
 
 interface Bus {
     VehicleDescription: string;
@@ -17,6 +17,10 @@ export const calculateETA = (stop: BusStop, lineId: string, buses: Bus[]): strin
     const stopSnap = getProjectedPosition(stop.latitude, stop.longitude, lineId);
     if (!stopSnap) return null; // Stop not on mapped route?
 
+    // Get Route Bounds
+    const lastRouteIndex = getLastIndex(lineId);
+    if (lastRouteIndex < 0) return null;
+
     let closestBusDist = Infinity;
     let bestBusId = null;
 
@@ -28,21 +32,27 @@ export const calculateETA = (stop: BusStop, lineId: string, buses: Bus[]): strin
         const busSnap = getProjectedPosition(bus.Latitude, bus.Longitude, lineId);
         if (!busSnap) return;
 
-        // Condition: Bus must be BEHIND the stop (Index < Stop Index)
-        // If the bus is at index 100 and stop is at 80, the bus passed it (assuming linear).
-        // Exceptions: Circular routes at the wrap-around point. 
-        // For simplicity, we stick to linear "upstream" check.
+        let dist = Infinity;
+
+        // Case A: Bus is BEHIND the stop (Approaching normally)
         if (busSnap.index <= stopSnap.index) {
+            dist = getRouteDistance(busSnap.index, stopSnap.index, lineId);
+        }
+        // Case B: Bus is AHEAD of the stop (Needs to loop back)
+        else {
+            // Calculate: (Bus -> End) + (Start -> Stop)
+            // Assumes circular route or "Ida" then "Volta" logic
+            const distToEnd = getRouteDistance(busSnap.index, lastRouteIndex, lineId);
+            const distFromStart = getRouteDistance(0, stopSnap.index, lineId);
 
-            // Calculate distance along path
-            // We can approximate with (StopIndex - BusIndex) * AvgSegmentLength or use exact.
-            // Let's use exact if possible.
-            const dist = getRouteDistance(busSnap.index, stopSnap.index, lineId);
-
-            if (dist >= 0 && dist < closestBusDist) {
-                closestBusDist = dist;
-                bestBusId = bus.VehicleDescription;
+            if (distToEnd !== -1 && distFromStart !== -1) {
+                dist = distToEnd + distFromStart;
             }
+        }
+
+        if (dist !== -1 && dist < closestBusDist) {
+            closestBusDist = dist;
+            bestBusId = bus.VehicleDescription;
         }
     });
 
