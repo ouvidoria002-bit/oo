@@ -1,0 +1,209 @@
+.home-screen {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #003366 0%, #004d99 100%);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.home-header {
+  height: 60px;
+  background-color: #003366;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  flex-shrink: 0;
+}
+
+.home-content {
+  flex: 1;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 20px;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-title {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.home-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin: -16px 0 0 0;
+}
+
+.options-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.option-button {
+  position: relative;
+  width: 100%;
+  height: 140px;
+  border: none;
+  border-radius: 24px;
+  overflow: hidden;
+  cursor: pointer;
+  background: white;
+  display: flex;
+  align-items: stretch;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0;
+}
+
+.option-button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.option-button:active {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.option-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  text-align: left;
+  z-index: 1;
+  background: white;
+}
+
+.option-text h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #003366;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.option-text p {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+}
+
+.option-image {
+  position: relative;
+  width: 45%;
+  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg,
+      rgba(0, 51, 102, 0.1) 0%,
+      rgba(0, 77, 153, 0.15) 100%);
+}
+
+/* Instituições Municipais Background */
+.instituicoes-bg {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  position: relative;
+}
+
+.instituicoes-bg::before {
+  content: '🏛️';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  opacity: 0.9;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+/* Tarifa Zero Background */
+.tarifazero-bg {
+  background: linear-gradient(135deg, #10b981 0%, #14b8a6 100%);
+  position: relative;
+}
+
+.tarifazero-bg::before {
+  content: '🚌';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  opacity: 0.9;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .home-title {
+    font-size: 24px;
+  }
+
+  .home-subtitle {
+    font-size: 14px;
+  }
+
+  .option-button {
+    height: 120px;
+  }
+
+  .option-text h2 {
+    font-size: 20px;
+  }
+
+  .option-text p {
+    font-size: 12px;
+  }
+
+  .option-image {
+    width: 40%;
+  }
+
+  .instituicoes-bg::before,
+  .tarifazero-bg::before {
+    font-size: 48px;
+  }
+}

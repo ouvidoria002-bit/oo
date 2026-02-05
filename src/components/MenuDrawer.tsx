@@ -7,7 +7,9 @@ interface MenuDrawerProps {
     isOpen: boolean;
     onClose: () => void;
     onOpenTutorial: () => void;
+    onBackToHome?: () => void;
 }
+
 
 // Custom Instagram Icon to replace deprecated Lucide version
 const InstagramIcon = ({ size = 24, color = 'currentColor' }: { size?: number, color?: string }) => (
@@ -28,7 +30,7 @@ const InstagramIcon = ({ size = 24, color = 'currentColor' }: { size?: number, c
     </svg>
 );
 
-const MenuDrawer: React.FC<MenuDrawerProps> = ({ isOpen, onClose, onOpenTutorial }) => {
+const MenuDrawer: React.FC<MenuDrawerProps> = ({ isOpen, onClose, onOpenTutorial, onBackToHome }) => {
     const [view, setView] = useState<'main' | 'schedules'>('main');
     const [expandedLine, setExpandedLine] = useState<string | null>(null);
 
@@ -54,6 +56,17 @@ const MenuDrawer: React.FC<MenuDrawerProps> = ({ isOpen, onClose, onOpenTutorial
     const renderMainContent = () => (
         <div className="menu-list">
             <h2 style={{ padding: '0 16px', margin: '20px 0 10px', fontSize: '14px', color: '#888', textTransform: 'uppercase' }}>Serviços</h2>
+
+            {onBackToHome && (
+                <button className="menu-item" onClick={() => {
+                    onClose();
+                    onBackToHome();
+                }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                        <span>← Voltar ao Início</span>
+                    </div>
+                </button>
+            )}
 
             <button className="menu-item" onClick={handleTutorialClick}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>

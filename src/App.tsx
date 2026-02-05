@@ -3,12 +3,14 @@ import { Menu } from 'lucide-react';
 import MapComponent from './components/MapComponent';
 import SearchPanel from './components/SearchPanel';
 import SplashScreen from './components/SplashScreen';
+import HomeScreen from './components/HomeScreen';
 import MenuDrawer from './components/MenuDrawer';
 import TutorialOverlay, { type TutorialStep } from './components/TutorialOverlay';
 import './index.css';
 import './App.css';
-import logo from "../public/dc-logo.png"
 import logo2 from "../public/dc-logo-cortada.png"
+
+
 
 interface Bus {
   VehicleDescription: string;
@@ -32,6 +34,7 @@ export const getBusStatus = (gpsDate: string): 'online' | 'offline' => {
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [currentScreen, setCurrentScreen] = useState<'home' | 'instituicoes' | 'tarifazero'>('home');
   const [buses, setBuses] = useState<Bus[]>([]);
   const [selectedLine, setSelectedLine] = useState<string | null>(null);
   const [focusedBusId, setFocusedBusId] = useState<string | null>(null);
@@ -227,11 +230,15 @@ function App() {
     <>
       <SplashScreen isLoading={loading} error={error} />
 
-      {!loading && (
+      {!loading && currentScreen === 'home' && (
+        <HomeScreen onSelectOption={(option) => setCurrentScreen(option)} />
+      )}
+
+      {!loading && currentScreen === 'instituicoes' && (
         <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', width: '100vw', overflow: 'hidden' }}>
           <header style={{
             height: '60px',
-            backgroundColor: '#003366', // Prefeitura Blue (approx)
+            backgroundColor: '#003366',
             color: 'white',
             display: 'flex',
             alignItems: 'center',
@@ -242,7 +249,6 @@ function App() {
             flexShrink: 0
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              {/* Logo Placeholder - You can replace specific image later */}
               <div style={{
                 width: '40px',
                 height: '40px',
@@ -254,7 +260,69 @@ function App() {
                 boxShadow: '0 2px 5px rgba(0,0,0,0.3)',
                 background: 'transparent'
               }}>
-                {/* Scaling image to 120% to cut off any white borders from source file */}
+                <img
+                  src={logo2}
+                  alt="Logo da Prefeitura de Duque de Caxias"
+                  style={{ width: '120%', height: '120%', objectFit: 'cover' }}
+                />
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <span style={{ fontWeight: 700, fontSize: '16px', lineHeight: '1.2' }}>Ouvidoria Orienta</span>
+                <span style={{ fontWeight: 400, fontSize: '11px', opacity: 0.8 }}>Instituições Municipais</span>
+              </div>
+            </div>
+
+            <button
+              style={{
+                background: 'none',
+                border: 'none',
+                color: 'white',
+                cursor: 'pointer',
+                padding: '4px',
+                display: 'flex',
+                alignItems: 'center'
+              }}
+              onClick={() => setCurrentScreen('home')}
+            >
+              ← Voltar
+            </button>
+          </header>
+
+          <main style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f5f5f5' }}>
+            <div style={{ textAlign: 'center', padding: '20px' }}>
+              <h2 style={{ color: '#003366', marginBottom: '16px' }}>Instituições Municipais</h2>
+              <p style={{ color: '#666' }}>Em breve: Lista de instituições municipais e informações de contato.</p>
+            </div>
+          </main>
+        </div>
+      )}
+
+      {!loading && currentScreen === 'tarifazero' && (
+        <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', width: '100vw', overflow: 'hidden' }}>
+          <header style={{
+            height: '60px',
+            backgroundColor: '#003366',
+            color: 'white',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            padding: '0 16px',
+            boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+            zIndex: 2000,
+            flexShrink: 0
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <div style={{
+                width: '40px',
+                height: '40px',
+                borderRadius: '50%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                overflow: 'hidden',
+                boxShadow: '0 2px 5px rgba(0,0,0,0.3)',
+                background: 'transparent'
+              }}>
                 <img
                   src={logo2}
                   alt="Logo da Prefeitura de Duque de Caxias"
@@ -352,6 +420,7 @@ function App() {
               setTutorialStep(0);
               setIsTutorialActive(true);
             }}
+            onBackToHome={() => setCurrentScreen('home')}
           />
 
           <TutorialOverlay
@@ -369,3 +438,4 @@ function App() {
 }
 
 export default App;
+
