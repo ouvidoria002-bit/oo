@@ -104,24 +104,38 @@ const MenuDrawer: React.FC<MenuDrawerProps> = ({ isOpen, onClose, onOpenTutorial
 
     const renderScheduleSection = (title: string, times: string[]) => {
         if (!times || times.length === 0) return null;
+
+        const now = new Date();
+        const currentMinutes = now.getHours() * 60 + now.getMinutes();
+
+        const getMinutes = (timeStr: string) => {
+            const [h, m] = timeStr.split(':').map(Number);
+            return h * 60 + m;
+        };
+
         return (
             <div style={{ marginBottom: '12px' }}>
                 <div style={{ fontSize: '12px', fontWeight: 'bold', color: '#666', marginBottom: '4px', display: 'flex', alignItems: 'center', gap: '4px' }}>
                     <MapPin size={12} /> Saída: {title}
                 </div>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-                    {times.map((time, idx) => (
-                        <span key={idx} style={{
-                            background: '#f0f9ff',
-                            color: '#003366',
-                            padding: '4px 8px',
-                            borderRadius: '4px',
-                            fontSize: '13px',
-                            border: '1px solid #bae6fd'
-                        }}>
-                            {time}
-                        </span>
-                    ))}
+                    {times.map((time, idx) => {
+                        const isPast = getMinutes(time) < currentMinutes;
+
+                        return (
+                            <span key={idx} style={{
+                                background: isPast ? '#f3f4f6' : '#f0f9ff',
+                                color: isPast ? '#9ca3af' : '#003366',
+                                padding: '4px 8px',
+                                borderRadius: '4px',
+                                fontSize: '13px',
+                                border: isPast ? '1px solid #e5e7eb' : '1px solid #bae6fd',
+                                opacity: isPast ? 0.8 : 1
+                            }}>
+                                {time}
+                            </span>
+                        );
+                    })}
                 </div>
             </div>
         );

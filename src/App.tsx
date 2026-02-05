@@ -23,6 +23,13 @@ import { loadAllRoutes } from './routeMatcher';
 import { fetchStopsForLine, getClosestStop, type BusStop } from './stopsManager';
 import { calculateETA } from './etaManager';
 
+// Helper to check signal age
+export const getBusStatus = (gpsDate: string): 'online' | 'offline' => {
+  if (!gpsDate) return 'offline';
+  const diff = Date.now() - new Date(gpsDate).getTime();
+  return diff > 5 * 60 * 1000 ? 'offline' : 'online'; // 5 minutes tolerance
+};
+
 function App() {
   const [loading, setLoading] = useState(true);
   const [buses, setBuses] = useState<Bus[]>([]);

@@ -28,25 +28,40 @@ export const calculateETA = (stop: BusStop, lineId: string, buses: Bus[]): strin
     buses.forEach(bus => {
         if (bus.LineNumber !== lineId) return;
 
-        // Project Bus to Route
-        const busSnap = getProjectedPosition(bus.Latitude, bus.Longitude, lineId);
-        if (!busSnap) return;
+        // Project Bus to Route with HIGHER TOLERANCE (300m) 
+        // This ensures closest bus is not dropped due to GPS drift
+        const busSnap = getProjectedPosition(bus.Latitude, bus.Longitude, lineId, -1, 300);
 
         let dist = Infinity;
+
+        if (!busSnap) {
+            // Debug log to see if we are losing buses
+            console.warn(`[ETA] Bus ${bus.VehicleDescription} ignored - failed projection (Start/End too far?)`);
+            return;
+        }
 
         // Case A: Bus is BEHIND the stop (Approaching normally)
         if (busSnap.index <= stopSnap.index) {
             dist = getRouteDistance(busSnap.index, stopSnap.index, lineId);
+            // console.log(`[ETA] Bus ${bus.VehicleDescription}: Approaching. Dist: ${dist}m`);
         }
-        // Case B: Bus is AHEAD of the stop (Needs to loop back)
+        // Case B: Bus is AHEAD of the stop
         else {
-            // Calculate: (Bus -> End) + (Start -> Stop)
-            // Assumes circular route or "Ida" then "Volta" logic
-            const distToEnd = getRouteDistance(busSnap.index, lastRouteIndex, lineId);
-            const distFromStart = getRouteDistance(0, stopSnap.index, lineId);
+            // Check if it JUST passed the stop (e.g. within 200m)
+            const gap = getRouteDistance(stopSnap.index, busSnap.index, lineId);
 
-            if (distToEnd !== -1 && distFromStart !== -1) {
-                dist = distToEnd + distFromStart;
+            if (gap !== -1 && gap < 200) {
+                dist = 0; // It's extremely close
+                // console.log(`[ETA] Bus ${bus.VehicleDescription}: Just Passed (Gap ${gap}m). Dist: 0m`);
+            } else {
+                // Loop
+                const distToEnd = getRouteDistance(busSnap.index, lastRouteIndex, lineId);
+                const distFromStart = getRouteDistance(0, stopSnap.index, lineId);
+
+                if (distToEnd !== -1 && distFromStart !== -1) {
+                    dist = distToEnd + distFromStart;
+                    // console.log(`[ETA] Bus ${bus.VehicleDescription}: Looping. Dist: ${dist}m`);
+                }
             }
         }
 

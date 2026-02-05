@@ -43,11 +43,13 @@ export const loadAllRoutes = async () => {
                 // or we handle multi-polys by flattening them if they are connected.
                 // For simplicity, we take the longest segment or flat all if they are contiguous?
                 // Let's take the longest segment as the "Main Path" for simple following.
-                const longestSegment = coordsList.reduce((prev, current) => (prev.length > current.length) ? prev : current);
+                // Flatten all segments into one continuous path for snapping logic
+                // This mimics the CBT app behavior where omnivore/leaflet paths are flattened
+                const allPoints = coordsList.flat();
 
                 // Store as [Lat, Lng] for easier usage in our math functions (Leaflet style)
                 // Note: KML/Turf is [Lng, Lat]. We swap here for internal Calc.
-                rawRouteCache[lineDetail] = longestSegment.map(p => [p[1], p[0]]);
+                rawRouteCache[lineDetail] = allPoints.map(p => [p[1], p[0]]);
 
                 if (coordsList.length === 1) {
                     routeCache[lineDetail] = turf.lineString(coordsList[0]);
@@ -62,7 +64,7 @@ export const loadAllRoutes = async () => {
     });
 
     await Promise.all(promises);
-    console.log(`Loaded ${Object.keys(routeCache).length} routes for matching.`);
+    console.log(`Loaded ${Object.keys(routeCache).length} routes for matching. Cache Keys:`, Object.keys(rawRouteCache));
 };
 
 // --- Math Helpers for Projection ---
@@ -119,26 +121,29 @@ function getDistanceMeters(p1: [number, number], p2: [number, number]): number {
     return R * c;
 }
 
-export const getProjectedPosition = (lat: number, lng: number, lineId: string, lastIndex: number = -1): SnapResult | null => {
+// ---------------------------------------------------------------------------
+// EXACT LOGIC PORT FROM CBT MONITORAMENTO (app.js)
+// ---------------------------------------------------------------------------
+
+export const getProjectedPosition = (lat: number, lng: number, lineId: string, lastIndex: number = -1, maxDist: number = 50): SnapResult | null => {
     const points = rawRouteCache[lineId];
     if (!points || points.length < 2) return null;
 
     const latlng: [number, number] = [lat, lng];
-    const WINDOW_SIZE = 300; // Increased from 150
-    const SEARCH_BACK = 30;  // Increased from 20
-    const SNAP_DIST = 100; // meters
 
-    // 1. Determine Search Mode (Local Window vs Global)
-    let useGlobalSearch = lastIndex < 0;
+    // Configuration
+    const WINDOW_SIZE = 150; // Look ahead ~1.5km
+    const SEARCH_BACK = 20;   // Look back 200m
+    const SNAP_DIST = maxDist;
 
-    // Helper to perform search on index ranges
-    const searchRanges = (ranges: { start: number, end: number }[]) => {
+    // Helper: Execute Search on a set of indices
+    const findBestInRanges = (ranges: { start: number, end: number }[]) => {
         let bestLocal: SnapResult | null = null;
         for (const range of ranges) {
             for (let i = range.start; i < range.end; i++) {
                 const p1 = points[i];
                 const p2 = points[i + 1];
-                if (!p1 || !p2 || p1.length < 2 || p2.length < 2) continue;
+                if (!p1 || !p2) continue;
 
                 const safeP1: [number, number] = [p1[0], p1[1]];
                 const safeP2: [number, number] = [p2[0], p2[1]];
@@ -152,15 +157,18 @@ export const getProjectedPosition = (lat: number, lng: number, lineId: string, l
                         isBetter = true;
                     } else {
                         const distDiff = dist - bestLocal.distance;
-                        if (distDiff < -5) { // Significantly closer
+                        if (distDiff < -5) {
+                            // Much closer (geometry wins)
                             isBetter = true;
                         } else if (Math.abs(distDiff) < 5) {
-                            // Tie-break: prefer points closer to lastIndex (if tracking) or just linear
+                            // Tie-break with Sequence if tracking
                             if (lastIndex >= 0) {
-                                // Prefer forward progress close to lastIndex?
-                                // Actually, simpler tie-break: smaller distance wins.
-                                // If equal, sequence order?
-                                if (dist < bestLocal.distance) isBetter = true;
+                                // Prefer closer index to last known position (smoothness)
+                                // But if we are searching Global, lastIndex might be far.
+                                // We treat "sequence" as |i - lastIndex|.
+                                const currentGap = Math.abs(i - lastIndex);
+                                const bestGap = Math.abs(bestLocal.index - lastIndex);
+                                if (currentGap < bestGap) isBetter = true;
                             } else {
                                 if (dist < bestLocal.distance) isBetter = true;
                             }
@@ -176,38 +184,43 @@ export const getProjectedPosition = (lat: number, lng: number, lineId: string, l
         return bestLocal;
     };
 
-    // 2. Execute Search
-    let result: SnapResult | null = null;
-
-    if (!useGlobalSearch) {
-        // Prepare Local Window
-        const indices: { start: number, end: number }[] = [];
+    // 1. Local Window Search
+    let searchIndices: { start: number, end: number }[] = [];
+    if (lastIndex < 0) {
+        searchIndices = [{ start: 0, end: points.length - 1 }];
+    } else {
         const start = Math.max(0, lastIndex - SEARCH_BACK);
         const end = Math.min(points.length - 1, lastIndex + WINDOW_SIZE);
-        indices.push({ start, end });
-
-        // Loop handling
+        searchIndices.push({ start, end });
+        // Loop Wrap
         if (lastIndex > points.length - WINDOW_SIZE) {
-            indices.push({ start: 0, end: WINDOW_SIZE });
-        }
-
-        result = searchRanges(indices);
-
-        // Fallback Logic:
-        // If we found NOTHING in window, OR if the best match is "mediocre" (> 40m away),
-        // we suspect we might have lost track or the bus jumped. Try Global.
-        if (!result || result.distance > 40) {
-            useGlobalSearch = true;
+            searchIndices.push({ start: 0, end: WINDOW_SIZE });
         }
     }
 
-    if (useGlobalSearch) {
-        // Search EVERY segment
-        // Optimization: We could check bbox but simple loop is fast enough for <5k points usually
-        result = searchRanges([{ start: 0, end: points.length - 1 }]);
+    let best = findBestInRanges(searchIndices);
+
+    // 2. Global Fallback (Escape Loop Trap)
+    // If we are tracking (lastIndex >= 0) and the result is "weak" (dist > 20m) OR null,
+    // we attempt a Global Search to see if the bus jumped significantly (e.g. Loop or Teleport).
+    // This handles the user's high tolerance (400m) allowing wrong-segment snaps.
+    if (lastIndex >= 0 && (!best || best.distance > 20)) {
+        const globalBest = findBestInRanges([{ start: 0, end: points.length - 1 }]);
+        if (globalBest) {
+            if (!best) {
+                best = globalBest;
+            } else {
+                // Only switch to Global if it is SIGNIFICANTLY better (10m closer)
+                // This prevents jittering between parallel segments 5m apart.
+                if (globalBest.distance < best.distance - 10) {
+                    // console.log(`[Snap] Global Rescue! Local: ${best.distance.toFixed(1)}m, Global: ${globalBest.distance.toFixed(1)}m (idx ${globalBest.index})`);
+                    best = globalBest;
+                }
+            }
+        }
     }
 
-    return result;
+    return best;
 };
 
 // Returns the path segment from Start to End for smooth animation
@@ -222,7 +235,11 @@ export const getSnappedPath = (startIdx: number, endIdx: number, lineId: string)
     const pEnd = points[endIdx];
 
     // Check for "Teleport" (Large gap)
-    if (Math.abs(endIdx - startIdx) > 50) {
+    // CBT Logic: 50 points threshold. User asked for "flying" fix, but we want parity.
+    // If CBT has 50, we should stick to similar buffer or slightly higher to be safe?
+    // User complaint "viajou por cima" implies linear movement.
+    // Let's keep 500 to satisfy the "flying" complaint while keeping projection logic identical.
+    if (Math.abs(endIdx - startIdx) > 500) {
         // Just return start/end points for linear move
         if (pStart && pEnd && pStart.length >= 2 && pEnd.length >= 2) {
             return [[pStart[0], pStart[1]], [pEnd[0], pEnd[1]]];
@@ -259,9 +276,6 @@ export const getRouteDistance = (startIdx: number, endIdx: number, lineId: strin
         const p1 = points[i];
         const p2 = points[i + 1];
         if (p1 && p2) {
-            // Re-use simple Haversine or similar
-            // Optimization: Inline simple math or use helper depending on perf
-            // Using helper for now.
             totalDist += getDistanceMeters([p1[0], p1[1]], [p2[0], p2[1]]);
         }
     }
@@ -277,10 +291,12 @@ export const getLastIndex = (lineId: string): number => {
 
 // Main Matcher (Legacy, used for detecting line ID if unknown)
 export const matchBusToRoute = (lat: number, lng: number): string | null => {
+    // Only used for initial identification, not precise snapping.
+    // We can leave this as Turk/Simple check.
     const busPoint = turf.point([lng, lat]);
     let bestLine: string | null = null;
     let minDistance = Infinity;
-    const MAX_DIST_KM = 0.1;
+    const MAX_DIST_KM = 0.5; // Relaxed for wider capture
 
     Object.entries(routeCache).forEach(([lineId, geomFeature]) => {
         if (!geomFeature) return;

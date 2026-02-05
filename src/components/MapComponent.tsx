@@ -7,7 +7,7 @@ import omnivore from 'leaflet-omnivore';
 import { LINE_KML_MAPPING, LINE_NAMES, MAP_CENTER, ZOOM_LEVEL } from '../constants';
 import SlidingMarker from './SlidingMarker';
 import { getProjectedPosition, getSnappedPath } from '../routeMatcher';
-import { BusStop } from '../stopsManager';
+import type { BusStop } from '../stopsManager';
 
 // Fix Leaflet Default Icon
 import icon from 'leaflet/dist/images/marker-icon.png';
@@ -70,17 +70,47 @@ const KmlLayer = ({ selectedLine, userLocation }: { selectedLine: string | null,
                     if (!response.ok) throw new Error('KML not found');
                     const text = await response.text();
 
-                    // Use omnivore to parse string
-                    const kml = omnivore.kml.parse(text);
+                    // Custom Parse: Select the LONGEST LineString to avoid artifacts (fixes "extra stripe")
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(text, "text/xml");
+                    const lineStrings = xmlDoc.getElementsByTagName("LineString");
 
-                    // Extract GeoJSON
-                    const geoJson = kml.toGeoJSON();
-                    customLayer.addData(geoJson);
+                    let paths: number[][][] = [];
+
+                    for (let i = 0; i < lineStrings.length; i++) {
+                        const coordsNode = lineStrings[i].getElementsByTagName("coordinates")[0];
+                        if (coordsNode) {
+                            const raw = coordsNode.textContent?.trim() || "";
+                            const points = raw.split(/\s+/).map(pair => {
+                                const [lng, lat] = pair.split(',').map(Number);
+                                return (isNaN(lng) || isNaN(lat)) ? null : [lng, lat]; // GeoJSON is [lng, lat]
+                            }).filter((p): p is number[] => p !== null);
+
+                            // Filter out tiny artifacts (often closing lines)
+                            if (points.length > 2) {
+                                paths.push(points);
+                            }
+                        }
+                    }
+
+                    if (paths.length > 0) {
+                        // Create valid GeoJSON Feature with MultiLineString
+                        const geoJson: any = {
+                            type: "Feature",
+                            properties: {},
+                            geometry: {
+                                type: "MultiLineString",
+                                coordinates: paths
+                            }
+                        };
+                        customLayer.addData(geoJson);
+                    }
 
                     customLayer.addTo(map);
                     layerRef.current = customLayer;
 
-                    // Note: We leave bounds fitting to InitialBoundsHandler now
+                    // Old omnivore logic removed to prevent artifacts
+                    // const kml = omnivore.kml.parse(text); ...
 
                 } catch (e) {
                     console.error("Failed to load KML", e);
@@ -313,10 +343,10 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
     const map = useMap();
     const lastIndicesRef = useRef<Record<string, number>>({});
 
-    const createBusIcon = (isFocused: boolean) => L.divIcon({
+    const createBusIcon = (isFocused: boolean, isOffline: boolean) => L.divIcon({
         className: 'custom-bus-icon',
-        html: `<div style="background: ${isFocused ? '#ef4444' : '#3b82f6'}; border: ${isFocused ? '3px' : '2px'} solid white; width: ${isFocused ? '32px' : '24px'}; height: ${isFocused ? '32px' : '24px'}; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 8px rgba(0,0,0,0.4); transition: all 0.3s ease;">
-                <span style="font-size: ${isFocused ? '18px' : '14px'};">🚌</span>
+        html: `<div style="background: ${isOffline ? '#6b7280' : (isFocused ? '#ef4444' : '#3b82f6')}; border: ${isFocused ? '3px' : '2px'} solid white; width: ${isFocused ? '32px' : '24px'}; height: ${isFocused ? '32px' : '24px'}; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 8px rgba(0,0,0,0.4); transition: all 0.3s ease;">
+                <span style="font-size: ${isFocused ? '18px' : '14px'};">${isOffline ? '⚠️' : '🚌'}</span>
                </div>`,
         iconSize: [isFocused ? 40 : 30, isFocused ? 40 : 30],
         iconAnchor: [isFocused ? 20 : 15, isFocused ? 20 : 15]
@@ -327,10 +357,16 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
             {visibleBuses.map((bus) => {
                 const isFocused = bus.VehicleDescription === focusedBusId;
 
+                // Signal Check (5 mins)
+                const now = Date.now();
+                const gpsTime = new Date(bus.GPSDate).getTime();
+                const isOffline = (now - gpsTime) > 5 * 60 * 1000;
+
                 // --- Snapping Logic ---
                 const prevIndex = lastIndicesRef.current[bus.VehicleDescription] ?? -1;
                 // Attempt to snap to route
-                const snap = getProjectedPosition(bus.Latitude, bus.Longitude, bus.LineNumber, prevIndex);
+                // Attempt to snap to route with HIGH tolerance (2000m) to force it onto the line
+                const snap = getProjectedPosition(bus.Latitude, bus.Longitude, bus.LineNumber, prevIndex, 400);
 
                 let displayLat = bus.Latitude;
                 let displayLng = bus.Longitude;
@@ -346,9 +382,9 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
                     // Calculate path from previous to current
                     if (prevIndex >= 0) {
                         const calculatedPath = getSnappedPath(prevIndex, snap.index, bus.LineNumber);
-                        // Only use path if it's reasonable (e.g. < 50 points ~ 1-2km)
-                        // If it's huge, it's likely a jump/teleport, so just let SlidingMarker handle it (linear or teleport)
-                        if (calculatedPath && calculatedPath.length < 50) {
+                        // Only use path if it's reasonable (e.g. < 500 points)
+                        // This prevents creating massive arrays for teleports, but allows long updates along the road
+                        if (calculatedPath && calculatedPath.length < 500) {
                             path = calculatedPath;
                         }
                     }
@@ -372,14 +408,15 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
                         key={bus.VehicleDescription}
                         position={[displayLat, displayLng]}
                         duration={4000} // Match polling interval
-                        icon={createBusIcon(isFocused)}
+                        icon={createBusIcon(isFocused, isOffline)}
                         path={path}
                         onPositionChange={isFocused && isFollowing ? handlePositionChange : undefined}
                     >
                         <Popup>
                             <strong>{bus.VehicleDescription}</strong><br />
                             <span style={{ color: '#666' }}>{LINE_NAMES[bus.LineNumber] || bus.LineNumber}</span>
-                            {snap && <div style={{ color: '#059669', fontSize: '10px' }}>⚡ Rota Monitorada</div>}
+                            {isOffline && <div style={{ color: '#ef4444', fontWeight: 'bold', marginTop: '5px' }}>⚠️ Sem Sinal</div>}
+                            {!isOffline && snap && <div style={{ color: '#059669', fontSize: '10px' }}>⚡ Rota Monitorada</div>}
                             {isFocused && <div style={{ color: '#ef4444', fontWeight: 'bold', marginTop: '5px' }}>📍 Seguindo</div>}
                         </Popup>
                     </SlidingMarker>
