@@ -93,7 +93,7 @@ const MenuDrawer: React.FC<MenuDrawerProps> = ({ isOpen, onClose, onOpenTutorial
             <a href="https://duquedecaxias.colab.re/" target='_blank' rel="noreferrer" className="menu-item">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                     <ExternalLink size={20} color="#003366" />
-                    <span>Site do Colab</span>
+                    <span>Site do Colab (Portal do Cidadão)</span>
                 </div>
             </a>
 

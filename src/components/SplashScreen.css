@@ -27,21 +27,22 @@
     justify-content: center;
     width: 100%;
     height: 100%;
+    padding: var(--spacing-md);
 }
 
 .splash-logo-container {
     position: relative;
-    width: 180px;
+    width: clamp(140px, 35vw, 180px);
     /* Responsive size */
-    height: 180px;
-    margin-bottom: 2rem;
+    height: clamp(140px, 35vw, 180px);
+    margin-bottom: clamp(1.5rem, 4vw, 2rem);
     transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .splash-logo-container.move-to-header {
     position: fixed;
     top: 10px;
-    left: 16px;
+    left: var(--spacing-md);
     width: 40px;
     height: 40px;
     margin-bottom: 0;
@@ -98,19 +99,19 @@
 }
 
 .spinner {
-    width: 40px;
-    height: 40px;
+    width: clamp(36px, 8vw, 40px);
+    height: clamp(36px, 8vw, 40px);
     border: 4px solid rgba(255, 255, 255, 0.3);
     border-top: 4px solid #ffffff;
     border-radius: 50%;
     animation: spin 1s linear infinite;
-    margin-top: 20px;
+    margin-top: clamp(16px, 4vw, 20px);
 }
 
 .loading-text {
     color: white;
-    margin-top: 16px;
-    font-size: 14px;
+    margin-top: clamp(12px, 3vw, 16px);
+    font-size: clamp(13px, 3.5vw, 14px);
     opacity: 0.8;
     letter-spacing: 0.5px;
     font-weight: 500;
@@ -119,12 +120,13 @@
 .error-message {
     color: #ff9999;
     text-align: center;
-    padding: 20px;
+    padding: var(--spacing-lg);
+    max-width: 90%;
 }
 
 .error-message button {
     margin-top: 15px;
-    padding: 10px 20px;
+    padding: 12px 24px;
     background-color: white;
     color: #003366;
     border: none;
@@ -132,6 +134,9 @@
     cursor: pointer;
     font-weight: bold;
     transition: transform 0.1s;
+    font-size: clamp(14px, 3.5vw, 15px);
+    min-height: 44px;
+    /* Touch target */
 }
 
 .error-message button:active {
@@ -145,5 +150,40 @@
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 360px) {
+    .splash-logo-container {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1.25rem;
+    }
+
+    .splash-logo-container.move-to-header {
+        left: 12px;
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* Landscape mobile */
+@media (max-height: 600px) and (orientation: landscape) {
+    .splash-logo-container {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 1rem;
+    }
+
+    .spinner {
+        width: 32px;
+        height: 32px;
+        margin-top: 12px;
+    }
+
+    .loading-text {
+        margin-top: 8px;
+        font-size: 12px;
     }
 }

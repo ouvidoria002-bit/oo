@@ -9,12 +9,26 @@
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --radius-md: 0.375rem;
   --radius-lg: 0.5rem;
+  
+  /* Responsive spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
+}
+
+html {
+  /* Prevent zoom on input focus in iOS */
+  -webkit-text-size-adjust: 100%;
+  touch-action: manipulation;
 }
 
 body {
@@ -24,6 +38,8 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden; /* App interaction */
+  position: fixed; /* Prevent mobile browser address bar issues */
+  overscroll-behavior: none; /* Prevent pull-to-refresh */
 }
 
 #root {
@@ -31,6 +47,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 /* Map specific override */
@@ -38,6 +55,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #f3f4f6; /* Light gray placeholder */
+  touch-action: pan-x pan-y; /* Enable touch gestures on map */
 }
 
 /* Utilities */
@@ -55,4 +73,20 @@ body {
   height: 100%;
   z-index: 1000;
   background: white;
+}
+
+/* Mobile-first responsive utilities */
+@media (max-width: 768px) {
+  :root {
+    --spacing-sm: 8px;
+    --spacing-md: 12px;
+    --spacing-lg: 16px;
+    --spacing-xl: 24px;
+  }
+}
+
+/* Prevent text selection on interactive elements */
+button, .clickable {
+  -webkit-user-select: none;
+  user-select: none;
 }

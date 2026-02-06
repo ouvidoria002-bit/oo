@@ -5,6 +5,8 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  position: fixed;
+  /* Prevent scroll issues on mobile */
 }
 
 .home-header {
@@ -13,7 +15,7 @@
   color: white;
   display: flex;
   align-items: center;
-  padding: 0 16px;
+  padding: 0 var(--spacing-md);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   z-index: 2000;
   flex-shrink: 0;
@@ -28,9 +30,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 32px;
-  padding: 20px;
+  gap: clamp(20px, 5vw, 32px);
+  /* Responsive gap */
+  padding: var(--spacing-lg);
   animation: fadeInUp 0.6s ease-out;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 @keyframes fadeInUp {
@@ -47,34 +52,41 @@
 
 .home-title {
   color: white;
-  font-size: 28px;
+  font-size: clamp(22px, 6vw, 28px);
+  /* Responsive font size */
   font-weight: 700;
   text-align: center;
   margin: 0;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  line-height: 1.3;
+  padding: 0 var(--spacing-sm);
 }
 
 .home-subtitle {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 16px;
+  font-size: clamp(14px, 3.5vw, 16px);
   font-weight: 400;
   text-align: center;
-  margin: -16px 0 0 0;
+  margin: -12px 0 0 0;
+  padding: 0 var(--spacing-md);
+  line-height: 1.4;
 }
 
 .options-container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: clamp(16px, 4vw, 20px);
+  padding: 0 var(--spacing-xs);
 }
 
 .option-button {
   position: relative;
   width: 100%;
-  height: 140px;
+  height: clamp(110px, 25vw, 140px);
+  /* Responsive height */
   border: none;
-  border-radius: 24px;
+  border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
   background: white;
@@ -83,6 +95,7 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .option-button:hover {
@@ -91,7 +104,7 @@
 }
 
 .option-button:active {
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(0.98);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
@@ -100,7 +113,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 24px;
+  padding: clamp(16px, 4vw, 24px);
   text-align: left;
   z-index: 1;
   background: white;
@@ -108,18 +121,19 @@
 
 .option-text h2 {
   margin: 0;
-  font-size: 24px;
+  font-size: clamp(18px, 5vw, 24px);
   font-weight: 700;
   color: #003366;
   line-height: 1.2;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .option-text p {
   margin: 0;
-  font-size: 13px;
+  font-size: clamp(11px, 3vw, 13px);
   color: #666;
   font-weight: 400;
+  line-height: 1.3;
 }
 
 .option-image {
@@ -129,7 +143,9 @@
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  flex-shrink: 0;
 }
+
 
 .image-overlay {
   position: absolute;
@@ -142,7 +158,55 @@
       rgba(0, 77, 153, 0.15) 100%);
 }
 
-/* Instituições Municipais Background */
+/* Instituições Municipais com paisagem e ícone */
+.instituicoes-bg-landscape {
+  position: relative;
+  overflow: visible;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+}
+
+.instituicoes-landscape-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.building-icon-image {
+  position: absolute;
+  right: 25%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70%;
+  height: auto;
+  z-index: 3;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4));
+  transition: transform 0.3s ease;
+}
+
+/* Animação ao hover no botão de instituições */
+.option-button-instituicoes:hover .building-icon-image {
+  transform: translateY(-50%) scale(1.08) translateY(-5px);
+}
+
+.option-button-instituicoes:active .building-icon-image {
+  transform: translateY(-50%) scale(1.04) translateY(-2px);
+}
+
+/* Ajuste do overlay para instituições */
+.instituicoes-bg-landscape .image-overlay {
+  z-index: 2;
+  background: linear-gradient(135deg,
+      rgba(99, 102, 241, 0.2) 0%,
+      rgba(139, 92, 246, 0.25) 100%);
+}
+
+/* Manter o estilo antigo como fallback */
 .instituicoes-bg {
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
   position: relative;
@@ -154,7 +218,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 64px;
+  font-size: clamp(48px, 12vw, 64px);
   opacity: 0.9;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
 }
@@ -171,39 +235,168 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 64px;
+  font-size: clamp(48px, 12vw, 64px);
   opacity: 0.9;
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
 }
 
-/* Responsive adjustments */
-@media (max-width: 480px) {
-  .home-title {
-    font-size: 24px;
-  }
+/* Tarifa Zero com paisagem e ônibus */
+.tarifazero-bg-landscape {
+  position: relative;
+  overflow: visible;
+  /* Permite que o ônibus ultrapasse os limites */
+  background: linear-gradient(135deg, #10b981 0%, #14b8a6 100%);
+}
 
-  .home-subtitle {
-    font-size: 14px;
+.landscape-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+}
+
+.bus-image {
+  position: absolute;
+  /* Posicionamento centralizado com saída para a direita */
+  right: 30%;
+  /* Ônibus ultrapassa mais a borda direita */
+  top: 50%;
+  /* Centralizado verticalmente */
+  transform: translateY(-50%) rotate(-3deg);
+  /* Centraliza e inclina */
+  width: 130%;
+  /* Ônibus bem maior */
+  height: auto;
+  z-index: 3;
+  /* Acima da paisagem e overlay */
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
+  transition: transform 0.3s ease;
+}
+
+/* Animação ao hover no botão */
+.option-button-bus:hover .bus-image {
+  transform: translateY(-50%) rotate(-3deg) translateX(-10px) scale(1.05);
+}
+
+.option-button-bus:active .bus-image {
+  transform: translateY(-50%) rotate(-3deg) translateX(-5px) scale(1.02);
+}
+
+/* Ajuste do overlay para não cobrir o ônibus */
+.tarifazero-bg-landscape .image-overlay {
+  z-index: 2;
+  background: linear-gradient(135deg,
+      rgba(16, 185, 129, 0.15) 0%,
+      rgba(20, 184, 166, 0.2) 100%);
+}
+
+/* Mobile optimizations */
+@media (max-width: 480px) {
+  .home-content {
+    gap: 30px;
+    padding: var(--spacing-md);
   }
 
   .option-button {
-    height: 120px;
-  }
-
-  .option-text h2 {
-    font-size: 20px;
-  }
-
-  .option-text p {
-    font-size: 12px;
+    height: 100px;
+    border-radius: 16px;
   }
 
   .option-image {
     width: 40%;
   }
 
-  .instituicoes-bg::before,
-  .tarifazero-bg::before {
-    font-size: 48px;
+  .bus-image {
+    right: 50%;
+    width: 120%;
+    transform: translateY(-200%) rotate(-3deg);
+  }
+
+  .building-icon-image {
+    right: 20%;
+    width: 65%;
+    transform: translateY(-50%);
+  }
+
+  .option-button-bus:hover .bus-image {
+    transform: translateY(-50%) rotate(-3deg) translateX(-8px) scale(1.03);
+  }
+
+  .option-button-instituicoes:hover .building-icon-image {
+    transform: translateY(-50%) scale(1.05) translateY(-3px);
+  }
+}
+
+/* Very small devices */
+@media (max-width: 360px) {
+  .home-header {
+    height: 56px;
+    padding: 0 12px;
+  }
+
+  .home-content {
+    padding: 12px;
+    gap: 30px;
+  }
+
+  .option-button {
+    height: 90px;
+  }
+
+  .option-text {
+    padding: 12px;
+  }
+
+  .option-image {
+    width: 38%;
+  }
+
+  .bus-image {
+    right: -28%;
+    width: 110%;
+    transform: translateY(-50%) rotate(-3deg);
+  }
+
+  .building-icon-image {
+    right: 18%;
+    width: 60%;
+    transform: translateY(-50%);
+  }
+}
+
+/* Landscape mobile */
+@media (max-height: 600px) and (orientation: landscape) {
+  .home-content {
+    padding: var(--spacing-sm);
+    gap: 12px;
+  }
+
+  .home-title {
+    font-size: 20px;
+  }
+
+  .home-subtitle {
+    font-size: 13px;
+    margin-top: -8px;
+  }
+
+  .option-button {
+    height: 80px;
+  }
+
+  .bus-image {
+    right: -32%;
+    width: 115%;
+    transform: translateY(-50%) rotate(-3deg);
+  }
+
+  .building-icon-image {
+    right: 22%;
+    width: 65%;
+    transform: translateY(-50%);
   }
 }
