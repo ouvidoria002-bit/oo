@@ -4,7 +4,7 @@ import AppHeader from './AppHeader';
 import busImage from '../../public/tarifazerobus.png';
 import cityLandscape from '../../public/city-landscape.png';
 import instituicoesBackground from '../../public/prefeitura-de-caxias-rj.jpg';
-
+import buildingIcon from "../../public/eusoulindo.png"
 interface HomeScreenProps {
     onSelectOption: (option: 'instituicoes' | 'tarifazero') => void;
 }
@@ -39,11 +39,11 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectOption }) => {
                                 className="instituicoes-landscape-image"
                             />
                             <div className="image-overlay"></div>
-                            {/* <img
+                            <img
                                 src={buildingIcon}
                                 alt="Ícone de instituição"
                                 className="building-icon-image"
-                            /> */}
+                            />
                         </div>
                     </button>
 
@@ -70,6 +70,37 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectOption }) => {
                             />
                         </div>
                     </button>
+                </div>
+
+                {/* Colab Download Links */}
+                <div className="colab-section">
+                    <p className="colab-text">Baixe também o app Colab para contribuir com a gestão da cidade:</p>
+                    <div className="colab-buttons">
+                        <a
+                            href="https://play.google.com/store/apps/details?id=thirtyideas.colab_android"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="colab-button google-play"
+                        >
+                            <span className="colab-icon">📱</span>
+                            <div className="colab-text-content">
+                                <span className="colab-label">Disponível no</span>
+                                <span className="colab-store">Google Play</span>
+                            </div>
+                        </a>
+                        <a
+                            href="https://apps.apple.com/br/app/colab/id609666061"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="colab-button app-store"
+                        >
+                            <span className="colab-icon">🍎</span>
+                            <div className="colab-text-content">
+                                <span className="colab-label">Disponível na</span>
+                                <span className="colab-store">App Store</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -127,7 +127,10 @@ function getDistanceMeters(p1: [number, number], p2: [number, number]): number {
 
 export const getProjectedPosition = (lat: number, lng: number, lineId: string, lastIndex: number = -1, maxDist: number = 50): SnapResult | null => {
     const points = rawRouteCache[lineId];
-    if (!points || points.length < 2) return null;
+    if (!points || points.length < 2) {
+        console.warn(`[getProjectedPosition] No route found for line: ${lineId}. Available routes:`, Object.keys(rawRouteCache));
+        return null;
+    }
 
     const latlng: [number, number] = [lat, lng];
 

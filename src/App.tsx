@@ -128,7 +128,7 @@ function App() {
   useEffect(() => {
     const loadInstituicoes = async () => {
       try {
-        const response = await fetch('/instituicoes.json');
+        const response = await fetch(`/instituicoes.json?t=${Date.now()}`);
         const data = await response.json();
 
         let allItems: any[] = [];

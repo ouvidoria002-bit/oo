@@ -22,6 +22,13 @@ const CATEGORIES = [
     { id: 'servicos_socioassistenciais', label: 'Assistência Social' }
 ];
 
+const normalize = (str: string) => {
+    return str
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, "");
+};
+
 const InstituicoesScreen: React.FC<InstituicoesScreenProps> = ({ onBack }) => {
     const [data, setData] = useState<InstituicoesData | null>(null);
     const [loading, setLoading] = useState(true);
@@ -33,7 +40,7 @@ const InstituicoesScreen: React.FC<InstituicoesScreenProps> = ({ onBack }) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/instituicoes.json');
+                const response = await fetch(`/instituicoes.json?t=${Date.now()}`);
                 const jsonData = await response.json();
                 setData(jsonData);
                 setLoading(false);
@@ -49,46 +56,56 @@ const InstituicoesScreen: React.FC<InstituicoesScreenProps> = ({ onBack }) => {
     useEffect(() => {
         if (!data) return;
 
-        let items: any[] = [];
+        // 1. Criar a base de dados total (ou por categoria)
+        let allAvailableItems: any[] = [];
 
-        // Helper to add category info and generate display name
-        const processItem = (item: any, category: string, type: string) => ({
+        const processItem = (item: any, category: string, type: string, idx: number) => ({
             ...item,
+            _generatedId: item.id ? String(item.id) : `${category}-${idx}`,
             category,
             type: item.tipo || type,
             displayName: getDisplayName(item.nome)
         });
 
-        if (activeCategory === 'all' || activeCategory === 'secretarias') {
-            items = [...items, ...data.secretarias.map(i => processItem(i, 'Secretaria', 'ADM'))];
-        }
-        if (activeCategory === 'all' || activeCategory === 'unidades_saude') {
-            items = [...items, ...data.unidades_saude.map(i => processItem(i, 'Saúde', 'Saúde'))];
-        }
-        if (activeCategory === 'all' || activeCategory === 'escolas') {
-            items = [...items, ...data.escolas.map(i => processItem(i, 'Educação', 'Escola'))];
-        }
-        if (activeCategory === 'all' || activeCategory === 'servicos_socioassistenciais') {
-            items = [...items, ...data.servicos_socioassistenciais.map(i => processItem(i, 'Social', 'Assistência'))];
+        // Mapeamento de categorias para chaves do JSON
+        const categoryMap: Record<string, { key: keyof InstituicoesData, label: string, type: string }> = {
+            secretarias: { key: 'secretarias', label: 'Secretaria', type: 'ADM' },
+            unidades_saude: { key: 'unidades_saude', label: 'Saúde', type: 'Saúde' },
+            escolas: { key: 'escolas', label: 'Educação', type: 'Escola' },
+            servicos_socioassistenciais: { key: 'servicos_socioassistenciais', label: 'Social', type: 'Assistência' }
+        };
+
+        if (activeCategory === 'all') {
+            Object.entries(categoryMap).forEach(([_, config]) => {
+                const list = data[config.key];
+                if (Array.isArray(list)) {
+                    allAvailableItems = [...allAvailableItems, ...list.map((i, idx) => processItem(i, config.label, config.type, idx))];
+                }
+            });
+        } else {
+            const config = categoryMap[activeCategory];
+            const list = data[config.key];
+            if (config && Array.isArray(list)) {
+                allAvailableItems = list.map((i, idx) => processItem(i, config.label, config.type, idx));
+            }
         }
 
-        // Filter
-        if (searchTerm) {
-            const lowerTerm = searchTerm.toLowerCase();
-            items = items.filter(item =>
-                (item.nome && item.nome.toLowerCase().includes(lowerTerm)) ||
-                (item.displayName && item.displayName.toLowerCase().includes(lowerTerm)) ||
-                (item.bairro && item.bairro.toLowerCase().includes(lowerTerm)) ||
-                (item.endereco && String(item.endereco).toLowerCase().includes(lowerTerm))
+        // 2. Aplicar o filtro de busca sobre a lista selecionada
+        let results = allAvailableItems;
+        if (searchTerm.trim() !== '') {
+            const term = normalize(searchTerm);
+            results = allAvailableItems.filter(item =>
+                normalize(item.nome || '').includes(term) ||
+                normalize(item.displayName || '').includes(term) ||
+                normalize(item.bairro || '').includes(term) ||
+                normalize(String(item.endereco || '')).includes(term)
             );
+        } else if (activeCategory === 'all') {
+            // 3. Só aplicar o limite se não houver busca, para não esconder resultados válidos
+            results = results.slice(0, 100);
         }
 
-        // Limit results for performance
-        if (activeCategory === 'all' && !searchTerm) {
-            items = items.slice(0, 100);
-        }
-
-        setFilteredItems(items);
+        setFilteredItems(results);
     }, [data, activeCategory, searchTerm]);
 
     // Helper to generate a short name or acronym
@@ -132,31 +149,7 @@ const InstituicoesScreen: React.FC<InstituicoesScreenProps> = ({ onBack }) => {
 
     const isCoordinate = (str: string) => /^-?\d+\.\d+.*-?\d+\.\d+/.test(str);
 
-    const renderItemCard = (item: any, index: number) => {
-        return (
-            <div
-                key={`${item.id || index}`}
-                className="instituicao-card"
-                onClick={() => handleCardClick(item)}
-            >
-                <span className="instituicao-badge">{item.type}</span>
-                <div className="instituicao-name">{item.displayName}</div>
-                <div className="instituicao-info" style={{ fontSize: '11px', color: '#666' }}>
-                    {item.nome !== item.displayName ? item.nome : ''}
-                </div>
-                {item.endereco && !isCoordinate(item.endereco) && (
-                    <div className="instituicao-info">
-                        📍 {item.endereco}
-                    </div>
-                )}
-                {item.bairro && (
-                    <div className="instituicao-info">
-                        🏘️ {item.bairro}
-                    </div>
-                )}
-            </div>
-        );
-    };
+
 
     return (
         <div className="instituicoes-container">
@@ -191,21 +184,45 @@ const InstituicoesScreen: React.FC<InstituicoesScreenProps> = ({ onBack }) => {
                     ))}
                 </div>
 
-                {loading ? (
-                    <div className="loading-spinner">Carregando informações...</div>
-                ) : (
-                    <>
-                        <div style={{ marginBottom: '10px', fontSize: '12px', color: '#666' }}>
-                            {filteredItems.length} resultados encontrados
-                        </div>
+                <div className="instituicoes-list" key={`${activeCategory}-${searchTerm}`}>
+                    {loading ? (
+                        <div className="loading-spinner">Carregando informações...</div>
+                    ) : (
+                        <>
+                            <div style={{ marginBottom: '10px', fontSize: '12px', color: '#666' }}>
+                                {filteredItems.length} resultados encontrados
+                            </div>
 
-                        {filteredItems.length > 0 ? (
-                            filteredItems.map((item, index) => renderItemCard(item, index))
-                        ) : (
-                            <div className="empty-state">Nenhuma instituição encontrada.</div>
-                        )}
-                    </>
-                )}
+                            {filteredItems.length > 0 ? (
+                                filteredItems.map((item, index) => (
+                                    <div
+                                        key={item._generatedId || index}
+                                        className="instituicao-card"
+                                        onClick={() => handleCardClick(item)}
+                                    >
+                                        <span className="instituicao-badge">{item.type}</span>
+                                        <div className="instituicao-name">{item.displayName}</div>
+                                        <div className="instituicao-info" style={{ fontSize: '11px', color: '#666' }}>
+                                            {item.nome !== item.displayName ? item.nome : ''}
+                                        </div>
+                                        {item.endereco && !isCoordinate(item.endereco) && (
+                                            <div className="instituicao-info">
+                                                📍 {item.endereco}
+                                            </div>
+                                        )}
+                                        {item.bairro && (
+                                            <div className="instituicao-info">
+                                                🏘️ {item.bairro}
+                                            </div>
+                                        )}
+                                    </div>
+                                ))
+                            ) : (
+                                <div className="empty-state">Nenhuma instituição encontrada.</div>
+                            )}
+                        </>
+                    )}
+                </div>
             </div>
 
             {/* Modal de Detalhes */}

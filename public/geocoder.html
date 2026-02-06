@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Coordenadas - Ouvidoria Orienta (V3)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f3f4f6;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #111827;
+        }
+
+        .status {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #e5e7eb;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .log-container {
+            height: 400px;
+            overflow-y: auto;
+            background: #1f2937;
+            color: #10b981;
+            padding: 15px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+            margin-bottom: 20px;
+            white-space: pre-wrap;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            color: white;
+            margin-right: 10px;
+        }
+
+        .btn-primary {
+            background: #3b82f6;
+        }
+
+        .btn-success {
+            background: #059669;
+        }
+
+        .btn-danger {
+            background: #ef4444;
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .progress-bar {
+            height: 6px;
+            background: #e5e7eb;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #3b82f6;
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: #f9fafb;
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #3b82f6;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #6b7280;
+        }
+
+        .instructions {
+            background: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            padding: 10px;
+            font-size: 14px;
+            margin-bottom: 20px;
+            color: #92400e;
+        }
+
+        .file-input-wrapper {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 2px dashed #ccc;
+            text-align: center;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>📍 Gerador de Coordenadas (V3 - Manual)</h1>
+
+        <div class="instructions">
+            <strong>Modo Seguro:</strong> Se o carregamento automático falhar, clique abaixo para selecionar o arquivo
+            <code>instituicoes.json</code> do seu computador.
+        </div>
+
+        <div class="file-input-wrapper">
+            <input type="file" id="fileInput" accept=".json" onchange="handleFileUpload(event)">
+            <p style="margin: 5px 0 0; color: #666; font-size: 12px;">Selecione o arquivo na pasta public/</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="stat-total">0</div>
+                <div class="stat-label">Total Carregado</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-missing">0</div>
+                <div class="stat-label">Pendentes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-found">0</div>
+                <div class="stat-label">Sucessos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="stat-skipped" style="color: #9ca3af">0</div>
+                <div class="stat-label">Ignorados (N/A)</div>
+            </div>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress"></div>
+        </div>
+
+        <div class="status" id="status-text">Aguardando arquivo...</div>
+
+        <div class="log-container" id="logs"></div>
+
+        <div style="display: flex; justify-content: space-between;">
+            <div>
+                <button id="btn-start" class="btn btn-primary" onclick="startGeocoding()" disabled>▶ Continuar
+                    Busca</button>
+                <button id="btn-stop" class="btn btn-danger" onclick="stopGeocoding()" disabled>⏹ Parar</button>
+            </div>
+            <button id="btn-download" class="btn btn-success" onclick="downloadJSON()" disabled>💾 Baixar JSON
+                Atualizado</button>
+        </div>
+    </div>
+
+    <script>
+        let fullData = null;
+        let missingItems = [];
+        let isRunning = false;
+        let successCount = 0;
+        let processedCount = 0;
+        let skippedCount = 0;
+
+        // Configuration
+        const CITY_SUFFIX = ", Duque de Caxias, RJ, Brasil";
+
+        // Try auto-load lightly
+        window.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const res = await fetch('instituicoes.json?t=' + Date.now());
+                if (res.ok) {
+                    processData(await res.json());
+                    log("✅ Carregamento automático funcionou!");
+                } else {
+                    log("ℹ️ Carregamento automático falhou. Por favor, selecione o arquivo manualmente acima.");
+                }
+            } catch (e) {
+                log("ℹ️ Carregamento automático falhou. Por favor, selecione o arquivo manualmente acima.");
+            }
+        });
+
+        function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const json = JSON.parse(e.target.result);
+                    processData(json);
+                    log(`📂 Arquivo "${file.name}" carregado com sucesso!`);
+                } catch (err) {
+                    log("❌ Erro ao ler JSON: " + err.message, true);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function processData(data) {
+            fullData = data;
+            missingItems = [];
+            processedCount = 0;
+            successCount = 0;
+            skippedCount = 0;
+
+            let total = 0;
+            const categories = ['escolas', 'servicos_socioassistenciais', 'unidades_saude', 'secretarias'];
+
+            categories.forEach(cat => {
+                if (fullData[cat]) {
+                    total += fullData[cat].length;
+                    fullData[cat].forEach(item => {
+                        if (!item.latitude || !item.longitude) {
+                            if (isInvalidItem(item)) {
+                                skippedCount++;
+                            } else {
+                                item._category = cat;
+                                missingItems.push(item);
+                            }
+                        }
+                    });
+                }
+            });
+
+            document.getElementById('stat-total').textContent = total;
+            document.getElementById('stat-missing').textContent = missingItems.length;
+            document.getElementById('stat-skipped').textContent = skippedCount;
+            document.getElementById('status-text').textContent = `Pronto. ${missingItems.length} itens para buscar.`;
+            document.getElementById('btn-start').disabled = missingItems.length === 0;
+            document.getElementById('btn-download').disabled = false; // Allow download immediately
+        }
+
+        function isInvalidItem(item) {
+            if (!item.endereco || item.endereco === 'N/A' || item.endereco.length < 5) return true;
+            if (item.nome.startsWith('Total de')) return true;
+            if (item.nome.startsWith('Quantitativos')) return true;
+            return false;
+        }
+
+        function cleanAddress(raw) {
+            if (!raw) return null;
+            let clean = raw.split('CEP:')[0].split('Tel:')[0];
+            clean = clean.replace(/Endereço:/gi, '');
+            clean = clean.replace(/n[º°]/gi, '');
+            clean = clean.replace(/Lt\s*\d+/gi, '');
+            clean = clean.replace(/Qd\s*\d+/gi, '');
+            clean = clean.replace(/s\/n/gi, '');
+            clean = clean.replace(/\s+/g, ' ').trim();
+            if (clean.length < 3) return null;
+            return clean;
+        }
+
+        function cleanName(raw) {
+            let name = raw;
+            name = name.replace(/^EM\s/i, 'Escola Municipal ');
+            name = name.replace(/^EE\s/i, 'Escola Estadual ');
+            name = name.replace(/^CIEP\s/i, 'CIEP ');
+            name = name.replace(/CREAS/i, 'Centro de Referência Especializado de Assistência Social');
+            name = name.replace(/CRAS/i, 'Centro de Referência de Assistência Social');
+            return name;
+        }
+
+        async function fetchCoord(query) {
+            try {
+                const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=1`;
+                const res = await fetch(url);
+                const json = await res.json();
+                if (json && json.length > 0) {
+                    return { lat: parseFloat(json[0].lat), lon: parseFloat(json[0].lon) };
+                }
+            } catch (e) {
+                return null;
+            }
+            return null;
+        }
+
+        async function startGeocoding() {
+            if (!fullData || missingItems.length === 0) return;
+
+            isRunning = true;
+            document.getElementById('btn-start').disabled = true;
+            document.getElementById('btn-stop').disabled = false;
+            document.getElementById('btn-download').disabled = true; // Disable download during run
+            document.getElementById('status-text').textContent = "Buscando...";
+            document.getElementById('fileInput').disabled = true;
+
+            for (let i = 0; i < missingItems.length; i++) {
+                if (!isRunning) break;
+
+                const item = missingItems[i];
+                let found = false;
+
+                // STRATEGY 1: Clean Address
+                let addr = cleanAddress(item.endereco);
+                if (addr) {
+                    log(`[${i + 1}/${missingItems.length}] 🏠 End.: "${addr}"...`);
+                    const c1 = await fetchCoord(addr + CITY_SUFFIX);
+                    if (c1) {
+                        item.latitude = c1.lat;
+                        item.longitude = c1.lon;
+                        log(`   ✅ Sucesso!`, false);
+                        found = true;
+                    }
+                }
+
+                // STRATEGY 2: Name Search
+                if (!found) {
+                    await new Promise(r => setTimeout(r, 1100));
+                    const name = cleanName(item.nome);
+                    log(`   🔄 Nome: "${name}"...`);
+                    const c2 = await fetchCoord(name + CITY_SUFFIX);
+                    if (c2) {
+                        item.latitude = c2.lat;
+                        item.longitude = c2.lon;
+                        log(`   ✅ Sucesso!`, false);
+                        found = true;
+                    } else {
+                        log(`   ❌ Falhou.`, true);
+                    }
+                }
+
+                if (found) successCount++;
+                processedCount++;
+                updateStats();
+
+                await new Promise(r => setTimeout(r, 1100));
+            }
+
+            isRunning = false;
+            document.getElementById('btn-start').disabled = false;
+            document.getElementById('btn-stop').disabled = true;
+            document.getElementById('btn-download').disabled = false;
+            document.getElementById('fileInput').disabled = false;
+            document.getElementById('status-text').textContent = "Concluído.";
+            log("Busca concluída.");
+        }
+
+        function stopGeocoding() {
+            isRunning = false;
+            log("Parando...");
+        }
+
+        function updateStats() {
+            document.getElementById('stat-found').textContent = successCount;
+            document.getElementById('stat-missing').textContent = missingItems.length - processedCount;
+            const validTotal = missingItems.length > 0 ? missingItems.length : 1;
+            const pct = Math.round((processedCount / validTotal) * 100);
+            document.querySelector('.progress-fill').style.width = `${pct}%`;
+        }
+
+        function log(msg, isError) {
+            const div = document.createElement('div');
+            div.textContent = msg;
+            if (isError) div.style.color = '#ef4444';
+            else if (msg.includes('Sucesso') || msg.includes('funcionou')) div.style.color = '#10b981';
+
+            const container = document.getElementById('logs');
+            container.appendChild(div);
+            container.scrollTop = container.scrollHeight;
+        }
+
+        function downloadJSON() {
+            const exportData = JSON.parse(JSON.stringify(fullData));
+            Object.keys(exportData).forEach(key => {
+                if (Array.isArray(exportData[key])) {
+                    exportData[key].forEach(item => {
+                        delete item._category;
+                    });
+                }
+            });
+
+            const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'instituicoes.json';
+            a.click();
+        }
+    </script>
+</body>
+
+</html>

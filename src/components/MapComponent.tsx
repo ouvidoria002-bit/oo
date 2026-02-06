@@ -412,7 +412,21 @@ const RecenterButton = ({
         if (focusedBusId) {
             const bus = buses.find(b => b.VehicleDescription === focusedBusId);
             if (bus) {
-                map.setView([bus.Latitude, bus.Longitude], 17, { animate: true });
+                // CRITICAL FIX: Use the SAME projected position that the marker uses
+                let targetLat = bus.Latitude;
+                let targetLng = bus.Longitude;
+
+                try {
+                    const snap = getProjectedPosition(bus.Latitude, bus.Longitude, bus.LineNumber);
+                    if (snap) {
+                        targetLat = snap.point[0];
+                        targetLng = snap.point[1];
+                    }
+                } catch (e) {
+                    console.warn("Failed to get projected position for recenter", e);
+                }
+
+                map.setView([targetLat, targetLng], 17, { animate: true });
                 return;
             }
         }
@@ -487,7 +501,7 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
                 const isOffline = (now - gpsTime) > 5 * 60 * 1000;
 
                 const prevIndex = lastIndicesRef.current[bus.VehicleDescription] ?? -1;
-                const snap = getProjectedPosition(bus.Latitude, bus.Longitude, bus.LineNumber, prevIndex, 400);
+                const snap = getProjectedPosition(bus.Latitude, bus.Longitude, bus.LineNumber, prevIndex, 100);
 
                 let displayLat = bus.Latitude;
                 let displayLng = bus.Longitude;
@@ -505,6 +519,8 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
                         }
                     }
                 } else {
+                    // Debug log when snap fails
+                    console.warn(`[BusMarkers] Failed to snap bus ${bus.VehicleDescription} (${bus.LineNumber}) at [${bus.Latitude}, ${bus.Longitude}]`);
                     delete lastIndicesRef.current[bus.VehicleDescription];
                 }
 
