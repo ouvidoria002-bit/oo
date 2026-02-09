@@ -7,8 +7,8 @@
       "cep": "25215-260",
       "telefone": "21 2773-6226",
       "tipo": "Secretaria",
-      "latitude": -22.6568,
-      "longitude": -43.315
+      "latitude": -22.685153980466293,
+      "longitude": -43.28399159115388
     },
     {
       "id": "sec_2",
@@ -17,8 +17,8 @@
       "cep": "25215-260",
       "telefone": "21 2773-6263",
       "tipo": "Secretaria",
-      "latitude": -22.6568,
-      "longitude": -43.315
+      "latitude": -22.685153980466293,
+      "longitude": -43.28399159115388
     },
     {
       "id": "sec_3",
@@ -26,8 +26,8 @@
       "endereco": "Alameda Bartolomeu Gusmão, 8 - Jardim Primavera",
       "telefone": "2773-0120",
       "tipo": "Secretaria",
-      "latitude": -22.656,
-      "longitude": -43.316
+      "latitude": -22.68339165673864,
+      "longitude": -43.277496698428706
     },
     {
       "id": "sec_4",
@@ -36,8 +36,8 @@
       "cep": "25071-120",
       "telefone": "2772-3152",
       "tipo": "Secretaria",
-      "latitude": -22.7845,
-      "longitude": -43.312
+      "latitude": -22.789800974796925,
+      "longitude": -43.309027971302704
     },
     {
       "id": "sec_5",
@@ -45,8 +45,8 @@
       "endereco": "Av. Brigadeiro Lima e Silva, 1618 - 25 de Agosto",
       "telefone": "2672-6652",
       "tipo": "Secretaria",
-      "latitude": -22.791,
-      "longitude": -43.305
+      "latitude": -22.791847764538524,
+      "longitude": -43.303025071413174
     },
     {
       "id": "sec_6",
@@ -55,8 +55,8 @@
       "cep": "25215-260",
       "telefone": "2773-6326",
       "tipo": "Secretaria",
-      "latitude": -22.657,
-      "longitude": -43.314
+      "latitude": -22.68625778265733,
+      "longitude": -43.28438229960119
     },
     {
       "id": "sec_7",
@@ -64,8 +64,8 @@
       "endereco": "Avenida Jacques de Molay, s/n – Figueira",
       "telefone": "2773-6150",
       "tipo": "Secretaria",
-      "latitude": -22.75,
-      "longitude": -43.3
+      "latitude": -22.679689337510506,
+      "longitude": -43.27254459194424
     }
   ],
   "unidades_saude": [
@@ -74,12 +74,12 @@
       "numero": 1,
       "nome": "USF Mangueirinha",
       "cnes": "5922461",
-      "endereco": "Rua da  Mina s/ n   Mangueirinha – Centenário - 1º Distrito  25030-365",
+      "endereco": "Rua da  Mina s/ n   Mangueirinha – Centenário",
       "cep": "25030-365",
       "distrito": 1,
       "data_inauguracao": "N/A",
-      "latitude": null,
-      "longitude": null,
+      "latitude": -22.778501828916323,
+      "longitude": -43.3193203651666,
       "tipo": "Saúde"
     },
     {
@@ -87,12 +87,13 @@
       "numero": 2,
       "nome": "USF Manoel Barcelos (USF Parque Felicidade)",
       "cnes": "6531474",
-      "endereco": "Rua Albino Imparato, n° 675 – Parque Felicidade - 1º Distrito 25080-010",
+      "endereco": "Rua Albino Imparato, n° 675 – Parque Felicidade",
       "cep": "25080-010",
+      "telefone": null,
       "distrito": 1,
       "data_inauguracao": "N/A",
-      "latitude": null,
-      "longitude": null,
+      "latitude": -22.784083174310727,
+      "longitude": -43.29647406474632,
       "tipo": "Saúde"
     },
     {
@@ -100,12 +101,12 @@
       "numero": 3,
       "nome": "USF Maria Dalva Pereira Gomes (USF Centenário)",
       "cnes": "3488772",
-      "endereco": "Rua: João Ribeiro, s/n° - Centenário - 1º Distrito  25030-160",
+      "endereco": "Rua: João Ribeiro, s/n° - Centenário",
       "cep": "25030-160",
       "distrito": 1,
       "data_inauguracao": "N/A",
-      "latitude": null,
-      "longitude": null,
+      "latitude": -22.77289771929351,
+      "longitude": -43.31479158797159,
       "tipo": "Saúde"
     },
     {
@@ -113,12 +114,12 @@
       "numero": 4,
       "nome": "USF Carlos Roberto Zagari Koeler (USF Jardim Leal)",
       "cnes": "3466027",
-      "endereco": "Rua João Olinto Machado, s/n° - Jardim Leal - 1º Distrito 25035-520",
+      "endereco": "Rua João Olinto Machado, s/n° - Jardim Leal",
       "cep": "25035-520",
       "distrito": 1,
       "data_inauguracao": "N/A",
-      "latitude": null,
-      "longitude": null,
+      "latitude": -22.759959430632883,
+      "longitude": -43.315701144808926,
       "tipo": "Saúde"
     },
     {
@@ -126,12 +127,12 @@
       "numero": 5,
       "nome": "USF Jardim Gramacho I II III V",
       "cnes": "2283638",
-      "endereco": "Avenida Pistóia, s/nº - Jardim Gramacho - 1º Distrito 25055-052",
+      "endereco": "Avenida Pistóia, s/nº - Jardim Gramacho",
       "cep": "25055-052",
       "distrito": 1,
       "data_inauguracao": "N/A",
-      "latitude": null,
-      "longitude": null,
+      "latitude": -22.756970950171755,
+      "longitude": -43.284240612652376,
       "tipo": "Saúde"
     },
     {
@@ -139,12 +140,12 @@
       "numero": 6,
       "nome": "USF Jardim Gramacho IV",
       "cnes": "7827997",
-      "endereco": "Rua Jundiaí, s/n°  - Jardim Gramacho - 1° Distrito - CEP: 25051-070",
+      "endereco": "Rua Jundiaí, s/n°  - Jardim Gramacho",
       "cep": "25051-070",
       "distrito": 1,
       "data_inauguracao": "N/A",
-      "latitude": null,
-      "longitude": null,
+      "latitude": -22.763832318811396,
+      "longitude": -43.29206206872938,
       "tipo": "Saúde"
     },
     {
@@ -152,12 +153,12 @@
       "numero": 7,
       "nome": "USF Dois Irmãos",
       "cnes": "6444547",
-      "endereco": "Rua da Assembleia, s/n° - Parque Beira Mar - 1º Distrito 25085-305",
+      "endereco": "Rua da Assembleia, s/n° - Parque Beira Mar",
       "cep": "25085-305",
       "distrito": 1,
       "data_inauguracao": "N/A",
-      "latitude": null,
-      "longitude": null,
+      "latitude": -22.795982362433556,
+      "longitude": -43.28677101076747,
       "tipo": "Saúde"
     },
     {
@@ -165,12 +166,12 @@
       "numero": 8,
       "nome": "USF Otacílio da Silva (USF Olavo Bilac)",
       "cnes": "3466035",
-      "endereco": "Rua Aquidaban, s/n° - Olavo Bilac - 1º Distrito  25036-210",
+      "endereco": "Rua Aquidabã, s/n° - Olavo Bilac",
       "cep": "25036-210",
       "distrito": 1,
       "data_inauguracao": "N/A",
-      "latitude": null,
-      "longitude": null,
+      "latitude": -22.761378447764862,
+      "longitude": -43.32520302277043,
       "tipo": "Saúde"
     },
     {
@@ -3521,6 +3522,8 @@
   "servicos_socioassistenciais": [
     {
       "id": "social_1",
+      "cep": "",
+      "telefone": "",
       "nome": "PROTEÇÃO SOCIAL BÁSICA (PSB)",
       "endereco": "Endereço: Av. Brigadeiro Lima e Silva 1618 – 25 de agosto",
       "tipo": "Assistência",
@@ -3529,6 +3532,8 @@
     },
     {
       "id": "social_2",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Beira Mar",
       "endereco": "Endereço: Rua Francisco Alves, s/nº, Beira Mar",
       "tipo": "Assistência",
@@ -3537,6 +3542,8 @@
     },
     {
       "id": "social_3",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Gramacho",
       "endereco": "Endereço: Av. Governador Leonel de Moura Brizola - Gramacho",
       "tipo": "Assistência",
@@ -3545,6 +3552,8 @@
     },
     {
       "id": "social_4",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Jardim Gramacho",
       "endereco": "Endereço: Avenida Pistóia, s/nº (próximo ao CIEP 218)",
       "tipo": "Assistência",
@@ -3553,6 +3562,8 @@
     },
     {
       "id": "social_5",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Pilar",
       "endereco": "Endereço: Avenida Presidente Kennedy, Lt 10 – Qd 46, Pilar",
       "tipo": "Assistência",
@@ -3561,6 +3572,8 @@
     },
     {
       "id": "social_6",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Jardim Primavera",
       "endereco": "Endereço: Rua Vicente Celestino, 615, Jardim Primavera",
       "tipo": "Assistência",
@@ -3569,6 +3582,8 @@
     },
     {
       "id": "social_7",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Figueira",
       "endereco": "Endereço: Washington Luiz, s/nº, Figueira",
       "tipo": "Assistência",
@@ -3577,6 +3592,8 @@
     },
     {
       "id": "social_8",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Imbariê",
       "endereco": "Endereço: R. Goindira, 54 - Imbariê",
       "tipo": "Assistência",
@@ -3585,6 +3602,8 @@
     },
     {
       "id": "social_9",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Parada Morabi",
       "endereco": "Endereço: Av. Hélio de Oliveira - Parada Morabi",
       "tipo": "Assistência",
@@ -3593,6 +3612,8 @@
     },
     {
       "id": "social_10",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Xerém",
       "endereco": "Endereço: Avenida Nobrega Ribeiro, 15, Xerém",
       "tipo": "Assistência",
@@ -3601,6 +3622,8 @@
     },
     {
       "id": "social_11",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Centenário",
       "endereco": "Endereço: R. Manoel Vieira, s/n - Vila Centenário",
       "tipo": "Assistência",
@@ -3609,6 +3632,8 @@
     },
     {
       "id": "social_12",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Vila Maria Helena",
       "endereco": "Endereço: Rua Antenor Resende, 100, Vila Maria Helena",
       "tipo": "Assistência",
@@ -3617,6 +3642,8 @@
     },
     {
       "id": "social_13",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Maria José Carrilho Moreira",
       "endereco": "Endereço: Pinto Lira, 0, Engenho do Porto",
       "tipo": "Assistência",
@@ -3625,6 +3652,8 @@
     },
     {
       "id": "social_14",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CRAS Parada Angélica",
       "endereco": "Endereço: R. Florianinho - Parque São Jorge, Magé - RJ, 25272-430",
       "tipo": "Assistência",
@@ -3633,6 +3662,8 @@
     },
     {
       "id": "social_15",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - CADASTRO ÚNICO",
       "endereco": "Endereço: Av. Brigadeiro Lima e Silva 1618 – 25 de agosto",
       "tipo": "Assistência",
@@ -3641,6 +3672,8 @@
     },
     {
       "id": "social_16",
+      "cep": "",
+      "telefone": "",
       "nome": "CADASTRO ÚNICO - Poupa Tempo",
       "endereco": "",
       "tipo": "Assistência",
@@ -3649,6 +3682,8 @@
     },
     {
       "id": "social_17",
+      "cep": "",
+      "telefone": "",
       "nome": "CADASTRO ÚNICO - Restaurante do Povo",
       "endereco": "Endereço: R. Frei Fidélis - Centro, Duque de Caxias",
       "tipo": "Assistência",
@@ -3657,6 +3692,8 @@
     },
     {
       "id": "social_18",
+      "cep": "",
+      "telefone": "",
       "nome": "PSB - SAS",
       "endereco": "Endereço: Av. Brigadeiro Lima e Silva 1618 – 25 de agosto",
       "tipo": "Assistência",
@@ -3665,6 +3702,8 @@
     },
     {
       "id": "social_19",
+      "cep": "",
+      "telefone": "",
       "nome": "PROTEÇÃO SOCIAL ESPECIAL (PSE)",
       "endereco": "Endereço: Av. Brigadeiro Lima e Silva 1618 – 25 de agosto",
       "tipo": "Assistência",
@@ -3673,6 +3712,8 @@
     },
     {
       "id": "social_20",
+      "cep": "",
+      "telefone": "",
       "nome": "PSE - CREAS Centenário",
       "endereco": "Rua Manoel Vieira, s/n – Centenário - Tel.: 2771-2879",
       "tipo": "Assistência",
@@ -3681,6 +3722,8 @@
     },
     {
       "id": "social_21",
+      "cep": "",
+      "telefone": "",
       "nome": "PSE - CREAS FIGUEIRA",
       "endereco": "Rodovia Washington Luís, KM 109, Figueira - Tel.: 99306-9798",
       "tipo": "Assistência",
@@ -3689,6 +3732,8 @@
     },
     {
       "id": "social_22",
+      "cep": "",
+      "telefone": "",
       "nome": "PSE - CREAS VILA MARIA HELENA",
       "endereco": "Rua Antenor Resende, no 100, Vila Maria Helena. -Tel.: 21 97670-1030",
       "tipo": "Assistência",
@@ -3697,6 +3742,8 @@
     },
     {
       "id": "social_23",
+      "cep": "",
+      "telefone": "",
       "nome": "PSE - Centro de Referência Especializado para População em Situação de Rua - Centro POP",
       "endereco": "Estr. Velha do Pilar, S/N - Figueira, Duque de Caxias.",
       "tipo": "Assistência",
@@ -3705,6 +3752,8 @@
     },
     {
       "id": "social_24",
+      "cep": "",
+      "telefone": "",
       "nome": "PSE - EQUINOVIDA",
       "endereco": "Rua Marcio Santos Silva n 2846, Parque Ana Dantas -Xerém.",
       "tipo": "Assistência",

@@ -7,15 +7,17 @@ import instituicoesBackground from '../../public/prefeitura-de-caxias-rj.jpg';
 import buildingIcon from "../../public/eusoulindo.png"
 interface HomeScreenProps {
     onSelectOption: (option: 'instituicoes' | 'tarifazero') => void;
+    hideLogo?: boolean;
 }
 
-const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectOption }) => {
+const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectOption, hideLogo = false }) => {
     return (
         <div className="home-screen">
             <AppHeader
                 title="Ouvidoria Orienta"
                 subtitle="Duque de Caxias"
                 className="home-header"
+                hideLogo={hideLogo}
             />
 
             <div className="home-content">

@@ -41,6 +41,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isTutorialActive, setIsTutorialActive] = useState(false);
   const [tutorialStep, setTutorialStep] = useState(0);
+  const [splashVisible, setSplashVisible] = useState(true);
 
   // Stops Logic
   const [lineStops, setLineStops] = useState<BusStop[]>([]);
@@ -285,10 +286,17 @@ function App() {
 
   return (
     <>
-      <SplashScreen isLoading={loading} error={error} />
+      <SplashScreen
+        isLoading={loading}
+        error={error}
+        onAnimationComplete={() => setSplashVisible(false)}
+      />
 
-      {!loading && currentScreen === 'home' && (
-        <HomeScreen onSelectOption={(option) => setCurrentScreen(option)} />
+      {(!loading || splashVisible) && currentScreen === 'home' && (
+        <HomeScreen
+          onSelectOption={(option) => setCurrentScreen(option)}
+          hideLogo={splashVisible}
+        />
       )}
 
       {!loading && currentScreen === 'instituicoes' && (

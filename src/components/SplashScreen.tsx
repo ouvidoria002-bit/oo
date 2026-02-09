@@ -10,36 +10,31 @@ interface SplashScreenProps {
 
 const SplashScreen: React.FC<SplashScreenProps> = ({ isLoading, error, onAnimationComplete }) => {
     const [isAnimatingToHeader, setIsAnimatingToHeader] = useState(false);
-    const [shouldHide, setShouldHide] = useState(false);
 
     useEffect(() => {
         if (!isLoading && !error) {
-            // Start animation to header
+            // Start animation to header immediately when loading finishes
             setIsAnimatingToHeader(true);
 
-            // After animation completes, hide the splash screen
+            // After animation duration, trigger completion
             const timer = setTimeout(() => {
-                setShouldHide(true);
                 if (onAnimationComplete) {
                     onAnimationComplete();
                 }
-            }, 1000); // Match the animation duration
+            }, 1000); // 1s matches the CSS transition time
 
             return () => clearTimeout(timer);
         }
     }, [isLoading, error, onAnimationComplete]);
 
-    if (shouldHide) return null;
-
     return (
         <div className={`splash-screen ${isAnimatingToHeader ? 'animate-to-header' : ''}`}>
             <div className="splash-content">
-                {/* Logo Container with Shine Effect */}
+                {/* Logo Container */}
                 <div className={`splash-logo-container ${isAnimatingToHeader ? 'move-to-header' : ''}`}>
-                    {/* The Base Visible Logo */}
                     <img src={logo} alt="Ouvidoria Orienta - Duque de Caxias" className="splash-logo" />
 
-                    {/* The Shine Overlay (Masked to the logo shape) */}
+                    {/* Shine Effect - only visible when NOT moving */}
                     {!isAnimatingToHeader && (
                         <div
                             className="splash-logo-shine"
@@ -47,25 +42,24 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ isLoading, error, onAnimati
                                 WebkitMaskImage: `url(${logo})`,
                                 maskImage: `url(${logo})`
                             }}
-                        ></div>
+                        />
                     )}
                 </div>
 
-                {!isAnimatingToHeader && (
-                    <>
-                        {error ? (
-                            <div className="error-message">
-                                <p>{error}</p>
-                                <button onClick={() => window.location.reload()}>Tentar Novamente</button>
-                            </div>
-                        ) : (
-                            <>
-                                <div className="spinner"></div>
-                                <p className="loading-text">Carregando dados...</p>
-                            </>
-                        )}
-                    </>
-                )}
+                {/* Loading / Error Content - Fades out when animating */}
+                <div className={`splash-info ${isAnimatingToHeader ? 'fade-out' : ''}`}>
+                    {error ? (
+                        <div className="error-message">
+                            <p>{error}</p>
+                            <button onClick={() => window.location.reload()}>Tentar Novamente</button>
+                        </div>
+                    ) : (
+                        <>
+                            <div className="spinner"></div>
+                            <p className="loading-text">Carregando dados...</p>
+                        </>
+                    )}
+                </div>
             </div>
         </div>
     );

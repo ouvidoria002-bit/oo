@@ -9,6 +9,7 @@ interface AppHeaderProps {
     onMenuClick?: () => void;
     onBackClick?: () => void;
     showBackButton?: boolean;
+    hideLogo?: boolean;
     className?: string;
 }
 
@@ -18,6 +19,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
     onMenuClick,
     onBackClick,
     showBackButton = false,
+    hideLogo = false,
     className = ''
 }) => {
     return (
@@ -29,6 +31,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
                             src={logo2}
                             alt="Logo da Prefeitura de Duque de Caxias"
                             className="app-header-logo-img"
+                            style={{ opacity: hideLogo ? 0 : 1, transition: 'opacity 0.3s' }}
                         />
                     </div>
                     <div className="app-header-text">
