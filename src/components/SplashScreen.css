@@ -10,33 +10,50 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: opacity 0.5s ease-out;
+    transition: background-color 0.8s ease-out 0.2s;
+    /* Delayed fade out */
 }
 
-.splash-screen.fade-out {
-    opacity: 0;
+.splash-screen.animate-to-header {
+    background-color: transparent;
     pointer-events: none;
 }
 
 .splash-content {
-    text-align: center;
+    width: 100%;
+    height: 100%;
+    /* We don't need flex centering for the fixed logo, but good for loader */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
 }
 
+/* --- Logo Transition Logic --- */
 .splash-logo-container {
-    position: relative;
-    width: 180px;
-    /* Responsive size */
-    height: 180px;
-    margin-bottom: 2rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: clamp(140px, 35vw, 180px);
+    /* Initial Large Size */
+    height: auto;
+    z-index: 10000;
+    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+    /* Smooth ease-out */
+    will-change: top, left, width, transform;
 }
 
-/* Base Logo */
+.splash-logo-container.move-to-header {
+    top: 10px;
+    left: var(--spacing-md);
+    transform: translate(0, 0);
+    width: 40px;
+    height: 40px;
+    /* Force square aspect ratio container to match header */
+    margin: 0;
+}
+
 .splash-logo {
     width: 100%;
     height: 100%;
@@ -44,7 +61,7 @@
     display: block;
 }
 
-/* Shine Overlay */
+/* --- Shine Effect --- */
 .splash-logo-shine {
     position: absolute;
     top: 0;
@@ -52,8 +69,6 @@
     width: 100%;
     height: 100%;
     pointer-events: none;
-
-    /* The shine gradient */
     background: linear-gradient(110deg,
             transparent 30%,
             rgba(255, 255, 255, 0.5) 45%,
@@ -61,18 +76,13 @@
             rgba(255, 255, 255, 0.5) 55%,
             transparent 70%);
     background-size: 200% 100%;
-
-    /* Animation */
     animation: shine 1.5s infinite ease-in-out;
-
-    /* Masking to ensure shine only appears ON the logo */
     -webkit-mask-size: contain;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;
-    /* Image Source will be set inline in React */
 }
 
 @keyframes shine {
@@ -85,21 +95,39 @@
     }
 }
 
+/* --- Loader Info --- */
+.splash-info {
+    position: absolute;
+    bottom: clamp(10%, 15vh, 20%);
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease-out;
+    z-index: 20000;
+}
+
+.splash-info.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .spinner {
-    width: 40px;
-    height: 40px;
+    width: clamp(36px, 8vw, 40px);
+    height: clamp(36px, 8vw, 40px);
     border: 4px solid rgba(255, 255, 255, 0.3);
     border-top: 4px solid #ffffff;
     border-radius: 50%;
     animation: spin 1s linear infinite;
-    margin-top: 20px;
+    margin-bottom: var(--spacing-sm);
 }
 
 .loading-text {
     color: white;
-    margin-top: 16px;
-    font-size: 14px;
-    opacity: 0.8;
+    font-size: clamp(13px, 3.5vw, 14px);
+    opacity: 0.9;
     letter-spacing: 0.5px;
     font-weight: 500;
 }
@@ -107,7 +135,8 @@
 .error-message {
     color: #ff9999;
     text-align: center;
-    padding: 20px;
+    padding: var(--spacing-lg);
+    max-width: 90%;
 }
 
 .error-message button {
@@ -119,11 +148,6 @@
     border-radius: 20px;
     cursor: pointer;
     font-weight: bold;
-    transition: transform 0.1s;
-}
-
-.error-message button:active {
-    transform: scale(0.95);
 }
 
 @keyframes spin {
@@ -133,5 +157,37 @@
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+/* --- Responsive Adjustments for Target Position --- */
+
+/* Small mobile devices (<360px width) */
+@media (max-width: 360px) {
+    .splash-logo-container {
+        width: 120px;
+        /* Initial size adjustment */
+    }
+
+    /* Target position adjustment matching AppHeader 56px height */
+    .splash-logo-container.move-to-header {
+        top: 10px;
+        /* (56-36)/2 = 10 */
+        left: 12px;
+        /* var(--spacing-md) is 12px */
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* Landscape mobile (height < 600px) */
+@media (max-height: 600px) and (orientation: landscape) {
+    /* .splash-info margin removed as we use absolute positioning now */
+
+    /* Target position adjustment matching AppHeader 52px height */
+    .splash-logo-container.move-to-header {
+        top: 6px;
+        /* (52-40)/2 = 6 */
+        /* width remains 40px */
     }
 }

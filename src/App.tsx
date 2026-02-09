@@ -1,14 +1,18 @@
 import { useState, useEffect } from 'react';
-import { Menu } from 'lucide-react';
 import MapComponent from './components/MapComponent';
 import SearchPanel from './components/SearchPanel';
 import SplashScreen from './components/SplashScreen';
+import HomeScreen from './components/HomeScreen';
 import MenuDrawer from './components/MenuDrawer';
+import AppHeader from './components/AppHeader';
 import TutorialOverlay, { type TutorialStep } from './components/TutorialOverlay';
+import InstituicoesScreen from './components/InstituicoesScreen';
 import './index.css';
 import './App.css';
-import logo from "../public/dc-logo.png"
-import logo2 from "../public/dc-logo-cortada.png"
+import './components/Responsive.css';
+import { loadAllRoutes } from './routeMatcher';
+import { fetchStopsForLine, getClosestStop, type BusStop } from './stopsManager';
+import { calculateETA } from './etaManager';
 
 interface Bus {
   VehicleDescription: string;
@@ -19,10 +23,6 @@ interface Bus {
   OriginalLine?: string; // Added for backup
 }
 
-import { loadAllRoutes } from './routeMatcher';
-import { fetchStopsForLine, getClosestStop, type BusStop } from './stopsManager';
-import { calculateETA } from './etaManager';
-
 // Helper to check signal age
 export const getBusStatus = (gpsDate: string): 'online' | 'offline' => {
   if (!gpsDate) return 'offline';
@@ -32,6 +32,7 @@ export const getBusStatus = (gpsDate: string): 'online' | 'offline' => {
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [currentScreen, setCurrentScreen] = useState<'home' | 'instituicoes' | 'tarifazero'>('home');
   const [buses, setBuses] = useState<Bus[]>([]);
   const [selectedLine, setSelectedLine] = useState<string | null>(null);
   const [focusedBusId, setFocusedBusId] = useState<string | null>(null);
@@ -40,6 +41,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isTutorialActive, setIsTutorialActive] = useState(false);
   const [tutorialStep, setTutorialStep] = useState(0);
+  const [splashVisible, setSplashVisible] = useState(true);
 
   // Stops Logic
   const [lineStops, setLineStops] = useState<BusStop[]>([]);
@@ -47,8 +49,12 @@ function App() {
   const [flyToLocation, setFlyToLocation] = useState<[number, number] | null>(null);
   const [eta, setEta] = useState<string | null>(null);
 
+  // Institutions Data
+  const [instituicoes, setInstituicoes] = useState<any[]>([]);
+
   // Tutorial Steps Definition
   const TUTORIAL_STEPS: TutorialStep[] = [
+    // ... items remain same
     {
       targetId: 'search-input-wrapper',
       title: 'Buscar Linha',
@@ -119,6 +125,63 @@ function App() {
     }
   }
 
+  // Load Institutions
+  useEffect(() => {
+    const loadInstituicoes = async () => {
+      try {
+        const response = await fetch(`/instituicoes.json?t=${Date.now()}`);
+        const data = await response.json();
+
+        let allItems: any[] = [];
+
+        const process = (list: any[], category: string, typeDesc: string) => {
+          return list.map(item => {
+            let lat = item.latitude;
+            let lng = item.longitude;
+
+            // Try to parse coordinates from address string if numerical coords are missing
+            // Format: "-22.123, -43.123"
+            if ((!lat || !lng) && typeof item.endereco === 'string') {
+              const coordMatch = item.endereco.match(/^(-?\d+\.\d+),\s*(-?\d+\.\d+)$/);
+              if (coordMatch) {
+                lat = parseFloat(coordMatch[1]);
+                lng = parseFloat(coordMatch[2]);
+              }
+            }
+
+            // Generate short name logic (same as InstituicoesScreen, simplified)
+            let displayName = item.nome;
+            if (displayName && displayName.includes('SECRETARIA MUNICIPAL DE')) {
+              const parts = displayName.replace('SECRETARIA MUNICIPAL DE ', '').split(' ');
+              displayName = (parts.length > 3)
+                ? 'SM ' + parts.map((p: any) => p[0]).join('').toUpperCase()
+                : displayName.replace('SECRETARIA MUNICIPAL DE ', 'SM ');
+            }
+
+            return {
+              ...item,
+              latitude: lat,
+              longitude: lng,
+              category,
+              type: item.tipo || typeDesc,
+              displayName
+            };
+          });
+        };
+
+        if (data.secretarias) allItems = [...allItems, ...process(data.secretarias, 'Secretaria', 'ADM')];
+        if (data.unidades_saude) allItems = [...allItems, ...process(data.unidades_saude, 'Saúde', 'Saúde')];
+        if (data.escolas) allItems = [...allItems, ...process(data.escolas, 'Educação', 'Escola')];
+        if (data.servicos_socioassistenciais) allItems = [...allItems, ...process(data.servicos_socioassistenciais, 'Social', 'Assistência')];
+
+        setInstituicoes(allItems);
+      } catch (e) {
+        console.error("Failed to load institutions map data", e);
+      }
+    };
+    loadInstituicoes();
+  }, []);
+
   // Fetch Stops when Line changes
   useEffect(() => {
     const loadStops = async () => {
@@ -187,8 +250,6 @@ function App() {
   useEffect(() => {
     // Initial Load
     const init = async () => {
-      // Backend now handles route matching
-
       // Load Routes for Client-side Animation Snapping
       loadAllRoutes();
 
@@ -225,66 +286,33 @@ function App() {
 
   return (
     <>
-      <SplashScreen isLoading={loading} error={error} />
+      <SplashScreen
+        isLoading={loading}
+        error={error}
+        onAnimationComplete={() => setSplashVisible(false)}
+      />
 
-      {!loading && (
+      {(!loading || splashVisible) && currentScreen === 'home' && (
+        <HomeScreen
+          onSelectOption={(option) => setCurrentScreen(option)}
+          hideLogo={splashVisible}
+        />
+      )}
+
+      {!loading && currentScreen === 'instituicoes' && (
+        <InstituicoesScreen onBack={() => setCurrentScreen('home')} />
+      )}
+
+      {!loading && currentScreen === 'tarifazero' && (
         <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', width: '100vw', overflow: 'hidden' }}>
-          <header style={{
-            height: '60px',
-            backgroundColor: '#003366', // Prefeitura Blue (approx)
-            color: 'white',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            padding: '0 16px',
-            boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
-            zIndex: 2000,
-            flexShrink: 0
-          }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              {/* Logo Placeholder - You can replace specific image later */}
-              <div style={{
-                width: '40px',
-                height: '40px',
-                borderRadius: '50%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                overflow: 'hidden',
-                boxShadow: '0 2px 5px rgba(0,0,0,0.3)',
-                background: 'transparent'
-              }}>
-                {/* Scaling image to 120% to cut off any white borders from source file */}
-                <img
-                  src={logo2}
-                  alt="Logo da Prefeitura de Duque de Caxias"
-                  style={{ width: '120%', height: '120%', objectFit: 'cover' }}
-                />
-              </div>
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <span style={{ fontWeight: 700, fontSize: '16px', lineHeight: '1.2' }}>Tarifa Zero</span>
-                <span style={{ fontWeight: 400, fontSize: '11px', opacity: 0.8 }}>Duque de Caxias</span>
-              </div>
-            </div>
-
-            <button
-              style={{
-                background: 'none',
-                border: 'none',
-                color: 'white',
-                cursor: 'pointer',
-                padding: '4px',
-                display: 'flex',
-                alignItems: 'center'
-              }}
-              onClick={() => setIsMenuOpen(true)}
-            >
-              <Menu size={28} />
-            </button>
-          </header>
+          <AppHeader
+            title="Tarifa Zero"
+            subtitle="Duque de Caxias"
+            onMenuClick={() => setIsMenuOpen(true)}
+          />
 
           {/* Main Content Area */}
-          <main style={{ flex: 1, position: 'relative', width: '100%', overflow: 'hidden' }}>
+          <main className="app-main">
             <SearchPanel
               buses={buses}
               onSelectLine={handleSelectLine}
@@ -308,37 +336,19 @@ function App() {
                   setIsTutorialActive(false); // End Tutorial
                 }
               }}
+              instituicoes={instituicoes}
             />
 
             {/* Closest Stop Info Overlay - Clickable */}
             {closestStop && userLocation && selectedLine && (
               <div
                 onClick={() => handleStopClick(closestStop)}
-                style={{
-                  position: 'absolute',
-                  bottom: '120px',
-                  left: '50%',
-                  transform: 'translateX(-50%)',
-                  background: 'white',
-                  padding: '8px 16px',
-                  borderRadius: '20px',
-                  boxShadow: '0 4px 10px rgba(0,0,0,0.2)',
-                  zIndex: 1000,
-                  cursor: 'pointer',
-                  fontSize: '12px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '8px',
-                  transition: 'transform 0.1s',
-                  whiteSpace: 'nowrap'
-                }}
-                onMouseDown={(e) => e.currentTarget.style.transform = 'translateX(-50%) scale(0.95)'}
-                onMouseUp={(e) => e.currentTarget.style.transform = 'translateX(-50%) scale(1)'}
+                className="closest-stop-info"
               >
-                <span>
+                <span className="closest-stop-text">
                   🚏 Ponto mais próximo: <b>{closestStop.name}</b>
-                  {eta && <span style={{ marginLeft: '8px', color: '#10b981', fontWeight: 'bold' }}>⏱ {eta}</span>}
-                  <small style={{ color: '#3b82f6', marginLeft: '5px' }}>(Ver)</small>
+                  {eta && <span className="closest-stop-eta">⏱ {eta}</span>}
+                  <small className="closest-stop-action">(Ver)</small>
                 </span>
               </div>
             )}
@@ -352,6 +362,7 @@ function App() {
               setTutorialStep(0);
               setIsTutorialActive(true);
             }}
+            onBackToHome={() => setCurrentScreen('home')}
           />
 
           <TutorialOverlay

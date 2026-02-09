@@ -1,0 +1,652 @@
+[
+  {
+    "nome": "Lívia Kathleen Cavalcante Patriota Leite",
+    "matricula_provavel": "47842-3",
+    "confianca": 20
+  },
+  {
+    "nome": "Nikolas Brian Victor da Silva",
+    "matricula_provavel": "47811-3",
+    "confianca": 38
+  },
+  {
+    "nome": "Rildo Luiz Soares",
+    "matricula_provavel": "48412-1",
+    "confianca": 37
+  },
+  {
+    "nome": "Joana Darc Salles Ferreira",
+    "matricula_provavel": "133",
+    "confianca": 328
+  },
+  {
+    "nome": "Talita Marques Ferrari",
+    "matricula_provavel": "48483-0",
+    "confianca": 784
+  },
+  {
+    "nome": "Allan Lima dos Santos",
+    "matricula_provavel": "123.152.337-98",
+    "confianca": 921
+  },
+  {
+    "nome": "Daniele Sedano Cerqueira",
+    "matricula_provavel": "20129725781",
+    "confianca": 335
+  },
+  {
+    "nome": "Dayane Mendes dos Santos",
+    "matricula_provavel": "46784-7",
+    "confianca": 1
+  },
+  {
+    "nome": "Rosilene Pereira da Silva",
+    "matricula_provavel": "04151606777",
+    "confianca": 703
+  },
+  {
+    "nome": "Rogerio Pinheiro Jardim",
+    "matricula_provavel": "03745249712",
+    "confianca": 334
+  },
+  {
+    "nome": "Stephanie dos Santos Silva",
+    "matricula_provavel": "13141571759",
+    "confianca": 128
+  },
+  {
+    "nome": "Lúcia Helena Tinoco Pacheco Varella",
+    "matricula_provavel": "48.490-3",
+    "confianca": 112
+  },
+  {
+    "nome": "Giselle Petuba Souza",
+    "matricula_provavel": "00378",
+    "confianca": 555
+  },
+  {
+    "nome": "Felipe de Oliveira dos Santos",
+    "matricula_provavel": "484881",
+    "confianca": 28
+  },
+  {
+    "nome": "Irene Cruz de Carvalho",
+    "matricula_provavel": "0361",
+    "confianca": 198
+  },
+  {
+    "nome": "Camila Marins",
+    "matricula_provavel": "418471",
+    "confianca": 248
+  },
+  {
+    "nome": "Michele Pereira Vargas",
+    "matricula_provavel": "485187",
+    "confianca": 702
+  },
+  {
+    "nome": "Tatiene Diniz Marques Clemente",
+    "matricula_provavel": "Não possuo",
+    "confianca": 33
+  },
+  {
+    "nome": "Rafaella Marques Gomes Santos",
+    "matricula_provavel": "00169",
+    "confianca": 597
+  },
+  {
+    "nome": "Anne Beatriz da Silva Rodrigues",
+    "matricula_provavel": "484954",
+    "confianca": 650
+  },
+  {
+    "nome": "Ouvidoria Geral (adm)",
+    "matricula_provavel": "370517",
+    "confianca": 1
+  },
+  {
+    "nome": "Raphael Pereira de Mello",
+    "matricula_provavel": "12916",
+    "confianca": 536
+  },
+  {
+    "nome": "Juliana Lopes Barros",
+    "matricula_provavel": "48495-4",
+    "confianca": 5
+  },
+  {
+    "nome": "Caio Lopes Ioty Barros",
+    "matricula_provavel": "1890",
+    "confianca": 201
+  },
+  {
+    "nome": "Vinicius Gomes dos Santos",
+    "matricula_provavel": "Não possuo",
+    "confianca": 364
+  },
+  {
+    "nome": "Mayara Bravim Pinheiro",
+    "matricula_provavel": "491039",
+    "confianca": 153
+  },
+  {
+    "nome": "David Antonio de Freitas",
+    "matricula_provavel": "45.651-9",
+    "confianca": 2
+  },
+  {
+    "nome": "Nilton Júnio Ribeiro Quaresma",
+    "matricula_provavel": "370517",
+    "confianca": 4
+  },
+  {
+    "nome": "Wellington Ribeiro Coelho Filho",
+    "matricula_provavel": "48412",
+    "confianca": 3
+  },
+  {
+    "nome": "Carolina Souza Ribeiro",
+    "matricula_provavel": "502022",
+    "confianca": 2
+  },
+  {
+    "matricula": "133",
+    "nome_provavel": "Joana Darc Salles Ferreira",
+    "confianca": 328
+  },
+  {
+    "matricula": "303",
+    "nome_provavel": "Juliana Lopes Barros",
+    "confianca": 4
+  },
+  {
+    "matricula": "361",
+    "nome_provavel": "Irene Cruz de Carvalho",
+    "confianca": 1
+  },
+  {
+    "matricula": "1314",
+    "nome_provavel": "Stephanie dos Santos Silva",
+    "confianca": 3
+  },
+  {
+    "matricula": "1890",
+    "nome_provavel": "Caio Lopes Ioty Barros",
+    "confianca": 201
+  },
+  {
+    "matricula": "2012",
+    "nome_provavel": "Daniele Sedano Cerqueira",
+    "confianca": 3
+  },
+  {
+    "matricula": "12916",
+    "nome_provavel": "Raphael Pereira de Mello",
+    "confianca": 536
+  },
+  {
+    "matricula": "48412",
+    "nome_provavel": "Wellington Ribeiro Coelho Filho",
+    "confianca": 3
+  },
+  {
+    "matricula": "48518",
+    "nome_provavel": "Michele Pereira Vargas",
+    "confianca": 1
+  },
+  {
+    "matricula": "370517",
+    "nome_provavel": "Nilton Júnio Ribeiro Quaresma",
+    "confianca": 4
+  },
+  {
+    "matricula": "417184",
+    "nome_provavel": "Camila Marins",
+    "confianca": 1
+  },
+  {
+    "matricula": "418471",
+    "nome_provavel": "Camila Marins",
+    "confianca": 248
+  },
+  {
+    "matricula": "418473",
+    "nome_provavel": "Camila Marins",
+    "confianca": 2
+  },
+  {
+    "matricula": "475187",
+    "nome_provavel": "Michele Pereira Vargas",
+    "confianca": 1
+  },
+  {
+    "matricula": "478113",
+    "nome_provavel": "Nikolas Brian Victor da Silva",
+    "confianca": 2
+  },
+  {
+    "matricula": "481587",
+    "nome_provavel": "Michele Pereira Vargas",
+    "confianca": 14
+  },
+  {
+    "matricula": "484121",
+    "nome_provavel": "Rildo Luiz Soares",
+    "confianca": 2
+  },
+  {
+    "matricula": "484830",
+    "nome_provavel": "Talita Marques Ferrari",
+    "confianca": 1
+  },
+  {
+    "matricula": "484881",
+    "nome_provavel": "Felipe de Oliveira dos Santos",
+    "confianca": 28
+  },
+  {
+    "matricula": "484903",
+    "nome_provavel": "Lúcia Helena Tinoco Pacheco Varella",
+    "confianca": 9
+  },
+  {
+    "matricula": "484954",
+    "nome_provavel": "Anne Beatriz da Silva Rodrigues",
+    "confianca": 650
+  },
+  {
+    "matricula": "485178",
+    "nome_provavel": "Michele Pereira Vargas",
+    "confianca": 1
+  },
+  {
+    "matricula": "485187",
+    "nome_provavel": "Michele Pereira Vargas",
+    "confianca": 702
+  },
+  {
+    "matricula": "491039",
+    "nome_provavel": "Mayara Bravim Pinheiro",
+    "confianca": 153
+  },
+  {
+    "matricula": "491059",
+    "nome_provavel": "Mayara Bravim Pinheiro",
+    "confianca": 1
+  },
+  {
+    "matricula": "495187",
+    "nome_provavel": "Michele Pereira Vargas",
+    "confianca": 1
+  },
+  {
+    "matricula": "501379",
+    "nome_provavel": "Nikolas Brian Victor da Silva",
+    "confianca": 1
+  },
+  {
+    "matricula": "502022",
+    "nome_provavel": "Carolina Souza Ribeiro",
+    "confianca": 2
+  },
+  {
+    "matricula": "581578",
+    "nome_provavel": "Michele Pereira Vargas",
+    "confianca": 1
+  },
+  {
+    "matricula": "4184771",
+    "nome_provavel": "Camila Marins",
+    "confianca": 1
+  },
+  {
+    "matricula": "4848881",
+    "nome_provavel": "Felipe de Oliveira dos Santos",
+    "confianca": 2
+  },
+  {
+    "matricula": "4151606777",
+    "nome_provavel": "Rosilene Pereira da Silva",
+    "confianca": 1
+  },
+  {
+    "matricula": "47842-3",
+    "nome_provavel": "Lívia Kathleen Cavalcante Patriota Leite",
+    "confianca": 20
+  },
+  {
+    "matricula": "47811-3",
+    "nome_provavel": "Nikolas Brian Victor da Silva",
+    "confianca": 38
+  },
+  {
+    "matricula": "48412-1",
+    "nome_provavel": "Rildo Luiz Soares",
+    "confianca": 37
+  },
+  {
+    "matricula": "48483-0",
+    "nome_provavel": "Talita Marques Ferrari",
+    "confianca": 784
+  },
+  {
+    "matricula": "123.152.337-98",
+    "nome_provavel": "Allan Lima dos Santos",
+    "confianca": 921
+  },
+  {
+    "matricula": "46784-7",
+    "nome_provavel": "Dayane Mendes dos Santos",
+    "confianca": 1
+  },
+  {
+    "matricula": "041516067-77",
+    "nome_provavel": "Rosilene Pereira da Silva",
+    "confianca": 1
+  },
+  {
+    "matricula": "037452497-12",
+    "nome_provavel": "Rogerio Pinheiro Jardim",
+    "confianca": 3
+  },
+  {
+    "matricula": "03745249712",
+    "nome_provavel": "Rogerio Pinheiro Jardim",
+    "confianca": 334
+  },
+  {
+    "matricula": "13141571759",
+    "nome_provavel": "Stephanie dos Santos Silva",
+    "confianca": 128
+  },
+  {
+    "matricula": "00378",
+    "nome_provavel": "Giselle Petuba Souza",
+    "confianca": 555
+  },
+  {
+    "matricula": "0361",
+    "nome_provavel": "Irene Cruz de Carvalho",
+    "confianca": 198
+  },
+  {
+    "matricula": "04151606777",
+    "nome_provavel": "Rosilene Pereira da Silva",
+    "confianca": 703
+  },
+  {
+    "matricula": "não possuo",
+    "nome_provavel": "Tatiene Diniz Marques Clemente",
+    "confianca": 11
+  },
+  {
+    "matricula": "48.490-3",
+    "nome_provavel": "Lúcia Helena Tinoco Pacheco Varella",
+    "confianca": 112
+  },
+  {
+    "matricula": "000169",
+    "nome_provavel": "Rafaella Marques Gomes Santos",
+    "confianca": 25
+  },
+  {
+    "matricula": "20129725781",
+    "nome_provavel": "Daniele Sedano Cerqueira",
+    "confianca": 335
+  },
+  {
+    "matricula": "48.490.3",
+    "nome_provavel": "Lúcia Helena Tinoco Pacheco Varella",
+    "confianca": 94
+  },
+  {
+    "matricula": "037.452.497-12",
+    "nome_provavel": "Rogerio Pinheiro Jardim",
+    "confianca": 22
+  },
+  {
+    "matricula": "48495-4",
+    "nome_provavel": "Anne Beatriz da Silva Rodrigues",
+    "confianca": 39
+  },
+  {
+    "matricula": "0991",
+    "nome_provavel": "Raphael Pereira de Mello",
+    "confianca": 24
+  },
+  {
+    "matricula": "48.518-7",
+    "nome_provavel": "Michele Pereira Vargas",
+    "confianca": 1
+  },
+  {
+    "matricula": "48518-7",
+    "nome_provavel": "Michele Pereira Vargas",
+    "confianca": 5
+  },
+  {
+    "matricula": "Não possuo",
+    "nome_provavel": "Vinicius Gomes dos Santos",
+    "confianca": 364
+  },
+  {
+    "matricula": "Não Possuo",
+    "nome_provavel": "Vinicius Gomes dos Santos",
+    "confianca": 47
+  },
+  {
+    "matricula": "00377",
+    "nome_provavel": "Giselle Petuba Souza",
+    "confianca": 1
+  },
+  {
+    "matricula": "0000169",
+    "nome_provavel": "Rafaella Marques Gomes Santos",
+    "confianca": 3
+  },
+  {
+    "matricula": "48.490/3",
+    "nome_provavel": "Anne Beatriz da Silva Rodrigues",
+    "confianca": 1
+  },
+  {
+    "matricula": "48-488-1",
+    "nome_provavel": "Felipe de Oliveira dos Santos",
+    "confianca": 1
+  },
+  {
+    "matricula": "NÃO POSSUO",
+    "nome_provavel": "Tatiene Diniz Marques Clemente",
+    "confianca": 1
+  },
+  {
+    "matricula": "Não possou",
+    "nome_provavel": "Tatiene Diniz Marques Clemente",
+    "confianca": 1
+  },
+  {
+    "matricula": "00169",
+    "nome_provavel": "Rafaella Marques Gomes Santos",
+    "confianca": 597
+  },
+  {
+    "matricula": "48483-0,",
+    "nome_provavel": "Talita Marques Ferrari",
+    "confianca": 1
+  },
+  {
+    "matricula": "03003",
+    "nome_provavel": "Juliana Lopes Barros",
+    "confianca": 4
+  },
+  {
+    "matricula": "000303",
+    "nome_provavel": "Juliana Lopes Barros",
+    "confianca": 1
+  },
+  {
+    "matricula": "Não possuo matricula.",
+    "nome_provavel": "Mayara Bravim Pinheiro",
+    "confianca": 1
+  },
+  {
+    "matricula": "Não possuo matrícula.",
+    "nome_provavel": "Mayara Bravim Pinheiro",
+    "confianca": 4
+  },
+  {
+    "matricula": "48.4903",
+    "nome_provavel": "Lúcia Helena Tinoco Pacheco Varella",
+    "confianca": 4
+  },
+  {
+    "matricula": "Não possuo matrícula",
+    "nome_provavel": "Mayara Bravim Pinheiro",
+    "confianca": 1
+  },
+  {
+    "matricula": "48.490.-3",
+    "nome_provavel": "Lúcia Helena Tinoco Pacheco Varella",
+    "confianca": 1
+  },
+  {
+    "matricula": "03745249212",
+    "nome_provavel": "Rogerio Pinheiro Jardim",
+    "confianca": 1
+  },
+  {
+    "matricula": "48..490-3",
+    "nome_provavel": "Lúcia Helena Tinoco Pacheco Varella",
+    "confianca": 1
+  },
+  {
+    "matricula": "48490.3",
+    "nome_provavel": "Lúcia Helena Tinoco Pacheco Varella",
+    "confianca": 62
+  },
+  {
+    "matricula": "0415160777",
+    "nome_provavel": "Rosilene Pereira da Silva",
+    "confianca": 2
+  },
+  {
+    "matricula": "48490-3",
+    "nome_provavel": "Lúcia Helena Tinoco Pacheco Varella",
+    "confianca": 1
+  },
+  {
+    "matricula": "123.152.377-98",
+    "nome_provavel": "Allan Lima dos Santos",
+    "confianca": 3
+  },
+  {
+    "matricula": "IRENE.IRENECRUZDECARVALHO.CRUZ@GMAIL.COM",
+    "nome_provavel": "Irene Cruz de Carvalho",
+    "confianca": 1
+  },
+  {
+    "matricula": "joana.salles73@hotmail.com",
+    "nome_provavel": "Joana Darc Salles Ferreira",
+    "confianca": 1
+  },
+  {
+    "matricula": "037452497412",
+    "nome_provavel": "Rogerio Pinheiro Jardim",
+    "confianca": 3
+  },
+  {
+    "matricula": "20192725781",
+    "nome_provavel": "Daniele Sedano Cerqueira",
+    "confianca": 1
+  },
+  {
+    "matricula": "Mayara Bravim Pinheiro",
+    "nome_provavel": "Mayara Bravim Pinheiro",
+    "confianca": 1
+  },
+  {
+    "matricula": "45.651-9",
+    "nome_provavel": "David Antonio de Freitas",
+    "confianca": 2
+  },
+  {
+    "matricula": "37051-7",
+    "nome_provavel": "Nilton Júnio Ribeiro Quaresma",
+    "confianca": 1
+  },
+  {
+    "matricula": "037452549712",
+    "nome_provavel": "Rogerio Pinheiro Jardim",
+    "confianca": 1
+  },
+  {
+    "matricula": "allan.santosrj27@gmail.com",
+    "nome_provavel": "Allan Lima dos Santos",
+    "confianca": 1
+  },
+  {
+    "matricula": "000378",
+    "nome_provavel": "Giselle Petuba Souza",
+    "confianca": 1
+  },
+  {
+    "matricula": "4883-0",
+    "nome_provavel": "Talita Marques Ferrari",
+    "confianca": 1
+  },
+  {
+    "matricula": "0415106777",
+    "nome_provavel": "Rosilene Pereira da Silva",
+    "confianca": 1
+  },
+  {
+    "matricula": "50.202-2",
+    "nome_provavel": "Carolina Souza Ribeiro",
+    "confianca": 1
+  },
+  {
+    "matricula": "12432665708",
+    "nome_provavel": "Carolina Souza Ribeiro",
+    "confianca": 1
+  },
+  {
+    "matricula": "rosi33bsilva@gmail.com",
+    "nome_provavel": "Rosilene Pereira da Silva",
+    "confianca": 2
+  },
+  {
+    "matricula": "0374529712",
+    "nome_provavel": "Rogerio Pinheiro Jardim",
+    "confianca": 1
+  },
+  {
+    "matricula": "0375249712",
+    "nome_provavel": "Rogerio Pinheiro Jardim",
+    "confianca": 1
+  },
+  {
+    "matricula": "50668-0",
+    "nome_provavel": "Rosilene Pereira da Silva",
+    "confianca": 74
+  },
+  {
+    "matricula": "050668-0",
+    "nome_provavel": "Rosilene Pereira da Silva",
+    "confianca": 1
+  },
+  {
+    "matricula": "carla.silva466@yahoo.com",
+    "nome_provavel": "Joana Darc Salles Ferreira",
+    "confianca": 1
+  },
+  {
+    "matricula": "51.095-5",
+    "nome_provavel": "Giselle Petuba Souza",
+    "confianca": 34
+  },
+  {
+    "matricula": "50755-5",
+    "nome_provavel": "Rafaella Marques Gomes Santos",
+    "confianca": 25
+  }
+]
