@@ -17,7 +17,7 @@ export const fetchStopsForLine = async (lineId: string): Promise<BusStop[]> => {
     // 1. Try Centralized API (Backend source of truth)
     // Proxy forwards /api to localhost:3000 where server.js reads from CBTMonitoramento/data/stops/
     try {
-        const response = await fetch(`/api/stops/${lineId}`);
+        const response = await fetch(`/cbt/api/stops/${lineId}`);
         if (response.ok) {
             const data = await response.json();
             if (Array.isArray(data)) {
@@ -47,7 +47,7 @@ export const fetchStopsForLine = async (lineId: string): Promise<BusStop[]> => {
     }
 
     try {
-        const response = await fetch(`/kml-exports/${filename}`);
+        const response = await fetch(`/cbt/kml-exports/${filename}`);
         if (!response.ok) throw new Error('Failed to fetch KML');
         const text = await response.text();
 

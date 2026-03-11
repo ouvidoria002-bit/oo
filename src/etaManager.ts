@@ -22,6 +22,7 @@ export const calculateETA = (stop: BusStop, lineId: string, buses: Bus[]): strin
     if (lastRouteIndex < 0) return null;
 
     let closestBusDist = Infinity;
+    // @ts-ignore - keeping variable for future debugging
     let bestBusId = null;
 
     // 2. Check each bus

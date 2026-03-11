@@ -40,7 +40,7 @@ const InstituicoesScreen: React.FC<InstituicoesScreenProps> = ({ onBack }) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`/instituicoes.json?t=${Date.now()}`);
+                const response = await fetch(`${import.meta.env.BASE_URL}instituicoes.json?t=${Date.now()}`);
                 const jsonData = await response.json();
                 setData(jsonData);
                 setLoading(false);

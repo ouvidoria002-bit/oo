@@ -8,9 +8,21 @@ import buildingIcon from "../../public/eusoulindo.png"
 interface HomeScreenProps {
     onSelectOption: (option: 'instituicoes' | 'tarifazero') => void;
     hideLogo?: boolean;
+    deferredPrompt?: any;
+    setDeferredPrompt?: (prompt: any) => void;
 }
 
-const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectOption, hideLogo = false }) => {
+const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectOption, hideLogo = false, deferredPrompt, setDeferredPrompt }) => {
+    const handleInstallClick = async () => {
+        if (deferredPrompt) {
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            if (outcome === 'accepted') {
+                setDeferredPrompt?.(null);
+            }
+        }
+    };
+
     return (
         <div className="home-screen">
             <AppHeader
@@ -21,8 +33,22 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectOption, hideLogo = fals
             />
 
             <div className="home-content">
-                <h1 className="home-title">Bem-vindo ao Ouvidoria Orienta</h1>
-                <p className="home-subtitle">Escolha uma opção para continuar</p>
+                <div className="welcome-section">
+                    <h1 className="home-title">Bem-vindo ao Ouvidoria Orienta</h1>
+                    <p className="home-subtitle">Escolha uma opção para continuar</p>
+                </div>
+
+                {/* Botão de Instalação Inteligente - Agora integrado ao fluxo central */}
+                {deferredPrompt && (
+                    <div className="install-container">
+                        <button
+                            onClick={handleInstallClick}
+                            className="install-button"
+                        >
+                            📲 INSTALAR APLICATIVO OFICIAL
+                        </button>
+                    </div>
+                )}
 
                 <div className="options-container">
                     {/* Informações Institucionais - Com efeito de prédio */}
@@ -73,38 +99,9 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ onSelectOption, hideLogo = fals
                         </div>
                     </button>
                 </div>
-
-                {/* Colab Download Links */}
-                <div className="colab-section">
-                    <p className="colab-text">Baixe também o app Colab para contribuir com a gestão da cidade:</p>
-                    <div className="colab-buttons">
-                        <a
-                            href="https://play.google.com/store/apps/details?id=thirtyideas.colab_android"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="colab-button google-play"
-                        >
-                            <span className="colab-icon">📱</span>
-                            <div className="colab-text-content">
-                                <span className="colab-label">Disponível no</span>
-                                <span className="colab-store">Google Play</span>
-                            </div>
-                        </a>
-                        <a
-                            href="https://apps.apple.com/br/app/colab/id609666061"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="colab-button app-store"
-                        >
-                            <span className="colab-icon">🍎</span>
-                            <div className="colab-text-content">
-                                <span className="colab-label">Disponível na</span>
-                                <span className="colab-store">App Store</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
             </div>
+
+
         </div>
     );
 };

@@ -9,9 +9,10 @@ interface SlidingMarkerProps {
     children?: React.ReactNode;
     path?: [number, number][]; // Optional path to follow
     onPositionChange?: (pos: [number, number]) => void;
+    markerRef?: React.MutableRefObject<L.Marker | null>; // Exposed for RAF live position
 }
 
-const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon, children, path, onPositionChange }) => {
+const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon, children, path, onPositionChange, markerRef }) => {
     // We keep an internal state for the "animated" position
     const [currentPos, setCurrentPos] = useState(position);
 
@@ -19,6 +20,8 @@ const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon,
     const startPosRef = useRef(position);
     const endPosRef = useRef(position);
     const pathRef = useRef<[number, number][] | null>(null);
+    // Pre-calculated distances cache — avoids recalculating per animation frame
+    const pathDistancesRef = useRef<{ segs: number[], total: number } | null>(null);
     const startTimeRef = useRef<number>(0);
     const frameRef = useRef<number>(0);
 
@@ -35,6 +38,7 @@ const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon,
             startPosRef.current = position;
             endPosRef.current = position;
             pathRef.current = null;
+            pathDistancesRef.current = null;
             if (onPositionChange) onPositionChange(position);
             return;
         }
@@ -44,11 +48,21 @@ const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon,
         endPosRef.current = position;
         startTimeRef.current = performance.now();
 
-        // If path provided, cache it for this transition
+        // If path provided, cache it and PRE-CALCULATE distances once
         if (path && path.length > 0) {
             pathRef.current = path;
+            // Pre-calculate segment distances — O(n) once, not at every frame
+            const segs: number[] = [];
+            let total = 0;
+            for (let i = 0; i < path.length - 1; i++) {
+                const d = dist(path[i], path[i + 1]);
+                segs.push(d);
+                total += d;
+            }
+            pathDistancesRef.current = { segs, total };
         } else {
             pathRef.current = null;
+            pathDistancesRef.current = null;
         }
 
         const animate = (now: number) => {
@@ -56,9 +70,9 @@ const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon,
             const progress = Math.min(elapsed / duration, 1.0);
             let newPos: [number, number];
 
-            if (pathRef.current && pathRef.current.length >= 2) {
-                // Path Animation
-                newPos = interpolateOnPath(pathRef.current, progress);
+            if (pathRef.current && pathRef.current.length >= 2 && pathDistancesRef.current) {
+                // Path Animation — uses pre-cached distances
+                newPos = interpolateOnPath(pathRef.current, pathDistancesRef.current, progress);
             } else {
                 // Linear Interpolation (Lerp)
                 const lat = startPosRef.current[0] + (endPosRef.current[0] - startPosRef.current[0]) * progress;
@@ -69,7 +83,6 @@ const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon,
             setCurrentPos(newPos);
 
             if (onPositionChange) {
-                // Limit updates to avoid flooding Leaflet? No, it's fine.
                 onPositionChange(newPos);
             }
 
@@ -86,35 +99,34 @@ const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon,
     // Note: dependency on 'path' is important if the path changes with the position update
 
     return (
-        <Marker position={currentPos} icon={icon}>
+        <Marker
+            position={currentPos}
+            icon={icon}
+            ref={(m) => { if (markerRef) markerRef.current = m; }}
+        >
             {children}
         </Marker>
     );
 };
 
 // Helper to interpolate along a multi-segment path
-function interpolateOnPath(path: [number, number][], progress: number): [number, number] {
+// distances param is pre-calculated to avoid CPU burn on each frame
+function interpolateOnPath(
+    path: [number, number][],
+    distances: { segs: number[], total: number },
+    progress: number
+): [number, number] {
     if (progress <= 0) return path[0];
     if (progress >= 1) return path[path.length - 1];
 
-    // 1. Calculate Distances
-    const distances: number[] = [];
-    let totalDist = 0;
+    const { segs, total } = distances;
+    if (total === 0) return path[path.length - 1];
 
-    for (let i = 0; i < path.length - 1; i++) {
-        const d = dist(path[i], path[i + 1]);
-        distances.push(d);
-        totalDist += d;
-    }
-
-    if (totalDist === 0) return path[path.length - 1];
-
-    // 2. Find Segment
-    const targetDist = totalDist * progress;
+    const targetDist = total * progress;
     let currentDist = 0;
 
-    for (let i = 0; i < distances.length; i++) {
-        const d = distances[i];
+    for (let i = 0; i < segs.length; i++) {
+        const d = segs[i];
         if (currentDist + d >= targetDist) {
             // In this segment
             const segProgress = (targetDist - currentDist) / d;
@@ -138,3 +150,4 @@ function dist(p1: [number, number], p2: [number, number]): number {
 }
 
 export default SlidingMarker;
+

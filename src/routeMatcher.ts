@@ -9,11 +9,23 @@ const routeCache: Record<string, any> = {};
 const rawRouteCache: Record<string, number[][]> = {};
 
 export const loadAllRoutes = async () => {
+    const KML_CACHE_VERSION = 'v1'; // bump to invalidate all caches
     const promises = Object.entries(LINE_KML_MAPPING).map(async ([lineDetail, filename]) => {
         try {
-            const response = await fetch(`/kml-exports/${filename}`);
-            if (!response.ok) return;
-            const text = await response.text();
+            // --- localStorage Cache: evita re-download a cada sessão ---
+            const cacheKey = `kml_${KML_CACHE_VERSION}_${filename}`;
+            let text: string | null = null;
+
+            const cached = localStorage.getItem(cacheKey);
+            if (cached) {
+                text = cached; // Cache hit — sem network request
+            } else {
+                const response = await fetch(`/cbt/kml-exports/${filename}`);
+                if (!response.ok) return;
+                text = await response.text();
+                try { localStorage.setItem(cacheKey, text); } catch (_) { /* storage full */ }
+            }
+            // ----------------------------------------------------------
 
             // Improved KML Parser
             const coordsList: number[][][] = [];
@@ -292,7 +304,15 @@ export const getLastIndex = (lineId: string): number => {
     return points.length - 1;
 };
 
-// Main Matcher (Legacy, used for detecting line ID if unknown)
+// Detects whether the bus is in the first half (Ida) or second half (Volta) of the KML route
+export const getRouteSense = (lineId: string, index: number): 'IDA' | 'VOLTA' | null => {
+    const points = rawRouteCache[lineId];
+    if (!points || index < 0) return null;
+
+    // Simple heuristic: first 50% is Ida, last 50% is Volta
+    return (index < points.length / 2) ? 'IDA' : 'VOLTA';
+};
+
 export const matchBusToRoute = (lat: number, lng: number): string | null => {
     // Only used for initial identification, not precise snapping.
     // We can leave this as Turk/Simple check.

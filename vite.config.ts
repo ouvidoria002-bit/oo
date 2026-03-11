@@ -1,5 +1,6 @@
 import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react-swc'
+import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
@@ -7,16 +8,67 @@ export default defineConfig(({ mode }) => {
   const baseUrl = env.VITE_BASE_URL || 'http://localhost:3004';
 
   return {
-    plugins: [react()],
+    base: '/tarifazero/',
+    plugins: [
+      react(),
+      VitePWA({
+        registerType: 'autoUpdate',
+        manifestFilename: 'manifest.json',
+        manifest: {
+          id: '/tarifazero/',
+          name: 'Ouvidoria Orienta — Tarifa Zero',
+          short_name: 'Tarifa Zero',
+          description: 'Acompanhamento em tempo real dos ônibus do Tarifa Zero de Duque de Caxias.',
+          start_url: '/tarifazero/',
+          scope: '/tarifazero/',
+          display: 'standalone',
+          orientation: 'portrait',
+          background_color: '#0b3b6e',
+          theme_color: '#0b3b6e',
+          icons: [
+            {
+              src: 'pwa-192x192.png',
+              sizes: '192x192',
+              type: 'image/png'
+            },
+            {
+              src: 'pwa-512x512.png',
+              sizes: '512x512',
+              type: 'image/png'
+            },
+            {
+              src: 'pwa-512x512.png',
+              sizes: '512x512',
+              type: 'image/png',
+              purpose: 'any maskable'
+            }
+          ]
+        },
+        workbox: {
+          globPatterns: ['**/*.{js,css,html,ico,png,svg,kml,json}'],
+          maximumFileSizeToCacheInBytes: 5000000 // Aumentado para 5MB devido aos KMLs e imagens
+        }
+      })
+    ],
     server: {
       proxy: {
-        '/api': {
+        '/cbt/api': {
           target: baseUrl,
+          rewrite: (path) => path.replace(/^\/cbt\/api/, '/api'),
           changeOrigin: true,
           secure: false,
+          // Required for SSE: disable response buffering
+          configure: (proxy) => {
+            proxy.on('proxyRes', (proxyRes) => {
+              if (proxyRes.headers['content-type']?.includes('text/event-stream')) {
+                proxyRes.headers['x-accel-buffering'] = 'no';
+              }
+            });
+          }
         },
-        '/kml-exports': {
+        '/cbt/kml-exports': {
           target: baseUrl,
+          rewrite: (path) => path.replace(/^\/cbt\/kml-exports/, '/kml-exports'),
           changeOrigin: true,
         }
       }
