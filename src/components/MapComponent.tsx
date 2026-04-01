@@ -8,7 +8,7 @@ import { LINE_KML_MAPPING, MAP_CENTER, ZOOM_LEVEL } from '../constants';
 import SingleBusMarker from './SingleBusMarker';
 import { getProjectedPosition } from '../routeMatcher';
 import type { BusStop } from '../stopsManager';
-import { Briefcase, GraduationCap, Heart, Users, Bus as BusIcon, Target, HelpCircle, Navigation } from 'lucide-react';
+import { Briefcase, GraduationCap, Heart, Users, Bus as BusIcon, HelpCircle } from 'lucide-react';
 import { renderToStaticMarkup } from 'react-dom/server';
 
 // Fix Leaflet Default Icon
@@ -33,7 +33,7 @@ interface Bus {
     Speed: number;
     Direction: number;
     GPSDate: string;
-    status?: 'NORMAL' | 'PARADO' | 'FORA_ROTA' | 'SUSPEITO' | 'SEM_SINAL';
+    status?: 'ANDANDO' | 'PARADO' | 'SEM_SINAL';
 }
 
 interface Instituicao {
@@ -148,51 +148,71 @@ const KmlLayer = ({ selectedLine, userLocation }: { selectedLine: string | null,
 const StopsLayer = ({ stops, closestStop, onStopClick }: { stops: BusStop[], closestStop?: BusStop | null, onStopClick?: (stop: BusStop) => void }) => {
     if (!stops || stops.length === 0) return null;
 
+    const closestIconSvg = renderToStaticMarkup(
+        <BusIcon size={18} color="white" strokeWidth={2.5} />
+    );
+
     return (
         <>
             {stops.map(stop => {
                 const isClosest = closestStop && closestStop.id === stop.id;
-                const iconSvg = renderToStaticMarkup(
-                    <BusIcon
-                        size={isClosest ? 18 : 14}
-                        color="white"
-                        strokeWidth={2.5}
-                    />
-                );
+
+                if (isClosest) {
+                    return (
+                        <Marker
+                            key={stop.id}
+                            position={[stop.latitude, stop.longitude]}
+                            zIndexOffset={1000}
+                            eventHandlers={{ click: () => onStopClick?.(stop) }}
+                            icon={L.divIcon({
+                                className: 'bus-stop-icon',
+                                html: `<div style="
+                                    background: #10b981;
+                                    border: 2.5px solid white;
+                                    width: 34px;
+                                    height: 34px;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+                                    cursor: pointer;
+                                ">${closestIconSvg}</div>`,
+                                iconSize: [34, 34],
+                                iconAnchor: [17, 17],
+                                popupAnchor: [0, -18]
+                            })}
+                        >
+                            <Popup>
+                                <strong>🚏 {stop.name}</strong>
+                                <div style={{ color: '#10b981', fontWeight: 'bold' }}>Ponto mais próximo de você</div>
+                            </Popup>
+                        </Marker>
+                    );
+                }
 
                 return (
                     <Marker
                         key={stop.id}
                         position={[stop.latitude, stop.longitude]}
-                        eventHandlers={{
-                            click: () => {
-                                if (onStopClick) onStopClick(stop);
-                            }
-                        }}
+                        zIndexOffset={-2000}
+                        eventHandlers={{ click: () => onStopClick?.(stop) }}
                         icon={L.divIcon({
-                            className: 'bus-stop-icon',
+                            className: 'bus-stop-dot',
                             html: `<div style="
-                                background: ${isClosest ? '#10b981' : '#64748b'}; 
-                                border: 2px solid white; 
-                                width: ${isClosest ? '32px' : '26px'}; 
-                                height: ${isClosest ? '32px' : '26px'}; 
-                                border-radius: 50%; 
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-                                cursor: pointer;
-                                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-                            ">${iconSvg}</div>`,
-                            iconSize: [32, 32],
-                            iconAnchor: [16, 16],
-                            popupAnchor: [0, -16]
+                                background: #94a3b8;
+                                width: 8px;
+                                height: 8px;
+                                border-radius: 50%;
+                                border: 1.5px solid white;
+                                box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+                            "></div>`,
+                            iconSize: [8, 8],
+                            iconAnchor: [4, 4],
+                            popupAnchor: [0, -6]
                         })}
                     >
-                        <Popup>
-                            <strong>🚏 {stop.name}</strong>
-                            {isClosest && <div style={{ color: '#10b981', fontWeight: 'bold' }}>Ponto mais próximo de você</div>}
-                        </Popup>
+                        <Popup><strong>🚏 {stop.name}</strong></Popup>
                     </Marker>
                 );
             })}
@@ -332,16 +352,15 @@ const FilterControls = ({
 const ColorLegend = () => {
     const [isOpen, setIsOpen] = useState(false);
     const items = [
-        { color: '#3b82f6', label: 'Em movimento' },
+        { color: '#3b82f6', label: 'Andando' },
         { color: '#f59e0b', label: 'Parado' },
-        { color: '#ef4444', label: 'Fora de rota' },
-        { color: '#6b7280', label: 'Sem sinal' },
-        { color: '#8b5cf6', label: 'Iniciando' },
+        { color: '#ef4444', label: 'Sem sinal' }
     ];
 
     return (
         <div className="leaflet-bottom leaflet-left" style={{ marginBottom: '90px', marginLeft: '10px', pointerEvents: 'auto', zIndex: 1000, display: 'flex', alignItems: 'flex-end', gap: '10px' }}>
             <button
+                id="color-legend-btn"
                 onClick={(e) => { e.stopPropagation(); setIsOpen(!isOpen); }}
                 style={{
                     background: 'white',
@@ -463,100 +482,44 @@ const InitialBoundsHandler = ({ selectedLine, buses, userLocation }: { selectedL
     return null;
 }
 
-const FleetToggleButton: React.FC<{
-    buses: any[],
-    selectedLine: string | null,
-    focusedBusId: string | null,
-    showAllBuses: boolean,
-    setShowAllBuses: (val: boolean) => void
-}> = ({ buses, selectedLine, focusedBusId, showAllBuses, setShowAllBuses }) => {
-    const map = useMap();
-
-    // Hide global fleet button if a specific line/bus is focused, to keep UI clean
-    if (selectedLine || focusedBusId) return null;
-
-    const handleAction = () => {
-        const newShowAll = !showAllBuses;
-        setShowAllBuses(newShowAll);
-
-        if (newShowAll && buses.length > 0) {
-            const points: L.LatLngExpression[] = buses.map(b => [b.Latitude, b.Longitude]);
-            const bounds = L.latLngBounds(points);
-            map.fitBounds(bounds, { padding: [50, 50], maxZoom: 15, animate: true });
-        } else if (!newShowAll) {
-            map.setView(MAP_CENTER, ZOOM_LEVEL);
-        }
-    };
-
-    return (
-        <div style={{ position: 'absolute', top: '15px', left: '14px', zIndex: 1000, display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'flex-start', pointerEvents: 'auto' }}>
-            <button
-                id="recenter-btn"
-                onClick={handleAction}
-                style={{
-                    background: showAllBuses ? '#3b82f6' : 'rgba(255, 255, 255, 0.98)',
-                    backdropFilter: 'blur(8px)',
-                    border: 'none',
-                    borderRadius: '12px',
-                    padding: '12px 18px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '10px',
-                    boxShadow: '0 8px 20px rgba(0,0,0,0.2)',
-                    cursor: 'pointer',
-                    transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-                    color: showAllBuses ? 'white' : '#1e293b',
-                    fontWeight: '700',
-                    fontSize: '14px'
-                }}
-            >
-                <Target size={18} color={showAllBuses ? 'white' : '#3b82f6'} />
-                {showAllBuses ? 'Ocultar Frota' : 'Ver Toda a Frota'}
-            </button>
-        </div>
-    );
-};
 
 const CenterLocationButton = ({ isFollowing, onRecenter, hasFocusTarget }: { isFollowing: boolean, onRecenter: () => void, hasFocusTarget: boolean }) => {
     if (isFollowing || !hasFocusTarget) return null;
 
     return (
-        <div style={{
-            position: 'absolute',
-            bottom: 'max(env(safe-area-inset-bottom, 20px), 25px)', // Use safe-area for home bar
-            left: '50%',
-            transform: 'translateX(-50%)',
-            zIndex: 1000,
-            pointerEvents: 'auto',
-            transition: 'opacity 0.2s',
-        }}>
-            <button
-                onClick={(e) => {
-                    e.stopPropagation();
-                    onRecenter();
-                }}
-                style={{
-                    background: 'white',
-                    color: '#3b82f6',
-                    border: 'none',
-                    borderRadius: '24px',
-                    padding: '10px 20px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '8px',
-                    boxShadow: '0 4px 15px rgba(0,0,0,0.2)',
-                    cursor: 'pointer',
-                    fontWeight: '700',
-                    fontSize: '14px',
-                    transition: 'transform 0.2s',
-                    textTransform: 'uppercase',
-                    letterSpacing: '0.3px'
-                }}
-            >
-                <Navigation size={18} fill="currentColor" style={{ transform: 'rotate(45deg)', marginBottom: '2px' }} />
-                Recentralizar
-            </button>
-        </div>
+        <button
+            id="recenter-btn"
+            onClick={(e) => {
+                e.stopPropagation();
+                onRecenter();
+            }}
+            style={{
+                position: 'fixed',
+                bottom: '24px',
+                left: '50%',
+                transform: 'translateX(-50%)',
+                zIndex: 9999,
+                background: 'linear-gradient(135deg, #3b82f6 0%, #2563eb 100%)',
+                color: 'white',
+                border: 'none',
+                borderRadius: '8px',
+                padding: '14px 28px',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                whiteSpace: 'nowrap',
+                boxShadow: '0 4px 15px rgba(37,99,235,0.4), 0 2px 4px rgba(0,0,0,0.1)',
+                cursor: 'pointer',
+                fontWeight: 700,
+                fontSize: '14px',
+                letterSpacing: '0.5px',
+            }}
+        >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: 0 }}>
+                <path d="M3 11.5L21.5 2L12.5 20.5L10.5 12.5L3 11.5Z"/>
+            </svg>
+            <span>Recentralizar</span>
+        </button>
     );
 };
 
@@ -605,8 +568,6 @@ const MapComponent: React.FC<MapComponentProps> = ({
 }) => {
     const [isFollowing, setIsFollowing] = useState(false);
     const [visibleCategories, setVisibleCategories] = useState<string[]>([]); // Default all hidden
-    const [showAllBuses, setShowAllBuses] = useState(false);
-
     const toggleFilter = (cat: string) => {
         setVisibleCategories(prev =>
             prev.includes(cat) ? prev.filter(c => c !== cat) : [...prev, cat]
@@ -621,25 +582,12 @@ const MapComponent: React.FC<MapComponentProps> = ({
         }
     }, [focusedBusId]);
 
-    // Quando o usuário seleciona uma linha, desativa o "Ver Tudo" para focar na linha
-    useEffect(() => {
-        if (selectedLine) {
-            setShowAllBuses(false);
-        }
-    }, [selectedLine]);
-
     const visibleBuses = useMemo(() => {
         if (selectedLine) {
             return buses.filter(b => b.LineNumber === selectedLine);
         }
-
-        // Se "Ver Tudo" estiver ativado, mostra todos. Senão, inicia VAZIO.
-        if (showAllBuses) {
-            return buses;
-        }
-
         return [];
-    }, [buses, selectedLine, showAllBuses]);
+    }, [buses, selectedLine]);
 
     const userIcon = L.divIcon({
         className: 'user-icon',
@@ -649,7 +597,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
     });
 
     return (
-        <div id="map-container" style={{ height: "100%", width: "100%" }}>
+        <div id="map-container" style={{ height: "100%", width: "100%", position: 'relative' }}>
             <MapContainer center={MAP_CENTER} zoom={ZOOM_LEVEL} scrollWheelZoom={true} zoomControl={false} style={{ height: "100%", width: "100%" }}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.carto.com/">CARTO</a>'
@@ -671,33 +619,6 @@ const MapComponent: React.FC<MapComponentProps> = ({
                 <InitialBoundsHandler buses={visibleBuses} userLocation={userLocation} selectedLine={selectedLine} />
                 <InitialFocusHandler focusedBusId={focusedBusId} buses={visibleBuses} isFollowing={isFollowing} />
 
-                <FleetToggleButton
-                    buses={buses}
-                    selectedLine={selectedLine}
-                    focusedBusId={focusedBusId}
-                    showAllBuses={showAllBuses}
-                    setShowAllBuses={setShowAllBuses}
-                />
-
-                <CenterLocationButton
-                    isFollowing={isFollowing}
-                    hasFocusTarget={!!selectedLine || !!focusedBusId}
-                    onRecenter={() => {
-                        setIsFollowing(true);
-                        if (onRecenter) onRecenter();
-
-                        // Force recenter if a line is selected but no specific bus
-                        if (selectedLine && !focusedBusId) {
-                            const mapBoundsPoints: L.LatLngExpression[] = [];
-                            if (userLocation) mapBoundsPoints.push(userLocation);
-                            visibleBuses.forEach(b => mapBoundsPoints.push([b.Latitude, b.Longitude]));
-                            if (mapBoundsPoints.length > 0) {
-                                // Default bounding
-                            }
-                        }
-                    }}
-                />
-
                 {userLocation && (
                     <Marker position={userLocation} icon={userIcon}>
                         <Popup>Você está aqui</Popup>
@@ -711,6 +632,15 @@ const MapComponent: React.FC<MapComponentProps> = ({
                 <FilterControls activeFilters={visibleCategories} toggleFilter={toggleFilter} />
 
             </MapContainer>
+
+            <CenterLocationButton
+                isFollowing={isFollowing}
+                hasFocusTarget={!!selectedLine || !!focusedBusId}
+                onRecenter={() => {
+                    setIsFollowing(true);
+                    if (onRecenter) onRecenter();
+                }}
+            />
         </div>
     );
 };

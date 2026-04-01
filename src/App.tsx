@@ -23,7 +23,7 @@ interface Bus {
   Direction: number;    // graus — dead reckoning
   GPSDate: string;
   OriginalLine?: string;
-  status?: 'NORMAL' | 'PARADO' | 'FORA_ROTA' | 'SUSPEITO' | 'SEM_SINAL'; // Smart Status
+  status?: 'ANDANDO' | 'PARADO' | 'SEM_SINAL'; // Smart Status
   v?: number;           // versão incremental para detectar pacotes fora de ordem
 }
 
@@ -75,7 +75,6 @@ function App() {
 
   // Tutorial Steps Definition
   const TUTORIAL_STEPS: TutorialStep[] = [
-    // ... items remain same
     {
       targetId: 'search-input-wrapper',
       title: 'Buscar Linha',
@@ -86,22 +85,33 @@ function App() {
     {
       targetId: 'search-panel-container',
       title: 'Selecionar Ônibus',
-      description: 'Digite o nome da linha e selecione o ônibus desejado na lista.',
+      description: 'Digite o nome da linha, toque nela para ver os ônibus ativos e clique em "Acompanhar" para seguir um ônibus específico.',
       position: 'bottom',
       disableNext: true // Force user selection
     },
     {
       targetId: 'map-container',
       title: 'Explorar o Mapa',
-      description: 'Você pode arrastar o mapa para os lados e usar pinça para dar zoom.',
+      description: 'Arraste o mapa para explorar e use dois dedos para dar zoom. O ônibus selecionado é acompanhado automaticamente.',
       position: 'top-left'
     },
     {
+      targetId: 'color-legend-btn',
+      title: 'Legenda de Cores',
+      description: 'Toque neste ícone para ver o significado das cores dos ônibus: 🔵 Andando, 🟡 Parado, 🔴 Sem sinal de GPS.',
+      position: 'top'
+    },
+    {
+      targetId: 'stop-info-btn',
+      title: 'Ponto Mais Próximo e Estimativa',
+      description: 'Este botão mostra o ponto de ônibus mais próximo de você e, quando um ônibus está selecionado, exibe a estimativa de chegada (⏱).',
+      position: 'top'
+    },
+    {
       targetId: 'recenter-btn',
-      title: 'Centralizar',
-      description: 'Se você perdeu o ônibus de vista, clique aqui para voltar a focar nele automaticamente.',
-      position: 'top',
-      disableNext: true
+      title: 'Recentralizar no Ônibus',
+      description: 'Se você arrastou o mapa para explorar e perdeu o ônibus de vista, este botão aparece na parte inferior — clique para voltar a seguir o ônibus.',
+      position: 'top'
     }
   ];
 
@@ -227,13 +237,16 @@ function App() {
 
   // Separate effect fo ETA to run when buses update too
   useEffect(() => {
-    if (closestStop && selectedLine && buses.length > 0) {
-      const time = calculateETA(closestStop, selectedLine, buses);
-      setEta(time);
+    // ETA só é calculado quando um ônibus está selecionado (focusedBusId definido)
+    if (closestStop && selectedLine && buses.length > 0 && focusedBusId) {
+      const time = calculateETA(closestStop, selectedLine, buses, focusedBusId);
+      // Se o cálculo falhou (ponto fora da rota, snap ruim, etc.), mostra "Calculando..."
+      // para nunca deixar o usuário sem feedback quando tem ônibus selecionado
+      setEta(time ?? 'Calculando...');
     } else {
       setEta(null);
     }
-  }, [closestStop, buses, selectedLine]);
+  }, [closestStop, buses, selectedLine, focusedBusId]);
 
   const fetchPositions = async () => {
     try {
@@ -241,7 +254,7 @@ function App() {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 5000);
 
-      const response = await fetch(`/cbt/api/fast-positions?_=${Date.now()}`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/fast-positions?_=${Date.now()}`, {
         signal: controller.signal,
         headers: {
           'Cache-Control': 'no-cache',
@@ -268,39 +281,28 @@ function App() {
   };
 
   const getUserLocation = () => {
-    // Plano B: Geolocalização silenciosa por IP (Fragilidade 5)
-    const fallbackLocation = async () => {
-      try {
-        const resp = await fetch('https://ipapi.co/json/');
-        const dados = await resp.json();
-        if (dados.latitude && dados.longitude) {
-          setUserLocation([dados.latitude, dados.longitude]);
-          console.log('Geolocalização via IP aplicada com sucesso.');
-        } else {
-          // Fallback C (Extremo): Centro de Duque de Caxias
-          setUserLocation([-22.7853, -43.3039]);
-        }
-      } catch (err) {
-        console.warn('Falha no fallback de localização, usando Caxias padrão.', err);
-        setUserLocation([-22.7853, -43.3039]);
-      }
-    };
-
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (position) => {
           setUserLocation([position.coords.latitude, position.coords.longitude]);
         },
         (error) => {
-          console.warn("Geolocalização nativa falhou, acionando Fallback IP:", error);
-          fallbackLocation();
+          console.warn("Geolocalização nativa falhou ou foi negada pelo usuário:", error);
+          if (error.code === 1) { // PERMISSION_DENIED
+            if (window.location.protocol !== 'https:' && window.location.hostname !== 'localhost') {
+              alert("Aviso: Como você não está acessando via 'https' seguro, o navegador impediu automaticamente de usar o GPS. As utilidades de localização não funcionarão nesse link!");
+            } else {
+              alert("Localização não permitida! As estimativas de tempo e sua posição não vão aparecer no mapa.");
+            }
+          } else {
+            alert("Não foi possível carregar a sua localização no momento.");
+          }
         },
-        // Circuit Breaker do mapa: não deixa a busca presa na tela para sempre
         { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 }
       );
     } else {
-      // Browser sem suporte a GPS
-      fallbackLocation();
+      console.warn("Browser sem suporte a GPS");
+      alert("Aviso: O seu navegador não suporta geolocalização.");
     }
   };
 
@@ -314,9 +316,6 @@ function App() {
       const minTimePromise = new Promise(resolve => setTimeout(resolve, 2000));
 
       const success = await fetchPositions();
-
-      // Request Location in parallel
-      getUserLocation();
 
       await minTimePromise;
 
@@ -342,18 +341,25 @@ function App() {
 
     const connectSSE = () => {
       if (destroyed) return;
-      es = new EventSource('/cbt/api/events');
+      es = new EventSource(`${import.meta.env.VITE_API_URL}/events`);
+
+      // Polling começa imediatamente como backup — para apenas quando SSE provar que está entregando dados.
+      // Isso resolve o caso do Cloudflare tunnel que mantém a conexão SSE "aberta" mas bufferiza os eventos.
+      if (!fallbackTimer) {
+        fallbackTimer = setInterval(fetchPositions, 4000);
+      }
 
       es.onopen = () => {
-        // Clear fallback polling when SSE reconnects
-        if (fallbackTimer) {
-          clearInterval(fallbackTimer);
-          fallbackTimer = null;
-          console.log('[SSE] Reconnected — stopped fallback polling');
-        }
+        console.log('[SSE] Connected — polling running until first message confirms delivery');
       };
 
       es.onmessage = (event) => {
+        // SSE está realmente entregando dados — para o polling
+        if (fallbackTimer) {
+          clearInterval(fallbackTimer);
+          fallbackTimer = null;
+          console.log('[SSE] Receiving data — stopped fallback polling');
+        }
         try {
           const msg = JSON.parse(event.data);
 
@@ -395,9 +401,9 @@ function App() {
 
       es.onerror = () => {
         es?.close();
-        // Start fallback polling so map doesn't freeze
+        // Garante que polling continua rodando (pode já estar ativo)
         if (!fallbackTimer) {
-          console.warn('[SSE] Connection lost, starting fallback polling...');
+          console.warn('[SSE] Connection lost — polling already running or restarting');
           fallbackTimer = setInterval(fetchPositions, 4000);
         }
         // Schedule reconnect in 5 seconds
@@ -421,6 +427,12 @@ function App() {
     };
   }, [loading, error]);
 
+  // REMOVIDO: useEffect que tentava pedir GPS indiretamente
+
+  // Status do ônibus acompanhado — para mostrar aviso quando está parado/aguardando
+  const focusedBus = focusedBusId ? buses.find(b => b.VehicleDescription === focusedBusId) ?? null : null;
+  const focusedBusIsWaiting = focusedBus?.status === 'PARADO';
+
   return (
     <>
       <SplashScreen
@@ -431,7 +443,13 @@ function App() {
 
       {(!loading || splashVisible) && currentScreen === 'home' && (
         <HomeScreen
-          onSelectOption={(option) => setCurrentScreen(option)}
+          onSelectOption={(option) => {
+            // Pedir GPS ativamente no clique exato do usuário, garante o popup no Android/iOS
+            if (option === 'tarifazero' && !userLocation) {
+              getUserLocation();
+            }
+            setCurrentScreen(option);
+          }}
           hideLogo={splashVisible}
           deferredPrompt={deferredPrompt}
           setDeferredPrompt={setDeferredPrompt}
@@ -471,8 +489,8 @@ function App() {
               flyToLocation={flyToLocation}
               onStopClick={handleStopClick}
               onRecenter={() => {
-                if (isTutorialActive && tutorialStep === 3) {
-                  setIsTutorialActive(false); // End Tutorial
+                if (isTutorialActive && tutorialStep === TUTORIAL_STEPS.length - 1) {
+                  setIsTutorialActive(false); // Conclui tutorial ao clicar recentralizar no último passo
                 }
               }}
               instituicoes={instituicoes}
@@ -516,6 +534,7 @@ function App() {
                 pointerEvents: 'auto'
               }}>
                 <button
+                  id="stop-info-btn"
                   onClick={(e) => { e.stopPropagation(); setIsStopInfoOpen(!isStopInfoOpen); }}
                   style={{
                     background: 'white',
@@ -559,7 +578,14 @@ function App() {
                   >
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '8px' }}>
                       <span style={{ fontSize: '10px', fontWeight: 800, color: '#64748b', textTransform: 'uppercase' }}>Ponto Mais Próximo</span>
-                      {eta && <span style={{ color: '#10b981', fontWeight: 'bold' }}>⏱ {eta}</span>}
+                      {eta && (
+                        <span
+                          style={{ color: focusedBusIsWaiting ? '#94a3b8' : eta.startsWith('↺') ? '#f59e0b' : '#10b981', fontWeight: 'bold' }}
+                          title={focusedBusIsWaiting ? 'Ônibus parado/aguardando — ETA ao retomar' : eta.startsWith('↺') ? 'O ônibus já passou seu ponto e está retornando pela rota' : 'O ônibus está se aproximando'}
+                        >
+                          {focusedBusIsWaiting ? '⏸' : '⏱'} {eta}
+                        </span>
+                      )}
                     </div>
                     <b style={{ textOverflow: 'ellipsis', overflow: 'hidden' }}>{closestStop.name}</b>
                     <small style={{ color: '#3b82f6', marginTop: '2px', fontWeight: 'bold' }}>Tocar para focar (Ver)</small>

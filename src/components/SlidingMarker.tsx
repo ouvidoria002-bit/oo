@@ -10,9 +10,10 @@ interface SlidingMarkerProps {
     path?: [number, number][]; // Optional path to follow
     onPositionChange?: (pos: [number, number]) => void;
     markerRef?: React.MutableRefObject<L.Marker | null>; // Exposed for RAF live position
+    zIndexOffset?: number;
 }
 
-const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon, children, path, onPositionChange, markerRef }) => {
+const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon, children, path, onPositionChange, markerRef, zIndexOffset }) => {
     // We keep an internal state for the "animated" position
     const [currentPos, setCurrentPos] = useState(position);
 
@@ -102,6 +103,7 @@ const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon,
         <Marker
             position={currentPos}
             icon={icon}
+            zIndexOffset={zIndexOffset ?? 0}
             ref={(m) => { if (markerRef) markerRef.current = m; }}
         >
             {children}

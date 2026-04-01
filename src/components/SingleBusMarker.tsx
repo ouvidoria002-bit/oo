@@ -12,7 +12,7 @@ interface Bus {
     Speed: number;
     Direction: number;
     GPSDate: string;
-    status?: 'NORMAL' | 'PARADO' | 'FORA_ROTA' | 'SUSPEITO' | 'SEM_SINAL';
+    status?: 'ANDANDO' | 'PARADO' | 'SEM_SINAL';
 }
 
 interface SingleBusMarkerProps {
@@ -23,20 +23,19 @@ interface SingleBusMarkerProps {
 }
 
 const STATUS_COLORS: Record<string, string> = {
-    NORMAL: '#3b82f6', PARADO: '#f59e0b',
-    FORA_ROTA: '#ef4444', SUSPEITO: '#f97316', SEM_SINAL: '#6b7280',
+    ANDANDO: '#3b82f6', PARADO: '#f59e0b',
+    SEM_SINAL: '#ef4444'
 };
 
 const STATUS_LABELS: Record<string, string> = {
-    PARADO: '🟡 Parado', FORA_ROTA: '🔴 Fora da rota',
-    SUSPEITO: '🟠 Vel. suspeita', SEM_SINAL: '⚠️ Sem sinal', NORMAL: ''
+    PARADO: '🟡 Parado', SEM_SINAL: '🔴 Sem sinal', ANDANDO: '🔵 Andando'
 };
 
 // Create SVG Icon 
 function getBusIcon(bus: Bus, isFocused: boolean): L.DivIcon {
     const isMoving = bus.Speed > 5;
-    const baseColor = STATUS_COLORS[bus.status || 'NORMAL'] || '#3b82f6';
-    const color = (bus.Speed === 0 && bus.status === 'NORMAL') ? '#8b5cf6' : baseColor;
+    const baseColor = STATUS_COLORS[bus.status || 'ANDANDO'] || '#3b82f6';
+    const color = baseColor;
 
     // Core neon glow logic
     const glowSpec = isFocused
@@ -179,6 +178,7 @@ const SingleBusMarker: React.FC<SingleBusMarkerProps> = ({ bus, isFocused, isFol
             duration={1800}
             icon={getBusIcon(bus, isFocused)}
             markerRef={markerRef}
+            zIndexOffset={isFocused ? 2000 : 500}
         >
             <Popup className="bus-popup">
                 <div className="p-1 min-w-[200px]">
@@ -213,7 +213,7 @@ const SingleBusMarker: React.FC<SingleBusMarkerProps> = ({ bus, isFocused, isFol
                             </span>
                         </div>
 
-                        {(bus.status && bus.status !== 'NORMAL') && (
+                        {(bus.status && bus.status !== 'ANDANDO') && (
                             <div className="mt-2 text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1.5 rounded border border-orange-100 flex items-center gap-1.5">
                                 {STATUS_LABELS[bus.status]}
                             </div>

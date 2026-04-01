@@ -6,7 +6,7 @@ import * as turf from '@turf/turf';
 const routeCache: Record<string, any> = {};
 
 // Cache for Raw Coordinates (for animation snapping)
-const rawRouteCache: Record<string, number[][]> = {};
+export const rawRouteCache: Record<string, number[][]> = {};
 
 export const loadAllRoutes = async () => {
     const KML_CACHE_VERSION = 'v1'; // bump to invalidate all caches
@@ -238,6 +238,39 @@ export const getProjectedPosition = (lat: number, lng: number, lineId: string, l
     return best;
 };
 
+// Nova função para retornar TODOS os snaps possíveis (para pontos de ônibus que a rota passa 2x)
+export const getAllProjectedPositions = (lat: number, lng: number, lineId: string, maxDist: number = 80): SnapResult[] => {
+    const points = rawRouteCache[lineId];
+    if (!points || points.length < 2) return [];
+
+    const latlng: [number, number] = [lat, lng];
+    const results: SnapResult[] = [];
+
+    for (let i = 0; i < points.length - 1; i++) {
+        const p1 = points[i];
+        const p2 = points[i + 1];
+        if (!p1 || !p2) continue;
+
+        const info = getClosestPointOnSegment(latlng, [p1[0], p1[1]], [p2[0], p2[1]]);
+        const dist = getDistanceMeters(latlng, info.point);
+
+        if (dist < maxDist) {
+            if (results.length > 0) {
+                const last = results[results.length - 1];
+                // Se o índice for muito próximo, é parte da mesma rua na mesma passagem (ignora o pior)
+                if (i - last.index < 15) {
+                    if (dist < last.distance) {
+                        results[results.length - 1] = { point: info.point, index: i, distance: dist };
+                    }
+                    continue; // Pula a adição de um novo pass
+                }
+            }
+            results.push({ point: info.point, index: i, distance: dist });
+        }
+    }
+    return results;
+};
+
 // Returns the path segment from Start to End for smooth animation
 export const getSnappedPath = (startIdx: number, endIdx: number, lineId: string): [number, number][] | null => {
     const points = rawRouteCache[lineId];
@@ -280,20 +313,44 @@ export const getSnappedPath = (startIdx: number, endIdx: number, lineId: string)
 };
 
 
-// Calculate accumulated distance in meters along the path between two indices
-export const getRouteDistance = (startIdx: number, endIdx: number, lineId: string): number => {
+// Substitua o getRouteDistance atual por esta versão de Alta Precisão
+export const getPreciseRouteDistance = (
+    startSnap: SnapResult,
+    endSnap: SnapResult,
+    lineId: string
+): number => {
     const points = rawRouteCache[lineId];
-    if (!points || startIdx < 0 || endIdx < 0 || startIdx >= points.length || endIdx >= points.length) return -1;
-    if (startIdx > endIdx) return -1; // Only look forward
+    if (!points || startSnap.index < 0 || endSnap.index < 0) return -1;
+    if (startSnap.index > endSnap.index) return -1;
+
+    // Caso 1: Ônibus e Ponto estão no MESMO segmento do KML (ex: mesma reta longa)
+    if (startSnap.index === endSnap.index) {
+        return getDistanceMeters(startSnap.point, endSnap.point);
+    }
 
     let totalDist = 0;
-    for (let i = startIdx; i < endIdx; i++) {
+
+    // 1. Distância do ponto exato do Ônibus até o próximo nó do KML
+    const nextNode = points[startSnap.index + 1];
+    if (nextNode) {
+        totalDist += getDistanceMeters(startSnap.point, [nextNode[0], nextNode[1]]);
+    }
+
+    // 2. Soma todos os segmentos inteiros que existem no meio do caminho
+    for (let i = startSnap.index + 1; i < endSnap.index; i++) {
         const p1 = points[i];
         const p2 = points[i + 1];
         if (p1 && p2) {
             totalDist += getDistanceMeters([p1[0], p1[1]], [p2[0], p2[1]]);
         }
     }
+
+    // 3. Distância do último nó do KML até o ponto exato da Parada
+    const prevNode = points[endSnap.index];
+    if (prevNode) {
+        totalDist += getDistanceMeters([prevNode[0], prevNode[1]], endSnap.point);
+    }
+
     return totalDist;
 };
 
@@ -302,6 +359,28 @@ export const getLastIndex = (lineId: string): number => {
     const points = rawRouteCache[lineId];
     if (!points) return -1;
     return points.length - 1;
+};
+
+// Calculate course/bearing of the route at a specific index
+export const getRouteBearing = (lineId: string, index: number): number | null => {
+    const points = rawRouteCache[lineId];
+    if (!points || index < 0 || index >= points.length - 1) return null;
+
+    const p1 = points[index];
+    const p2 = points[index + Math.min(5, points.length - 1 - index)]; // Look a bit ahead to smooth curves
+
+    if (!p1 || !p2) return null;
+
+    // Turf uses [lng, lat] while our points are [lat, lng]
+    const pt1 = turf.point([p1[1], p1[0]]);
+    const pt2 = turf.point([p2[1], p2[0]]);
+
+    // Turf bearing returns decimal degrees, between -180 and 180 degrees (positive clockwise)
+    // We convert it to 0-360 for easier comparison with GPS heading
+    let bearing = turf.bearing(pt1, pt2);
+    if (bearing < 0) bearing += 360;
+
+    return bearing;
 };
 
 // Detects whether the bus is in the first half (Ida) or second half (Volta) of the KML route

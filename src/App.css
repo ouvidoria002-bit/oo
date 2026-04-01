@@ -118,3 +118,36 @@
         padding: 12px;
     }
 }
+
+/* Leaflet Z-Index Fixes - Garantir que ônibus fiquem acima dos pontos */
+.leaflet-pane {
+    z-index: 400 !important;
+}
+
+.leaflet-marker-pane {
+    z-index: 600 !important;
+}
+
+.leaflet-popup-pane {
+    z-index: 700 !important;
+}
+
+/* Custom Bus Marker - sempre acima */
+.custom-bus-marker {
+    z-index: 650 !important;
+}
+
+/* Bus Stop Icons - sempre abaixo dos ônibus */
+.bus-stop-icon {
+    z-index: 550 !important;
+}
+
+/* Institution Markers - abaixo dos ônibus */
+.inst-marker {
+    z-index: 540 !important;
+}
+
+/* User Icon - abaixo dos ônibus mas acima de pontos */
+.user-icon {
+    z-index: 560 !important;
+}

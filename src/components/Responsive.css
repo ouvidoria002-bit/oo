@@ -146,28 +146,8 @@
 }
 
 /* Recenter button responsive */
-#recenter-btn {
-    position: absolute;
-    bottom: clamp(36px, 8vw, 40px);
-    right: clamp(12px, 3vw, 14px);
-    z-index: 1000;
-    background: white;
-    border: 2px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    width: clamp(44px, 10vw, 48px);
-    height: clamp(44px, 10vw, 48px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    font-size: clamp(18px, 5vw, 20px);
-    line-height: 1;
-    -webkit-tap-highlight-color: transparent;
-}
-
 #recenter-btn:active {
-    transform: scale(0.95);
+    opacity: 0.85;
 }
 
 /* Small mobile devices */
@@ -205,12 +185,6 @@
         padding: 6px 12px;
     }
 
-    #recenter-btn {
-        bottom: 32px;
-        right: 10px;
-        width: 40px;
-        height: 40px;
-    }
 }
 
 /* Very small screens - hide subtitle to save space */
