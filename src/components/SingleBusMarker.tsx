@@ -1,8 +1,10 @@
 import React, { useRef, useEffect } from 'react';
 import { Popup } from 'react-leaflet';
 import L from 'leaflet';
-import { getProjectedPosition, getRouteSense } from '../routeMatcher';
-import SlidingMarker from './SlidingMarker';
+
+import { calculateETA } from '../etaManager';
+import type { BusStop } from '../stopsManager';
+import { SlidingMarker } from './SlidingMarker';
 
 interface Bus {
     VehicleDescription: string;
@@ -13,6 +15,8 @@ interface Bus {
     Direction: number;
     GPSDate: string;
     status?: 'ANDANDO' | 'PARADO' | 'SEM_SINAL';
+    LicensePlate?: string;
+    EventName?: string;
 }
 
 interface SingleBusMarkerProps {
@@ -20,6 +24,8 @@ interface SingleBusMarkerProps {
     isFocused: boolean;
     isFollowing: boolean;
     map: L.Map;
+    closestStop: BusStop | null;
+    buses: Bus[];
 }
 
 const STATUS_COLORS: Record<string, string> = {
@@ -139,24 +145,14 @@ function timeSince(dateString: string) {
     return `${minutes}m`;
 }
 
-const SingleBusMarker: React.FC<SingleBusMarkerProps> = ({ bus, isFocused, isFollowing, map }) => {
+// Debug log to catch undefined components at init
+console.log('[DEBUG] Component Load:', { SlidingMarker });
+
+const SingleBusMarkerComponent: React.FC<SingleBusMarkerProps> = ({ bus, isFocused, isFollowing, map, closestStop, buses }) => {
     const markerRef = useRef<L.Marker>(null);
 
     let displayLat = bus.Latitude;
     let displayLng = bus.Longitude;
-
-    let sense: 'IDA' | 'VOLTA' | null = null;
-
-    try {
-        const snap = getProjectedPosition(bus.Latitude, bus.Longitude, bus.LineNumber);
-        if (snap) {
-            displayLat = snap.point[0];
-            displayLng = snap.point[1];
-            sense = getRouteSense(bus.LineNumber, snap.index);
-        }
-    } catch (e) {
-        // Fallback to raw GPS
-    }
 
     useEffect(() => {
         if (isFocused && isFollowing && markerRef.current) {
@@ -170,58 +166,100 @@ const SingleBusMarker: React.FC<SingleBusMarkerProps> = ({ bus, isFocused, isFol
         const d = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]), Number(parts[3]), Number(parts[4]), Number(parts[5]));
         ageMinutes = Math.floor((new Date().getTime() - d.getTime()) / 60000);
     }
-    const ageClass = ageMinutes > 5 ? 'text-red-500 font-bold' : 'text-gray-500';
+
+    // Layer 2: Persistence of last valid position to prevent flickering
+    const lastValidPos = useRef<[number, number]>([displayLat, displayLng]);
+
+    useEffect(() => {
+        if (!isNaN(displayLat) && !isNaN(displayLng)) {
+            lastValidPos.current = [displayLat, displayLng];
+        }
+    }, [displayLat, displayLng]);
+
+    // Layer 3: ETA calculation for this specific bus to the closest stop
+    const [eta, setEta] = React.useState<string | null>(null);
+    useEffect(() => {
+        if (closestStop && bus.LineNumber && buses.length > 0) {
+            const time = calculateETA(closestStop, bus.LineNumber, buses, bus.VehicleDescription);
+            setEta(time);
+        }
+    }, [closestStop, bus.LineNumber, buses, bus.VehicleDescription]);
 
     return (
         <SlidingMarker
-            position={[displayLat, displayLng]}
-            duration={1800}
+            position={lastValidPos.current}
+            duration={2100} // Sincronizado com o novo polling de 2s (2000ms) + margem de fluidez
             icon={getBusIcon(bus, isFocused)}
             markerRef={markerRef}
             zIndexOffset={isFocused ? 2000 : 500}
         >
             <Popup className="bus-popup">
-                <div className="p-1 min-w-[200px]">
-                    <div className="flex justify-between items-start mb-2 border-b border-gray-100 pb-2">
+                <div style={{ minWidth: '180px', padding: '4px' }}>
+                    {/* Header Clean */}
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
                         <div>
-                            <span className="font-bold text-xl text-gray-800 tracking-tight">
+                            <span style={{ fontSize: '24px', fontWeight: '900', color: '#1e293b', letterSpacing: '-1px' }}>
                                 {bus.VehicleDescription.replace('DC-', '').replace('DC', '')}
                             </span>
-                            <span className="block text-xs font-bold text-blue-600 bg-blue-50 w-fit px-2 py-0.5 rounded-full mt-0.5">
-                                LINHA {bus.LineNumber}
-                            </span>
+                            <div style={{ fontSize: '10px', fontWeight: '800', color: '#3b82f6', textTransform: 'uppercase', marginTop: '-4px' }}>
+                                Linha {bus.LineNumber}
+                            </div>
                         </div>
                         {bus.Speed > 0 && (
-                            <div className="bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-md shadow-sm flex items-center gap-1">
-                                {bus.Speed} km/h
+                            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '4px' }}>
+                                <div style={{ background: '#3b82f6', color: 'white', padding: '4px 8px', borderRadius: '6px', fontSize: '12px', fontWeight: '900' }}>
+                                    {bus.Speed} <span style={{ fontSize: '9px', fontWeight: 'normal' }}>km/h</span>
+                                </div>
+                                {bus.LicensePlate && (
+                                    <div style={{ 
+                                        background: 'white', 
+                                        border: '1.5px solid #000', 
+                                        borderRadius: '3px', 
+                                        padding: '1px 4px', 
+                                        fontSize: '9px', 
+                                        fontWeight: '900', 
+                                        color: '#000',
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        alignItems: 'center',
+                                        lineHeight: '1',
+                                        minWidth: '60px'
+                                    }}>
+                                        <div style={{ background: '#003399', width: '100%', height: '4px', borderRadius: '1px 1px 0 0', position: 'relative', top: '-1px' }}></div>
+                                        <span style={{ height: '8px' }}>{bus.LicensePlate}</span>
+                                    </div>
+                                )}
                             </div>
                         )}
                     </div>
 
-                    <div className="space-y-2 text-sm">
-                        <div className="flex justify-between items-center bg-gray-50 p-2 rounded-lg">
-                            <span className="text-gray-500 font-medium">Sentido</span>
-                            <span className="font-bold text-gray-700">
-                                {sense === 'IDA' ? '➡️ CIDADE' : sense === 'VOLTA' ? '⬅️ BAIRRO' : '---'}
-                            </span>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                        {/* Info Grid */}
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+                            <div style={{ background: '#f8fafc', padding: '8px', borderRadius: '8px', border: '1px solid #f1f5f9' }}>
+                                <div style={{ fontSize: '9px', color: '#64748b', fontWeight: 'bold', textTransform: 'uppercase' }}>Chega em</div>
+                                <div style={{ fontSize: '12px', fontWeight: '800', color: '#10b981' }}>
+                                    {eta || '---'}
+                                </div>
+                            </div>
+                            <div style={{ background: '#f8fafc', padding: '8px', borderRadius: '8px', border: '1px solid #f1f5f9' }}>
+                                <div style={{ fontSize: '9px', color: '#64748b', fontWeight: 'bold', textTransform: 'uppercase' }}>Sinal</div>
+                                <div style={{ fontSize: '12px', fontWeight: '800', color: ageMinutes > 5 ? '#ef4444' : '#10b981' }}>
+                                    {timeSince(bus.GPSDate) === 'NaNm' ? 'Agora' : timeSince(bus.GPSDate)}
+                                </div>
+                            </div>
                         </div>
 
-                        <div className="flex justify-between items-center bg-gray-50 p-2 rounded-lg">
-                            <span className="text-gray-500 font-medium">Última conexão</span>
-                            <span className={`${ageClass} font-bold`}>
-                                {timeSince(bus.GPSDate) === 'NaNm' ? 'Agora' : timeSince(bus.GPSDate)}
-                            </span>
-                        </div>
-
+                        {/* Status Alert if needed */}
                         {(bus.status && bus.status !== 'ANDANDO') && (
-                            <div className="mt-2 text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1.5 rounded border border-orange-100 flex items-center gap-1.5">
+                            <div style={{ background: '#fff7ed', border: '1px solid #ffedd5', padding: '6px 10px', borderRadius: '6px', fontSize: '11px', color: '#c2410c', fontWeight: 'bold', textAlign: 'center' }}>
                                 {STATUS_LABELS[bus.status]}
                             </div>
                         )}
 
                         {isFocused && (
-                            <div className="mt-2 text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1.5 rounded border border-blue-100 flex items-center justify-center gap-1.5 animate-pulse">
-                                🎯 Modo Câmera Ativo
+                            <div style={{ textAlign: 'center', fontSize: '10px', color: '#94a3b8', fontWeight: '600' }}>
+                                🎯 Seguindo este veículo
                             </div>
                         )}
                     </div>
@@ -231,7 +269,7 @@ const SingleBusMarker: React.FC<SingleBusMarkerProps> = ({ bus, isFocused, isFol
     );
 };
 
-export default React.memo(SingleBusMarker, (prevProps, nextProps) => {
+export const SingleBusMarker = React.memo(SingleBusMarkerComponent, (prevProps, nextProps) => {
     // Only re-render if essential visual properties change to save massive CPU
     return (
         prevProps.bus.Latitude === nextProps.bus.Latitude &&

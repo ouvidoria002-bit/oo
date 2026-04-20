@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 // @ts-ignore
 import omnivore from 'leaflet-omnivore';
 import { LINE_KML_MAPPING, MAP_CENTER, ZOOM_LEVEL } from '../constants';
-import SingleBusMarker from './SingleBusMarker';
+import { SingleBusMarker } from './SingleBusMarker';
 import { getProjectedPosition } from '../routeMatcher';
 import type { BusStop } from '../stopsManager';
 import { Briefcase, GraduationCap, Heart, Users, Bus as BusIcon, HelpCircle } from 'lucide-react';
@@ -72,7 +72,7 @@ const KmlLayer = ({ selectedLine, userLocation }: { selectedLine: string | null,
         }
 
         if (selectedLine && LINE_KML_MAPPING[selectedLine]) {
-            const kmlUrl = `/cbt/kml-exports/${LINE_KML_MAPPING[selectedLine]}`;
+            const kmlUrl = `/kml-exports/${LINE_KML_MAPPING[selectedLine]}`;
 
             const customLayer = L.geoJSON(null, {
                 style: {
@@ -524,7 +524,7 @@ const CenterLocationButton = ({ isFollowing, onRecenter, hasFocusTarget }: { isF
 };
 
 
-const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses: Bus[], focusedBusId: string | null, isFollowing: boolean }) => {
+const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing, closestStop, allBuses }: { visibleBuses: Bus[], focusedBusId: string | null, isFollowing: boolean, closestStop: BusStop | null, allBuses: Bus[] }) => {
     const map = useMap();
 
     // Opt: Viewport Culling — track map bounds to only render visible buses
@@ -534,8 +534,8 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
         zoomend: () => setMapBounds(map.getBounds()),
     });
 
-    // Expand bounds by 20% margin so buses near edge don't pop in
-    const expandedBounds = mapBounds ? mapBounds.pad(0.2) : null;
+    // Expand bounds by 50% margin so buses near edge don't pop in/out abruptly
+    const expandedBounds = mapBounds ? mapBounds.pad(0.5) : null;
 
     // Filter to only buses in/near viewport — avoid rendering off-screen markers
     const culledBuses = expandedBounds
@@ -555,6 +555,8 @@ const BusMarkers = ({ visibleBuses, focusedBusId, isFollowing }: { visibleBuses:
                     isFocused={bus.VehicleDescription === focusedBusId}
                     isFollowing={isFollowing}
                     map={map}
+                    closestStop={closestStop}
+                    buses={allBuses}
                 />
             ))}
         </>
@@ -625,7 +627,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
                     </Marker>
                 )}
 
-                <BusMarkers visibleBuses={visibleBuses} focusedBusId={focusedBusId} isFollowing={isFollowing} />
+                <BusMarkers visibleBuses={visibleBuses} focusedBusId={focusedBusId} isFollowing={isFollowing} closestStop={closestStop || null} allBuses={buses} />
 
                 {/* Legend and Filter Controls */}
                 <ColorLegend />

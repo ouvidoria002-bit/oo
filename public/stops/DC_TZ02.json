@@ -1,0 +1,533 @@
+[
+  {
+    "PointName": "Pista Lateral BR 040 - Estrada do Aviário ",
+    "Latitude": -22.588304,
+    "Longitude": -43.278146,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pista Lateral BR 040",
+    "Latitude": -22.582807,
+    "Longitude": -43.275515,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pista Lateral BR 040 com Rua Meneguelli ",
+    "Latitude": -22.580821,
+    "Longitude": -43.274602,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário com Rua do Aviário ",
+    "Latitude": -22.57401,
+    "Longitude": -43.272761,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário próximo BR 040",
+    "Latitude": -22.574305,
+    "Longitude": -43.273464,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 77",
+    "Latitude": -22.575715,
+    "Longitude": -43.276395,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 58",
+    "Latitude": -22.580224,
+    "Longitude": -43.277434,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 45",
+    "Latitude": -22.581162,
+    "Longitude": -43.277522,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 16",
+    "Latitude": -22.58449,
+    "Longitude": -43.280739,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 12",
+    "Latitude": -22.584576,
+    "Longitude": -43.2825,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário próximo Estrada Beira Rio ",
+    "Latitude": -22.584561,
+    "Longitude": -43.284886,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Recanto das Alpinas",
+    "Latitude": -22.585834,
+    "Longitude": -43.28583,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Beira Rio - Academia Pública ",
+    "Latitude": -22.590638,
+    "Longitude": -43.287767,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Beira Rio 183",
+    "Latitude": -22.59469,
+    "Longitude": -43.29153,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Manuel Avelino de Souza - Ciferal ",
+    "Latitude": -22.597815,
+    "Longitude": -43.296459,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Manuel Avelino de Souza - Hotel Escola",
+    "Latitude": -22.597437,
+    "Longitude": -43.296793,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Manuel Avelino de Souza 2",
+    "Latitude": -22.60138,
+    "Longitude": -43.293414,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UPH XERÉM - Catita",
+    "Latitude": -22.601245,
+    "Longitude": -43.292705,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pista Lateral BR 040 - Estrada do Aviário ",
+    "Latitude": -22.588304,
+    "Longitude": -43.278146,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pista Lateral BR 040",
+    "Latitude": -22.582807,
+    "Longitude": -43.275515,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pista Lateral BR 040 com Rua Meneguelli ",
+    "Latitude": -22.580821,
+    "Longitude": -43.274602,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário com Rua do Aviário ",
+    "Latitude": -22.57401,
+    "Longitude": -43.272761,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário próximo BR 040",
+    "Latitude": -22.574305,
+    "Longitude": -43.273464,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 77",
+    "Latitude": -22.575715,
+    "Longitude": -43.276395,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 58",
+    "Latitude": -22.580224,
+    "Longitude": -43.277434,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 45",
+    "Latitude": -22.581162,
+    "Longitude": -43.277522,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 16",
+    "Latitude": -22.58449,
+    "Longitude": -43.280739,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 12",
+    "Latitude": -22.584576,
+    "Longitude": -43.2825,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário próximo Estrada Beira Rio ",
+    "Latitude": -22.584561,
+    "Longitude": -43.284886,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Recanto das Alpinas",
+    "Latitude": -22.585834,
+    "Longitude": -43.28583,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Beira Rio - Academia Pública ",
+    "Latitude": -22.590638,
+    "Longitude": -43.287767,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Beira Rio 183",
+    "Latitude": -22.59469,
+    "Longitude": -43.29153,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Manuel Avelino de Souza - Ciferal ",
+    "Latitude": -22.597815,
+    "Longitude": -43.296459,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Manuel Avelino de Souza - Hotel Escola",
+    "Latitude": -22.597437,
+    "Longitude": -43.296793,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Manuel Avelino de Souza 2",
+    "Latitude": -22.60138,
+    "Longitude": -43.293414,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UPH XERÉM - Catita",
+    "Latitude": -22.601245,
+    "Longitude": -43.292705,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(Start)",
+    "Latitude": -22.588301,
+    "Longitude": -43.278128,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(End)",
+    "Latitude": -22.601274,
+    "Longitude": -43.292688,
+    "LineNumber": "DC-TZ02",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UPH Xerém Catita ",
+    "Latitude": -22.601333,
+    "Longitude": -43.292812,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Doutor Ely Combat",
+    "Latitude": -22.600257,
+    "Longitude": -43.291532,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Jorge Ribeiro 37",
+    "Latitude": -22.599502,
+    "Longitude": -43.290864,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Paraná 126",
+    "Latitude": -22.599628,
+    "Longitude": -43.291423,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Nossa Senhora das Graças 15",
+    "Latitude": -22.599653,
+    "Longitude": -43.291894,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Manuel Avelino - Sede Fluminense ",
+    "Latitude": -22.600969,
+    "Longitude": -43.293748,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rotatória Ciferal",
+    "Latitude": -22.598032,
+    "Longitude": -43.295982,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Beira Rio 183",
+    "Latitude": -22.594617,
+    "Longitude": -43.291422,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Beira Rio - Academia Pública ",
+    "Latitude": -22.590594,
+    "Longitude": -43.28771,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Portal das Pérolas ",
+    "Latitude": -22.585523,
+    "Longitude": -43.28573,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário ",
+    "Latitude": -22.584559,
+    "Longitude": -43.28478,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 8",
+    "Latitude": -22.584576,
+    "Longitude": -43.282508,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 99",
+    "Latitude": -22.584585,
+    "Longitude": -43.280917,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 37",
+    "Latitude": -22.581443,
+    "Longitude": -43.27759,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 51",
+    "Latitude": -22.580241,
+    "Longitude": -43.277436,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário 75",
+    "Latitude": -22.575733,
+    "Longitude": -43.276421,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário próximo a BR 040",
+    "Latitude": -22.574297,
+    "Longitude": -43.273462,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Aviário com Rua  do Aviário ",
+    "Latitude": -22.573858,
+    "Longitude": -43.272842,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pista Lateral BR040 km99 - Rancho Peniel",
+    "Latitude": -22.580814,
+    "Longitude": -43.274599,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pista Lateral BR 040 - 5224 a 5096",
+    "Latitude": -22.58285,
+    "Longitude": -43.27554,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pista Lateral BR 040 - Estrada do Aviário ",
+    "Latitude": -22.588305,
+    "Longitude": -43.278143,
+    "LineNumber": "DC-TZ02",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

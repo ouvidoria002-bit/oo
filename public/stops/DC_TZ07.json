@@ -1,0 +1,1271 @@
+[
+  {
+    "PointName": "Avenida Monte Castelo próximo a Rua Monte Serrat",
+    "Latitude": -22.752926,
+    "Longitude": -43.270973,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins 1",
+    "Latitude": -22.751558,
+    "Longitude": -43.270956,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins 14",
+    "Latitude": -22.75159,
+    "Longitude": -43.271694,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins com Rua Almirante Midosi ",
+    "Latitude": -22.751726,
+    "Longitude": -43.273444,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins 48",
+    "Latitude": -22.751748,
+    "Longitude": -43.275099,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins com Rua Cristiano Ottoni ",
+    "Latitude": -22.751819,
+    "Longitude": -43.276102,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins 19",
+    "Latitude": -22.751842,
+    "Longitude": -43.276749,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins 38",
+    "Latitude": -22.751873,
+    "Longitude": -43.277769,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins com Rua Caramuru ",
+    "Latitude": -22.75192,
+    "Longitude": -43.278998,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Caramuru 585",
+    "Latitude": -22.752866,
+    "Longitude": -43.279018,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Caramuru com Avenida Francisco Portela ",
+    "Latitude": -22.754094,
+    "Longitude": -43.278994,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Abílio Borges ",
+    "Latitude": -22.754161,
+    "Longitude": -43.279748,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Monteiro Carmini Ioa",
+    "Latitude": -22.754193,
+    "Longitude": -43.280737,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela 35",
+    "Latitude": -22.754224,
+    "Longitude": -43.281642,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Campinas ",
+    "Latitude": -22.75426,
+    "Longitude": -43.282458,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Cambuci ",
+    "Latitude": -22.75429,
+    "Longitude": -43.28302,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "CIEP 218 Brasil Turquia ",
+    "Latitude": -22.756349,
+    "Longitude": -43.28582,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "USF / CRAS Jardim Gramacho ",
+    "Latitude": -22.757197,
+    "Longitude": -43.283674,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Pistoia 419",
+    "Latitude": -22.757852,
+    "Longitude": -43.282896,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cambuci 26",
+    "Latitude": -22.757307,
+    "Longitude": -43.282861,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cambuci 39",
+    "Latitude": -22.75593,
+    "Longitude": -43.28292,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cambuci 43",
+    "Latitude": -22.755294,
+    "Longitude": -43.282941,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Amanhancu 45",
+    "Latitude": -22.755073,
+    "Longitude": -43.282328,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto ",
+    "Latitude": -22.755281,
+    "Longitude": -43.281968,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto 51",
+    "Latitude": -22.755938,
+    "Longitude": -43.281941,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto 58",
+    "Latitude": -22.756641,
+    "Longitude": -43.281913,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto 74",
+    "Latitude": -22.758,
+    "Longitude": -43.281192,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Limoeiro 15",
+    "Latitude": -22.756131,
+    "Longitude": -43.281069,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Limoeiro com Rua Amanhancu ",
+    "Latitude": -22.755159,
+    "Longitude": -43.28105,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Mangaba 27",
+    "Latitude": -22.75526,
+    "Longitude": -43.280257,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Mangaba 35",
+    "Latitude": -22.756321,
+    "Longitude": -43.280256,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Amarantes 22",
+    "Latitude": -22.757052,
+    "Longitude": -43.280032,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Amarantes 1",
+    "Latitude": -22.759525,
+    "Longitude": -43.278922,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo com Rua Atalaia ",
+    "Latitude": -22.759691,
+    "Longitude": -43.279652,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo 841",
+    "Latitude": -22.759885,
+    "Longitude": -43.280809,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo 214",
+    "Latitude": -22.761296,
+    "Longitude": -43.282387,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo com Avenida Pelotas ",
+    "Latitude": -22.762651,
+    "Longitude": -43.283422,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo com Rua Haiti",
+    "Latitude": -22.76447,
+    "Longitude": -43.283879,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo 81",
+    "Latitude": -22.765914,
+    "Longitude": -43.284284,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Álvaro Negromonte ",
+    "Latitude": -22.766735,
+    "Longitude": -43.285529,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Passarela Carrefour",
+    "Latitude": -22.766555,
+    "Longitude": -43.286326,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Carvalhão ",
+    "Latitude": -22.766274,
+    "Longitude": -43.286859,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR-040 com Rua Martins Junior ",
+    "Latitude": -22.772058,
+    "Longitude": -43.286489,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR-040 com Avenida 14 de julho ",
+    "Latitude": -22.775617,
+    "Longitude": -43.28629,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR-040 Bendito Lounge",
+    "Latitude": -22.77727,
+    "Longitude": -43.286196,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Dom Atacadista ",
+    "Latitude": -22.781254,
+    "Longitude": -43.285925,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Passarela do Hospital Moacyr do Carmo ",
+    "Latitude": -22.784107,
+    "Longitude": -43.285769,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Jornal O Globo",
+    "Latitude": -22.786768,
+    "Longitude": -43.285148,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Hospital Moacyr do Carmo ",
+    "Latitude": -22.783327,
+    "Longitude": -43.285335,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo próximo a Rua Monte Serrat",
+    "Latitude": -22.752926,
+    "Longitude": -43.270973,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins 1",
+    "Latitude": -22.751558,
+    "Longitude": -43.270956,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins 14",
+    "Latitude": -22.75159,
+    "Longitude": -43.271694,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins com Rua Almirante Midosi ",
+    "Latitude": -22.751726,
+    "Longitude": -43.273444,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins 48",
+    "Latitude": -22.751748,
+    "Longitude": -43.275099,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins com Rua Cristiano Ottoni ",
+    "Latitude": -22.751819,
+    "Longitude": -43.276102,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins 19",
+    "Latitude": -22.751842,
+    "Longitude": -43.276749,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins 38",
+    "Latitude": -22.751873,
+    "Longitude": -43.277769,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tocantins com Rua Caramuru ",
+    "Latitude": -22.75192,
+    "Longitude": -43.278998,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Caramuru 585",
+    "Latitude": -22.752866,
+    "Longitude": -43.279018,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Caramuru com Avenida Francisco Portela ",
+    "Latitude": -22.754094,
+    "Longitude": -43.278994,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Abílio Borges ",
+    "Latitude": -22.754161,
+    "Longitude": -43.279748,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Monteiro Carmini Ioa",
+    "Latitude": -22.754193,
+    "Longitude": -43.280737,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela 35",
+    "Latitude": -22.754224,
+    "Longitude": -43.281642,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Campinas ",
+    "Latitude": -22.75426,
+    "Longitude": -43.282458,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Cambuci ",
+    "Latitude": -22.75429,
+    "Longitude": -43.28302,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "CIEP 218 Brasil Turquia ",
+    "Latitude": -22.756349,
+    "Longitude": -43.28582,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "USF / CRAS Jardim Gramacho ",
+    "Latitude": -22.757197,
+    "Longitude": -43.283674,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Pistoia 419",
+    "Latitude": -22.757852,
+    "Longitude": -43.282896,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cambuci 26",
+    "Latitude": -22.757307,
+    "Longitude": -43.282861,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cambuci 39",
+    "Latitude": -22.75593,
+    "Longitude": -43.28292,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cambuci 43",
+    "Latitude": -22.755294,
+    "Longitude": -43.282941,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Amanhancu 45",
+    "Latitude": -22.755073,
+    "Longitude": -43.282328,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto ",
+    "Latitude": -22.755281,
+    "Longitude": -43.281968,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto 51",
+    "Latitude": -22.755938,
+    "Longitude": -43.281941,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto 58",
+    "Latitude": -22.756641,
+    "Longitude": -43.281913,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto 74",
+    "Latitude": -22.758,
+    "Longitude": -43.281192,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Limoeiro 15",
+    "Latitude": -22.756131,
+    "Longitude": -43.281069,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Limoeiro com Rua Amanhancu ",
+    "Latitude": -22.755159,
+    "Longitude": -43.28105,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Mangaba 27",
+    "Latitude": -22.75526,
+    "Longitude": -43.280257,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Mangaba 35",
+    "Latitude": -22.756321,
+    "Longitude": -43.280256,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Amarantes 22",
+    "Latitude": -22.757052,
+    "Longitude": -43.280032,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Amarantes 1",
+    "Latitude": -22.759525,
+    "Longitude": -43.278922,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo com Rua Atalaia ",
+    "Latitude": -22.759691,
+    "Longitude": -43.279652,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo 841",
+    "Latitude": -22.759885,
+    "Longitude": -43.280809,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo 214",
+    "Latitude": -22.761296,
+    "Longitude": -43.282387,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo com Avenida Pelotas ",
+    "Latitude": -22.762651,
+    "Longitude": -43.283422,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo com Rua Haiti",
+    "Latitude": -22.76447,
+    "Longitude": -43.283879,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo 81",
+    "Latitude": -22.765914,
+    "Longitude": -43.284284,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Álvaro Negromonte ",
+    "Latitude": -22.766735,
+    "Longitude": -43.285529,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Passarela Carrefour",
+    "Latitude": -22.766555,
+    "Longitude": -43.286326,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Carvalhão ",
+    "Latitude": -22.766274,
+    "Longitude": -43.286859,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR-040 com Rua Martins Junior ",
+    "Latitude": -22.772058,
+    "Longitude": -43.286489,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR-040 com Avenida 14 de julho ",
+    "Latitude": -22.775617,
+    "Longitude": -43.28629,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR-040 Bendito Lounge",
+    "Latitude": -22.77727,
+    "Longitude": -43.286196,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Dom Atacadista ",
+    "Latitude": -22.781254,
+    "Longitude": -43.285925,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Passarela do Hospital Moacyr do Carmo ",
+    "Latitude": -22.784107,
+    "Longitude": -43.285769,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Jornal O Globo",
+    "Latitude": -22.786768,
+    "Longitude": -43.285148,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Hospital Moacyr do Carmo ",
+    "Latitude": -22.783327,
+    "Longitude": -43.285335,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(Start)",
+    "Latitude": -22.752951,
+    "Longitude": -43.270936,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(End)",
+    "Latitude": -22.783332,
+    "Longitude": -43.28519,
+    "LineNumber": "DC-TZ07",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Hospital Moacyr do Carmo ",
+    "Latitude": -22.783283,
+    "Longitude": -43.285338,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Cemitério Público de Duque de Caxias ",
+    "Latitude": -22.778336,
+    "Longitude": -43.285624,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Mills",
+    "Latitude": -22.776106,
+    "Longitude": -43.285794,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 4586",
+    "Latitude": -22.770899,
+    "Longitude": -43.286072,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Álvaro Negromonte",
+    "Latitude": -22.766734,
+    "Longitude": -43.285548,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo 76 e 78",
+    "Latitude": -22.765798,
+    "Longitude": -43.284253,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo com Avenida Pelotas",
+    "Latitude": -22.76261,
+    "Longitude": -43.28341,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo 526",
+    "Latitude": -22.761249,
+    "Longitude": -43.282343,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo com Avenida Pistoia",
+    "Latitude": -22.759801,
+    "Longitude": -43.280494,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Atalaia ",
+    "Latitude": -22.759602,
+    "Longitude": -43.279827,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Atalaia com Rua Mangaba",
+    "Latitude": -22.757938,
+    "Longitude": -43.280566,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Mangaba 39",
+    "Latitude": -22.756767,
+    "Longitude": -43.280265,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Mangaba 42",
+    "Latitude": -22.756218,
+    "Longitude": -43.280254,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Mangaba 36",
+    "Latitude": -22.755192,
+    "Longitude": -43.280255,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Limoeiro 27",
+    "Latitude": -22.75519,
+    "Longitude": -43.281056,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Limoeiro 35",
+    "Latitude": -22.756127,
+    "Longitude": -43.281074,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Limoeiro ",
+    "Latitude": -22.757672,
+    "Longitude": -43.28111,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto ",
+    "Latitude": -22.757961,
+    "Longitude": -43.281305,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto 66",
+    "Latitude": -22.757437,
+    "Longitude": -43.28187,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto 11",
+    "Latitude": -22.756777,
+    "Longitude": -43.281908,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto ",
+    "Latitude": -22.756219,
+    "Longitude": -43.281928,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tobias Barreto com Amanhancu",
+    "Latitude": -22.755231,
+    "Longitude": -43.281966,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cambuci 69",
+    "Latitude": -22.755339,
+    "Longitude": -43.282943,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cambuci 42",
+    "Latitude": -22.756189,
+    "Longitude": -43.282909,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cambuci com Avenida Pistoia ",
+    "Latitude": -22.757774,
+    "Longitude": -43.282836,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Pistoia com Rua Alagoas",
+    "Latitude": -22.757181,
+    "Longitude": -43.283689,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "CIEP 218 Brasil Turquia",
+    "Latitude": -22.756517,
+    "Longitude": -43.284593,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Rio Barbosa com Rua Alagoas ",
+    "Latitude": -22.754596,
+    "Longitude": -43.283849,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Cambuci ",
+    "Latitude": -22.754293,
+    "Longitude": -43.282995,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Campinas ",
+    "Latitude": -22.75427,
+    "Longitude": -43.282594,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela 13",
+    "Latitude": -22.754222,
+    "Longitude": -43.281645,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela 411",
+    "Latitude": -22.754191,
+    "Longitude": -43.280645,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Caramuru",
+    "Latitude": -22.754145,
+    "Longitude": -43.279014,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Aabaete",
+    "Latitude": -22.754088,
+    "Longitude": -43.277931,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Aracati",
+    "Latitude": -22.754043,
+    "Longitude": -43.276976,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Francisco Portela com Rua Cristiano Ottoni",
+    "Latitude": -22.754064,
+    "Longitude": -43.276049,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Almirante Midosi com Avenida Monte Castelo",
+    "Latitude": -22.755547,
+    "Longitude": -43.274851,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo com Rua Remanso",
+    "Latitude": -22.755042,
+    "Longitude": -43.274134,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo com Rua Aratuipe",
+    "Latitude": -22.754533,
+    "Longitude": -43.273362,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo 1524",
+    "Latitude": -22.753554,
+    "Longitude": -43.271903,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Monte Castelo próximo a Rua Monte Serrat",
+    "Latitude": -22.752931,
+    "Longitude": -43.270976,
+    "LineNumber": "DC-TZ07",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

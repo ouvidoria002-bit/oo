@@ -7,19 +7,19 @@ export default defineConfig(() => {
   const baseUrl = 'http://127.0.0.1:3004'; // Força o alvo do proxy para o seu Node local
 
   return {
-    base: '/tarifazero/',
+    base: '/',
     plugins: [
       react(),
       VitePWA({
         registerType: 'autoUpdate',
         manifestFilename: 'manifest.json',
         manifest: {
-          id: '/tarifazero/',
+          id: '/',
           name: 'Ouvidoria Orienta — Tarifa Zero',
           short_name: 'Tarifa Zero',
           description: 'Acompanhamento em tempo real dos ônibus do Tarifa Zero de Duque de Caxias.',
-          start_url: '/tarifazero/',
-          scope: '/tarifazero/',
+          start_url: '/',
+          scope: '/',
           display: 'standalone',
           orientation: 'portrait',
           background_color: '#0b3b6e',
@@ -52,9 +52,8 @@ export default defineConfig(() => {
     server: {
       allowedHosts: true,
       proxy: {
-        '/cbt/api': {
+        '/api': {
           target: baseUrl,
-          rewrite: (path) => path.replace(/^\/cbt\/api/, '/api'),
           changeOrigin: true,
           secure: false,
           // Required for SSE: disable response buffering
@@ -66,9 +65,8 @@ export default defineConfig(() => {
             });
           }
         },
-        '/cbt/kml-exports': {
+        '/kml-exports': {
           target: baseUrl,
-          rewrite: (path) => path.replace(/^\/cbt\/kml-exports/, '/kml-exports'),
           changeOrigin: true,
         }
       }

@@ -20,7 +20,7 @@ export const loadAllRoutes = async () => {
             if (cached) {
                 text = cached; // Cache hit — sem network request
             } else {
-                const response = await fetch(`/cbt/kml-exports/${filename}`);
+                const response = await fetch(`${import.meta.env.BASE_URL}kml-exports/${filename}`);
                 if (!response.ok) return;
                 text = await response.text();
                 try { localStorage.setItem(cacheKey, text); } catch (_) { /* storage full */ }

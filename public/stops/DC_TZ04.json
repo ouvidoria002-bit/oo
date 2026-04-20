@@ -1,0 +1,308 @@
+[
+  {
+    "PointName": "C.E. Vinícius de Moraes ",
+    "Latitude": -22.787156,
+    "Longitude": -43.29474,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Elisa Mathias de Araújo ",
+    "Latitude": -22.787341,
+    "Longitude": -43.295879,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Manuel Barcelos ",
+    "Latitude": -22.787045,
+    "Longitude": -43.296597,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Manuel Barcelos com Rua Alcindo Guanabara ",
+    "Latitude": -22.786298,
+    "Longitude": -43.296964,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Manuel Barcelos com Rua Doutor Gastão Reis",
+    "Latitude": -22.785883,
+    "Longitude": -43.297103,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Doutor Gastão Reis 335",
+    "Latitude": -22.785901,
+    "Longitude": -43.298971,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Doutor Gastão Reis 37",
+    "Latitude": -22.784507,
+    "Longitude": -43.301169,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Doutor Gastão Reis com Rua Rio Grande do Sul ",
+    "Latitude": -22.783651,
+    "Longitude": -43.302308,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Doutor Gastão Reis 159",
+    "Latitude": -22.782987,
+    "Longitude": -43.303184,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bahia 267",
+    "Latitude": -22.783329,
+    "Longitude": -43.303826,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bahia 175",
+    "Latitude": -22.783972,
+    "Longitude": -43.304379,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bahia com Rua Tarce Menezes de Freitas Lima",
+    "Latitude": -22.784575,
+    "Longitude": -43.304904,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Professor José de Souza Herdy com Rua Tuiti",
+    "Latitude": -22.785608,
+    "Longitude": -43.307052,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Ampliato Cabral - DROGA RAIA ",
+    "Latitude": -22.787718,
+    "Longitude": -43.308212,
+    "LineNumber": "DC-TZ04",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Ampliato Cabral - DROGA RAIA",
+    "Latitude": -22.787701,
+    "Longitude": -43.308304,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Maçonaria ",
+    "Latitude": -22.786122,
+    "Longitude": -43.306592,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bahia com Rua Cardoso Bessa",
+    "Latitude": -22.78532,
+    "Longitude": -43.305606,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cardoso Bessa 340",
+    "Latitude": -22.785909,
+    "Longitude": -43.304613,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Assunção com Rua Deputado Ampliato Cabral ",
+    "Latitude": -22.788218,
+    "Longitude": -43.305007,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Assunção 77",
+    "Latitude": -22.789249,
+    "Longitude": -43.304274,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Assunção 53",
+    "Latitude": -22.78954,
+    "Longitude": -43.303576,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Ampliato Cabral 558",
+    "Latitude": -22.788642,
+    "Longitude": -43.304,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Doutor Sylvio e Silva 21",
+    "Latitude": -22.788108,
+    "Longitude": -43.303609,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Doutor Sylvio e Silva 124",
+    "Latitude": -22.788103,
+    "Longitude": -43.302678,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Mariz e Barros 495",
+    "Latitude": -22.787772,
+    "Longitude": -43.301938,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua José Joaquim da Rocha 18",
+    "Latitude": -22.787709,
+    "Longitude": -43.301509,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua José Joaquim da Rocha 496",
+    "Latitude": -22.786797,
+    "Longitude": -43.300737,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua José Joaquim da Rocha com Rua Francisco Picot",
+    "Latitude": -22.786293,
+    "Longitude": -43.300051,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua José Joaquim da Rocha com Rua Fontoura Xavier",
+    "Latitude": -22.786436,
+    "Longitude": -43.299098,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça do Cruzeiro ",
+    "Latitude": -22.786523,
+    "Longitude": -43.298159,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Alcindo Guanabara com Rua Manoel Barcelos",
+    "Latitude": -22.786286,
+    "Longitude": -43.296991,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Manoel Barcelos ",
+    "Latitude": -22.787061,
+    "Longitude": -43.296584,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Paulo Biar ",
+    "Latitude": -22.78747,
+    "Longitude": -43.295791,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Vinícius de Moraes ",
+    "Latitude": -22.787155,
+    "Longitude": -43.294742,
+    "LineNumber": "DC-TZ04",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo2 from '../../public/dc-logo-cortada.png';
+import logo2 from '../../public/logo_prefeitura_nova.png';
 import { Menu } from 'lucide-react';
 import './AppHeader.css';
 

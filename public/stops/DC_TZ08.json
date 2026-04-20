@@ -1,0 +1,542 @@
+[
+  {
+    "PointName": "Passarela Dois Campos - Creche Municipal Dep. João Carlos Coutinho ",
+    "Latitude": -22.651078,
+    "Longitude": -43.237116,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua A com Rua D ",
+    "Latitude": -22.649772,
+    "Longitude": -43.237141,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua A com Rua AY",
+    "Latitude": -22.647332,
+    "Longitude": -43.237914,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua A com Rua AQ",
+    "Latitude": -22.645512,
+    "Longitude": -43.238488,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua A com Rua H",
+    "Latitude": -22.643809,
+    "Longitude": -43.238995,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua A com Rua Q",
+    "Latitude": -22.642565,
+    "Longitude": -43.239388,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua V 16",
+    "Latitude": -22.640947,
+    "Longitude": -43.239728,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Augusto Sérgio Botelho com Rua Felipe Camarão ",
+    "Latitude": -22.640698,
+    "Longitude": -43.240525,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Augusto Sérgio Botelho com Rua Pedro Álvares Cabral ",
+    "Latitude": -22.64158,
+    "Longitude": -43.24149,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua Oliveira Salazar",
+    "Latitude": -22.640103,
+    "Longitude": -43.243195,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua Thomas Edison",
+    "Latitude": -22.638253,
+    "Longitude": -43.245214,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Clínica da Família do Barro Branco",
+    "Latitude": -22.636777,
+    "Longitude": -43.246834,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua Vasco da Gama",
+    "Latitude": -22.635303,
+    "Longitude": -43.24845,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua Anita Garibaldi ",
+    "Latitude": -22.6339,
+    "Longitude": -43.249923,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua João Caetano ",
+    "Latitude": -22.631985,
+    "Longitude": -43.252008,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua Tobias Barreto ",
+    "Latitude": -22.630868,
+    "Longitude": -43.253263,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Saída do Barro Branco",
+    "Latitude": -22.629927,
+    "Longitude": -43.254281,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 6175",
+    "Latitude": -22.630802,
+    "Longitude": -43.256597,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube ",
+    "Latitude": -22.631999,
+    "Longitude": -43.258223,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 1609",
+    "Latitude": -22.632805,
+    "Longitude": -43.259888,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com 2114",
+    "Latitude": -22.633963,
+    "Longitude": -43.262355,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 156",
+    "Latitude": -22.634922,
+    "Longitude": -43.264406,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Anchieta ",
+    "Latitude": -22.635793,
+    "Longitude": -43.266243,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 61",
+    "Latitude": -22.636791,
+    "Longitude": -43.268285,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Vinte e Cinco ",
+    "Latitude": -22.63784,
+    "Longitude": -43.270492,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Geraldo Roris ",
+    "Latitude": -22.638705,
+    "Longitude": -43.272311,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 919",
+    "Latitude": -22.639268,
+    "Longitude": -43.273496,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua 21",
+    "Latitude": -22.640343,
+    "Longitude": -43.275773,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo ao 642 - 694",
+    "Latitude": -22.640749,
+    "Longitude": -43.276586,
+    "LineNumber": "DC-TZ08",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo ao 642-694",
+    "Latitude": -22.640747,
+    "Longitude": -43.276589,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 992",
+    "Latitude": -22.640405,
+    "Longitude": -43.275553,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Avenida dos Coqueiros ",
+    "Latitude": -22.639264,
+    "Longitude": -43.27311,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Projetada 03",
+    "Latitude": -22.638692,
+    "Longitude": -43.27189,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 1518",
+    "Latitude": -22.637863,
+    "Longitude": -43.270239,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Espanha ",
+    "Latitude": -22.63698,
+    "Longitude": -43.268363,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Padre Anchieta ",
+    "Latitude": -22.635869,
+    "Longitude": -43.266041,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Carlos Maul",
+    "Latitude": -22.634948,
+    "Longitude": -43.264103,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Manoel Bonfim ",
+    "Latitude": -22.63396,
+    "Longitude": -43.261961,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 540",
+    "Latitude": -22.633073,
+    "Longitude": -43.26004,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 770",
+    "Latitude": -22.632166,
+    "Longitude": -43.25828,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 970",
+    "Latitude": -22.630809,
+    "Longitude": -43.256502,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Pedro Álvares Cabral ",
+    "Latitude": -22.629912,
+    "Longitude": -43.254509,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua Tobias Barreto ",
+    "Latitude": -22.630781,
+    "Longitude": -43.253361,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua João Caetano ",
+    "Latitude": -22.632126,
+    "Longitude": -43.251854,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Barro Branco ",
+    "Latitude": -22.633682,
+    "Longitude": -43.250168,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua Vasco da Gama ",
+    "Latitude": -22.635162,
+    "Longitude": -43.2486,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Clínica da Família do Barro Branco ",
+    "Latitude": -22.636799,
+    "Longitude": -43.246809,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua Thomas Edison ",
+    "Latitude": -22.638345,
+    "Longitude": -43.245113,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua Oliveira Salazar ",
+    "Latitude": -22.639991,
+    "Longitude": -43.243316,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pedro Álvares Cabral com Rua Augusto Sérgio Botelho ",
+    "Latitude": -22.641593,
+    "Longitude": -43.241572,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Augusto Sérgio Botelho com Rua Eva Perón ",
+    "Latitude": -22.641461,
+    "Longitude": -43.241358,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Augusto Sérgio Botelho com Rua Tiradentes ",
+    "Latitude": -22.640479,
+    "Longitude": -43.24029,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua V 16",
+    "Latitude": -22.641015,
+    "Longitude": -43.239804,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua A com Rua Q",
+    "Latitude": -22.642564,
+    "Longitude": -43.239388,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua A com Rua H",
+    "Latitude": -22.64366,
+    "Longitude": -43.239035,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua A com Rua AQ",
+    "Latitude": -22.645531,
+    "Longitude": -43.23848,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua A com Rua AY",
+    "Latitude": -22.647546,
+    "Longitude": -43.237847,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua A com Rua D",
+    "Latitude": -22.649246,
+    "Longitude": -43.237312,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Dep José Carlos Coutinho ",
+    "Latitude": -22.651138,
+    "Longitude": -43.238072,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rodovia Rio Magé - Passarela Dois Campos ",
+    "Latitude": -22.650999,
+    "Longitude": -43.237158,
+    "LineNumber": "DC-TZ08",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

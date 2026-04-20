@@ -13,7 +13,7 @@ interface SlidingMarkerProps {
     zIndexOffset?: number;
 }
 
-const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon, children, path, onPositionChange, markerRef, zIndexOffset }) => {
+export const SlidingMarker: React.FC<SlidingMarkerProps> = ({ position, duration, icon, children, path, onPositionChange, markerRef, zIndexOffset }) => {
     // We keep an internal state for the "animated" position
     const [currentPos, setCurrentPos] = useState(position);
 
@@ -151,5 +151,6 @@ function dist(p1: [number, number], p2: [number, number]): number {
     return Math.sqrt(dx * dx + dy * dy);
 }
 
-export default SlidingMarker;
+// Named export preferred for consistency
+// export default SlidingMarker;
 

@@ -1,0 +1,722 @@
+[
+  {
+    "PointName": "Cachoeira das Dores 100 ",
+    "Latitude": -22.608262,
+    "Longitude": -43.238218,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Clínica da Família ",
+    "Latitude": -22.611026,
+    "Longitude": -43.238288,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Cachoeira das Dores 66",
+    "Latitude": -22.614438,
+    "Longitude": -43.238373,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Cachoeira das Dores esquina com Luis Alves de Lima",
+    "Latitude": -22.616364,
+    "Longitude": -43.238443,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Cachoeira das Dores esquina com Ana Luisa",
+    "Latitude": -22.617964,
+    "Longitude": -43.238971,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Comunidade Senhora do Rosário ",
+    "Latitude": -22.618831,
+    "Longitude": -43.239515,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "DPO Taquara ",
+    "Latitude": -22.620698,
+    "Longitude": -43.240721,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Restaurante Amarelinho ",
+    "Latitude": -22.624157,
+    "Longitude": -43.241003,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube 55",
+    "Latitude": -22.62725,
+    "Longitude": -43.244086,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube esquina com Arsiza Amália ",
+    "Latitude": -22.627516,
+    "Longitude": -43.246486,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bosque do Ipê ",
+    "Latitude": -22.628265,
+    "Longitude": -43.250391,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube 1010",
+    "Latitude": -22.629594,
+    "Longitude": -43.254556,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube 970",
+    "Latitude": -22.63078,
+    "Longitude": -43.256582,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube 700",
+    "Latitude": -22.632007,
+    "Longitude": -43.258254,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube 1609",
+    "Latitude": -22.632797,
+    "Longitude": -43.259894,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Salão Realiza Kids",
+    "Latitude": -22.633949,
+    "Longitude": -43.262335,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube 156",
+    "Latitude": -22.634913,
+    "Longitude": -43.264395,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "P.S. Parque Paulista ",
+    "Latitude": -22.635761,
+    "Longitude": -43.266211,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Colégio Ciob",
+    "Latitude": -22.636777,
+    "Longitude": -43.268284,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube esquina com Rua Vinte e cinco",
+    "Latitude": -22.637817,
+    "Longitude": -43.270462,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube esquina com Geral Roris",
+    "Latitude": -22.638469,
+    "Longitude": -43.271823,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube esquina com Rua Vinte e três ",
+    "Latitude": -22.639242,
+    "Longitude": -43.273469,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube 835",
+    "Latitude": -22.640364,
+    "Longitude": -43.275816,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Santa Cruz da Serra ",
+    "Latitude": -22.640723,
+    "Longitude": -43.276562,
+    "LineNumber": "DC-TZ19",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Parque Municipal da Taquara ",
+    "Latitude": -22.599884,
+    "Longitude": -43.238355,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Cachoeira das Dores com Rua da Liberdade ",
+    "Latitude": -22.606214,
+    "Longitude": -43.238501,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Cachoeira das Dores com Rua Nove",
+    "Latitude": -22.608295,
+    "Longitude": -43.238219,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Irmã Arnalda das Silva Neves/Clínica da Família ",
+    "Latitude": -22.611034,
+    "Longitude": -43.23829,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Cachoeira das Dores 1567",
+    "Latitude": -22.614425,
+    "Longitude": -43.238368,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Cachoeira das Dores com Avenida Luis Alves de Lima ",
+    "Latitude": -22.616339,
+    "Longitude": -43.238443,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Cachoeira das Dores com Rua Ana Luisa",
+    "Latitude": -22.617936,
+    "Longitude": -43.238948,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Comunidade Nossa Senhora do Rosário ",
+    "Latitude": -22.618861,
+    "Longitude": -43.239527,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "DPO da Taquara ",
+    "Latitude": -22.620755,
+    "Longitude": -43.240755,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo a Rua Zeferino Agra",
+    "Latitude": -22.624125,
+    "Longitude": -43.241048,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo a Rua Miguel Unamuno",
+    "Latitude": -22.626612,
+    "Longitude": -43.24207,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Almirante Tamandaré ",
+    "Latitude": -22.627258,
+    "Longitude": -43.24409,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Avenida Narcisa Amália ",
+    "Latitude": -22.62752,
+    "Longitude": -43.246489,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo 581 - Bosque do Ipê ",
+    "Latitude": -22.628299,
+    "Longitude": -43.250515,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com entrada para o Barro Branco ",
+    "Latitude": -22.629616,
+    "Longitude": -43.254582,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 6175",
+    "Latitude": -22.630822,
+    "Longitude": -43.256624,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube - Quadra da Caixa D'água ",
+    "Latitude": -22.632,
+    "Longitude": -43.258221,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Diderot",
+    "Latitude": -22.632757,
+    "Longitude": -43.259804,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 2114",
+    "Latitude": -22.633953,
+    "Longitude": -43.26233,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 156 km50",
+    "Latitude": -22.634909,
+    "Longitude": -43.264377,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Padre Anchieta ",
+    "Latitude": -22.635727,
+    "Longitude": -43.266119,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo Praça Leopoldo Migues",
+    "Latitude": -22.636806,
+    "Longitude": -43.268327,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Vinte e Cinco ",
+    "Latitude": -22.637828,
+    "Longitude": -43.270466,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "avenida Automóvel clube com Rua Gerardo Roris",
+    "Latitude": -22.638635,
+    "Longitude": -43.272166,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo a Rua 23",
+    "Latitude": -22.639252,
+    "Longitude": -43.273477,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo a Rua 21",
+    "Latitude": -22.64037,
+    "Longitude": -43.275826,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo a Rua 20 ",
+    "Latitude": -22.640738,
+    "Longitude": -43.276572,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Parque Municipal da Taquara ",
+    "Latitude": -22.599884,
+    "Longitude": -43.238355,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Cachoeira das Dores com Rua da Liberdade ",
+    "Latitude": -22.606214,
+    "Longitude": -43.238501,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Cachoeira das Dores com Rua Nove",
+    "Latitude": -22.608295,
+    "Longitude": -43.238219,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Irmã Arnalda das Silva Neves/Clínica da Família ",
+    "Latitude": -22.611034,
+    "Longitude": -43.23829,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Cachoeira das Dores 1567",
+    "Latitude": -22.614425,
+    "Longitude": -43.238368,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Cachoeira das Dores com Avenida Luis Alves de Lima ",
+    "Latitude": -22.616339,
+    "Longitude": -43.238443,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Cachoeira das Dores com Rua Ana Luisa",
+    "Latitude": -22.617936,
+    "Longitude": -43.238948,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Comunidade Nossa Senhora do Rosário ",
+    "Latitude": -22.618861,
+    "Longitude": -43.239527,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "DPO da Taquara ",
+    "Latitude": -22.620755,
+    "Longitude": -43.240755,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo a Rua Zeferino Agra",
+    "Latitude": -22.624125,
+    "Longitude": -43.241048,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo a Rua Miguel Unamuno",
+    "Latitude": -22.626612,
+    "Longitude": -43.24207,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Almirante Tamandaré ",
+    "Latitude": -22.627258,
+    "Longitude": -43.24409,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Avenida Narcisa Amália ",
+    "Latitude": -22.62752,
+    "Longitude": -43.246489,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo 581 - Bosque do Ipê ",
+    "Latitude": -22.628299,
+    "Longitude": -43.250515,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com entrada para o Barro Branco ",
+    "Latitude": -22.629616,
+    "Longitude": -43.254582,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 6175",
+    "Latitude": -22.630822,
+    "Longitude": -43.256624,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube - Quadra da Caixa D'água ",
+    "Latitude": -22.632,
+    "Longitude": -43.258221,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Diderot",
+    "Latitude": -22.632757,
+    "Longitude": -43.259804,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 2114",
+    "Latitude": -22.633953,
+    "Longitude": -43.26233,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 156 km50",
+    "Latitude": -22.634909,
+    "Longitude": -43.264377,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Padre Anchieta ",
+    "Latitude": -22.635727,
+    "Longitude": -43.266119,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo Praça Leopoldo Migues",
+    "Latitude": -22.636806,
+    "Longitude": -43.268327,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Vinte e Cinco ",
+    "Latitude": -22.637828,
+    "Longitude": -43.270466,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "avenida Automóvel clube com Rua Gerardo Roris",
+    "Latitude": -22.638635,
+    "Longitude": -43.272166,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo a Rua 23",
+    "Latitude": -22.639252,
+    "Longitude": -43.273477,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo a Rua 21",
+    "Latitude": -22.64037,
+    "Longitude": -43.275826,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube próximo a Rua 20 ",
+    "Latitude": -22.640738,
+    "Longitude": -43.276572,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(Start)",
+    "Latitude": -22.599834,
+    "Longitude": -43.238395,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(End)",
+    "Latitude": -22.640709,
+    "Longitude": -43.276584,
+    "LineNumber": "DC-TZ19",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

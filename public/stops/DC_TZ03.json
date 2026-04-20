@@ -1,0 +1,929 @@
+[
+  {
+    "PointName": "USF Parque Eldorado ",
+    "Latitude": -22.646153,
+    "Longitude": -43.284233,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Vanisia com Rua Glória Maria ",
+    "Latitude": -22.646124,
+    "Longitude": -43.285393,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Vanisia 259",
+    "Latitude": -22.646139,
+    "Longitude": -43.286554,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Dona Thereza Cristina - Praça Samucão ",
+    "Latitude": -22.645332,
+    "Longitude": -43.286688,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Dona Thereza Cristina 34",
+    "Latitude": -22.643861,
+    "Longitude": -43.28669,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Gericinó 67",
+    "Latitude": -22.64363,
+    "Longitude": -43.287462,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Gericinó 83",
+    "Latitude": -22.643596,
+    "Longitude": -43.289824,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Gericinó 87",
+    "Latitude": -22.643581,
+    "Longitude": -43.290926,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Escola Padrão UFRJ Parque Eldorado ",
+    "Latitude": -22.643599,
+    "Longitude": -43.291534,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Gericinó com Rua Otacílio Telles ",
+    "Latitude": -22.643584,
+    "Longitude": -43.293824,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Camilo Castelo Branco com Rua Ibiraruna",
+    "Latitude": -22.643332,
+    "Longitude": -43.294712,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Castelo Branco com Rua João Alberto ",
+    "Latitude": -22.642933,
+    "Longitude": -43.295801,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Maria Vicente da Silva ",
+    "Latitude": -22.641967,
+    "Longitude": -43.297725,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Camilo Castelo Branco com Rua Licinio Cardosa",
+    "Latitude": -22.64106,
+    "Longitude": -43.299543,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Camilo Castelo Branco 13",
+    "Latitude": -22.641391,
+    "Longitude": -43.300775,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Camilo Castelo Branco com Rua João Lourenço ",
+    "Latitude": -22.642102,
+    "Longitude": -43.301594,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Esmeralda ",
+    "Latitude": -22.643524,
+    "Longitude": -43.302733,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Acapu 4",
+    "Latitude": -22.644128,
+    "Longitude": -43.304774,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Serra Talhada 24",
+    "Latitude": -22.643835,
+    "Longitude": -43.305627,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Serra Talhada  - Mina D'Agua",
+    "Latitude": -22.642981,
+    "Longitude": -43.306648,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Osasco 135",
+    "Latitude": -22.640097,
+    "Longitude": -43.306788,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Osasco 35",
+    "Latitude": -22.637956,
+    "Longitude": -43.306689,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Osasco 11",
+    "Latitude": -22.635831,
+    "Longitude": -43.306569,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tupã com Rua Brasil ",
+    "Latitude": -22.635608,
+    "Longitude": -43.307399,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasil com Rua Guina",
+    "Latitude": -22.634231,
+    "Longitude": -43.307595,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasil 90",
+    "Latitude": -22.633283,
+    "Longitude": -43.308344,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 4",
+    "Latitude": -22.632211,
+    "Longitude": -43.308747,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana com Rua Maringá ",
+    "Latitude": -22.63083,
+    "Longitude": -43.308749,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 140",
+    "Latitude": -22.629539,
+    "Longitude": -43.308722,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 21",
+    "Latitude": -22.62824,
+    "Longitude": -43.308474,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 20",
+    "Latitude": -22.627135,
+    "Longitude": -43.308135,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 16",
+    "Latitude": -22.627007,
+    "Longitude": -43.307106,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 8",
+    "Latitude": -22.626755,
+    "Longitude": -43.305734,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana com Rua Misael Batista ",
+    "Latitude": -22.625078,
+    "Longitude": -43.304562,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 128",
+    "Latitude": -22.623843,
+    "Longitude": -43.304254,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana com Rua José Anisio ",
+    "Latitude": -22.622544,
+    "Longitude": -43.304781,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 73",
+    "Latitude": -22.621347,
+    "Longitude": -43.305478,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana com Travessa do Cantão ",
+    "Latitude": -22.618326,
+    "Longitude": -43.307208,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 86",
+    "Latitude": -22.617541,
+    "Longitude": -43.307027,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 115",
+    "Latitude": -22.615437,
+    "Longitude": -43.304764,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 1864",
+    "Latitude": -22.614833,
+    "Longitude": -43.302649,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Dezessete 1625",
+    "Latitude": -22.614435,
+    "Longitude": -43.301011,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 1535",
+    "Latitude": -22.613595,
+    "Longitude": -43.300225,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 1261",
+    "Latitude": -22.61178,
+    "Longitude": -43.299038,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer com Rua 15",
+    "Latitude": -22.608753,
+    "Longitude": -43.298443,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 645",
+    "Latitude": -22.60646,
+    "Longitude": -43.2971,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 610",
+    "Latitude": -22.605566,
+    "Longitude": -43.296412,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 650",
+    "Latitude": -22.603716,
+    "Longitude": -43.29389,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rotatória do DPO - Xerém ",
+    "Latitude": -22.602512,
+    "Longitude": -43.293194,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UPH XERÉM - Catita ",
+    "Latitude": -22.601343,
+    "Longitude": -43.292819,
+    "LineNumber": "DC-TZ03",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UPH Xerém - Catita ",
+    "Latitude": -22.601392,
+    "Longitude": -43.292876,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Nóbrega Ribeiro com Praça dos Blocos ",
+    "Latitude": -22.600246,
+    "Longitude": -43.291522,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Nóbrega Ribeiro 37",
+    "Latitude": -22.5995,
+    "Longitude": -43.290861,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Nóbrega Ribeiro com Rua Nossa Senhora das Graças ",
+    "Latitude": -22.599607,
+    "Longitude": -43.291451,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Nossa Senhora das Graças 15",
+    "Latitude": -22.599634,
+    "Longitude": -43.29187,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Manuel Avelino de Souza 2",
+    "Latitude": -22.601419,
+    "Longitude": -43.293384,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Capitão Guynemer com rotatória ",
+    "Latitude": -22.60267,
+    "Longitude": -43.293285,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Capitão Guynemer com Rua da Figueira ",
+    "Latitude": -22.603782,
+    "Longitude": -43.293933,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Capitão Guynemer 610",
+    "Latitude": -22.605649,
+    "Longitude": -43.296527,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Capitão Guynemer com Projetada A",
+    "Latitude": -22.606573,
+    "Longitude": -43.297176,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer com Rua Quinze",
+    "Latitude": -22.608869,
+    "Longitude": -43.298452,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 1261",
+    "Latitude": -22.611946,
+    "Longitude": -43.299153,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 1535",
+    "Latitude": -22.613572,
+    "Longitude": -43.300214,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 1710",
+    "Latitude": -22.614272,
+    "Longitude": -43.300928,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Capitão Guynemer 1864",
+    "Latitude": -22.614843,
+    "Longitude": -43.302699,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 115",
+    "Latitude": -22.615411,
+    "Longitude": -43.304698,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Guynemer 86",
+    "Latitude": -22.617603,
+    "Longitude": -43.307087,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana com Travessa do Cantão ",
+    "Latitude": -22.618327,
+    "Longitude": -43.307205,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 92",
+    "Latitude": -22.621379,
+    "Longitude": -43.305447,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana com Rua José Anisio",
+    "Latitude": -22.622696,
+    "Longitude": -43.304691,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana com Rua da Igreja Batista Nova Sião ",
+    "Latitude": -22.623798,
+    "Longitude": -43.304262,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana com Rua Misael Batista ",
+    "Latitude": -22.625026,
+    "Longitude": -43.304564,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 65",
+    "Latitude": -22.626756,
+    "Longitude": -43.305777,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 202",
+    "Latitude": -22.626917,
+    "Longitude": -43.306881,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 22",
+    "Latitude": -22.627239,
+    "Longitude": -43.308309,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 16",
+    "Latitude": -22.628234,
+    "Longitude": -43.308478,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 59",
+    "Latitude": -22.628813,
+    "Longitude": -43.308622,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 825",
+    "Latitude": -22.630708,
+    "Longitude": -43.308746,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Panamericana 4",
+    "Latitude": -22.632405,
+    "Longitude": -43.308746,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasil 90",
+    "Latitude": -22.633342,
+    "Longitude": -43.308298,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasil 12",
+    "Latitude": -22.634459,
+    "Longitude": -43.307488,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasil com Rua Tupa",
+    "Latitude": -22.635523,
+    "Longitude": -43.307503,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tupã com Rua Osasco",
+    "Latitude": -22.635642,
+    "Longitude": -43.306672,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Osasco com Rua Costa Rica",
+    "Latitude": -22.637885,
+    "Longitude": -43.306685,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Osasco com Rua Nicarágua ",
+    "Latitude": -22.639748,
+    "Longitude": -43.306788,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Osasco ",
+    "Latitude": -22.642602,
+    "Longitude": -43.307201,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Osasco 200",
+    "Latitude": -22.644074,
+    "Longitude": -43.305343,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Esmeralda ",
+    "Latitude": -22.643619,
+    "Longitude": -43.303044,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Camilo Castelo Branco com Rua João Lourenço ",
+    "Latitude": -22.642084,
+    "Longitude": -43.301589,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Camilo Castelo Branco 10",
+    "Latitude": -22.641202,
+    "Longitude": -43.300305,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Camilo Castelo Branco com Rua Buriti",
+    "Latitude": -22.641097,
+    "Longitude": -43.299379,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Maria Vicente da Silva ",
+    "Latitude": -22.641773,
+    "Longitude": -43.29811,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Camilo Castelo Branco com Rua João Alberto ",
+    "Latitude": -22.642992,
+    "Longitude": -43.295694,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Camilo Castelo Branco com Rua Doutora Nanci Gervasi",
+    "Latitude": -22.643378,
+    "Longitude": -43.294597,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Gericinó com Rua Otacílio Telles",
+    "Latitude": -22.643581,
+    "Longitude": -43.293676,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Escola Padrão UFRJ Parque Eldorado ",
+    "Latitude": -22.643606,
+    "Longitude": -43.291665,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Gericinó 535",
+    "Latitude": -22.643585,
+    "Longitude": -43.290911,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Gericinó com Rua Mamora",
+    "Latitude": -22.643598,
+    "Longitude": -43.289864,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Gericinó 22",
+    "Latitude": -22.643635,
+    "Longitude": -43.287435,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Dona Thereza Cristina 163",
+    "Latitude": -22.643903,
+    "Longitude": -43.286688,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Dona Tereza Cristina - Praça do Samucão",
+    "Latitude": -22.645268,
+    "Longitude": -43.286691,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Paraná 47",
+    "Latitude": -22.645477,
+    "Longitude": -43.284431,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "USF Parque Eldorado ",
+    "Latitude": -22.646153,
+    "Longitude": -43.284229,
+    "LineNumber": "DC-TZ03",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

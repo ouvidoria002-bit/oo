@@ -1,0 +1,794 @@
+[
+  {
+    "PointName": "Rua Orlando Teixeira - Sta. Marta",
+    "Latitude": -22.79531,
+    "Longitude": -43.292453,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ferreira Viana 420",
+    "Latitude": -22.796994,
+    "Longitude": -43.29143,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ferreira Viana 889",
+    "Latitude": -22.796405,
+    "Longitude": -43.290395,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ferreira Viana - Praça da Paz",
+    "Latitude": -22.795673,
+    "Longitude": -43.289917,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua João Brigido com Rua Tenreiro Aranha",
+    "Latitude": -22.79441,
+    "Longitude": -43.28993,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Carlos Carvalho 22",
+    "Latitude": -22.793517,
+    "Longitude": -43.291172,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cardeal Arcoverde 121",
+    "Latitude": -22.792598,
+    "Longitude": -43.291397,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cardeal Arcoverde próximo ao 29",
+    "Latitude": -22.791962,
+    "Longitude": -43.291822,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Florianópolis com Rua Anabuco de Araújo ",
+    "Latitude": -22.79125,
+    "Longitude": -43.290933,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Florianópolis com Rua Dídimo Veiga",
+    "Latitude": -22.791876,
+    "Longitude": -43.290507,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Dulce Petri",
+    "Latitude": -22.792525,
+    "Longitude": -43.290061,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Florianópolis 11",
+    "Latitude": -22.793266,
+    "Longitude": -43.289548,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Igreja Católica São Pedro ",
+    "Latitude": -22.792518,
+    "Longitude": -43.289067,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Francisco Alves 25",
+    "Latitude": -22.791844,
+    "Longitude": -43.289593,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Vereador Laury Vilar 611",
+    "Latitude": -22.79034,
+    "Longitude": -43.289442,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurício de Abreu 355",
+    "Latitude": -22.789198,
+    "Longitude": -43.290477,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurício de Abreu próximo ao 345",
+    "Latitude": -22.78985,
+    "Longitude": -43.291627,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurício de Abreu com Rua Jaqueline Santos Vicente",
+    "Latitude": -22.790604,
+    "Longitude": -43.29301,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurício de Abreu esquina com Rua Raul Soares",
+    "Latitude": -22.791434,
+    "Longitude": -43.294393,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Raul Soares 33",
+    "Latitude": -22.790551,
+    "Longitude": -43.295803,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Cemitério Tanque do Anil",
+    "Latitude": -22.789714,
+    "Longitude": -43.296937,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marechal Bento Manoel 386",
+    "Latitude": -22.789981,
+    "Longitude": -43.298343,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Humaitá ",
+    "Latitude": -22.791975,
+    "Longitude": -43.301762,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Brigadeiro Lima e Silva 1762",
+    "Latitude": -22.791398,
+    "Longitude": -43.304308,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Brigadeiro Lima e Silva 2072",
+    "Latitude": -22.790163,
+    "Longitude": -43.306811,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Porto Alegre ",
+    "Latitude": -22.788669,
+    "Longitude": -43.308212,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Porto Alegre com Rua Impliato Cabral",
+    "Latitude": -22.787794,
+    "Longitude": -43.308424,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estação Supervia de Duque de Caxias ",
+    "Latitude": -22.787354,
+    "Longitude": -43.309119,
+    "LineNumber": "DC-TZ20",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estação Supervia de Duque de Caxias ",
+    "Latitude": -22.787357,
+    "Longitude": -43.30912,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Presidente Vargas - Correios",
+    "Latitude": -22.788356,
+    "Longitude": -43.309104,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marechal Floriano - INSS",
+    "Latitude": -22.791165,
+    "Longitude": -43.30641,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marechal Floriano 939",
+    "Latitude": -22.791737,
+    "Longitude": -43.305295,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marechal Floriano 685",
+    "Latitude": -22.792852,
+    "Longitude": -43.302676,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "FUNDEC Caxias",
+    "Latitude": -22.793568,
+    "Longitude": -43.300944,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Major Correia de Melo 370",
+    "Latitude": -22.79341,
+    "Longitude": -43.299925,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Humaitá ",
+    "Latitude": -22.792355,
+    "Longitude": -43.300851,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marechal Bento Manoel 193",
+    "Latitude": -22.790514,
+    "Longitude": -43.299133,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marechal Bento Manoel 56",
+    "Latitude": -22.789739,
+    "Longitude": -43.297627,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Raul Soares 112",
+    "Latitude": -22.790537,
+    "Longitude": -43.295846,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Raul Soares 279",
+    "Latitude": -22.791457,
+    "Longitude": -43.29448,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurício de Abreu 160",
+    "Latitude": -22.790616,
+    "Longitude": -43.293009,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurício de Abreu 526",
+    "Latitude": -22.789863,
+    "Longitude": -43.291631,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurício de Abreu próximo a Rua Jorge Barbosa da Silva ",
+    "Latitude": -22.789101,
+    "Longitude": -43.29028,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Vereador Laury Vilar 506",
+    "Latitude": -22.790368,
+    "Longitude": -43.289433,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Francisco Alves próximo FUNDEC do Pq. Beira Mar",
+    "Latitude": -22.79189,
+    "Longitude": -43.289581,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tenreiro Aranha 197",
+    "Latitude": -22.793259,
+    "Longitude": -43.289471,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Dulce Petri ",
+    "Latitude": -22.792516,
+    "Longitude": -43.290073,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Florianópolis com Rua Dídimo Veiga ",
+    "Latitude": -22.791876,
+    "Longitude": -43.29052,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Florianópolis próximo 132",
+    "Latitude": -22.791181,
+    "Longitude": -43.290982,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Alberto de Oliveira 128",
+    "Latitude": -22.791513,
+    "Longitude": -43.292092,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cardeal Arcoverde 28",
+    "Latitude": -22.792053,
+    "Longitude": -43.291774,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cardeal Arcoverde com Rua Dídimo Veiga ",
+    "Latitude": -22.792664,
+    "Longitude": -43.291357,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Carlos Carvalho 07",
+    "Latitude": -22.793775,
+    "Longitude": -43.29142,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua João Brigido com Rua Tenreiro Aranha ",
+    "Latitude": -22.794354,
+    "Longitude": -43.290176,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ferreira Viana - Praça da Paz ",
+    "Latitude": -22.795702,
+    "Longitude": -43.289931,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Alberto de Oliveira 1",
+    "Latitude": -22.796304,
+    "Longitude": -43.290453,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Orlando Teixeira - Sta. Marta",
+    "Latitude": -22.79531,
+    "Longitude": -43.292453,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estação Supervia de Duque de Caxias ",
+    "Latitude": -22.787357,
+    "Longitude": -43.30912,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Presidente Vargas - Correios",
+    "Latitude": -22.788356,
+    "Longitude": -43.309104,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marechal Floriano - INSS",
+    "Latitude": -22.791165,
+    "Longitude": -43.30641,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marechal Floriano 939",
+    "Latitude": -22.791737,
+    "Longitude": -43.305295,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marechal Floriano 685",
+    "Latitude": -22.792852,
+    "Longitude": -43.302676,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "FUNDEC Caxias",
+    "Latitude": -22.793568,
+    "Longitude": -43.300944,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Major Correia de Melo 370",
+    "Latitude": -22.79341,
+    "Longitude": -43.299925,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Humaitá ",
+    "Latitude": -22.792355,
+    "Longitude": -43.300851,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marechal Bento Manoel 193",
+    "Latitude": -22.790514,
+    "Longitude": -43.299133,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marechal Bento Manoel 56",
+    "Latitude": -22.789739,
+    "Longitude": -43.297627,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Raul Soares 112",
+    "Latitude": -22.790537,
+    "Longitude": -43.295846,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Raul Soares 279",
+    "Latitude": -22.791457,
+    "Longitude": -43.29448,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurício de Abreu 160",
+    "Latitude": -22.790616,
+    "Longitude": -43.293009,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurício de Abreu 526",
+    "Latitude": -22.789863,
+    "Longitude": -43.291631,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurício de Abreu próximo a Rua Jorge Barbosa da Silva ",
+    "Latitude": -22.789101,
+    "Longitude": -43.29028,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Vereador Laury Vilar 506",
+    "Latitude": -22.790368,
+    "Longitude": -43.289433,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Francisco Alves próximo FUNDEC do Pq. Beira Mar",
+    "Latitude": -22.79189,
+    "Longitude": -43.289581,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tenreiro Aranha 197",
+    "Latitude": -22.793259,
+    "Longitude": -43.289471,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Dulce Petri ",
+    "Latitude": -22.792516,
+    "Longitude": -43.290073,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Florianópolis com Rua Dídimo Veiga ",
+    "Latitude": -22.791876,
+    "Longitude": -43.29052,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Florianópolis próximo 132",
+    "Latitude": -22.791181,
+    "Longitude": -43.290982,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Alberto de Oliveira 128",
+    "Latitude": -22.791513,
+    "Longitude": -43.292092,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cardeal Arcoverde 28",
+    "Latitude": -22.792053,
+    "Longitude": -43.291774,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cardeal Arcoverde com Rua Dídimo Veiga ",
+    "Latitude": -22.792664,
+    "Longitude": -43.291357,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Carlos Carvalho 07",
+    "Latitude": -22.793775,
+    "Longitude": -43.29142,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua João Brigido com Rua Tenreiro Aranha ",
+    "Latitude": -22.794354,
+    "Longitude": -43.290176,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ferreira Viana - Praça da Paz ",
+    "Latitude": -22.795702,
+    "Longitude": -43.289931,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Alberto de Oliveira 1",
+    "Latitude": -22.796304,
+    "Longitude": -43.290453,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Orlando Teixeira - Sta. Marta",
+    "Latitude": -22.79531,
+    "Longitude": -43.292453,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(Start)",
+    "Latitude": -22.787362,
+    "Longitude": -43.309188,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(End)",
+    "Latitude": -22.795364,
+    "Longitude": -43.292568,
+    "LineNumber": "DC-TZ20",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

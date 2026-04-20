@@ -1,0 +1,857 @@
+[
+  {
+    "PointName": "Estação Supervia Jardim Primavera ",
+    "Latitude": -22.69091,
+    "Longitude": -43.26248,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Baependi - Educandário Primavera ",
+    "Latitude": -22.688464,
+    "Longitude": -43.260398,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Baependi 596",
+    "Latitude": -22.687121,
+    "Longitude": -43.258754,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Baependi 533",
+    "Latitude": -22.685793,
+    "Longitude": -43.256919,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marapanim 13",
+    "Latitude": -22.686716,
+    "Longitude": -43.255957,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marapanim 21",
+    "Latitude": -22.687506,
+    "Longitude": -43.255388,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Vigo com Rua João Maria ",
+    "Latitude": -22.687983,
+    "Longitude": -43.255842,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Vigo 682",
+    "Latitude": -22.689123,
+    "Longitude": -43.257706,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Domingos Barbosa com Rua Evangelino da Silva ",
+    "Latitude": -22.68969,
+    "Longitude": -43.257574,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Domingos Barbosa 667",
+    "Latitude": -22.691249,
+    "Longitude": -43.256494,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Quito 637",
+    "Latitude": -22.691806,
+    "Longitude": -43.25694,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça da Rua 2",
+    "Latitude": -22.692812,
+    "Longitude": -43.256422,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "CIEP 208 Alceu Amoroso",
+    "Latitude": -22.692086,
+    "Longitude": -43.254834,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari com Rua Bralina",
+    "Latitude": -22.693099,
+    "Longitude": -43.253937,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari 15",
+    "Latitude": -22.693754,
+    "Longitude": -43.253302,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari 25",
+    "Latitude": -22.694938,
+    "Longitude": -43.25214,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari com Rua Angelita",
+    "Latitude": -22.695576,
+    "Longitude": -43.25152,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari com Rua Maripa",
+    "Latitude": -22.696181,
+    "Longitude": -43.250927,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maripá 28",
+    "Latitude": -22.697265,
+    "Longitude": -43.251524,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maripá com Rua Itapecerica ",
+    "Latitude": -22.698467,
+    "Longitude": -43.252244,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Guarará 15",
+    "Latitude": -22.699664,
+    "Longitude": -43.251689,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Adilson Ribeiro Braga",
+    "Latitude": -22.701194,
+    "Longitude": -43.252605,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Nova Iorque com Rua 49",
+    "Latitude": -22.701188,
+    "Longitude": -43.254213,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Nova Iorque 28",
+    "Latitude": -22.703524,
+    "Longitude": -43.255065,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua 113",
+    "Latitude": -22.703872,
+    "Longitude": -43.254272,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua 104 9",
+    "Latitude": -22.702509,
+    "Longitude": -43.253895,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Adilson Ribeiro Braga ",
+    "Latitude": -22.701332,
+    "Longitude": -43.252787,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Fé 3",
+    "Latitude": -22.700609,
+    "Longitude": -43.251694,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Fé - Igreja Metodista Wesleyana ",
+    "Latitude": -22.699811,
+    "Longitude": -43.250893,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Fé 13",
+    "Latitude": -22.698451,
+    "Longitude": -43.249824,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Fé 1",
+    "Latitude": -22.69783,
+    "Longitude": -43.249355,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Fé com Rua Cubatão ",
+    "Latitude": -22.696558,
+    "Longitude": -43.248388,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cubatão com Rua Caboré ",
+    "Latitude": -22.697109,
+    "Longitude": -43.247581,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Caboré ",
+    "Latitude": -22.696527,
+    "Longitude": -43.246983,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Felipe Oliveira ",
+    "Latitude": -22.697482,
+    "Longitude": -43.246212,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Barra Alegre com Rua Apiaca",
+    "Latitude": -22.698349,
+    "Longitude": -43.245419,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Muqui",
+    "Latitude": -22.699888,
+    "Longitude": -43.244228,
+    "LineNumber": "DC-TZ06",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Muqui",
+    "Latitude": -22.699885,
+    "Longitude": -43.244225,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Barra Alegre com Rua Apiaca",
+    "Latitude": -22.698343,
+    "Longitude": -43.245431,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Felipe de Oliveira ",
+    "Latitude": -22.697475,
+    "Longitude": -43.246198,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Caboré 14",
+    "Latitude": -22.696551,
+    "Longitude": -43.247002,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cubatão com Rua Caboré ",
+    "Latitude": -22.697108,
+    "Longitude": -43.247586,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cubatão com Rua Santa Fé ",
+    "Latitude": -22.696462,
+    "Longitude": -43.248212,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Fé 32",
+    "Latitude": -22.697901,
+    "Longitude": -43.249407,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Fé 33",
+    "Latitude": -22.69838,
+    "Longitude": -43.249769,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Sarandira com Rua Guarará ",
+    "Latitude": -22.697595,
+    "Longitude": -43.250818,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Sarandira 03",
+    "Latitude": -22.697236,
+    "Longitude": -43.251394,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maripá 8",
+    "Latitude": -22.696375,
+    "Longitude": -43.250936,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari com Rua Angelita ",
+    "Latitude": -22.69564,
+    "Longitude": -43.25146,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari com Rua Tebas",
+    "Latitude": -22.695039,
+    "Longitude": -43.252045,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari 32",
+    "Latitude": -22.693704,
+    "Longitude": -43.253346,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari com Rua Bralina ",
+    "Latitude": -22.693252,
+    "Longitude": -43.253781,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "CIEP 208 Alceu Amoroso Lima",
+    "Latitude": -22.692143,
+    "Longitude": -43.254636,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça da Rua 2 ",
+    "Latitude": -22.692713,
+    "Longitude": -43.256489,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Quito 637",
+    "Latitude": -22.691725,
+    "Longitude": -43.256805,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Domingos Barbosa 833",
+    "Latitude": -22.691207,
+    "Longitude": -43.256523,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Quito com Rua Catorze",
+    "Latitude": -22.689898,
+    "Longitude": -43.257445,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Vigo 723",
+    "Latitude": -22.689134,
+    "Longitude": -43.257724,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Vigo 740",
+    "Latitude": -22.688065,
+    "Longitude": -43.255967,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marapanim 13",
+    "Latitude": -22.687439,
+    "Longitude": -43.255435,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marapanim 16",
+    "Latitude": -22.686767,
+    "Longitude": -43.255924,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Baependi 599",
+    "Latitude": -22.685784,
+    "Longitude": -43.256902,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Abdul Nasser Haikal",
+    "Latitude": -22.687022,
+    "Longitude": -43.258624,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Baependi - Educandário Primavera ",
+    "Latitude": -22.688419,
+    "Longitude": -43.260359,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estação Supervia Jardim Primavera",
+    "Latitude": -22.690905,
+    "Longitude": -43.26248,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Muqui",
+    "Latitude": -22.699885,
+    "Longitude": -43.244225,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Barra Alegre com Rua Apiaca",
+    "Latitude": -22.698343,
+    "Longitude": -43.245431,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Felipe de Oliveira ",
+    "Latitude": -22.697475,
+    "Longitude": -43.246198,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Caboré 14",
+    "Latitude": -22.696551,
+    "Longitude": -43.247002,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cubatão com Rua Caboré ",
+    "Latitude": -22.697108,
+    "Longitude": -43.247586,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Cubatão com Rua Santa Fé ",
+    "Latitude": -22.696462,
+    "Longitude": -43.248212,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Fé 32",
+    "Latitude": -22.697901,
+    "Longitude": -43.249407,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Fé 33",
+    "Latitude": -22.69838,
+    "Longitude": -43.249769,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Sarandira com Rua Guarará ",
+    "Latitude": -22.697595,
+    "Longitude": -43.250818,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Sarandira 03",
+    "Latitude": -22.697236,
+    "Longitude": -43.251394,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maripá 8",
+    "Latitude": -22.696375,
+    "Longitude": -43.250936,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari com Rua Angelita ",
+    "Latitude": -22.69564,
+    "Longitude": -43.25146,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari com Rua Tebas",
+    "Latitude": -22.695039,
+    "Longitude": -43.252045,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari 32",
+    "Latitude": -22.693704,
+    "Longitude": -43.253346,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Grumari com Rua Bralina ",
+    "Latitude": -22.693252,
+    "Longitude": -43.253781,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "CIEP 208 Alceu Amoroso Lima",
+    "Latitude": -22.692143,
+    "Longitude": -43.254636,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça da Rua 2 ",
+    "Latitude": -22.692713,
+    "Longitude": -43.256489,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Quito 637",
+    "Latitude": -22.691725,
+    "Longitude": -43.256805,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Domingos Barbosa 833",
+    "Latitude": -22.691207,
+    "Longitude": -43.256523,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Quito com Rua Catorze",
+    "Latitude": -22.689898,
+    "Longitude": -43.257445,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Vigo 723",
+    "Latitude": -22.689134,
+    "Longitude": -43.257724,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Vigo 740",
+    "Latitude": -22.688065,
+    "Longitude": -43.255967,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marapanim 13",
+    "Latitude": -22.687439,
+    "Longitude": -43.255435,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marapanim 16",
+    "Latitude": -22.686767,
+    "Longitude": -43.255924,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Baependi 599",
+    "Latitude": -22.685784,
+    "Longitude": -43.256902,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Abdul Nasser Haikal",
+    "Latitude": -22.687022,
+    "Longitude": -43.258624,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Baependi - Educandário Primavera ",
+    "Latitude": -22.688419,
+    "Longitude": -43.260359,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estação Supervia Jardim Primavera",
+    "Latitude": -22.690905,
+    "Longitude": -43.26248,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(Start)",
+    "Latitude": -22.699892,
+    "Longitude": -43.244211,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(End)",
+    "Latitude": -22.690947,
+    "Longitude": -43.262452,
+    "LineNumber": "DC-TZ06",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

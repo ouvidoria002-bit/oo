@@ -1,0 +1,1361 @@
+[
+  {
+    "PointName": "USF Pilar - Praça do Pilar ",
+    "Latitude": -22.709297,
+    "Longitude": -43.314121,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Francisco Plácido de Jesus ",
+    "Latitude": -22.711259,
+    "Longitude": -43.314281,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Ester Quintela de Jesus ",
+    "Latitude": -22.711252,
+    "Longitude": -43.312887,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho 327",
+    "Latitude": -22.711254,
+    "Longitude": -43.311352,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Orestes da Silva ",
+    "Latitude": -22.711256,
+    "Longitude": -43.310452,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Carlos Roberto ",
+    "Latitude": -22.711255,
+    "Longitude": -43.309037,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Natividade Saldanha ",
+    "Latitude": -22.711254,
+    "Longitude": -43.307019,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Nossa Senhora da Conceição ",
+    "Latitude": -22.711257,
+    "Longitude": -43.305632,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho 323",
+    "Latitude": -22.711254,
+    "Longitude": -43.30342,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Tel Carim ",
+    "Latitude": -22.711258,
+    "Longitude": -43.302032,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho 23",
+    "Latitude": -22.711259,
+    "Longitude": -43.30122,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho 320",
+    "Latitude": -22.711261,
+    "Longitude": -43.299089,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho 3008",
+    "Latitude": -22.711256,
+    "Longitude": -43.298038,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho - CDL Duque",
+    "Latitude": -22.714119,
+    "Longitude": -43.291129,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Petrobrás - REDUC 1",
+    "Latitude": -22.715053,
+    "Longitude": -43.288706,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Petrobrás - REDUC 2",
+    "Latitude": -22.716685,
+    "Longitude": -43.287602,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Petrobrás - REDUC 3",
+    "Latitude": -22.71441,
+    "Longitude": -43.287239,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Petrobrás - DPO Campos Elíseos ",
+    "Latitude": -22.711281,
+    "Longitude": -43.287952,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor 10",
+    "Latitude": -22.709957,
+    "Longitude": -43.284966,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - VIBRA ",
+    "Latitude": -22.71075,
+    "Longitude": -43.282328,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - Avenida Monro",
+    "Latitude": -22.711119,
+    "Longitude": -43.281009,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - Supergasbras",
+    "Latitude": -22.711586,
+    "Longitude": -43.279329,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - Supergasbras 2",
+    "Latitude": -22.712245,
+    "Longitude": -43.276949,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - Supergasbras 3",
+    "Latitude": -22.712786,
+    "Longitude": -43.275033,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor com Avenida Tadeu Kosciuko",
+    "Latitude": -22.713502,
+    "Longitude": -43.272608,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor ",
+    "Latitude": -22.714579,
+    "Longitude": -43.268677,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - White Martins",
+    "Latitude": -22.71502,
+    "Longitude": -43.265515,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor com Rua Hualaga",
+    "Latitude": -22.71569,
+    "Longitude": -43.260425,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor 3501",
+    "Latitude": -22.715896,
+    "Longitude": -43.258856,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - TECAM",
+    "Latitude": -22.716855,
+    "Longitude": -43.254405,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor com Rua Marumbi ",
+    "Latitude": -22.71803,
+    "Longitude": -43.253075,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marumbi com Rua Miguel Couto ",
+    "Latitude": -22.716223,
+    "Longitude": -43.244317,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Miguel Couto - BRASKEM",
+    "Latitude": -22.714274,
+    "Longitude": -43.24474,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Adolfo Fichman com Avenida Branca Dias",
+    "Latitude": -22.701962,
+    "Longitude": -43.240281,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Avenida Presidente Rosselvet ",
+    "Latitude": -22.701073,
+    "Longitude": -43.239743,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Avenida Presidente Eisenhower ",
+    "Latitude": -22.699464,
+    "Longitude": -43.238214,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias 6",
+    "Latitude": -22.698576,
+    "Longitude": -43.237763,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias - Cond. Residencial Riviera ",
+    "Latitude": -22.69776,
+    "Longitude": -43.237543,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias 100",
+    "Latitude": -22.696586,
+    "Longitude": -43.236903,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Albert Sabin",
+    "Latitude": -22.695567,
+    "Longitude": -43.23634,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Cangulo",
+    "Latitude": -22.695078,
+    "Longitude": -43.236812,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes",
+    "Latitude": -22.69371,
+    "Longitude": -43.237373,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes com Rua Ibipora",
+    "Latitude": -22.692339,
+    "Longitude": -43.237363,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ibirapuera ",
+    "Latitude": -22.691258,
+    "Longitude": -43.238651,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua AK",
+    "Latitude": -22.690693,
+    "Longitude": -43.239482,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí 61",
+    "Latitude": -22.688384,
+    "Longitude": -43.239483,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua Quixeramobim ",
+    "Latitude": -22.687248,
+    "Longitude": -43.239478,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Irajá 513",
+    "Latitude": -22.686216,
+    "Longitude": -43.240175,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Irajá - Praça do Vasquinho",
+    "Latitude": -22.685012,
+    "Longitude": -43.24112,
+    "LineNumber": "DC-TZ18",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Irajá - Praça do Vasquinho ",
+    "Latitude": -22.685007,
+    "Longitude": -43.24112,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Irajá com Rua La Place",
+    "Latitude": -22.686434,
+    "Longitude": -43.239947,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua Quixeramobim ",
+    "Latitude": -22.687243,
+    "Longitude": -43.239488,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí 61",
+    "Latitude": -22.68839,
+    "Longitude": -43.239483,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí 40",
+    "Latitude": -22.690308,
+    "Longitude": -43.239482,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ibirapuera ",
+    "Latitude": -22.691258,
+    "Longitude": -43.238566,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes com Rua Ibipora ",
+    "Latitude": -22.692331,
+    "Longitude": -43.237362,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes ",
+    "Latitude": -22.693705,
+    "Longitude": -43.237373,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Cangulo ",
+    "Latitude": -22.695092,
+    "Longitude": -43.236787,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias - Predinhos",
+    "Latitude": -22.696358,
+    "Longitude": -43.236769,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias - Condomínio Residencial Riviera ",
+    "Latitude": -22.697648,
+    "Longitude": -43.237481,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Minas Gerais ",
+    "Latitude": -22.69877,
+    "Longitude": -43.237835,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Presidente Eisenhower ",
+    "Latitude": -22.699447,
+    "Longitude": -43.238192,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Presidente Rosselvet ",
+    "Latitude": -22.701169,
+    "Longitude": -43.239804,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Adolfo Fichman com Avenida Branca Dias ",
+    "Latitude": -22.701957,
+    "Longitude": -43.240281,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Miguel Couto - Braskem ",
+    "Latitude": -22.714482,
+    "Longitude": -43.244755,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Miguel Couto com a Rua Marumbi",
+    "Latitude": -22.7159,
+    "Longitude": -43.244414,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marumbi com Avenida Fabor",
+    "Latitude": -22.71779,
+    "Longitude": -43.252549,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - TECAM",
+    "Latitude": -22.716649,
+    "Longitude": -43.254424,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "avenida Fabor 3501",
+    "Latitude": -22.71579,
+    "Longitude": -43.258968,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor com Rua Hualaga ",
+    "Latitude": -22.715593,
+    "Longitude": -43.260444,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor 3001",
+    "Latitude": -22.715124,
+    "Longitude": -43.264038,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor ",
+    "Latitude": -22.714611,
+    "Longitude": -43.267959,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor com Avenida Tadeu Kosciuko ",
+    "Latitude": -22.71338,
+    "Longitude": -43.272622,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - Supergasbras 3 ",
+    "Latitude": -22.712688,
+    "Longitude": -43.27503,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Supergasbras ",
+    "Latitude": -22.711462,
+    "Longitude": -43.279445,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Supergasbras 2",
+    "Latitude": -22.712162,
+    "Longitude": -43.276933,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor com Avenida Monro ",
+    "Latitude": -22.711054,
+    "Longitude": -43.28093,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - VIBRA",
+    "Latitude": -22.710697,
+    "Longitude": -43.282179,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor 10",
+    "Latitude": -22.709853,
+    "Longitude": -43.285038,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Petrobrás - DPO Campos Elíseos ",
+    "Latitude": -22.711214,
+    "Longitude": -43.288096,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Petrobrás - REDUC",
+    "Latitude": -22.713697,
+    "Longitude": -43.288767,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho - CDL Duque ",
+    "Latitude": -22.714067,
+    "Longitude": -43.290654,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho 3008",
+    "Latitude": -22.711255,
+    "Longitude": -43.298139,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Clara",
+    "Latitude": -22.711258,
+    "Longitude": -43.299269,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho 23",
+    "Latitude": -22.711257,
+    "Longitude": -43.301204,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Tel Carim",
+    "Latitude": -22.711254,
+    "Longitude": -43.302031,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Tel Aviv ",
+    "Latitude": -22.711256,
+    "Longitude": -43.302709,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Comendador Silva Cardoso ",
+    "Latitude": -22.711251,
+    "Longitude": -43.303432,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Nossa Senhora da Conceição ",
+    "Latitude": -22.711252,
+    "Longitude": -43.305642,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Carlos Avelar ",
+    "Latitude": -22.71126,
+    "Longitude": -43.306463,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho 128",
+    "Latitude": -22.711252,
+    "Longitude": -43.308398,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Nossa Senhora de Fátima ",
+    "Latitude": -22.711257,
+    "Longitude": -43.309579,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Coronel Menezes Cortes",
+    "Latitude": -22.711258,
+    "Longitude": -43.310389,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua São Luís ",
+    "Latitude": -22.711257,
+    "Longitude": -43.31145,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Ester Quintela de Jesus ",
+    "Latitude": -22.711254,
+    "Longitude": -43.313032,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Francisco Plácido de Jesus ",
+    "Latitude": -22.711251,
+    "Longitude": -43.31434,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Francisco Plácido de Jesus - Praça do Pilar",
+    "Latitude": -22.709169,
+    "Longitude": -43.314388,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "USF do Pilar - Praça do Pilar",
+    "Latitude": -22.7093,
+    "Longitude": -43.314117,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marumbi com Rua Miguel Couto ",
+    "Latitude": -22.716223,
+    "Longitude": -43.244317,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Irajá - Praça do Vasquinho",
+    "Latitude": -22.685012,
+    "Longitude": -43.24112,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Irajá - Praça do Vasquinho ",
+    "Latitude": -22.685007,
+    "Longitude": -43.24112,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Irajá com Rua La Place",
+    "Latitude": -22.686434,
+    "Longitude": -43.239947,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua Quixeramobim ",
+    "Latitude": -22.687243,
+    "Longitude": -43.239488,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí 61",
+    "Latitude": -22.68839,
+    "Longitude": -43.239483,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí 40",
+    "Latitude": -22.690308,
+    "Longitude": -43.239482,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ibirapuera ",
+    "Latitude": -22.691258,
+    "Longitude": -43.238566,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes com Rua Ibipora ",
+    "Latitude": -22.692331,
+    "Longitude": -43.237362,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes ",
+    "Latitude": -22.693705,
+    "Longitude": -43.237373,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Cangulo ",
+    "Latitude": -22.695092,
+    "Longitude": -43.236787,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias - Predinhos",
+    "Latitude": -22.696358,
+    "Longitude": -43.236769,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias - Condomínio Residencial Riviera ",
+    "Latitude": -22.697648,
+    "Longitude": -43.237481,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Minas Gerais ",
+    "Latitude": -22.69877,
+    "Longitude": -43.237835,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Presidente Eisenhower ",
+    "Latitude": -22.699447,
+    "Longitude": -43.238192,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Presidente Rosselvet ",
+    "Latitude": -22.701169,
+    "Longitude": -43.239804,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Adolfo Fichman com Avenida Branca Dias ",
+    "Latitude": -22.701957,
+    "Longitude": -43.240281,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Miguel Couto - Braskem ",
+    "Latitude": -22.714482,
+    "Longitude": -43.244755,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Miguel Couto com a Rua Marumbi",
+    "Latitude": -22.7159,
+    "Longitude": -43.244414,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marumbi com Avenida Fabor",
+    "Latitude": -22.71779,
+    "Longitude": -43.252549,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - TECAM",
+    "Latitude": -22.716649,
+    "Longitude": -43.254424,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "avenida Fabor 3501",
+    "Latitude": -22.71579,
+    "Longitude": -43.258968,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor com Rua Hualaga ",
+    "Latitude": -22.715593,
+    "Longitude": -43.260444,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor 3001",
+    "Latitude": -22.715124,
+    "Longitude": -43.264038,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor ",
+    "Latitude": -22.714611,
+    "Longitude": -43.267959,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor com Avenida Tadeu Kosciuko ",
+    "Latitude": -22.71338,
+    "Longitude": -43.272622,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - Supergasbras 3 ",
+    "Latitude": -22.712688,
+    "Longitude": -43.27503,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Supergasbras ",
+    "Latitude": -22.711462,
+    "Longitude": -43.279445,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Supergasbras 2",
+    "Latitude": -22.712162,
+    "Longitude": -43.276933,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor com Avenida Monro ",
+    "Latitude": -22.711054,
+    "Longitude": -43.28093,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor - VIBRA",
+    "Latitude": -22.710697,
+    "Longitude": -43.282179,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Fabor 10",
+    "Latitude": -22.709853,
+    "Longitude": -43.285038,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Petrobrás - DPO Campos Elíseos ",
+    "Latitude": -22.711214,
+    "Longitude": -43.288096,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Petrobrás - REDUC",
+    "Latitude": -22.713697,
+    "Longitude": -43.288767,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho - CDL Duque ",
+    "Latitude": -22.714067,
+    "Longitude": -43.290654,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho 3008",
+    "Latitude": -22.711255,
+    "Longitude": -43.298139,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Clara",
+    "Latitude": -22.711258,
+    "Longitude": -43.299269,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho 23",
+    "Latitude": -22.711257,
+    "Longitude": -43.301204,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Tel Carim",
+    "Latitude": -22.711254,
+    "Longitude": -43.302031,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Tel Aviv ",
+    "Latitude": -22.711256,
+    "Longitude": -43.302709,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Comendador Silva Cardoso ",
+    "Latitude": -22.711251,
+    "Longitude": -43.303432,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Nossa Senhora da Conceição ",
+    "Latitude": -22.711252,
+    "Longitude": -43.305642,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Carlos Avelar ",
+    "Latitude": -22.71126,
+    "Longitude": -43.306463,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho 128",
+    "Latitude": -22.711252,
+    "Longitude": -43.308398,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Nossa Senhora de Fátima ",
+    "Latitude": -22.711257,
+    "Longitude": -43.309579,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Coronel Menezes Cortes",
+    "Latitude": -22.711258,
+    "Longitude": -43.310389,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua São Luís ",
+    "Latitude": -22.711257,
+    "Longitude": -43.31145,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Ester Quintela de Jesus ",
+    "Latitude": -22.711254,
+    "Longitude": -43.313032,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "5 de julho com Rua Francisco Plácido de Jesus ",
+    "Latitude": -22.711251,
+    "Longitude": -43.31434,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Francisco Plácido de Jesus - Praça do Pilar",
+    "Latitude": -22.709169,
+    "Longitude": -43.314388,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "USF do Pilar - Praça do Pilar",
+    "Latitude": -22.7093,
+    "Longitude": -43.314117,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(Start)",
+    "Latitude": -22.685059,
+    "Longitude": -43.241185,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(End)",
+    "Latitude": -22.709296,
+    "Longitude": -43.31415,
+    "LineNumber": "DC-TZ18",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

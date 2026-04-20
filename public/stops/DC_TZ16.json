@@ -1,0 +1,632 @@
+[
+  {
+    "PointName": "Avenida 1 com Rua 12",
+    "Latitude": -22.806297,
+    "Longitude": -43.28195,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 1com Rua 10",
+    "Latitude": -22.806305,
+    "Longitude": -43.282904,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "FUNDEC PARQUE DAS MISSÕES ",
+    "Latitude": -22.806315,
+    "Longitude": -43.284093,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 1 com Rua 5",
+    "Latitude": -22.806321,
+    "Longitude": -43.284831,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 2, 46",
+    "Latitude": -22.805534,
+    "Longitude": -43.285492,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Entrada do Parque das Missões ",
+    "Latitude": -22.806186,
+    "Longitude": -43.28598,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Passarela do Parque das Missões ",
+    "Latitude": -22.806206,
+    "Longitude": -43.289262,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Hotel Capri",
+    "Latitude": -22.797877,
+    "Longitude": -43.289373,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Professor José de Souza Herdy",
+    "Latitude": -22.794966,
+    "Longitude": -43.28727,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pereira Passos 180",
+    "Latitude": -22.794043,
+    "Longitude": -43.2866,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Kennedy -Tecnogera/SADA",
+    "Latitude": -22.793886,
+    "Longitude": -43.285723,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Kennedy - Praça do Dois Irmãos",
+    "Latitude": -22.795309,
+    "Longitude": -43.283996,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Depósito Regional Carrefour ",
+    "Latitude": -22.796452,
+    "Longitude": -43.282423,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Multiteiner",
+    "Latitude": -22.800434,
+    "Longitude": -43.28246,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Goodman",
+    "Latitude": -22.799632,
+    "Longitude": -43.28227,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bunge",
+    "Latitude": -22.798044,
+    "Longitude": -43.282274,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Multimodal",
+    "Latitude": -22.795586,
+    "Longitude": -43.282513,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Kennedy 114",
+    "Latitude": -22.794737,
+    "Longitude": -43.283806,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Hotel Matiz",
+    "Latitude": -22.789059,
+    "Longitude": -43.285297,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Jornal O Globo",
+    "Latitude": -22.786829,
+    "Longitude": -43.285142,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Hospital Moacyr do Carmo ",
+    "Latitude": -22.783221,
+    "Longitude": -43.285341,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Cemitério Público de Duque de Caxias ",
+    "Latitude": -22.778401,
+    "Longitude": -43.285619,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 4230",
+    "Latitude": -22.776063,
+    "Longitude": -43.285792,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 4586 ",
+    "Latitude": -22.770789,
+    "Longitude": -43.286078,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Passarela Carrefour ",
+    "Latitude": -22.766013,
+    "Longitude": -43.286359,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR 040 Carvalhão ",
+    "Latitude": -22.766209,
+    "Longitude": -43.286856,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 1 com Rua 12",
+    "Latitude": -22.806297,
+    "Longitude": -43.28195,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 1com Rua 10",
+    "Latitude": -22.806305,
+    "Longitude": -43.282904,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "FUNDEC PARQUE DAS MISSÕES ",
+    "Latitude": -22.806315,
+    "Longitude": -43.284093,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 1 com Rua 5",
+    "Latitude": -22.806321,
+    "Longitude": -43.284831,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 2, 46",
+    "Latitude": -22.805534,
+    "Longitude": -43.285492,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Entrada do Parque das Missões ",
+    "Latitude": -22.806186,
+    "Longitude": -43.28598,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Passarela do Parque das Missões ",
+    "Latitude": -22.806206,
+    "Longitude": -43.289262,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Hotel Capri",
+    "Latitude": -22.797877,
+    "Longitude": -43.289373,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Professor José de Souza Herdy",
+    "Latitude": -22.794966,
+    "Longitude": -43.28727,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pereira Passos 180",
+    "Latitude": -22.794043,
+    "Longitude": -43.2866,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Kennedy -Tecnogera/SADA",
+    "Latitude": -22.793886,
+    "Longitude": -43.285723,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Kennedy - Praça do Dois Irmãos",
+    "Latitude": -22.795309,
+    "Longitude": -43.283996,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Depósito Regional Carrefour ",
+    "Latitude": -22.796452,
+    "Longitude": -43.282423,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Multiteiner",
+    "Latitude": -22.800434,
+    "Longitude": -43.28246,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Goodman",
+    "Latitude": -22.799632,
+    "Longitude": -43.28227,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bunge",
+    "Latitude": -22.798044,
+    "Longitude": -43.282274,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Multimodal",
+    "Latitude": -22.795586,
+    "Longitude": -43.282513,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Kennedy 114",
+    "Latitude": -22.794737,
+    "Longitude": -43.283806,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Hotel Matiz",
+    "Latitude": -22.789059,
+    "Longitude": -43.285297,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Jornal O Globo",
+    "Latitude": -22.786829,
+    "Longitude": -43.285142,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Hospital Moacyr do Carmo ",
+    "Latitude": -22.783221,
+    "Longitude": -43.285341,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Cemitério Público de Duque de Caxias ",
+    "Latitude": -22.778401,
+    "Longitude": -43.285619,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 4230",
+    "Latitude": -22.776063,
+    "Longitude": -43.285792,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 4586 ",
+    "Latitude": -22.770789,
+    "Longitude": -43.286078,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Passarela Carrefour ",
+    "Latitude": -22.766013,
+    "Longitude": -43.286359,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR 040 Carvalhão ",
+    "Latitude": -22.766209,
+    "Longitude": -43.286856,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(Start)",
+    "Latitude": -22.806284,
+    "Longitude": -43.281947,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(End)",
+    "Latitude": -22.766197,
+    "Longitude": -43.28685,
+    "LineNumber": "DC-TZ16",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Carvalhão",
+    "Latitude": -22.766081,
+    "Longitude": -43.286866,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 com Rua Martins Junior ",
+    "Latitude": -22.771986,
+    "Longitude": -43.286494,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR 040 com Rua 14 de julho",
+    "Latitude": -22.775606,
+    "Longitude": -43.286287,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 - Dom Atacadista ",
+    "Latitude": -22.781164,
+    "Longitude": -43.285925,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Hospital Moacyr do Carmo",
+    "Latitude": -22.784025,
+    "Longitude": -43.285771,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Caxias Shopping ",
+    "Latitude": -22.787603,
+    "Longitude": -43.285621,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Passarela do Beira Mar",
+    "Latitude": -22.794332,
+    "Longitude": -43.28808,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR040 Próximo Entrada de Caxias",
+    "Latitude": -22.799206,
+    "Longitude": -43.290414,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Fuzileiros Navais",
+    "Latitude": -22.803945,
+    "Longitude": -43.290093,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua 2 30",
+    "Latitude": -22.806245,
+    "Longitude": -43.285977,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 2, 46",
+    "Latitude": -22.805535,
+    "Longitude": -43.285484,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua 4, 29",
+    "Latitude": -22.806046,
+    "Longitude": -43.285192,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "FUNDEC Parque das Missões ",
+    "Latitude": -22.806316,
+    "Longitude": -43.284313,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 1, com Rua 9",
+    "Latitude": -22.806307,
+    "Longitude": -43.283263,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 1 com Rua11",
+    "Latitude": -22.806304,
+    "Longitude": -43.282608,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 1 com Rua 12",
+    "Latitude": -22.806293,
+    "Longitude": -43.281997,
+    "LineNumber": "DC-TZ16",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

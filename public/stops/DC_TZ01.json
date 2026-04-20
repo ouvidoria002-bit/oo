@@ -1,0 +1,1325 @@
+[
+  {
+    "PointName": "Praça do Capivarí ",
+    "Latitude": -22.643896,
+    "Longitude": -43.333569,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Clínica da Família Capivari ",
+    "Latitude": -22.644901,
+    "Longitude": -43.331344,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M Parque Capivari ",
+    "Latitude": -22.645877,
+    "Longitude": -43.329675,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Barbacena 254",
+    "Latitude": -22.64648,
+    "Longitude": -43.328634,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Barbacena 180",
+    "Latitude": -22.649171,
+    "Longitude": -43.324067,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Barbacena 126",
+    "Latitude": -22.649662,
+    "Longitude": -43.323224,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Haras Soares ",
+    "Latitude": -22.650219,
+    "Longitude": -43.322269,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Barbacena 88",
+    "Latitude": -22.651598,
+    "Longitude": -43.319942,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Barbacena 874",
+    "Latitude": -22.652628,
+    "Longitude": -43.318178,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Marques de Barbacena com Estrada de São Lourenço ",
+    "Latitude": -22.653138,
+    "Longitude": -43.317761,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Onze",
+    "Latitude": -22.654441,
+    "Longitude": -43.317915,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Dresde ",
+    "Latitude": -22.655801,
+    "Longitude": -43.317754,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Eider ",
+    "Latitude": -22.657347,
+    "Longitude": -43.317405,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Antioquia ",
+    "Latitude": -22.658466,
+    "Longitude": -43.3167,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 22",
+    "Latitude": -22.658991,
+    "Longitude": -43.315772,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Nove ",
+    "Latitude": -22.659497,
+    "Longitude": -43.314575,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Zamzibar ",
+    "Latitude": -22.660205,
+    "Longitude": -43.313707,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Gólgota ",
+    "Latitude": -22.661119,
+    "Longitude": -43.313042,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Bohemia ",
+    "Latitude": -22.662218,
+    "Longitude": -43.312553,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 4000",
+    "Latitude": -22.663961,
+    "Longitude": -43.312035,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Catalão ",
+    "Latitude": -22.665081,
+    "Longitude": -43.311555,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Condrios ",
+    "Latitude": -22.66614,
+    "Longitude": -43.310775,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 3289",
+    "Latitude": -22.666583,
+    "Longitude": -43.30973,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Ravena ",
+    "Latitude": -22.666703,
+    "Longitude": -43.308837,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Florestal ",
+    "Latitude": -22.666885,
+    "Longitude": -43.307,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 2040",
+    "Latitude": -22.667105,
+    "Longitude": -43.304893,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 1730",
+    "Latitude": -22.667368,
+    "Longitude": -43.302411,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 364",
+    "Latitude": -22.667698,
+    "Longitude": -43.299703,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Presidente Costa e Silva ",
+    "Latitude": -22.667943,
+    "Longitude": -43.297619,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 891",
+    "Latitude": -22.668344,
+    "Longitude": -43.294274,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Avenida Calombé ",
+    "Latitude": -22.668617,
+    "Longitude": -43.292035,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Tereza Cristina ",
+    "Latitude": -22.668974,
+    "Longitude": -43.289078,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Tereza Cristina com Rua F",
+    "Latitude": -22.670402,
+    "Longitude": -43.288849,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Outlet 1 ",
+    "Latitude": -22.674375,
+    "Longitude": -43.289366,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Ponto de parada 02/02/2026, 16:08:26",
+    "Latitude": -22.676543,
+    "Longitude": -43.28963,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Tereza Cristina com Alameda Paula Liliana ",
+    "Latitude": -22.678965,
+    "Longitude": -43.289969,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Tereza Cristina 2125",
+    "Latitude": -22.680443,
+    "Longitude": -43.290152,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 5",
+    "Latitude": -22.680386,
+    "Longitude": -43.291103,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 12",
+    "Latitude": -22.679118,
+    "Longitude": -43.292472,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 953",
+    "Latitude": -22.678363,
+    "Longitude": -43.292866,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 1164",
+    "Latitude": -22.676736,
+    "Longitude": -43.293707,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 1330",
+    "Latitude": -22.675836,
+    "Longitude": -43.294179,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 1450",
+    "Latitude": -22.674914,
+    "Longitude": -43.294776,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 1675",
+    "Latitude": -22.673218,
+    "Longitude": -43.29632,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 1500",
+    "Latitude": -22.672743,
+    "Longitude": -43.298089,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Aníbal Benevolo 290",
+    "Latitude": -22.673422,
+    "Longitude": -43.29937,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Aníbal Benevolo 422",
+    "Latitude": -22.674271,
+    "Longitude": -43.300476,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Aníbal Benevolo 48",
+    "Latitude": -22.67496,
+    "Longitude": -43.301317,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Aníbal Benevolo com João Pinheiro de Barros ",
+    "Latitude": -22.675527,
+    "Longitude": -43.302013,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Aníbal Benevolo 84",
+    "Latitude": -22.676335,
+    "Longitude": -43.303084,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 2065",
+    "Latitude": -22.677003,
+    "Longitude": -43.303572,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 2036",
+    "Latitude": -22.67777,
+    "Longitude": -43.302901,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes com Sacadura Cabral ",
+    "Latitude": -22.679073,
+    "Longitude": -43.301752,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 2171",
+    "Latitude": -22.680172,
+    "Longitude": -43.300796,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 1715",
+    "Latitude": -22.681393,
+    "Longitude": -43.299713,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 1475",
+    "Latitude": -22.682823,
+    "Longitude": -43.298464,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 1415",
+    "Latitude": -22.683657,
+    "Longitude": -43.297746,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 1279",
+    "Latitude": -22.684486,
+    "Longitude": -43.29702,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 1175",
+    "Latitude": -22.685176,
+    "Longitude": -43.296429,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes com rua Angustura ",
+    "Latitude": -22.685788,
+    "Longitude": -43.295899,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Mascarenhas de Moraes 947",
+    "Latitude": -22.686679,
+    "Longitude": -43.295127,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 799",
+    "Latitude": -22.687609,
+    "Longitude": -43.294315,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes com avenida Calombé ",
+    "Latitude": -22.688367,
+    "Longitude": -43.2929,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 436",
+    "Latitude": -22.688688,
+    "Longitude": -43.291731,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 2858",
+    "Latitude": -22.689222,
+    "Longitude": -43.289781,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes esquina com Demétrio Ribeiro ",
+    "Latitude": -22.689383,
+    "Longitude": -43.289196,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Demétrio Ribeiro 723",
+    "Latitude": -22.688325,
+    "Longitude": -43.288705,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Demétrio Ribeiro 918",
+    "Latitude": -22.686668,
+    "Longitude": -43.288166,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Portal Recanto dos Sabias",
+    "Latitude": -22.685028,
+    "Longitude": -43.287703,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Demétrio Ribeiro 23",
+    "Latitude": -22.684314,
+    "Longitude": -43.287716,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Demétrio Ribeiro 10",
+    "Latitude": -22.683409,
+    "Longitude": -43.287844,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Demétrio Ribeiro 14",
+    "Latitude": -22.682648,
+    "Longitude": -43.287944,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Demétrio Ribeiro 5",
+    "Latitude": -22.681397,
+    "Longitude": -43.288126,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça da Figueira ",
+    "Latitude": -22.681017,
+    "Longitude": -43.28931,
+    "LineNumber": "DC-TZ01",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": " Praça da Figueira ",
+    "Latitude": -22.68098,
+    "Longitude": -43.289484,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Maria Lúcia Andrade Ribeiro ",
+    "Latitude": -22.68191,
+    "Longitude": -43.290035,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Tereza Cristina 1677",
+    "Latitude": -22.683021,
+    "Longitude": -43.28988,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Tereza Cristina com rua Formosa ",
+    "Latitude": -22.684281,
+    "Longitude": -43.289721,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Tereza Cristina 1075",
+    "Latitude": -22.685356,
+    "Longitude": -43.289903,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Tereza Cristina 2960",
+    "Latitude": -22.687125,
+    "Longitude": -43.290462,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Tereza Cristina com Mascarenhas de Moraes ",
+    "Latitude": -22.68852,
+    "Longitude": -43.290908,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Ponto de parada 02/02/2026, 14:03:50",
+    "Latitude": -22.688689,
+    "Longitude": -43.291778,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes com av Calombé",
+    "Latitude": -22.688342,
+    "Longitude": -43.292994,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 770",
+    "Latitude": -22.687562,
+    "Longitude": -43.294353,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 1044",
+    "Latitude": -22.686797,
+    "Longitude": -43.295019,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes com rua Angustura",
+    "Latitude": -22.685981,
+    "Longitude": -43.295719,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 1152",
+    "Latitude": -22.68509,
+    "Longitude": -43.296493,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 1212",
+    "Latitude": -22.684449,
+    "Longitude": -43.297044,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 1190",
+    "Latitude": -22.683723,
+    "Longitude": -43.297677,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 999",
+    "Latitude": -22.682667,
+    "Longitude": -43.298598,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 1880",
+    "Latitude": -22.681359,
+    "Longitude": -43.299748,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 100",
+    "Latitude": -22.6801,
+    "Longitude": -43.300849,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes com Sacadura Cabral",
+    "Latitude": -22.67908,
+    "Longitude": -43.301755,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes 2036",
+    "Latitude": -22.67778,
+    "Longitude": -43.30289,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Mascarenhas de Moraes com Anibal Benevolo",
+    "Latitude": -22.676913,
+    "Longitude": -43.303653,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Anibal Benevolo 84",
+    "Latitude": -22.676232,
+    "Longitude": -43.302949,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Anibal Benevolo com João Pinheiro Barros",
+    "Latitude": -22.675564,
+    "Longitude": -43.302046,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Aníbal Benevolo 48",
+    "Latitude": -22.675063,
+    "Longitude": -43.301436,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Anibal Benevolo com Almeida Garret",
+    "Latitude": -22.674349,
+    "Longitude": -43.300567,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Aníbal Benevolo 290",
+    "Latitude": -22.673356,
+    "Longitude": -43.299278,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 1500",
+    "Latitude": -22.672732,
+    "Longitude": -43.298126,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 1675",
+    "Latitude": -22.67347,
+    "Longitude": -43.296108,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 1453",
+    "Latitude": -22.674896,
+    "Longitude": -43.294786,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 1330",
+    "Latitude": -22.675846,
+    "Longitude": -43.29418,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 1053",
+    "Latitude": -22.676738,
+    "Longitude": -43.293708,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 953",
+    "Latitude": -22.678396,
+    "Longitude": -43.292843,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 12",
+    "Latitude": -22.679052,
+    "Longitude": -43.292501,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 657",
+    "Latitude": -22.680345,
+    "Longitude": -43.291181,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Velha do Pilar 529",
+    "Latitude": -22.680747,
+    "Longitude": -43.290366,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Tereza Cristina com Alameda Paula Liliana",
+    "Latitude": -22.67904,
+    "Longitude": -43.289971,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Outlet 2",
+    "Latitude": -22.676394,
+    "Longitude": -43.289608,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Outlet 1",
+    "Latitude": -22.674485,
+    "Longitude": -43.289372,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Tereza Cristina 1155",
+    "Latitude": -22.670456,
+    "Longitude": -43.288849,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Tereza Cristina ",
+    "Latitude": -22.668964,
+    "Longitude": -43.289159,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Avenida Calombé ",
+    "Latitude": -22.668622,
+    "Longitude": -43.292007,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Estrada das Amendoeiras",
+    "Latitude": -22.668321,
+    "Longitude": -43.294445,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Presidente Costa e Silva",
+    "Latitude": -22.667952,
+    "Longitude": -43.29754,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 364",
+    "Latitude": -22.667673,
+    "Longitude": -43.299832,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 1730",
+    "Latitude": -22.66736,
+    "Longitude": -43.302539,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 2040",
+    "Latitude": -22.667095,
+    "Longitude": -43.304961,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Estrada Florestal ",
+    "Latitude": -22.666881,
+    "Longitude": -43.306937,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Ravena",
+    "Latitude": -22.6667,
+    "Longitude": -43.308856,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Crateús ",
+    "Latitude": -22.666586,
+    "Longitude": -43.309724,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Condrios",
+    "Latitude": -22.666052,
+    "Longitude": -43.310883,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Catalão ",
+    "Latitude": -22.665008,
+    "Longitude": -43.311585,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 4000",
+    "Latitude": -22.663732,
+    "Longitude": -43.312107,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Bohemia ",
+    "Latitude": -22.662283,
+    "Longitude": -43.31253,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Gólgota ",
+    "Latitude": -22.661112,
+    "Longitude": -43.313051,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Zamzibar",
+    "Latitude": -22.66008,
+    "Longitude": -43.313808,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Nove",
+    "Latitude": -22.659527,
+    "Longitude": -43.31451,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 22",
+    "Latitude": -22.658978,
+    "Longitude": -43.315793,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Antioquia",
+    "Latitude": -22.658389,
+    "Longitude": -43.316761,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Eider",
+    "Latitude": -22.6574,
+    "Longitude": -43.317383,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Dresde",
+    "Latitude": -22.655672,
+    "Longitude": -43.31776,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Rua Onze",
+    "Latitude": -22.654293,
+    "Longitude": -43.31791,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço com Avenida Marques de Barbacena",
+    "Latitude": -22.65295,
+    "Longitude": -43.317724,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Barbacena 65",
+    "Latitude": -22.652584,
+    "Longitude": -43.318245,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Barbacena 355",
+    "Latitude": -22.651606,
+    "Longitude": -43.319913,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Haras Soares",
+    "Latitude": -22.650214,
+    "Longitude": -43.322284,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Barbacena 126",
+    "Latitude": -22.649628,
+    "Longitude": -43.323274,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Barbacena 257",
+    "Latitude": -22.649061,
+    "Longitude": -43.32424,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Barbacena 254",
+    "Latitude": -22.646466,
+    "Longitude": -43.328662,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Parque Capivari",
+    "Latitude": -22.645724,
+    "Longitude": -43.32994,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Clínica da Família do Capivari ",
+    "Latitude": -22.64487,
+    "Longitude": -43.331402,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marques de Barbacena com Rua Tirreno",
+    "Latitude": -22.644051,
+    "Longitude": -43.332825,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Tirreno 5",
+    "Latitude": -22.644595,
+    "Longitude": -43.333864,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça do Capivari",
+    "Latitude": -22.64393,
+    "Longitude": -43.333576,
+    "LineNumber": "DC-TZ01",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]
