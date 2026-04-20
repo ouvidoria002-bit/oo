@@ -1,0 +1,127 @@
+{
+  "total": 88,
+  "concluidas": 49,
+  "em_aberto": 39,
+  "categorias": [
+    {
+      "nome": "Manutenção de Esgoto",
+      "total": 3,
+      "concluidas": 2,
+      "em_aberto": 1,
+      "tempo_medio_dias": "81.72",
+      "tempo_min_dias": "77.82",
+      "tempo_max_dias": "85.62",
+      "volumetria_percent": "3.4"
+    },
+    {
+      "nome": "Reparo de Asfalto / Pavimentação",
+      "total": 15,
+      "concluidas": 8,
+      "em_aberto": 7,
+      "tempo_medio_dias": "47.05",
+      "tempo_min_dias": "13.94",
+      "tempo_max_dias": "71.81",
+      "volumetria_percent": "17.0"
+    },
+    {
+      "nome": "Capina e Roçagem",
+      "total": 22,
+      "concluidas": 2,
+      "em_aberto": 20,
+      "tempo_medio_dias": "49.14",
+      "tempo_min_dias": "34.41",
+      "tempo_max_dias": "63.87",
+      "volumetria_percent": "25.0"
+    },
+    {
+      "nome": "Manutenção de Iluminação",
+      "total": 3,
+      "concluidas": 0,
+      "em_aberto": 3,
+      "tempo_medio_dias": "N/A",
+      "tempo_min_dias": "N/A",
+      "tempo_max_dias": "N/A",
+      "volumetria_percent": "3.4"
+    },
+    {
+      "nome": "Iluminação Pública (Lâmpada Apagada)",
+      "total": 4,
+      "concluidas": 2,
+      "em_aberto": 2,
+      "tempo_medio_dias": "15.34",
+      "tempo_min_dias": "8.88",
+      "tempo_max_dias": "21.81",
+      "volumetria_percent": "4.5"
+    },
+    {
+      "nome": "Limpeza de Logradouro",
+      "total": 6,
+      "concluidas": 6,
+      "em_aberto": 0,
+      "tempo_medio_dias": "30.13",
+      "tempo_min_dias": "2.73",
+      "tempo_max_dias": "61.83",
+      "volumetria_percent": "6.8"
+    },
+    {
+      "nome": "Remoção de Entulho / Obras",
+      "total": 12,
+      "concluidas": 9,
+      "em_aberto": 3,
+      "tempo_medio_dias": "14.29",
+      "tempo_min_dias": "3.74",
+      "tempo_max_dias": "25.93",
+      "volumetria_percent": "13.6"
+    },
+    {
+      "nome": "Esgoto e Drenagem",
+      "total": 9,
+      "concluidas": 9,
+      "em_aberto": 0,
+      "tempo_medio_dias": "16.81",
+      "tempo_min_dias": "6.91",
+      "tempo_max_dias": "33.74",
+      "volumetria_percent": "10.2"
+    },
+    {
+      "nome": "Limpeza Urbana Geral",
+      "total": 7,
+      "concluidas": 6,
+      "em_aberto": 1,
+      "tempo_medio_dias": "17.47",
+      "tempo_min_dias": "7.90",
+      "tempo_max_dias": "27.94",
+      "volumetria_percent": "8.0"
+    },
+    {
+      "nome": "Iluminação (Lâmpada Acesa Dia)",
+      "total": 3,
+      "concluidas": 2,
+      "em_aberto": 1,
+      "tempo_medio_dias": "8.23",
+      "tempo_min_dias": "7.05",
+      "tempo_max_dias": "9.40",
+      "volumetria_percent": "3.4"
+    },
+    {
+      "nome": "Ouvidoria Geral / Teste",
+      "total": 1,
+      "concluidas": 0,
+      "em_aberto": 1,
+      "tempo_medio_dias": "N/A",
+      "tempo_min_dias": "N/A",
+      "tempo_max_dias": "N/A",
+      "volumetria_percent": "1.1"
+    },
+    {
+      "nome": "Manilha Arriada / Drenagem",
+      "total": 3,
+      "concluidas": 3,
+      "em_aberto": 0,
+      "tempo_medio_dias": "41.14",
+      "tempo_min_dias": "19.09",
+      "tempo_max_dias": "58.60",
+      "volumetria_percent": "3.4"
+    }
+  ]
+}

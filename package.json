@@ -1,0 +1,22 @@
+{
+  "name": "eladoriaapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.14.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.1",
+    "pdfkit": "^0.18.0",
+    "pdfkit-table": "^0.1.99",
+    "qs": "^6.15.0"
+  }
+}

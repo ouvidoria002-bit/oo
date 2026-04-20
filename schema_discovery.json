@@ -1,0 +1,75 @@
+{
+  "address": [
+    "String"
+  ],
+  "branch": [
+    "Object"
+  ],
+  "branch.id": [
+    "Number",
+    "Null"
+  ],
+  "branch.name": [
+    "String",
+    "Null"
+  ],
+  "category_id": [
+    "Number"
+  ],
+  "citizen": [
+    "String",
+    "Null"
+  ],
+  "created_at": [
+    "String"
+  ],
+  "description": [
+    "String"
+  ],
+  "files": [
+    "Array"
+  ],
+  "files.deleted_at": [
+    "Null"
+  ],
+  "files.link": [
+    "String"
+  ],
+  "files.name": [
+    "String"
+  ],
+  "id": [
+    "Number"
+  ],
+  "image_url": [
+    "Array"
+  ],
+  "lat": [
+    "Number"
+  ],
+  "lng": [
+    "Number"
+  ],
+  "neighborhood": [
+    "String",
+    "Null"
+  ],
+  "status": [
+    "String"
+  ],
+  "tags": [
+    "Array"
+  ],
+  "tags.id": [
+    "Number"
+  ],
+  "tags.name": [
+    "String"
+  ],
+  "type": [
+    "String"
+  ],
+  "updated_at": [
+    "String"
+  ]
+}

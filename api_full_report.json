@@ -1,0 +1,308 @@
+{
+  "categorias": {
+    "categories": [
+      {
+        "name": "Troca de manilha quebrada",
+        "id": 12807,
+        "type": "event"
+      },
+      {
+        "name": "Desobstrução de rede de esgoto",
+        "id": 12811,
+        "type": "event"
+      },
+      {
+        "name": "Tapa buraco",
+        "id": 12808,
+        "type": "event"
+      },
+      {
+        "name": "Limpeza de valão",
+        "id": 12809,
+        "type": "event"
+      },
+      {
+        "name": "Retirada de entulho",
+        "id": 12820,
+        "type": "event"
+      },
+      {
+        "name": "[NÃO ATIVAR] Fiscalização de obras",
+        "id": 12810,
+        "type": "event"
+      },
+      {
+        "name": "[NÃO ATIVAR] vistoria técnica",
+        "id": 12815,
+        "type": "event"
+      },
+      {
+        "name": "Lâmpada acesa de dia",
+        "id": 12817,
+        "type": "event"
+      },
+      {
+        "name": "Retirada de lixo",
+        "id": 12821,
+        "type": "event"
+      },
+      {
+        "name": "Poste em risco de queda ou caído",
+        "id": 12825,
+        "type": "event"
+      },
+      {
+        "name": "Lâmpada piscando",
+        "id": 12818,
+        "type": "event"
+      },
+      {
+        "name": "Retirada de galhos",
+        "id": 12822,
+        "type": "event"
+      },
+      {
+        "name": "Poste/iluminação com defeitos",
+        "id": 12826,
+        "type": "event"
+      },
+      {
+        "name": "[NÃO ATIVAR]Lâmpada apagada à noite",
+        "id": 12816,
+        "type": "event"
+      },
+      {
+        "name": "[NÃO ATIVAR] Semáforo quebrado",
+        "id": 12832,
+        "type": "event"
+      },
+      {
+        "name": "Capina e roçada",
+        "id": 12823,
+        "type": "event"
+      },
+      {
+        "name": "Troca de lâmpada queimada",
+        "id": 12870,
+        "type": "event"
+      },
+      {
+        "name": "Poste dando choque",
+        "id": 12824,
+        "type": "event"
+      },
+      {
+        "name": "Obstrução de calçada (notificação)",
+        "id": 12814,
+        "type": "event"
+      },
+      {
+        "name": "Placa de trânsito danificada",
+        "id": 12834,
+        "type": "event"
+      },
+      {
+        "name": "Programação de Semáforo – Revisão",
+        "id": 12835,
+        "type": "event"
+      },
+      {
+        "name": "Postes/lluminação em praça pública",
+        "id": 12831,
+        "type": "event"
+      },
+      {
+        "name": "Estacionamento irregular de veículo",
+        "id": 12871,
+        "type": "event"
+      },
+      {
+        "name": "Semáforo apagado",
+        "id": 12836,
+        "type": "event"
+      },
+      {
+        "name": "Semáforo colidido, caído ou virado",
+        "id": 12837,
+        "type": "event"
+      },
+      {
+        "name": "Semáforo com falha nas cores",
+        "id": 12838,
+        "type": "event"
+      },
+      {
+        "name": "Semáforo em amarelo piscante",
+        "id": 12839,
+        "type": "event"
+      },
+      {
+        "name": "Semáforo travado",
+        "id": 12840,
+        "type": "event"
+      },
+      {
+        "name": "Substituição de Tampões e Grelhas",
+        "id": 12885,
+        "type": "event"
+      },
+      {
+        "name": "Fisc. Perturbação do Sossego",
+        "id": 12916,
+        "type": "event"
+      },
+      {
+        "name": "Desobstrução de calçadas",
+        "id": 12917,
+        "type": "event"
+      },
+      {
+        "name": "Retirada food truck em calçadas",
+        "id": 12918,
+        "type": "event"
+      },
+      {
+        "name": "[Interno] Lâmpada acesa de dia",
+        "id": 225667,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Lâmpada piscando",
+        "id": 225668,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Troca de lâmpada queimada",
+        "id": 225669,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Poste dando choque",
+        "id": 225670,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] lluminação praça pública",
+        "id": 225672,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Poste/iluminação defeito",
+        "id": 225673,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Desobstrução rede esgoto",
+        "id": 225675,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Tapa Buraco",
+        "id": 225676,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Capina e roçada",
+        "id": 225677,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Retirada de entulho",
+        "id": 225678,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Retirada de galhos",
+        "id": 225679,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Retirada de lixo",
+        "id": 225680,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Placa trânsito danificada",
+        "id": 225681,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Semáforo apagado",
+        "id": 225682,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Semáforo colidido/caído",
+        "id": 225683,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Semáforo com falha cores",
+        "id": 225684,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Semáforo amarelo piscante",
+        "id": 225685,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Semáforo travado",
+        "id": 225686,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Programação de Semáforo",
+        "id": 225687,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Obstrução de calçada ",
+        "id": 225689,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Troca de lâmpada queimada",
+        "id": 225690,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Drenagem e Pavimentação",
+        "id": 225695,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Troca de manilha quebrada",
+        "id": 225696,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Manutenção de praças",
+        "id": 225697,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Implantação braço de luz",
+        "id": 225698,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Limpeza de Valão",
+        "id": 225699,
+        "type": "post"
+      },
+      {
+        "name": "[Int] Troca tampões/bocas de lobo",
+        "id": 225700,
+        "type": "post"
+      },
+      {
+        "name": "[Interno] Estacionamento irregular ",
+        "id": 225703,
+        "type": "post"
+      }
+    ]
+  },
+  "branches": null,
+  "posts_amostra": null
+}

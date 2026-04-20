@@ -1,0 +1,96 @@
+[
+    {
+        "id": 858775,
+        "address": "Estrada da Soledade, 80",
+        "created_at": "2026-03-31T12:33:22.435Z",
+        "description": "Lâmpada queimada \n\nPonto de referência: Em frente a barraca do Russinho",
+        "category_id": 12870,
+        "lat": -22.6110891743926,
+        "lng": -43.231491185724735,
+        "neighborhood": "Taquara",
+        "status": "ATENDIMENTO",
+        "type": "event",
+        "updated_at": "2026-04-05T21:42:17.175Z",
+        "branch": {
+            "id": 6347,
+            "name": "Secretaria Municipal de Transportes e Serviços Públicos"
+        },
+        "image_url": [
+            "https://content.colab.re/event_2db36c1d-b953-4aa7-ab5f-8df12966f52c_0_1774960401191.jpg"
+        ],
+        "citizen": "Marcos Campos",
+        "tags": [],
+        "files": []
+    },
+    {
+        "id": 858776,
+        "address": "Avenida Nilo Peçanha, 1267",
+        "created_at": "2026-03-31T12:33:43.766Z",
+        "description": "Buraco na via atrapalhando o tráfego.",
+        "category_id": 12820,
+        "lat": -22.78600446100795,
+        "lng": -43.32241505384445,
+        "neighborhood": "Parque Lafaiete",
+        "status": "ABERTO",
+        "type": "event",
+        "updated_at": "2026-04-04T10:15:35.437Z",
+        "branch": {
+            "id": 6412,
+            "name": "Ouvidoria Setorial de Obras"
+        },
+        "image_url": [
+            "https://content.colab.re/event_d3f6afa8-58f3-42dc-82cb-f0c0915fe566_1_1775184172322.jpg"
+        ],
+        "citizen": "Márcia Elisabeth",
+        "tags": [],
+        "files": []
+    },
+    {
+        "id": 858779,
+        "address": "Rua Marquês de Paranaguá, 37",
+        "created_at": "2026-03-31T12:33:22.435Z",
+        "description": "Vazamento de água limpa na calçada.",
+        "category_id": 12824,
+        "lat": -22.700647550658925,
+        "lng": -43.27670719474554,
+        "neighborhood": "Campos Elíseos",
+        "status": "ATENDIMENTO",
+        "type": "event",
+        "updated_at": "2026-04-05T21:42:17.175Z",
+        "branch": {
+            "id": 6347,
+            "name": "Secretaria Municipal de Transportes e Serviços Públicos"
+        },
+        "image_url": [
+            "https://content.colab.re/event_67a40eb0-d845-4bda-94ac-90ed4880e705_0_1748881933522.jpg"
+        ],
+        "citizen": "Márcia Elisabeth",
+        "tags": [],
+        "files": []
+    },
+    {
+        "id": 860239,
+        "address": "Avenida Nilo Peçanha, 1267",
+        "created_at": "2026-04-03T02:42:54.284Z",
+        "description": "Vizinhos estão fazendo da minha calçada de garagem. \n\nPonto de referência: Colégio ISEM",
+        "category_id": 12871,
+        "lat": -22.78600446100795,
+        "lng": -43.32241505384445,
+        "neighborhood": "Parque Lafaiete",
+        "status": "NOVO",
+        "type": "event",
+        "updated_at": "2026-04-03T02:42:54.284Z",
+        "branch": {
+            "id": null,
+            "name": null
+        },
+        "image_url": [
+            "https://content.colab.re/event_d3f6afa8-58f3-42dc-82cb-f0c0915fe566_1_1775184172322.jpg",
+            "https://content.colab.re/event_94f51c25-a5d6-45b0-b9db-0c4a5c78329b_0_1775184170485.jpg",
+            "https://content.colab.re/event_95dc18da-9872-4d16-93f0-c1df5b961a5c_2_1775184173011.jpg"
+        ],
+        "citizen": "Márcia Elisabeth",
+        "tags": [],
+        "files": []
+    }
+]
