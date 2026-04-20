@@ -250,9 +250,9 @@ function App() {
 
   const fetchPositions = async () => {
     try {
-      // Circuit Breaker: limite de 5 segundos para a requisição
+      // Circuit Breaker: limite generoso para acomodar cold start do servidor
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 5000);
+      const timeoutId = setTimeout(() => controller.abort(), 25000); // 25s
 
       const response = await fetch(`${import.meta.env.VITE_API_URL}/fast-positions?_=${Date.now()}`, {
         signal: controller.signal,
@@ -308,7 +308,7 @@ function App() {
 
   useEffect(() => {
     // Initial Load
-    const init = async () => {
+    const init = async (retryCount = 0) => {
       // Load Routes for Client-side Animation Snapping
       loadAllRoutes();
 
@@ -321,8 +321,14 @@ function App() {
 
       if (success) {
         setLoading(false);
+        setError(null);
+      } else if (retryCount < 2) {
+        // Tenta de novo se falhar (pode ser o servidor acordando)
+        console.log(`Re-tentando conexão (${retryCount + 1}/2)...`);
+        setTimeout(() => init(retryCount + 1), 2000);
       } else {
-        setError("Não foi possível carregar os dados. Verifique a conexão.");
+        setLoading(false);
+        setError("O servidor está demorando a responder. Por favor, tente recarregar a página (F5) em alguns segundos.");
       }
     };
 
