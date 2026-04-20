@@ -1,0 +1,1145 @@
+[
+  {
+    "PointName": "Campo Saraiva",
+    "Latitude": -22.710389,
+    "Longitude": -43.260788,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro com Rua Hualaga ",
+    "Latitude": -22.711131,
+    "Longitude": -43.262232,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro 46",
+    "Latitude": -22.711203,
+    "Longitude": -43.263079,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro com Rua 11",
+    "Latitude": -22.710616,
+    "Longitude": -43.264926,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro com Rua Walter Scott ",
+    "Latitude": -22.709668,
+    "Longitude": -43.266882,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro com Rua Guadiana",
+    "Latitude": -22.70782,
+    "Longitude": -43.268941,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Adelina Castro ",
+    "Latitude": -22.706793,
+    "Longitude": -43.270099,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Susana Naspolini ",
+    "Latitude": -22.706081,
+    "Longitude": -43.271443,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura com Rua 7",
+    "Latitude": -22.705817,
+    "Longitude": -43.273351,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UPH CAMPOS Elíseos ",
+    "Latitude": -22.705562,
+    "Longitude": -43.27447,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura com Rua Pedro Toledo ",
+    "Latitude": -22.705132,
+    "Longitude": -43.275722,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura com Avenida Afonso Celso ",
+    "Latitude": -22.704511,
+    "Longitude": -43.277445,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura com Avenida São Paulo ",
+    "Latitude": -22.704113,
+    "Longitude": -43.278567,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá ",
+    "Latitude": -22.702851,
+    "Longitude": -43.279664,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá 7",
+    "Latitude": -22.701664,
+    "Longitude": -43.277986,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá com Rua Profeta Emaus",
+    "Latitude": -22.700746,
+    "Longitude": -43.276741,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá com Rua Rei Davi",
+    "Latitude": -22.699952,
+    "Longitude": -43.275796,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá com Rua Barão de Taquari ",
+    "Latitude": -22.698773,
+    "Longitude": -43.274158,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá 4",
+    "Latitude": -22.697386,
+    "Longitude": -43.27324,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Macaúbas 153",
+    "Latitude": -22.696857,
+    "Longitude": -43.274109,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Macaúbas 10",
+    "Latitude": -22.697628,
+    "Longitude": -43.275978,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Anamar com Rua Mococa ",
+    "Latitude": -22.69732,
+    "Longitude": -43.276383,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Anamar 40",
+    "Latitude": -22.696338,
+    "Longitude": -43.277156,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Santana 30",
+    "Latitude": -22.695218,
+    "Longitude": -43.27626,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Santana 27",
+    "Latitude": -22.693869,
+    "Longitude": -43.274619,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Santana 19",
+    "Latitude": -22.693156,
+    "Longitude": -43.273812,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Taunay com Rua Visconde de Sepetiba ",
+    "Latitude": -22.692284,
+    "Longitude": -43.274099,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Taunay 3",
+    "Latitude": -22.690713,
+    "Longitude": -43.275208,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Taunay 2",
+    "Latitude": -22.689681,
+    "Longitude": -43.276923,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida das Palmeiras 28",
+    "Latitude": -22.68913,
+    "Longitude": -43.278309,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida das Palmeiras 91",
+    "Latitude": -22.688727,
+    "Longitude": -43.280116,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida das Palmeiras 41",
+    "Latitude": -22.687576,
+    "Longitude": -43.281421,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida das Palmeiras 903",
+    "Latitude": -22.68649,
+    "Longitude": -43.282195,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera 230",
+    "Latitude": -22.684129,
+    "Longitude": -43.282334,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera com Alameda Rio Barbosa ",
+    "Latitude": -22.683933,
+    "Longitude": -43.28163,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera com Alameda Paula Cavalcanti ",
+    "Latitude": -22.683533,
+    "Longitude": -43.280193,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Rotary",
+    "Latitude": -22.683215,
+    "Longitude": -43.27899,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera 816",
+    "Latitude": -22.682933,
+    "Longitude": -43.27723,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera com Alameda Forjaz Coutinho ",
+    "Latitude": -22.681728,
+    "Longitude": -43.276182,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Alameda Primavera 1140",
+    "Latitude": -22.680426,
+    "Longitude": -43.275577,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Primavera ",
+    "Latitude": -22.679843,
+    "Longitude": -43.275343,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Campo Saraiva",
+    "Latitude": -22.710389,
+    "Longitude": -43.260788,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro com Rua Hualaga ",
+    "Latitude": -22.711131,
+    "Longitude": -43.262232,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro 46",
+    "Latitude": -22.711203,
+    "Longitude": -43.263079,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro com Rua 11",
+    "Latitude": -22.710616,
+    "Longitude": -43.264926,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro com Rua Walter Scott ",
+    "Latitude": -22.709668,
+    "Longitude": -43.266882,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro com Rua Guadiana",
+    "Latitude": -22.70782,
+    "Longitude": -43.268941,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Adelina Castro ",
+    "Latitude": -22.706793,
+    "Longitude": -43.270099,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Susana Naspolini ",
+    "Latitude": -22.706081,
+    "Longitude": -43.271443,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura com Rua 7",
+    "Latitude": -22.705817,
+    "Longitude": -43.273351,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UPH CAMPOS Elíseos ",
+    "Latitude": -22.705562,
+    "Longitude": -43.27447,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura com Rua Pedro Toledo ",
+    "Latitude": -22.705132,
+    "Longitude": -43.275722,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura com Avenida Afonso Celso ",
+    "Latitude": -22.704511,
+    "Longitude": -43.277445,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura com Avenida São Paulo ",
+    "Latitude": -22.704113,
+    "Longitude": -43.278567,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá ",
+    "Latitude": -22.702851,
+    "Longitude": -43.279664,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá 7",
+    "Latitude": -22.701664,
+    "Longitude": -43.277986,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá com Rua Profeta Emaus",
+    "Latitude": -22.700746,
+    "Longitude": -43.276741,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá com Rua Rei Davi",
+    "Latitude": -22.699952,
+    "Longitude": -43.275796,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá com Rua Barão de Taquari ",
+    "Latitude": -22.698773,
+    "Longitude": -43.274158,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá 4",
+    "Latitude": -22.697386,
+    "Longitude": -43.27324,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Macaúbas 153",
+    "Latitude": -22.696857,
+    "Longitude": -43.274109,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Macaúbas 10",
+    "Latitude": -22.697628,
+    "Longitude": -43.275978,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Anamar com Rua Mococa ",
+    "Latitude": -22.69732,
+    "Longitude": -43.276383,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Anamar 40",
+    "Latitude": -22.696338,
+    "Longitude": -43.277156,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Santana 30",
+    "Latitude": -22.695218,
+    "Longitude": -43.27626,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Santana 27",
+    "Latitude": -22.693869,
+    "Longitude": -43.274619,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Santana 19",
+    "Latitude": -22.693156,
+    "Longitude": -43.273812,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Taunay com Rua Visconde de Sepetiba ",
+    "Latitude": -22.692284,
+    "Longitude": -43.274099,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Taunay 3",
+    "Latitude": -22.690713,
+    "Longitude": -43.275208,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Taunay 2",
+    "Latitude": -22.689681,
+    "Longitude": -43.276923,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida das Palmeiras 28",
+    "Latitude": -22.68913,
+    "Longitude": -43.278309,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida das Palmeiras 91",
+    "Latitude": -22.688727,
+    "Longitude": -43.280116,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida das Palmeiras 41",
+    "Latitude": -22.687576,
+    "Longitude": -43.281421,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida das Palmeiras 903",
+    "Latitude": -22.68649,
+    "Longitude": -43.282195,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera 230",
+    "Latitude": -22.684129,
+    "Longitude": -43.282334,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera com Alameda Rio Barbosa ",
+    "Latitude": -22.683933,
+    "Longitude": -43.28163,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera com Alameda Paula Cavalcanti ",
+    "Latitude": -22.683533,
+    "Longitude": -43.280193,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Rotary",
+    "Latitude": -22.683215,
+    "Longitude": -43.27899,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera 816",
+    "Latitude": -22.682933,
+    "Longitude": -43.27723,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera com Alameda Forjaz Coutinho ",
+    "Latitude": -22.681728,
+    "Longitude": -43.276182,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Alameda Primavera 1140",
+    "Latitude": -22.680426,
+    "Longitude": -43.275577,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Primavera ",
+    "Latitude": -22.679843,
+    "Longitude": -43.275343,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(Start)",
+    "Latitude": -22.710352,
+    "Longitude": -43.260806,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(End)",
+    "Latitude": -22.679883,
+    "Longitude": -43.275353,
+    "LineNumber": "DC-TZ14",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera 1140",
+    "Latitude": -22.680516,
+    "Longitude": -43.275664,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera com Alameda Henrique Fleuss",
+    "Latitude": -22.681343,
+    "Longitude": -43.275975,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera - PROEIS ",
+    "Latitude": -22.683001,
+    "Longitude": -43.277575,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera - Praça do Rotary",
+    "Latitude": -22.683154,
+    "Longitude": -43.27882,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera com Alameda Paula Cavalcanti",
+    "Latitude": -22.683473,
+    "Longitude": -43.280203,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera 351",
+    "Latitude": -22.683801,
+    "Longitude": -43.281361,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Primavera com Estrada São Tomé ",
+    "Latitude": -22.684103,
+    "Longitude": -43.282415,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Alameda La Fontaine 178",
+    "Latitude": -22.684801,
+    "Longitude": -43.283083,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Alameda La Fontaine 13",
+    "Latitude": -22.686128,
+    "Longitude": -43.282891,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Alameda das Palmeiras 906",
+    "Latitude": -22.686527,
+    "Longitude": -43.282174,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Alameda das Palmeiras 36",
+    "Latitude": -22.687602,
+    "Longitude": -43.281408,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Alameda das Palmeiras 7",
+    "Latitude": -22.688629,
+    "Longitude": -43.280321,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Alameda das Palmeiras 28",
+    "Latitude": -22.689163,
+    "Longitude": -43.277972,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Taunay 17",
+    "Latitude": -22.689736,
+    "Longitude": -43.276869,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Taunay 07",
+    "Latitude": -22.690703,
+    "Longitude": -43.275239,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Taunay com Rua Visconde de Sepetiba",
+    "Latitude": -22.692267,
+    "Longitude": -43.274099,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Santana 19",
+    "Latitude": -22.693208,
+    "Longitude": -43.273873,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Sepetiba 27",
+    "Latitude": -22.693844,
+    "Longitude": -43.274595,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Jaguari - Igreja Santa Terezinha ",
+    "Latitude": -22.695295,
+    "Longitude": -43.276354,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Anamar 40",
+    "Latitude": -22.69626,
+    "Longitude": -43.277218,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Anamar com Rua Mococa",
+    "Latitude": -22.697315,
+    "Longitude": -43.276393,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Macaúbas 18",
+    "Latitude": -22.697584,
+    "Longitude": -43.275873,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Macaúbas com Rua Barão de Cotegipe ",
+    "Latitude": -22.696473,
+    "Longitude": -43.273016,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá 4",
+    "Latitude": -22.697318,
+    "Longitude": -43.273272,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá com Rua Barão de Taquari ",
+    "Latitude": -22.698768,
+    "Longitude": -43.274263,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá 7",
+    "Latitude": -22.699896,
+    "Longitude": -43.275727,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá 26",
+    "Latitude": -22.700673,
+    "Longitude": -43.276789,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá 50",
+    "Latitude": -22.701668,
+    "Longitude": -43.278143,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Marquês de Paranaguá 15",
+    "Latitude": -22.703014,
+    "Longitude": -43.279912,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura 70",
+    "Latitude": -22.704119,
+    "Longitude": -43.278554,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura com Rua Manoel Do Espírito Santo ",
+    "Latitude": -22.70454,
+    "Longitude": -43.27737,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura 340",
+    "Latitude": -22.70513,
+    "Longitude": -43.275722,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UPH Campos Elíseos ",
+    "Latitude": -22.705558,
+    "Longitude": -43.274485,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Actura 56",
+    "Latitude": -22.705826,
+    "Longitude": -43.273211,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Susana Naspolini",
+    "Latitude": -22.706096,
+    "Longitude": -43.271406,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Adelina Castro",
+    "Latitude": -22.706818,
+    "Longitude": -43.270065,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro 1125",
+    "Latitude": -22.707827,
+    "Longitude": -43.268933,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro 08",
+    "Latitude": -22.708827,
+    "Longitude": -43.267931,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro com Rua Walter Scott",
+    "Latitude": -22.709684,
+    "Longitude": -43.26686,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro com Rua 11",
+    "Latitude": -22.710602,
+    "Longitude": -43.264974,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro 101",
+    "Latitude": -22.7112,
+    "Longitude": -43.263091,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Tupinambá de Castro com Rua Hualaga",
+    "Latitude": -22.711128,
+    "Longitude": -43.262223,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Campo do Saraiva",
+    "Latitude": -22.710386,
+    "Longitude": -43.260783,
+    "LineNumber": "DC-TZ14",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "PointName": "UPH Xerém - Catita ",
+    "Latitude": -22.601298,
+    "Longitude": -43.292769,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Nóbrega Ribeiro - Praça Vila dos Blocos",
+    "Latitude": -22.600229,
+    "Longitude": -43.291496,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Nóbrega Ribeiro 37",
+    "Latitude": -22.599522,
+    "Longitude": -43.290883,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Paraná ",
+    "Latitude": -22.599601,
+    "Longitude": -43.291449,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Nossa Senhora das Senhora das Graças 15",
+    "Latitude": -22.59965,
+    "Longitude": -43.291896,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Manuel Avelino de Souza 2",
+    "Latitude": -22.601389,
+    "Longitude": -43.29341,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Washington Luiz com Rua do Norte",
+    "Latitude": -22.606226,
+    "Longitude": -43.281468,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Washington Luiz com Estrada do Contorno ",
+    "Latitude": -22.601561,
+    "Longitude": -43.280802,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Contorno 506",
+    "Latitude": -22.602314,
+    "Longitude": -43.283368,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Contorno com Rua da Amizade ",
+    "Latitude": -22.604315,
+    "Longitude": -43.284314,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Contorno com Praça do Barreiro ",
+    "Latitude": -22.6052,
+    "Longitude": -43.284678,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes 800",
+    "Latitude": -22.60778,
+    "Longitude": -43.281883,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes 10",
+    "Latitude": -22.607948,
+    "Longitude": -43.281121,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes 234",
+    "Latitude": -22.608001,
+    "Longitude": -43.278844,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes 624",
+    "Latitude": -22.607369,
+    "Longitude": -43.277822,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes 348",
+    "Latitude": -22.606291,
+    "Longitude": -43.276471,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes com Rua Luís Sérgio ",
+    "Latitude": -22.605738,
+    "Longitude": -43.27567,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes com Rua Vera Lucia - UBS Santo Antônio ",
+    "Latitude": -22.604956,
+    "Longitude": -43.274701,
+    "LineNumber": "DC-TZ10",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes com Rua Vera Lucia - UBS Santo Antônio ",
+    "Latitude": -22.604953,
+    "Longitude": -43.274701,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes 10",
+    "Latitude": -22.605821,
+    "Longitude": -43.275792,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes 348 - Haras JMF",
+    "Latitude": -22.60637,
+    "Longitude": -43.276559,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes 2016",
+    "Latitude": -22.607399,
+    "Longitude": -43.277865,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes 270 - Pracinha do Santo Antônio ",
+    "Latitude": -22.607889,
+    "Longitude": -43.278752,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes 230",
+    "Latitude": -22.607677,
+    "Longitude": -43.280534,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antônio Guedes com Estrada Washington Luiz ",
+    "Latitude": -22.607654,
+    "Longitude": -43.281978,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Washington Luiz com Rua Norte ",
+    "Latitude": -22.606086,
+    "Longitude": -43.281501,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Washington Luiz com Estrada do Contorno ",
+    "Latitude": -22.601561,
+    "Longitude": -43.280806,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Contorno 469",
+    "Latitude": -22.602239,
+    "Longitude": -43.283281,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Contorno com Rua da Amizade ",
+    "Latitude": -22.604239,
+    "Longitude": -43.284289,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Contorno com Praça do Barreiro ",
+    "Latitude": -22.605199,
+    "Longitude": -43.284667,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Contorno com Rua da Amizade ",
+    "Latitude": -22.604245,
+    "Longitude": -43.284293,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Contorno 469",
+    "Latitude": -22.602212,
+    "Longitude": -43.283238,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Washington Luiz 77",
+    "Latitude": -22.603602,
+    "Longitude": -43.281016,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Washington Luiz 4",
+    "Latitude": -22.606225,
+    "Longitude": -43.28147,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Washington Luiz 14",
+    "Latitude": -22.607554,
+    "Longitude": -43.281988,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Avelino de Souza 50",
+    "Latitude": -22.608565,
+    "Longitude": -43.28468,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Manuel Avelino de Souza - IMES PUC RIO",
+    "Latitude": -22.6063,
+    "Longitude": -43.28765,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UPH Xerém - Catita",
+    "Latitude": -22.601368,
+    "Longitude": -43.292855,
+    "LineNumber": "DC-TZ10",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

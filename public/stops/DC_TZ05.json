@@ -1,0 +1,866 @@
+[
+  {
+    "PointName": "Rodovia Washington Luiz 16780 (Lateral)",
+    "Latitude": -22.661241,
+    "Longitude": -43.284195,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 160",
+    "Latitude": -22.662058,
+    "Longitude": -43.282016,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 171",
+    "Latitude": -22.662697,
+    "Longitude": -43.281009,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 293",
+    "Latitude": -22.66332,
+    "Longitude": -43.280019,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 311",
+    "Latitude": -22.664422,
+    "Longitude": -43.278244,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 413",
+    "Latitude": -22.665493,
+    "Longitude": -43.276506,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "PROEIS Maria Helena ",
+    "Latitude": -22.664951,
+    "Longitude": -43.275446,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Rei Pelé ",
+    "Latitude": -22.664626,
+    "Longitude": -43.274909,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Eustáquio Azevedo com Bernardo de Vasconcelos ",
+    "Latitude": -22.666545,
+    "Longitude": -43.274619,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 538",
+    "Latitude": -22.666543,
+    "Longitude": -43.27359,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 592",
+    "Latitude": -22.666471,
+    "Longitude": -43.27188,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 839",
+    "Latitude": -22.666398,
+    "Longitude": -43.270284,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Mário Feijó 1139",
+    "Latitude": -22.666203,
+    "Longitude": -43.269408,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Fortaleza 24",
+    "Latitude": -22.664481,
+    "Longitude": -43.269051,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Fortaleza com Rua Itaberaba",
+    "Latitude": -22.663499,
+    "Longitude": -43.268324,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Fortaleza com Rua Aracati",
+    "Latitude": -22.662655,
+    "Longitude": -43.267749,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Aracaju com Rua Itaberaba ",
+    "Latitude": -22.662478,
+    "Longitude": -43.26957,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Aracaju com Rua Macabana",
+    "Latitude": -22.662559,
+    "Longitude": -43.271264,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Aracaju com Rua Natuba",
+    "Latitude": -22.662659,
+    "Longitude": -43.273217,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Laranjal 44",
+    "Latitude": -22.662356,
+    "Longitude": -43.273947,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Laranjal com Rua Envertida",
+    "Latitude": -22.660923,
+    "Longitude": -43.274044,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Laranjal com Rua Projetada 17",
+    "Latitude": -22.658581,
+    "Longitude": -43.274204,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Circular com Rua do Morro",
+    "Latitude": -22.657731,
+    "Longitude": -43.273566,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Mata 998",
+    "Latitude": -22.655416,
+    "Longitude": -43.267776,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Parque 367 - Cond San Magno Residencial",
+    "Latitude": -22.653647,
+    "Longitude": -43.268965,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Parque - Condomínio San Rafael",
+    "Latitude": -22.653169,
+    "Longitude": -43.269897,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Parque - Condomínio San Marco",
+    "Latitude": -22.65267,
+    "Longitude": -43.270862,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Parque - Condomínio Residencial Via Parque",
+    "Latitude": -22.651656,
+    "Longitude": -43.272845,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua dos Coqueiros 2",
+    "Latitude": -22.650685,
+    "Longitude": -43.274338,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Codora",
+    "Latitude": -22.650633,
+    "Longitude": -43.275207,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Arcampo 588 - Condomínio Arcampo",
+    "Latitude": -22.650816,
+    "Longitude": -43.277376,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Coivara 651",
+    "Latitude": -22.650604,
+    "Longitude": -43.278324,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Coivara 16",
+    "Latitude": -22.648392,
+    "Longitude": -43.278343,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Rio Grande do Norte 260",
+    "Latitude": -22.647182,
+    "Longitude": -43.278336,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Río Grande do Norte com Rua Paraná Beira Rio",
+    "Latitude": -22.646089,
+    "Longitude": -43.278244,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Rio Grande do Norte 325",
+    "Latitude": -22.644885,
+    "Longitude": -43.278307,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Rio Grande do Norte com Rua Massapê ",
+    "Latitude": -22.643598,
+    "Longitude": -43.27832,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Rio Grande do Norte 112",
+    "Latitude": -22.642325,
+    "Longitude": -43.278334,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Dom Atacadista ",
+    "Latitude": -22.641592,
+    "Longitude": -43.277923,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 922",
+    "Latitude": -22.640396,
+    "Longitude": -43.275538,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Avenida dos Coqueiros",
+    "Latitude": -22.639301,
+    "Longitude": -43.273181,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Projetada 3",
+    "Latitude": -22.638692,
+    "Longitude": -43.271873,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 1518",
+    "Latitude": -22.637854,
+    "Longitude": -43.270217,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Espanha ",
+    "Latitude": -22.636936,
+    "Longitude": -43.26827,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Padre Anchieta ",
+    "Latitude": -22.635832,
+    "Longitude": -43.265973,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Posto do Equitativa ",
+    "Latitude": -22.636027,
+    "Longitude": -43.266381,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Londres",
+    "Latitude": -22.636833,
+    "Longitude": -43.268376,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Vinte e Cinco",
+    "Latitude": -22.637844,
+    "Longitude": -43.270495,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Geraldo Roris",
+    "Latitude": -22.638706,
+    "Longitude": -43.272316,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua 23",
+    "Latitude": -22.639255,
+    "Longitude": -43.273482,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 835",
+    "Latitude": -22.640372,
+    "Longitude": -43.275825,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua 20",
+    "Latitude": -22.640745,
+    "Longitude": -43.276587,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube com Rua Rio Grande do Norte ",
+    "Latitude": -22.641312,
+    "Longitude": -43.278017,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Maternidade de Santa Cruz da Serra",
+    "Latitude": -22.642569,
+    "Longitude": -43.281377,
+    "LineNumber": "DC-TZ05",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Maternidade de Santa Cruz da Serra ",
+    "Latitude": -22.642591,
+    "Longitude": -43.281376,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel clube 55",
+    "Latitude": -22.642877,
+    "Longitude": -43.280546,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Rio Grande do Norte 112",
+    "Latitude": -22.642233,
+    "Longitude": -43.278334,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Rio Grande do Norte 47",
+    "Latitude": -22.643516,
+    "Longitude": -43.278315,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Rio Grande do Norte 326",
+    "Latitude": -22.644864,
+    "Longitude": -43.278301,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Rio Grande do Norte com Rua Paraná Beira Rio ",
+    "Latitude": -22.645919,
+    "Longitude": -43.278244,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Coivara 77",
+    "Latitude": -22.647374,
+    "Longitude": -43.278341,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Coivara 17",
+    "Latitude": -22.648504,
+    "Longitude": -43.278341,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Coivara 651",
+    "Latitude": -22.650485,
+    "Longitude": -43.278327,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Arcampo 588",
+    "Latitude": -22.650809,
+    "Longitude": -43.277204,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Arcampo 370",
+    "Latitude": -22.6507,
+    "Longitude": -43.275327,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Codora ",
+    "Latitude": -22.651041,
+    "Longitude": -43.274588,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Parque - Condomínio Residencial Via Parque ",
+    "Latitude": -22.651527,
+    "Longitude": -43.273092,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Parque 490 - Condomínio San Marco ",
+    "Latitude": -22.652616,
+    "Longitude": -43.270965,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Parque 580 - Condomínio San Rafael ",
+    "Latitude": -22.653111,
+    "Longitude": -43.269996,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Parque 640 ",
+    "Latitude": -22.653661,
+    "Longitude": -43.268928,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Parque com Estrada da Mata",
+    "Latitude": -22.654545,
+    "Longitude": -43.267196,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Mata 998",
+    "Latitude": -22.655421,
+    "Longitude": -43.267808,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Circular com Estrada da Mata",
+    "Latitude": -22.656818,
+    "Longitude": -43.272974,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Circular 217",
+    "Latitude": -22.657646,
+    "Longitude": -43.273429,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Laranjal com Rua Projetada 17",
+    "Latitude": -22.658532,
+    "Longitude": -43.274204,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Laranjal com Rua Invernada ",
+    "Latitude": -22.661349,
+    "Longitude": -43.274012,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Laranjal 96",
+    "Latitude": -22.662592,
+    "Longitude": -43.27393,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Aracaju com Avenida do Canal",
+    "Latitude": -22.662633,
+    "Longitude": -43.272769,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Aracaju com Rua Jequié ",
+    "Latitude": -22.662575,
+    "Longitude": -43.271527,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Aracaju com Rua Itaberaba ",
+    "Latitude": -22.662463,
+    "Longitude": -43.269278,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Aracati com Rua Fortaleza ",
+    "Latitude": -22.662676,
+    "Longitude": -43.267896,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Fortaleza 634",
+    "Latitude": -22.663777,
+    "Longitude": -43.268529,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Fortaleza com Rua Parapeona",
+    "Latitude": -22.665017,
+    "Longitude": -43.269397,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Mário Feijó 1139",
+    "Latitude": -22.666201,
+    "Longitude": -43.269407,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 819",
+    "Latitude": -22.666391,
+    "Longitude": -43.270151,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 806",
+    "Latitude": -22.666461,
+    "Longitude": -43.271765,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 528",
+    "Latitude": -22.666546,
+    "Longitude": -43.27358,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 522",
+    "Latitude": -22.666589,
+    "Longitude": -43.274532,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos com Estrada do Laranjal ",
+    "Latitude": -22.665817,
+    "Longitude": -43.275979,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 393",
+    "Latitude": -22.665512,
+    "Longitude": -43.276478,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 292",
+    "Latitude": -22.664351,
+    "Longitude": -43.278348,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 274",
+    "Latitude": -22.663253,
+    "Longitude": -43.280125,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 150",
+    "Latitude": -22.662656,
+    "Longitude": -43.281066,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Bernardo de Vasconcelos 140",
+    "Latitude": -22.662021,
+    "Longitude": -43.28207,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua João Pinheiro 72",
+    "Latitude": -22.662248,
+    "Longitude": -43.282955,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rodovia Washington Luiz 16780",
+    "Latitude": -22.661088,
+    "Longitude": -43.284168,
+    "LineNumber": "DC-TZ05",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

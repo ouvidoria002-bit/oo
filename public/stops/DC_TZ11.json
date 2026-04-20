@@ -1,0 +1,974 @@
+[
+  {
+    "PointName": "Estrada Pastor Lourival Machado próximo a Rua Paulo Pereira Dias ",
+    "Latitude": -22.591346,
+    "Longitude": -43.309997,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado próximo Travessa Mário Sabadim ",
+    "Latitude": -22.592924,
+    "Longitude": -43.311846,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Cemitério de Xerém ",
+    "Latitude": -22.593946,
+    "Longitude": -43.313009,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 1236",
+    "Latitude": -22.594887,
+    "Longitude": -43.314332,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 789",
+    "Latitude": -22.596275,
+    "Longitude": -43.316538,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado com Rua Lemos",
+    "Latitude": -22.597979,
+    "Longitude": -43.318783,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Km51 ",
+    "Latitude": -22.600121,
+    "Longitude": -43.320472,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 250",
+    "Latitude": -22.603385,
+    "Longitude": -43.323243,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 2032",
+    "Latitude": -22.605964,
+    "Longitude": -43.325992,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Bambu Amarelo 1220",
+    "Latitude": -22.606888,
+    "Longitude": -43.327946,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Bambu Amarelo 05",
+    "Latitude": -22.605306,
+    "Longitude": -43.329095,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Bambu Amarelo com Estrada de São Lourenço ",
+    "Latitude": -22.604023,
+    "Longitude": -43.330658,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Coração de Jesus ",
+    "Latitude": -22.603397,
+    "Longitude": -43.334632,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Bambu Amarelo próximo a Rua Maria José ",
+    "Latitude": -22.603449,
+    "Longitude": -43.338079,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Bambu Amarelo ",
+    "Latitude": -22.601708,
+    "Longitude": -43.342952,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 3063",
+    "Latitude": -22.602778,
+    "Longitude": -43.34681,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço ",
+    "Latitude": -22.600789,
+    "Longitude": -43.347645,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço próximo ao 3684",
+    "Latitude": -22.599612,
+    "Longitude": -43.35128,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço próximo ao 4386",
+    "Latitude": -22.597569,
+    "Longitude": -43.356913,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço próximo ao 4387",
+    "Latitude": -22.597475,
+    "Longitude": -43.35856,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço ",
+    "Latitude": -22.598611,
+    "Longitude": -43.361399,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 4755",
+    "Latitude": -22.599239,
+    "Longitude": -43.363643,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço ",
+    "Latitude": -22.599572,
+    "Longitude": -43.366251,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço",
+    "Latitude": -22.598416,
+    "Longitude": -43.368956,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço ",
+    "Latitude": -22.595508,
+    "Longitude": -43.367948,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço - Bar do Bitelo",
+    "Latitude": -22.591196,
+    "Longitude": -43.363048,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Xerém Tinguá ",
+    "Latitude": -22.587324,
+    "Longitude": -43.358775,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Xerém Tinguá 48319",
+    "Latitude": -22.585123,
+    "Longitude": -43.353048,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Xerém Tinguá - Comunidade Rural Casa do Caminho",
+    "Latitude": -22.585247,
+    "Longitude": -43.351536,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Xerém Tinguá - Rotatória ",
+    "Latitude": -22.584755,
+    "Longitude": -43.349879,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio de Areia 50336",
+    "Latitude": -22.582404,
+    "Longitude": -43.350451,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio de Areia - Espaço Vista Alegre ",
+    "Latitude": -22.580522,
+    "Longitude": -43.350245,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio de Areia- Estância Gaúcha ",
+    "Latitude": -22.577092,
+    "Longitude": -43.357305,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio de Areia - Hotel Fazenda Sonho Meu",
+    "Latitude": -22.575948,
+    "Longitude": -43.360198,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio de Areia",
+    "Latitude": -22.574919,
+    "Longitude": -43.36265,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Rural",
+    "Latitude": -22.579209,
+    "Longitude": -43.365254,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Fazenda Paraíso ",
+    "Latitude": -22.584712,
+    "Longitude": -43.365868,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Oscar Vidal 1793",
+    "Latitude": -22.594425,
+    "Longitude": -43.369019,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Oscar Vidal ",
+    "Latitude": -22.598665,
+    "Longitude": -43.370543,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Oscar Vidal",
+    "Latitude": -22.600173,
+    "Longitude": -43.370651,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Oscar Vidal 20",
+    "Latitude": -22.602997,
+    "Longitude": -43.372391,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Oscar Vidal com Estrada Rio do Pati",
+    "Latitude": -22.603341,
+    "Longitude": -43.37675,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio do Pati ",
+    "Latitude": -22.60213,
+    "Longitude": -43.378198,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio do Pati com Estrada São Domingos ",
+    "Latitude": -22.602934,
+    "Longitude": -43.380654,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio do Pati com Travessa dos Martins ",
+    "Latitude": -22.60278,
+    "Longitude": -43.386472,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Taboleiro ",
+    "Latitude": -22.603333,
+    "Longitude": -43.393315,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Taboleiro ",
+    "Latitude": -22.601404,
+    "Longitude": -43.399126,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Taboleiro 37",
+    "Latitude": -22.601749,
+    "Longitude": -43.400729,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Taboleiro 109",
+    "Latitude": -22.602731,
+    "Longitude": -43.403064,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Taboleiro com Estrada da Petrobrás ",
+    "Latitude": -22.604192,
+    "Longitude": -43.40454,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Entrada do Aeroclube ",
+    "Latitude": -22.606142,
+    "Longitude": -43.409275,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Tabuleiro 24",
+    "Latitude": -22.604948,
+    "Longitude": -43.409563,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Tabuleiro 31",
+    "Latitude": -22.601997,
+    "Longitude": -43.413276,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Tabuleiro com Estrada Federal de Tinguá ",
+    "Latitude": -22.600205,
+    "Longitude": -43.414456,
+    "LineNumber": "DC-TZ11",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Tabuleiro com Estrada Federal de Tinguá ",
+    "Latitude": -22.600253,
+    "Longitude": -43.414384,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Tabuleiro 08",
+    "Latitude": -22.601975,
+    "Longitude": -43.413304,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Tabuleiro 21",
+    "Latitude": -22.605177,
+    "Longitude": -43.4095,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Entrada do Aeroclube ",
+    "Latitude": -22.606146,
+    "Longitude": -43.409275,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Taboleiro com Estrada da Petrobrás ",
+    "Latitude": -22.604014,
+    "Longitude": -43.404364,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Taboleiro 109",
+    "Latitude": -22.602813,
+    "Longitude": -43.403156,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Taboleiro - Sítio Ecológico da Família ",
+    "Latitude": -22.601615,
+    "Longitude": -43.400477,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Taboleiro ",
+    "Latitude": -22.60138,
+    "Longitude": -43.399019,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Taboleiro ",
+    "Latitude": -22.603333,
+    "Longitude": -43.393189,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio do Pati com Travessa dos Martins",
+    "Latitude": -22.602789,
+    "Longitude": -43.386467,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio do Pati com Estrada São Domingos ",
+    "Latitude": -22.602771,
+    "Longitude": -43.380406,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio do Pati ",
+    "Latitude": -22.602167,
+    "Longitude": -43.378153,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio do Pati com Estrada Oscar Vidal ",
+    "Latitude": -22.603344,
+    "Longitude": -43.376808,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Oscar Vidal próximo ao 20",
+    "Latitude": -22.603074,
+    "Longitude": -43.372248,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Oscar Vidal ",
+    "Latitude": -22.599796,
+    "Longitude": -43.370539,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Oscar Vidal ",
+    "Latitude": -22.598685,
+    "Longitude": -43.370539,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Oscar Vidal 1793",
+    "Latitude": -22.594424,
+    "Longitude": -43.369017,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Fazenda Paraíso ",
+    "Latitude": -22.584717,
+    "Longitude": -43.365865,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Rural ",
+    "Latitude": -22.579282,
+    "Longitude": -43.365338,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio de Areia ",
+    "Latitude": -22.574946,
+    "Longitude": -43.362557,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio de Areia - Hotel Fazenda Sonho Meu ",
+    "Latitude": -22.576009,
+    "Longitude": -43.36005,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio de Areia - Estância Gaúcha ",
+    "Latitude": -22.57702,
+    "Longitude": -43.357405,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio de Areia - Espaço Vista Alegre ",
+    "Latitude": -22.580199,
+    "Longitude": -43.350446,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Rio de Areia 48335",
+    "Latitude": -22.582498,
+    "Longitude": -43.350468,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Xerém Tinguá - Rotatória ",
+    "Latitude": -22.584766,
+    "Longitude": -43.350234,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Xerém Tinguá - Comunidade Rural Casa do Caminho ",
+    "Latitude": -22.585236,
+    "Longitude": -43.351615,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Xerém Tinguá 48319",
+    "Latitude": -22.585102,
+    "Longitude": -43.353003,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Xerém Tinguá ",
+    "Latitude": -22.586983,
+    "Longitude": -43.358404,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Xerém Tinguá - Bar do Bitelo ",
+    "Latitude": -22.591253,
+    "Longitude": -43.363203,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço ",
+    "Latitude": -22.595418,
+    "Longitude": -43.367863,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço ",
+    "Latitude": -22.598447,
+    "Longitude": -43.368893,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço ",
+    "Latitude": -22.599584,
+    "Longitude": -43.366066,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 48303",
+    "Latitude": -22.598918,
+    "Longitude": -43.363388,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço ",
+    "Latitude": -22.598657,
+    "Longitude": -43.361573,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço 4550",
+    "Latitude": -22.59763,
+    "Longitude": -43.358871,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço próximo 4386",
+    "Latitude": -22.597569,
+    "Longitude": -43.356917,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço próximo ao 3684",
+    "Latitude": -22.59961,
+    "Longitude": -43.35168,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço próximo 3253",
+    "Latitude": -22.6009,
+    "Longitude": -43.347468,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada de São Lourenço próximo ao 3063",
+    "Latitude": -22.602906,
+    "Longitude": -43.346795,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Bambu Amarelo ",
+    "Latitude": -22.601736,
+    "Longitude": -43.342906,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Bambu Amarelo ",
+    "Latitude": -22.603444,
+    "Longitude": -43.338181,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Coração de Jesus ",
+    "Latitude": -22.603369,
+    "Longitude": -43.334859,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Bambu Amarelo com Estrada de São Lourenço ",
+    "Latitude": -22.604028,
+    "Longitude": -43.330658,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Bambu Amarelo 16",
+    "Latitude": -22.605375,
+    "Longitude": -43.329072,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Bambu Amarelo com Estrada Pastor Lourival Machado ",
+    "Latitude": -22.607,
+    "Longitude": -43.32746,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado com Estrada da Igreja Velha ",
+    "Latitude": -22.606056,
+    "Longitude": -43.32608,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 1167",
+    "Latitude": -22.603405,
+    "Longitude": -43.323262,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Km51 ",
+    "Latitude": -22.600112,
+    "Longitude": -43.320452,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 51",
+    "Latitude": -22.598137,
+    "Longitude": -43.318904,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 81",
+    "Latitude": -22.596091,
+    "Longitude": -43.316237,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado com Beco do Leão ",
+    "Latitude": -22.594836,
+    "Longitude": -43.314249,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Cemitério de Xerém ",
+    "Latitude": -22.593947,
+    "Longitude": -43.313,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado com Rua Agilio Penna ",
+    "Latitude": -22.592787,
+    "Longitude": -43.311681,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 2101",
+    "Latitude": -22.591499,
+    "Longitude": -43.310166,
+    "LineNumber": "DC-TZ11",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

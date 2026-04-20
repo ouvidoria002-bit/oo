@@ -1,0 +1,875 @@
+[
+  {
+    "PointName": "Rua Primeiro de Maio - CRAESM",
+    "Latitude": -22.60221,
+    "Longitude": -43.303074,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Primeiro de Maio 11",
+    "Latitude": -22.601612,
+    "Longitude": -43.302781,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Primeiro de Maio 1",
+    "Latitude": -22.60035,
+    "Longitude": -43.302196,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Alameda Santa Alice 2",
+    "Latitude": -22.60002,
+    "Longitude": -43.30279,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pracinha da Vila Sase",
+    "Latitude": -22.600535,
+    "Longitude": -43.303983,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida 13 de junho 54",
+    "Latitude": -22.601161,
+    "Longitude": -43.305057,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 11",
+    "Latitude": -22.600904,
+    "Longitude": -43.306966,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha com Avenida 13 de junho ",
+    "Latitude": -22.600652,
+    "Longitude": -43.30811,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha com Rua Marília ",
+    "Latitude": -22.601598,
+    "Longitude": -43.309555,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 40",
+    "Latitude": -22.602637,
+    "Longitude": -43.310164,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 6A",
+    "Latitude": -22.603892,
+    "Longitude": -43.310315,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 8",
+    "Latitude": -22.604984,
+    "Longitude": -43.310507,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 17",
+    "Latitude": -22.606322,
+    "Longitude": -43.311043,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 42B",
+    "Latitude": -22.607153,
+    "Longitude": -43.312414,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 49",
+    "Latitude": -22.607286,
+    "Longitude": -43.313171,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha com Rua Julião de Souza",
+    "Latitude": -22.606705,
+    "Longitude": -43.321707,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha com Estrada Pastor Lourival Machado",
+    "Latitude": -22.606304,
+    "Longitude": -43.325835,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 1167",
+    "Latitude": -22.60341,
+    "Longitude": -43.323265,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Km51",
+    "Latitude": -22.600126,
+    "Longitude": -43.320469,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 51",
+    "Latitude": -22.598122,
+    "Longitude": -43.318892,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 81",
+    "Latitude": -22.596093,
+    "Longitude": -43.316239,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado com Beco do Leão ",
+    "Latitude": -22.594839,
+    "Longitude": -43.314252,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Cemitério de Xerém ",
+    "Latitude": -22.593996,
+    "Longitude": -43.313061,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado com Rua Agilio Penna",
+    "Latitude": -22.592791,
+    "Longitude": -43.311683,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado próximo Rua Paulo Pereira Dias",
+    "Latitude": -22.591346,
+    "Longitude": -43.309997,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 233",
+    "Latitude": -22.590756,
+    "Longitude": -43.30929,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 189",
+    "Latitude": -22.58983,
+    "Longitude": -43.308175,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 167",
+    "Latitude": -22.588784,
+    "Longitude": -43.306996,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 1030",
+    "Latitude": -22.588053,
+    "Longitude": -43.306165,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "CAPS Xerém ",
+    "Latitude": -22.585369,
+    "Longitude": -43.302894,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 83",
+    "Latitude": -22.584284,
+    "Longitude": -43.30159,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 565",
+    "Latitude": -22.583072,
+    "Longitude": -43.300133,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva com Estrada Presidente João Goulart ",
+    "Latitude": -22.582113,
+    "Longitude": -43.297625,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1403",
+    "Latitude": -22.582067,
+    "Longitude": -43.296589,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1148",
+    "Latitude": -22.582019,
+    "Longitude": -43.295493,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva com Travessa José Jandir",
+    "Latitude": -22.58198,
+    "Longitude": -43.294764,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1378",
+    "Latitude": -22.581893,
+    "Longitude": -43.29316,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva - Condomínio EVA",
+    "Latitude": -22.581788,
+    "Longitude": -43.291771,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 2421",
+    "Latitude": -22.580393,
+    "Longitude": -43.286671,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1650",
+    "Latitude": -22.577848,
+    "Longitude": -43.285845,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 2058",
+    "Latitude": -22.576129,
+    "Longitude": -43.285246,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1599",
+    "Latitude": -22.574364,
+    "Longitude": -43.285347,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva - Sítio Cristo Rei",
+    "Latitude": -22.572492,
+    "Longitude": -43.287806,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva em frente ao 2615",
+    "Latitude": -22.571258,
+    "Longitude": -43.2876,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Parque Ana Dantas",
+    "Latitude": -22.569814,
+    "Longitude": -43.286853,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Fazendinha do Autista ",
+    "Latitude": -22.567818,
+    "Longitude": -43.284794,
+    "LineNumber": "DC-TZ17",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Fazendinha do Autista",
+    "Latitude": -22.567703,
+    "Longitude": -43.284678,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 2801",
+    "Latitude": -22.569892,
+    "Longitude": -43.286923,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 2615",
+    "Latitude": -22.57144,
+    "Longitude": -43.287635,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva ",
+    "Latitude": -22.572519,
+    "Longitude": -43.287795,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1599",
+    "Latitude": -22.574362,
+    "Longitude": -43.285346,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 2058",
+    "Latitude": -22.576163,
+    "Longitude": -43.285252,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1650",
+    "Latitude": -22.577826,
+    "Longitude": -43.285834,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 2421",
+    "Latitude": -22.580396,
+    "Longitude": -43.286673,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Beira Rio 111",
+    "Latitude": -22.580999,
+    "Longitude": -43.286028,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Beira Rio 72",
+    "Latitude": -22.582722,
+    "Longitude": -43.28558,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Beira Rio com Rua Geraldo Cardoso ",
+    "Latitude": -22.58441,
+    "Longitude": -43.285547,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Geraldo Cardoso 85",
+    "Latitude": -22.584477,
+    "Longitude": -43.285784,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva - Condomínio EVA",
+    "Latitude": -22.581771,
+    "Longitude": -43.291705,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1491",
+    "Latitude": -22.581898,
+    "Longitude": -43.293273,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1547",
+    "Latitude": -22.581987,
+    "Longitude": -43.294878,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1148",
+    "Latitude": -22.582024,
+    "Longitude": -43.295625,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1402",
+    "Latitude": -22.582066,
+    "Longitude": -43.296609,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 1027",
+    "Latitude": -22.582099,
+    "Longitude": -43.297414,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Pastor Lourival Machado 40",
+    "Latitude": -22.587799,
+    "Longitude": -43.305877,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 18",
+    "Latitude": -22.588709,
+    "Longitude": -43.306909,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 60",
+    "Latitude": -22.589888,
+    "Longitude": -43.30824,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 68",
+    "Latitude": -22.590777,
+    "Longitude": -43.309316,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 2101",
+    "Latitude": -22.591502,
+    "Longitude": -43.310168,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado próximo Travessa Mário Sabadim ",
+    "Latitude": -22.592879,
+    "Longitude": -43.31178,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Cemitério de Xerém ",
+    "Latitude": -22.593949,
+    "Longitude": -43.313007,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado com Beco do Leão ",
+    "Latitude": -22.594879,
+    "Longitude": -43.314314,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 789",
+    "Latitude": -22.596254,
+    "Longitude": -43.316497,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado com Rua Lemos ",
+    "Latitude": -22.597983,
+    "Longitude": -43.318781,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Km51 ",
+    "Latitude": -22.600124,
+    "Longitude": -43.320469,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 250",
+    "Latitude": -22.603431,
+    "Longitude": -43.323296,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Pastor Lourival Machado 2032",
+    "Latitude": -22.605991,
+    "Longitude": -43.326013,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha próximo a Estrada Pastor Lourival Machado ",
+    "Latitude": -22.606288,
+    "Longitude": -43.325944,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha com Rua Julião de Souza ",
+    "Latitude": -22.606703,
+    "Longitude": -43.321612,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 49",
+    "Latitude": -22.607309,
+    "Longitude": -43.313291,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 42B",
+    "Latitude": -22.607135,
+    "Longitude": -43.31236,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 116",
+    "Latitude": -22.606198,
+    "Longitude": -43.31101,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha",
+    "Latitude": -22.604633,
+    "Longitude": -43.310341,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 6A",
+    "Latitude": -22.6038,
+    "Longitude": -43.310311,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 106",
+    "Latitude": -22.602753,
+    "Longitude": -43.310177,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha com Rua Marília ",
+    "Latitude": -22.601622,
+    "Longitude": -43.309571,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha com Avenida 13 de junho",
+    "Latitude": -22.60072,
+    "Longitude": -43.308264,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 01",
+    "Latitude": -22.600902,
+    "Longitude": -43.307018,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada da Igreja Velha 55",
+    "Latitude": -22.601186,
+    "Longitude": -43.305231,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Sete de setembro 2",
+    "Latitude": -22.601002,
+    "Longitude": -43.304342,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Sete de setembro 24",
+    "Latitude": -22.602406,
+    "Longitude": -43.303756,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pracinha de Vila Sase - CRAESM ",
+    "Latitude": -22.602167,
+    "Longitude": -43.303054,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 743",
+    "Latitude": -22.582871,
+    "Longitude": -43.299831,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 625",
+    "Latitude": -22.583501,
+    "Longitude": -43.300783,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 509",
+    "Latitude": -22.584218,
+    "Longitude": -43.301709,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva 347",
+    "Latitude": -22.585454,
+    "Longitude": -43.303156,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Márcio Santos Silva ",
+    "Latitude": -22.585989,
+    "Longitude": -43.303787,
+    "LineNumber": "DC-TZ17",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

@@ -1,0 +1,1325 @@
+[
+  {
+    "PointName": "Praça São José ",
+    "Latitude": -22.677208,
+    "Longitude": -43.245456,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Porto 35",
+    "Latitude": -22.679685,
+    "Longitude": -43.24318,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Porto em frente Igreja Católica ",
+    "Latitude": -22.680939,
+    "Longitude": -43.242019,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Porto 633",
+    "Latitude": -22.681912,
+    "Longitude": -43.241106,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Dom Pedro I",
+    "Latitude": -22.682738,
+    "Longitude": -43.240644,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M Pedro R. do Carmo",
+    "Latitude": -22.684011,
+    "Longitude": -43.241925,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça do Vasquinho ",
+    "Latitude": -22.684992,
+    "Longitude": -43.241135,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua La Place",
+    "Latitude": -22.68642,
+    "Longitude": -43.239967,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua Quixeramobim ",
+    "Latitude": -22.687251,
+    "Longitude": -43.239485,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí ",
+    "Latitude": -22.688381,
+    "Longitude": -43.239487,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua Lopes da Veiga",
+    "Latitude": -22.689533,
+    "Longitude": -43.239485,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí próximo a Rua AK",
+    "Latitude": -22.690352,
+    "Longitude": -43.239484,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça do Cangulo",
+    "Latitude": -22.691092,
+    "Longitude": -43.239481,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ibirapuera ",
+    "Latitude": -22.691261,
+    "Longitude": -43.238647,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ibirapuera com Rua Bartolomeu Fagundes ",
+    "Latitude": -22.69128,
+    "Longitude": -43.237559,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes próximo a Rua Ibipora ",
+    "Latitude": -22.692313,
+    "Longitude": -43.237367,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes 25",
+    "Latitude": -22.693601,
+    "Longitude": -43.237375,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Cangulo ",
+    "Latitude": -22.695065,
+    "Longitude": -43.236841,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias",
+    "Latitude": -22.696287,
+    "Longitude": -43.236727,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Veneza ",
+    "Latitude": -22.696104,
+    "Longitude": -43.237468,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio San Marino ",
+    "Latitude": -22.695559,
+    "Longitude": -43.238304,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Residencial Bari",
+    "Latitude": -22.694921,
+    "Longitude": -43.239268,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Catânia ",
+    "Latitude": -22.69419,
+    "Longitude": -43.240378,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça do Condomínio ",
+    "Latitude": -22.693434,
+    "Longitude": -43.241472,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Mônaco ",
+    "Latitude": -22.694206,
+    "Longitude": -43.240352,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Piemonte ",
+    "Latitude": -22.694876,
+    "Longitude": -43.239336,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio San Marino ",
+    "Latitude": -22.69564,
+    "Longitude": -43.23818,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Veneza",
+    "Latitude": -22.696104,
+    "Longitude": -43.237467,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Pedro Nolasco",
+    "Latitude": -22.696852,
+    "Longitude": -43.237065,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Riviera ",
+    "Latitude": -22.697647,
+    "Longitude": -43.237482,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Minas Gerais ",
+    "Latitude": -22.698703,
+    "Longitude": -43.237812,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Presidente Eisenhower ",
+    "Latitude": -22.699275,
+    "Longitude": -43.238065,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Eisenhower com Rua Presidente Vargas ",
+    "Latitude": -22.699832,
+    "Longitude": -43.236751,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Eisenhower com Rua Presidente Jucelino ",
+    "Latitude": -22.700448,
+    "Longitude": -43.234502,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Eisenhower 19",
+    "Latitude": -22.700981,
+    "Longitude": -43.232655,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra 395",
+    "Latitude": -22.702286,
+    "Longitude": -43.232503,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra com Presidente Rosselvet ",
+    "Latitude": -22.70294,
+    "Longitude": -43.232711,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra com Avenida Leib Rubin",
+    "Latitude": -22.703521,
+    "Longitude": -43.232896,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Senador Archer 1156",
+    "Latitude": -22.704985,
+    "Longitude": -43.232938,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Senador Archer 834",
+    "Latitude": -22.705477,
+    "Longitude": -43.230897,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Senador Archer 756",
+    "Latitude": -22.705721,
+    "Longitude": -43.229848,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Senador Archer com Rua Ewai Tee",
+    "Latitude": -22.706033,
+    "Longitude": -43.228541,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Orlando Costa 67",
+    "Latitude": -22.706355,
+    "Longitude": -43.226525,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray 703",
+    "Latitude": -22.706063,
+    "Longitude": -43.225938,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray com Rua Doutor Monte Negro",
+    "Latitude": -22.706539,
+    "Longitude": -43.224357,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray 463",
+    "Latitude": -22.706795,
+    "Longitude": -43.223413,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray com Rua Manuel Castro ",
+    "Latitude": -22.70717,
+    "Longitude": -43.222286,
+    "LineNumber": "DC-TZ12",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray com Rua Manuel Castro ",
+    "Latitude": -22.707166,
+    "Longitude": -43.222288,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray 476",
+    "Latitude": -22.70679,
+    "Longitude": -43.223425,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray com Rua Monte Negro ",
+    "Latitude": -22.706554,
+    "Longitude": -43.224297,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray 726",
+    "Latitude": -22.706049,
+    "Longitude": -43.225983,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Orlando Costa 67",
+    "Latitude": -22.706348,
+    "Longitude": -43.226522,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Senador Archer com Rua Ewai Tee ",
+    "Latitude": -22.706032,
+    "Longitude": -43.228541,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Senador Archer 834",
+    "Latitude": -22.705479,
+    "Longitude": -43.230899,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Senador Archer 1156",
+    "Latitude": -22.70502,
+    "Longitude": -43.232804,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra com Avenida Leib Rubin ",
+    "Latitude": -22.703553,
+    "Longitude": -43.232909,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra com Rua Presidente Rosselvet ",
+    "Latitude": -22.702937,
+    "Longitude": -43.232709,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra 395",
+    "Latitude": -22.702299,
+    "Longitude": -43.232506,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra com Rua Presidente Kennedy ",
+    "Latitude": -22.701735,
+    "Longitude": -43.232323,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra 514",
+    "Latitude": -22.701251,
+    "Longitude": -43.232165,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Eisenhower com Rua Presidente Jucelino ",
+    "Latitude": -22.700462,
+    "Longitude": -43.234435,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Eisenhower com Rua Presidente Vargas ",
+    "Latitude": -22.699835,
+    "Longitude": -43.236755,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Eisenhower próximo a Avenida Branca Dias ",
+    "Latitude": -22.699484,
+    "Longitude": -43.237932,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Minas Gerais ",
+    "Latitude": -22.698632,
+    "Longitude": -43.237784,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Riviera ",
+    "Latitude": -22.697706,
+    "Longitude": -43.237514,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Pedro Nolasco ",
+    "Latitude": -22.696653,
+    "Longitude": -43.236943,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Veneza ",
+    "Latitude": -22.696022,
+    "Longitude": -43.237598,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio San Marino ",
+    "Latitude": -22.695555,
+    "Longitude": -43.238302,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Residencial Bari ",
+    "Latitude": -22.694871,
+    "Longitude": -43.239334,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Catânia ",
+    "Latitude": -22.694185,
+    "Longitude": -43.240379,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pracinha do Condomínio ",
+    "Latitude": -22.693427,
+    "Longitude": -43.241471,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Mônaco ",
+    "Latitude": -22.694201,
+    "Longitude": -43.240354,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Piemonte ",
+    "Latitude": -22.694859,
+    "Longitude": -43.239364,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio San Marino ",
+    "Latitude": -22.695634,
+    "Longitude": -43.238181,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Entrada dos Predinhos",
+    "Latitude": -22.696395,
+    "Longitude": -43.236993,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Albert Sabin ",
+    "Latitude": -22.695705,
+    "Longitude": -43.236385,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS CANGULO ",
+    "Latitude": -22.695062,
+    "Longitude": -43.236834,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes 25",
+    "Latitude": -22.693664,
+    "Longitude": -43.237372,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes 49",
+    "Latitude": -22.69228,
+    "Longitude": -43.237366,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ibirapuera com Rua Bartolomeu Fagundes ",
+    "Latitude": -22.691279,
+    "Longitude": -43.237546,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ibirapuera 27",
+    "Latitude": -22.691259,
+    "Longitude": -43.238697,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ibirapuera com Praça do Cangulo ",
+    "Latitude": -22.691247,
+    "Longitude": -43.239274,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua AK",
+    "Latitude": -22.690654,
+    "Longitude": -43.239483,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua Lopes da Veiga ",
+    "Latitude": -22.689529,
+    "Longitude": -43.239485,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí 33",
+    "Latitude": -22.688369,
+    "Longitude": -43.239478,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua Quixeramobim ",
+    "Latitude": -22.687246,
+    "Longitude": -43.239483,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí próximo a Rua La Place ",
+    "Latitude": -22.686502,
+    "Longitude": -43.239696,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça do Vasquinho ",
+    "Latitude": -22.685035,
+    "Longitude": -43.241101,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Pedro R. Carmo",
+    "Latitude": -22.684149,
+    "Longitude": -43.2419,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Dom Pedro I 1",
+    "Latitude": -22.682722,
+    "Longitude": -43.240621,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Porto 669",
+    "Latitude": -22.68205,
+    "Longitude": -43.240982,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Porto 525",
+    "Latitude": -22.681018,
+    "Longitude": -43.241947,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Porto 349",
+    "Latitude": -22.679829,
+    "Longitude": -43.243046,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Porto 157",
+    "Latitude": -22.678584,
+    "Longitude": -43.244192,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça São José ",
+    "Latitude": -22.677372,
+    "Longitude": -43.245292,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Eisenhower 19",
+    "Latitude": -22.700981,
+    "Longitude": -43.232655,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray com Rua Manuel Castro ",
+    "Latitude": -22.707166,
+    "Longitude": -43.222288,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray 476",
+    "Latitude": -22.70679,
+    "Longitude": -43.223425,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray com Rua Monte Negro ",
+    "Latitude": -22.706554,
+    "Longitude": -43.224297,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Percy Murray 726",
+    "Latitude": -22.706049,
+    "Longitude": -43.225983,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Orlando Costa 67",
+    "Latitude": -22.706348,
+    "Longitude": -43.226522,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Senador Archer com Rua Ewai Tee ",
+    "Latitude": -22.706032,
+    "Longitude": -43.228541,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Senador Archer 756",
+    "Latitude": -22.705713,
+    "Longitude": -43.229891,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Senador Archer 834",
+    "Latitude": -22.705479,
+    "Longitude": -43.230899,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Senador Archer 1156",
+    "Latitude": -22.70502,
+    "Longitude": -43.232804,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra com Avenida Leib Rubin ",
+    "Latitude": -22.703553,
+    "Longitude": -43.232909,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra com Rua Presidente Rosselvet ",
+    "Latitude": -22.702937,
+    "Longitude": -43.232709,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra 395",
+    "Latitude": -22.702299,
+    "Longitude": -43.232506,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra com Rua Presidente Kennedy ",
+    "Latitude": -22.701735,
+    "Longitude": -43.232323,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Dutra 514",
+    "Latitude": -22.701251,
+    "Longitude": -43.232165,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Eisenhower com Rua Presidente Jucelino ",
+    "Latitude": -22.700462,
+    "Longitude": -43.234435,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Eisenhower com Rua Presidente Vargas ",
+    "Latitude": -22.699835,
+    "Longitude": -43.236755,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Presidente Eisenhower próximo a Avenida Branca Dias ",
+    "Latitude": -22.699484,
+    "Longitude": -43.237932,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Minas Gerais ",
+    "Latitude": -22.698632,
+    "Longitude": -43.237784,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Riviera ",
+    "Latitude": -22.697706,
+    "Longitude": -43.237514,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Branca Dias com Rua Pedro Nolasco ",
+    "Latitude": -22.696653,
+    "Longitude": -43.236943,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Veneza ",
+    "Latitude": -22.696022,
+    "Longitude": -43.237598,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio San Marino ",
+    "Latitude": -22.695555,
+    "Longitude": -43.238302,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Residencial Bari ",
+    "Latitude": -22.694871,
+    "Longitude": -43.239334,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Catânia ",
+    "Latitude": -22.694185,
+    "Longitude": -43.240379,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Pracinha do Condomínio ",
+    "Latitude": -22.693427,
+    "Longitude": -43.241471,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Mônaco ",
+    "Latitude": -22.694201,
+    "Longitude": -43.240354,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio Piemonte ",
+    "Latitude": -22.694859,
+    "Longitude": -43.239364,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Condomínio San Marino ",
+    "Latitude": -22.695634,
+    "Longitude": -43.238181,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Entrada dos Predinhos",
+    "Latitude": -22.696395,
+    "Longitude": -43.236993,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Creche Municipal Albert Sabin ",
+    "Latitude": -22.695705,
+    "Longitude": -43.236385,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS CANGULO ",
+    "Latitude": -22.695062,
+    "Longitude": -43.236834,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes 25",
+    "Latitude": -22.693664,
+    "Longitude": -43.237372,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bartolomeu Fagundes 49",
+    "Latitude": -22.69228,
+    "Longitude": -43.237366,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ibirapuera com Rua Bartolomeu Fagundes ",
+    "Latitude": -22.691279,
+    "Longitude": -43.237546,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ibirapuera 27",
+    "Latitude": -22.691259,
+    "Longitude": -43.238697,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Ibirapuera com Praça do Cangulo ",
+    "Latitude": -22.691247,
+    "Longitude": -43.239274,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua AK",
+    "Latitude": -22.690654,
+    "Longitude": -43.239483,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua Lopes da Veiga ",
+    "Latitude": -22.689529,
+    "Longitude": -43.239485,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí 33",
+    "Latitude": -22.688369,
+    "Longitude": -43.239478,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí com Rua Quixeramobim ",
+    "Latitude": -22.687246,
+    "Longitude": -43.239483,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Araçuaí próximo a Rua La Place ",
+    "Latitude": -22.686502,
+    "Longitude": -43.239696,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça do Vasquinho ",
+    "Latitude": -22.685035,
+    "Longitude": -43.241101,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M. Pedro R. Carmo",
+    "Latitude": -22.684149,
+    "Longitude": -43.2419,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Dom Pedro I 1",
+    "Latitude": -22.682722,
+    "Longitude": -43.240621,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Porto 669",
+    "Latitude": -22.68205,
+    "Longitude": -43.240982,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Porto 525",
+    "Latitude": -22.681018,
+    "Longitude": -43.241947,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Porto 349",
+    "Latitude": -22.679829,
+    "Longitude": -43.243046,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida do Porto 157",
+    "Latitude": -22.678584,
+    "Longitude": -43.244192,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça São José ",
+    "Latitude": -22.677372,
+    "Longitude": -43.245292,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(Start)",
+    "Latitude": -22.707169,
+    "Longitude": -43.222296,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "(End)",
+    "Latitude": -22.677379,
+    "Longitude": -43.245291,
+    "LineNumber": "DC-TZ12",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

@@ -1,0 +1,623 @@
+[
+  {
+    "PointName": "FUNDEC Chacrinha",
+    "Latitude": -22.771851,
+    "Longitude": -43.288005,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça da Chacrinha ",
+    "Latitude": -22.77204,
+    "Longitude": -43.289062,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Leandro da Mota com Rua Deputado Sá Rego",
+    "Latitude": -22.772848,
+    "Longitude": -43.289485,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Sá Rego próximo a Rua Olegário Mariano ",
+    "Latitude": -22.773346,
+    "Longitude": -43.289976,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Sá Rego com Rua Treze de Maio",
+    "Latitude": -22.774015,
+    "Longitude": -43.290677,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Sá Rego com Avenida Marechal Hermes ",
+    "Latitude": -22.774587,
+    "Longitude": -43.291287,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Sá Rego com Rua Quinze de Novembro ",
+    "Latitude": -22.775193,
+    "Longitude": -43.291931,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Sá Rego com Rua Silva Jardim ",
+    "Latitude": -22.775762,
+    "Longitude": -43.292533,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça da Apoteose ",
+    "Latitude": -22.776899,
+    "Longitude": -43.293736,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Brasil 384",
+    "Latitude": -22.778255,
+    "Longitude": -43.292396,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Aparecida Tavares",
+    "Latitude": -22.779818,
+    "Longitude": -43.29071,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Brasil com Rua São Joaquim ",
+    "Latitude": -22.781177,
+    "Longitude": -43.289202,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Brasil com Rua São Francisco ",
+    "Latitude": -22.7817,
+    "Longitude": -43.288154,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Brasil 1360",
+    "Latitude": -22.78333,
+    "Longitude": -43.286822,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Caxias Shopping 1",
+    "Latitude": -22.784598,
+    "Longitude": -43.287929,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Caxias Shopping 2",
+    "Latitude": -22.785034,
+    "Longitude": -43.288951,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Tereza com Rua Santana ",
+    "Latitude": -22.783812,
+    "Longitude": -43.291361,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua 14 de Julho 51",
+    "Latitude": -22.782121,
+    "Longitude": -43.293543,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua 14 de Julho 39",
+    "Latitude": -22.783167,
+    "Longitude": -43.294627,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Albino Imparato 329",
+    "Latitude": -22.784106,
+    "Longitude": -43.296095,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Albino Imparato próximo a Rua Matias Barbosa ",
+    "Latitude": -22.784529,
+    "Longitude": -43.297221,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Albino Imparato próximo a Rua Amazonas ",
+    "Latitude": -22.784307,
+    "Longitude": -43.298848,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Albino Imparato 265",
+    "Latitude": -22.782672,
+    "Longitude": -43.299247,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Duque de Caxias - SASE",
+    "Latitude": -22.78079,
+    "Longitude": -43.300516,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Itacibá 629",
+    "Latitude": -22.780115,
+    "Longitude": -43.300806,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Itacibá com Avenida Presidente Tancredo Neves ",
+    "Latitude": -22.778762,
+    "Longitude": -43.302884,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Presidente Tancredo Neves 341",
+    "Latitude": -22.779262,
+    "Longitude": -43.303487,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Coronel João Teles",
+    "Latitude": -22.780753,
+    "Longitude": -43.304473,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Duque de Caxias 515",
+    "Latitude": -22.782401,
+    "Longitude": -43.305069,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Duque de Caxias 149",
+    "Latitude": -22.784687,
+    "Longitude": -43.308183,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estação Supervia de Duque de Caxias ",
+    "Latitude": -22.787253,
+    "Longitude": -43.309109,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Marechal Floriano - Correios ",
+    "Latitude": -22.788343,
+    "Longitude": -43.309113,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Governador Leonel Brizola ",
+    "Latitude": -22.790736,
+    "Longitude": -43.309747,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Governador Leonel Brizola 1461",
+    "Latitude": -22.789794,
+    "Longitude": -43.310349,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Hospital Infantil ",
+    "Latitude": -22.79409,
+    "Longitude": -43.306305,
+    "LineNumber": "DC-TZ21",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Hospital Infantil ",
+    "Latitude": -22.794094,
+    "Longitude": -43.306302,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Governador Leonel Brizola próximo a Rua Juparana ",
+    "Latitude": -22.792638,
+    "Longitude": -43.308702,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Passarela de acesso ao Hospital Infantil ",
+    "Latitude": -22.792126,
+    "Longitude": -43.306085,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Primeiro de Março ",
+    "Latitude": -22.792939,
+    "Longitude": -43.304492,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Brigadeiro Lima e Silva 1762",
+    "Latitude": -22.791387,
+    "Longitude": -43.304311,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Brigadeiro Lima e Silva 2060",
+    "Latitude": -22.790159,
+    "Longitude": -43.306817,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Porto Alegre ",
+    "Latitude": -22.788661,
+    "Longitude": -43.30821,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Porto Alegre com Rua Deputado Ampliato Cabral ",
+    "Latitude": -22.787786,
+    "Longitude": -43.308422,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Conde de Porto Alegre 512",
+    "Latitude": -22.785062,
+    "Longitude": -43.307462,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Duque de Caxias 510",
+    "Latitude": -22.782636,
+    "Longitude": -43.305484,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Duque de Caxias próximo a Pracinha da Paulicéia ",
+    "Latitude": -22.781534,
+    "Longitude": -43.303183,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Duque de Caxias - SASE",
+    "Latitude": -22.780766,
+    "Longitude": -43.300212,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Albino Imparato próximo a Rua Professor Carlos Laerte ",
+    "Latitude": -22.78239,
+    "Longitude": -43.29928,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Albino Imparato 318",
+    "Latitude": -22.784282,
+    "Longitude": -43.298864,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Albino Imparato 161",
+    "Latitude": -22.784517,
+    "Longitude": -43.29717,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Albino Imparato com Rua Alarruda Camara",
+    "Latitude": -22.783997,
+    "Longitude": -43.295493,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Albino Imparato próximo ao 250",
+    "Latitude": -22.783738,
+    "Longitude": -43.294237,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua 14 de Julho 48",
+    "Latitude": -22.782117,
+    "Longitude": -43.293522,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Tereza com Rua Santana ",
+    "Latitude": -22.783747,
+    "Longitude": -43.291428,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Tereza 35",
+    "Latitude": -22.785048,
+    "Longitude": -43.290068,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Caxias Shopping ",
+    "Latitude": -22.784546,
+    "Longitude": -43.287776,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Brasil 1325",
+    "Latitude": -22.782729,
+    "Longitude": -43.287193,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Brasil com Rua São Joaquim ",
+    "Latitude": -22.78119,
+    "Longitude": -43.289165,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "UBS Aparecida Tavares ",
+    "Latitude": -22.779761,
+    "Longitude": -43.290773,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Brasil 573",
+    "Latitude": -22.778221,
+    "Longitude": -43.292438,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça da Apoteose ",
+    "Latitude": -22.777053,
+    "Longitude": -43.293689,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Sá Rego com Rua Silva Jardim ",
+    "Latitude": -22.775824,
+    "Longitude": -43.292586,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Sá Rego com Rua Quinze de novembro ",
+    "Latitude": -22.775258,
+    "Longitude": -43.29198,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Sá Rego 730",
+    "Latitude": -22.774533,
+    "Longitude": -43.291214,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Sá Rego 830",
+    "Latitude": -22.773938,
+    "Longitude": -43.290583,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Sá Rego com Rua Olegário Mariano ",
+    "Latitude": -22.773475,
+    "Longitude": -43.290096,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Deputado Sá Rego próximo ao 994",
+    "Latitude": -22.772898,
+    "Longitude": -43.289483,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça da Chacrinha ",
+    "Latitude": -22.772373,
+    "Longitude": -43.288928,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "FUNDEC CHACRINHA ",
+    "Latitude": -22.771823,
+    "Longitude": -43.287882,
+    "LineNumber": "DC-TZ21",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

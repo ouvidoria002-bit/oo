@@ -1,0 +1,153 @@
+/* Cleared */
+.logoHeader {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* MenuDrawer Styles */
+.menu-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2900;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.menu-backdrop.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.menu-drawer {
+    position: fixed;
+    top: 0;
+    right: -85vw;
+    /* Mobile-first: 85% of viewport width */
+    width: 85vw;
+    max-width: 320px;
+    /* Maximum width on larger screens */
+    height: 100dvh;
+    padding-bottom: env(safe-area-inset-bottom);
+    background: white;
+    z-index: 3000;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-drawer.open {
+    transform: translateX(-85vw);
+    /* Match the width */
+}
+
+.menu-header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--spacing-md);
+    border-bottom: 1px solid #eee;
+    background-color: #f9f9f9;
+    flex-shrink: 0;
+}
+
+.menu-content {
+    flex: 1;
+    overflow-y: auto;
+    background: white;
+    -webkit-overflow-scrolling: touch;
+    /* Smooth scrolling on iOS */
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing-md);
+    border-bottom: 1px solid #f0f0f0;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    background: none;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.2s;
+    min-height: 48px;
+    /* Minimum touch target size */
+}
+
+.menu-item:hover,
+.menu-item:active {
+    background-color: #f5f5f5;
+}
+
+/* Desktop adjustments */
+@media (min-width: 769px) {
+    .menu-drawer {
+        right: -320px;
+        width: 320px;
+    }
+
+    .menu-drawer.open {
+        transform: translateX(-320px);
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 360px) {
+    .menu-drawer {
+        right: -90vw;
+        width: 90vw;
+    }
+
+    .menu-drawer.open {
+        transform: translateX(-90vw);
+    }
+
+    .menu-item {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+
+/* Leaflet Z-Index Fixes - Garantir que ônibus fiquem acima dos pontos */
+.leaflet-pane {
+    z-index: 400 !important;
+}
+
+.leaflet-marker-pane {
+    z-index: 600 !important;
+}
+
+.leaflet-popup-pane {
+    z-index: 700 !important;
+}
+
+/* Custom Bus Marker - sempre acima */
+.custom-bus-marker {
+    z-index: 650 !important;
+}
+
+/* Bus Stop Icons - sempre abaixo dos ônibus */
+.bus-stop-icon {
+    z-index: 550 !important;
+}
+
+/* Institution Markers - abaixo dos ônibus */
+.inst-marker {
+    z-index: 540 !important;
+}
+
+/* User Icon - abaixo dos ônibus mas acima de pontos */
+.user-icon {
+    z-index: 560 !important;
+}

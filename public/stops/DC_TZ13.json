@@ -1,0 +1,740 @@
+[
+  {
+    "PointName": "Estação de Jardim Primavera ",
+    "Latitude": -22.690053,
+    "Longitude": -43.262674,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "E.M Wanda Gomes Soares",
+    "Latitude": -22.688501,
+    "Longitude": -43.261526,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Adolfo Alves da Silva 52",
+    "Latitude": -22.687526,
+    "Longitude": -43.261003,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Adolfo Alves da Silva 228",
+    "Latitude": -22.686553,
+    "Longitude": -43.262421,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Adolfo Alves da Silva 16",
+    "Latitude": -22.685923,
+    "Longitude": -43.263363,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida das Palmeiras 158",
+    "Latitude": -22.684851,
+    "Longitude": -43.263052,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "CIEP 035 Marechal Henrique Teixeira Lott ",
+    "Latitude": -22.683321,
+    "Longitude": -43.261531,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Leibritz 437",
+    "Latitude": -22.684017,
+    "Longitude": -43.260225,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Leibritz 385",
+    "Latitude": -22.684837,
+    "Longitude": -43.25839,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Itaúna 03",
+    "Latitude": -22.684523,
+    "Longitude": -43.257104,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Itaúna com Rua Ituazingo ",
+    "Latitude": -22.683903,
+    "Longitude": -43.256088,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua do Teatro 20",
+    "Latitude": -22.68318,
+    "Longitude": -43.255229,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua do Teatro 8",
+    "Latitude": -22.68107,
+    "Longitude": -43.256741,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Silva Barros 68",
+    "Latitude": -22.680207,
+    "Longitude": -43.255149,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Lima Sucupira 4",
+    "Latitude": -22.679414,
+    "Longitude": -43.255181,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Cruz 37",
+    "Latitude": -22.678866,
+    "Longitude": -43.256917,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Cruz com Rua Projetada A",
+    "Latitude": -22.677735,
+    "Longitude": -43.258404,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Caravelas 23",
+    "Latitude": -22.677452,
+    "Longitude": -43.259661,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Caravelas 669",
+    "Latitude": -22.678387,
+    "Longitude": -43.260455,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Caravelas com Rua Londorina",
+    "Latitude": -22.679852,
+    "Longitude": -43.261422,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Caravelas 596",
+    "Latitude": -22.681846,
+    "Longitude": -43.262831,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Coronel Silva Barros 49",
+    "Latitude": -22.681933,
+    "Longitude": -43.264052,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Coronel Silva Barros 548",
+    "Latitude": -22.680054,
+    "Longitude": -43.267916,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Coronel Silva Barros 520",
+    "Latitude": -22.679257,
+    "Longitude": -43.269444,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Coronel Silva Barros 43",
+    "Latitude": -22.678397,
+    "Longitude": -43.270905,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Coronel Silva Barros 3",
+    "Latitude": -22.677798,
+    "Longitude": -43.271372,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Arthur John Thomas 47",
+    "Latitude": -22.677679,
+    "Longitude": -43.272326,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua H 39-31",
+    "Latitude": -22.677027,
+    "Longitude": -43.273519,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua da Prata - Colégio Bilíngue de Jardim Primavera ",
+    "Latitude": -22.677526,
+    "Longitude": -43.274178,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua F",
+    "Latitude": -22.678703,
+    "Longitude": -43.274846,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Zalita 27",
+    "Latitude": -22.677181,
+    "Longitude": -43.275075,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Japurá esquina com Rua Zalita ",
+    "Latitude": -22.676245,
+    "Longitude": -43.275353,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Japurá 550",
+    "Latitude": -22.676439,
+    "Longitude": -43.276648,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Camboatá 95",
+    "Latitude": -22.675853,
+    "Longitude": -43.277761,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Camboatá 180",
+    "Latitude": -22.674655,
+    "Longitude": -43.277589,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Venâncio Pereira Veloso  - Praça do Flamenguinho ",
+    "Latitude": -22.674352,
+    "Longitude": -43.278622,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Venâncio Pereira Veloso 715",
+    "Latitude": -22.674436,
+    "Longitude": -43.279447,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Venâncio Pereira Veloso com Rua Teixeira de Souza",
+    "Latitude": -22.675257,
+    "Longitude": -43.281934,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Teixeira de Souza com Rua Projetada ",
+    "Latitude": -22.676326,
+    "Longitude": -43.282206,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Projetada ",
+    "Latitude": -22.676856,
+    "Longitude": -43.282632,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Projetada com Rua Vitória do Espírito Santo ",
+    "Latitude": -22.677048,
+    "Longitude": -43.284098,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Projetada 55-21",
+    "Latitude": -22.676968,
+    "Longitude": -43.28532,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Venâncio Pereira Veloso - HMAPN",
+    "Latitude": -22.674259,
+    "Longitude": -43.285398,
+    "LineNumber": "DC-TZ13",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Venâncio Pereira Veloso HMAPN",
+    "Latitude": -22.674281,
+    "Longitude": -43.285233,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Venâncio Pereira Veloso 405",
+    "Latitude": -22.675278,
+    "Longitude": -43.283386,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Venâncio Pereira Veloso - Primavera Garden ",
+    "Latitude": -22.675378,
+    "Longitude": -43.282353,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Venâncio Pereira Veloso 730",
+    "Latitude": -22.674447,
+    "Longitude": -43.279571,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Venâncio Pereira Veloso 34",
+    "Latitude": -22.674363,
+    "Longitude": -43.278727,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Camboatá 415",
+    "Latitude": -22.674591,
+    "Longitude": -43.277582,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada do Camboatá 506",
+    "Latitude": -22.675775,
+    "Longitude": -43.277748,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Japurá 520",
+    "Latitude": -22.676421,
+    "Longitude": -43.27655,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Barão de Japurá 684",
+    "Latitude": -22.676245,
+    "Longitude": -43.275372,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Zalita 39",
+    "Latitude": -22.677271,
+    "Longitude": -43.275059,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua F 16",
+    "Latitude": -22.678704,
+    "Longitude": -43.27486,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua da Prata - Escola Bilíngue de Jardim Primavera ",
+    "Latitude": -22.677554,
+    "Longitude": -43.274198,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua H 39",
+    "Latitude": -22.676973,
+    "Longitude": -43.273324,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Arthur John Thomas 27",
+    "Latitude": -22.677707,
+    "Longitude": -43.27229,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Coronel Silva Barros 4",
+    "Latitude": -22.677807,
+    "Longitude": -43.271364,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Coronel Silva Barros 496",
+    "Latitude": -22.679338,
+    "Longitude": -43.269292,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Coronel Silva Barros 548",
+    "Latitude": -22.680086,
+    "Longitude": -43.267845,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Coronel Silva Barros 50",
+    "Latitude": -22.681901,
+    "Longitude": -43.264299,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Canal Farias 1070",
+    "Latitude": -22.681762,
+    "Longitude": -43.262567,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Canal Farias com Rua Projetada P",
+    "Latitude": -22.67969,
+    "Longitude": -43.26113,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Canal Farias com Rua Clarissa ",
+    "Latitude": -22.678541,
+    "Longitude": -43.260334,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Canal Farias com Rua Santa Cruz ",
+    "Latitude": -22.67742,
+    "Longitude": -43.259358,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Santa Cruz com Estrada Santa Cruz ",
+    "Latitude": -22.677907,
+    "Longitude": -43.258215,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estrada Santa Cruz com Rua Projetada D",
+    "Latitude": -22.678749,
+    "Longitude": -43.257228,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Lima Sucupira 7",
+    "Latitude": -22.679313,
+    "Longitude": -43.25516,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Capitão Silva Barros 64",
+    "Latitude": -22.680248,
+    "Longitude": -43.255224,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua do Teatro 8",
+    "Latitude": -22.681135,
+    "Longitude": -43.256699,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua do Teatro 14",
+    "Latitude": -22.683297,
+    "Longitude": -43.255148,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Itaúna com Rua Ituazingo",
+    "Latitude": -22.683925,
+    "Longitude": -43.25613,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Itaúna 743",
+    "Latitude": -22.684653,
+    "Longitude": -43.257268,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Leibritz 476",
+    "Latitude": -22.684755,
+    "Longitude": -43.258559,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Leibritz 438",
+    "Latitude": -22.684049,
+    "Longitude": -43.260152,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "CIEP 035 Marechal Henrique Teixeira Lott",
+    "Latitude": -22.683327,
+    "Longitude": -43.261521,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida da Palmeira 144",
+    "Latitude": -22.684768,
+    "Longitude": -43.262985,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Adolfo Alves da Silva 303",
+    "Latitude": -22.686049,
+    "Longitude": -43.263153,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Adolfo Alves da Silva 28",
+    "Latitude": -22.686645,
+    "Longitude": -43.262282,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Adolfo Alves da Silva 39",
+    "Latitude": -22.687495,
+    "Longitude": -43.26105,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Visconde de Itaúna 745",
+    "Latitude": -22.688683,
+    "Longitude": -43.261709,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Estação de Jardim Primavera ",
+    "Latitude": -22.690056,
+    "Longitude": -43.262674,
+    "LineNumber": "DC-TZ13",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]

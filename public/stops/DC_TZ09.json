@@ -1,0 +1,650 @@
+[
+  {
+    "PointName": "Posto Carreteiro",
+    "Latitude": -22.617196,
+    "Longitude": -43.286552,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasília 165",
+    "Latitude": -22.618174,
+    "Longitude": -43.285763,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Sta. Cecília com Rua Brasília ",
+    "Latitude": -22.618275,
+    "Longitude": -43.284105,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Sta. Cecília 160",
+    "Latitude": -22.618252,
+    "Longitude": -43.283465,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Sta Cecília com Travessa Cairo",
+    "Latitude": -22.617987,
+    "Longitude": -43.284183,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasília com Rua Calcutá ",
+    "Latitude": -22.618175,
+    "Longitude": -43.285762,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça Jardim Olimpo",
+    "Latitude": -22.619754,
+    "Longitude": -43.286047,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Saba com Rua Joaquim José Nogueira ",
+    "Latitude": -22.620138,
+    "Longitude": -43.285439,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Saba com Rua Bali",
+    "Latitude": -22.620288,
+    "Longitude": -43.284656,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Saba com Rua Astreia",
+    "Latitude": -22.620436,
+    "Longitude": -43.283777,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Circe com Rua Polineia",
+    "Latitude": -22.62103,
+    "Longitude": -43.283033,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Circe 816",
+    "Latitude": -22.621998,
+    "Longitude": -43.283077,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Circe com Rua Niceia",
+    "Latitude": -22.622619,
+    "Longitude": -43.283247,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurícia com Rua Astreia ",
+    "Latitude": -22.623355,
+    "Longitude": -43.283857,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurícia com Rua Bali",
+    "Latitude": -22.623294,
+    "Longitude": -43.284715,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurícia com Rua Aladim",
+    "Latitude": -22.623409,
+    "Longitude": -43.285853,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "USF Jardim Olimpo ",
+    "Latitude": -22.623494,
+    "Longitude": -43.286475,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bonsucesso 83",
+    "Latitude": -22.626591,
+    "Longitude": -43.285474,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bonsucesso com Pracinha da Vila Canaã ",
+    "Latitude": -22.626543,
+    "Longitude": -43.284302,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bonsucesso com Rua Iolanda Nogueira ",
+    "Latitude": -22.62651,
+    "Longitude": -43.283192,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bonsucesso com Rua Itapiranga ",
+    "Latitude": -22.626464,
+    "Longitude": -43.28181,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bonsucesso com Rua Lorena",
+    "Latitude": -22.626432,
+    "Longitude": -43.280724,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "CE. Alemy Tavares da Silva",
+    "Latitude": -22.626416,
+    "Longitude": -43.279401,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Jacitara com Rua Antonina",
+    "Latitude": -22.627585,
+    "Longitude": -43.278177,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antonina com Rua Havana",
+    "Latitude": -22.627745,
+    "Longitude": -43.279788,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antonina com Rua Gironda ",
+    "Latitude": -22.627785,
+    "Longitude": -43.280878,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antonina com Parquinho da Praça da Vila Canaã ",
+    "Latitude": -22.627817,
+    "Longitude": -43.281828,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Alicante após Rua Antonina",
+    "Latitude": -22.628096,
+    "Longitude": -43.282942,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Alicante com Rua Narciso",
+    "Latitude": -22.629164,
+    "Longitude": -43.282875,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Doze",
+    "Latitude": -22.630927,
+    "Longitude": -43.282595,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Ponto Rua Doze 2",
+    "Latitude": -22.631807,
+    "Longitude": -43.282529,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Um 29",
+    "Latitude": -22.632116,
+    "Longitude": -43.283624,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Passarela UFRJ",
+    "Latitude": -22.632554,
+    "Longitude": -43.284974,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Lateral BR 040 com Rua 7",
+    "Latitude": -22.637167,
+    "Longitude": -43.284136,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Shopping Família ",
+    "Latitude": -22.642917,
+    "Longitude": -43.282767,
+    "LineNumber": "DC-TZ09",
+    "Direction": "ida",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Avenida Automóvel Clube, 55",
+    "Latitude": -22.642932,
+    "Longitude": -43.280547,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Automóvel Clube, 20",
+    "Latitude": -22.641595,
+    "Longitude": -43.278071,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Praça da Automóvel Clube ",
+    "Latitude": -22.641325,
+    "Longitude": -43.281369,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Washington Luiz Esquina com Rua 7",
+    "Latitude": -22.636922,
+    "Longitude": -43.28422,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "BR-040 com Passarela da UFRJ",
+    "Latitude": -22.633196,
+    "Longitude": -43.285016,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua 12 número 2",
+    "Latitude": -22.631848,
+    "Longitude": -43.282525,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua 12 número 84",
+    "Latitude": -22.630881,
+    "Longitude": -43.282598,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Doze esquina com Rua Narcizo",
+    "Latitude": -22.629404,
+    "Longitude": -43.282853,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Alicante esquina com Rua Antonina",
+    "Latitude": -22.628045,
+    "Longitude": -43.282942,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Antonina esquina com Rua Seis",
+    "Latitude": -22.627821,
+    "Longitude": -43.281977,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Antonina esquina com Rua Gironda",
+    "Latitude": -22.627775,
+    "Longitude": -43.280718,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Antonina esquina com Rua Havana",
+    "Latitude": -22.627741,
+    "Longitude": -43.279597,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Jacitara esquina com Antonina",
+    "Latitude": -22.627555,
+    "Longitude": -43.278179,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "C.E. Alemy Tavares ",
+    "Latitude": -22.626429,
+    "Longitude": -43.279068,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bonsucesso esquina com Rua Havana ",
+    "Latitude": -22.62642,
+    "Longitude": -43.279718,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bonsucesso esquina com Rua Lorena",
+    "Latitude": -22.626433,
+    "Longitude": -43.280725,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bonsucesso esquina com Rua Itapiranga ",
+    "Latitude": -22.626466,
+    "Longitude": -43.281879,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bonsucesso esquina com Iolanda Nogueira ",
+    "Latitude": -22.626514,
+    "Longitude": -43.283274,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bonsucesso 131",
+    "Latitude": -22.626544,
+    "Longitude": -43.284312,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Bonsucesso 4",
+    "Latitude": -22.626591,
+    "Longitude": -43.285801,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "USF JARDIM OLIMPO",
+    "Latitude": -22.623486,
+    "Longitude": -43.28642,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurícia esquina com Rua Aladin ",
+    "Latitude": -22.623439,
+    "Longitude": -43.285797,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurícia 9",
+    "Latitude": -22.623294,
+    "Longitude": -43.284761,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurícia esquina com Rua Astreia",
+    "Latitude": -22.623217,
+    "Longitude": -43.28394,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurícia 21",
+    "Latitude": -22.622482,
+    "Longitude": -43.283193,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Maurícia 208",
+    "Latitude": -22.621055,
+    "Longitude": -43.283039,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Saba 10",
+    "Latitude": -22.620426,
+    "Longitude": -43.28382,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Saba 07",
+    "Latitude": -22.620094,
+    "Longitude": -43.285596,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Sabá 90",
+    "Latitude": -22.619361,
+    "Longitude": -43.286356,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasília esquina com Rua Olimpo",
+    "Latitude": -22.618219,
+    "Longitude": -43.286362,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasília 165",
+    "Latitude": -22.618174,
+    "Longitude": -43.285717,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasília 21",
+    "Latitude": -22.618265,
+    "Longitude": -43.284179,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasília 360",
+    "Latitude": -22.618257,
+    "Longitude": -43.283481,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasília esquina com travessa Cairo",
+    "Latitude": -22.617968,
+    "Longitude": -43.284249,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasília 2",
+    "Latitude": -22.618175,
+    "Longitude": -43.285701,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Brasília esquina com Rua Olimpo ",
+    "Latitude": -22.618228,
+    "Longitude": -43.286473,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  },
+  {
+    "PointName": "Rua Olimpo 1250",
+    "Latitude": -22.617177,
+    "Longitude": -43.286555,
+    "LineNumber": "DC-TZ09",
+    "Direction": "volta",
+    "DistanceFromOrigin": 0,
+    "AverageTimeFromOrigin": 0
+  }
+]
